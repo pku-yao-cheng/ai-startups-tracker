@@ -1,0 +1,108 @@
+{
+  "name": "Hologen",
+  "slug": "hologen",
+  "stage": "series-a",
+  "category": "vertical-ai",
+  "founded": 2023,
+  "hq": "London, UK",
+  "website": "https://hologen.ai",
+  "description": "Frontier medical AI company building 'large medicine models' for drug development and diagnostics. Co-founded by former Google CEO Eric Schmidt.",
+  "founders": [
+    {
+      "name": "Eric Schmidt",
+      "role": "Co-founder & Chairman",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"},
+        {"institution": "Princeton University", "degree": "BS", "field": "Electrical Engineering", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "CEO", "years": "2001-2011", "tier": "faang"},
+        {"company": "Alphabet", "role": "Executive Chairman", "years": "2011-2018", "tier": "faang"}
+      ],
+      "achievements": ["Google CEO during hypergrowth", "Alphabet Executive Chairman", "Billionaire tech investor"],
+      "founder_score": 98
+    },
+    {
+      "name": "Pierre-François Filet",
+      "role": "Co-founder",
+      "experience": [
+        {"company": "QuantHouse", "role": "CEO & Co-founder", "years": "2005-2019", "tier": "founder-exit"}
+      ],
+      "achievements": ["Founded QuantHouse (financial data provider)", "Prior exit"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 50,
+    "latest_valuation": 0.85,
+    "rounds": [
+      {"type": "Series A", "amount": 150, "date": "2026-01", "lead": "Seeking (Averin, Atlas)"},
+      {"type": "Seed", "amount": 50, "date": "2024", "lead": "SW7, Eric Schmidt"}
+    ],
+    "notes": "Seeking $150M Series A at $850M valuation (Jan 2026)"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 24,
+    "notes": "Pre-revenue, R&D focused"
+  },
+  "products": ["Large Medicine Models (in development)", "Hologen Neuro AI (JV with MeiraGTx)"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "AI models for personalized medicine, accounting for biological variation"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [
+      {"partner": "MeiraGTx", "type": "joint_venture", "date": "2025-03", "details": "$200M upfront + $230M committed for Parkinson's gene therapy"}
+    ],
+    "target_markets": ["Pharma", "Biotech", "Diagnostics", "Gene therapy"]
+  },
+  "investors": {
+    "lead_investors": ["SW7 (family office)"],
+    "strategic_investors": [],
+    "angel_investors": ["Eric Schmidt"],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "twitter_followers": 2000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["Recursion", "Insilico Medicine", "Isomorphic Labs", "Lila Sciences"],
+    "tam_estimate": "$100B",
+    "moats": ["Eric Schmidt backing", "UCL/King's College research origin", "MeiraGTx partnership"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "AI biotech founded by ex-Google CEO Eric Schmidt is raising $150 million", "url": "https://www.statnews.com/2026/01/28/hologen-ai-biotech-startup-series-a-fundraise/", "date": "2026-01-28", "sentiment": "positive"},
+    {"title": "MeiraGTx spins Parkinson's gene therapies into Hologen AI joint venture", "url": "https://www.biopharmadive.com/news/meiragtx-ai-hologen-neuro-gene-therapy-parkinsons-obesity/742452/", "date": "2025-03-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 20,
+    "funding_score": 40,
+    "momentum_score": 60,
+    "product_score": 25,
+    "traction_score": 35,
+    "community_score": 20,
+    "market_position_score": 55,
+    "composite_score": 44
+  },
+  "score_notes": {
+    "founder": "Eric Schmidt (Google CEO) is exceptional signal. Strong credibility.",
+    "financial": "Pre-revenue, earlier stage",
+    "funding": "Seeking $150M at $850M valuation, not yet closed",
+    "momentum": "Raising visibility, MeiraGTx deal",
+    "product": "Not yet launched",
+    "traction": "MeiraGTx JV is significant ($430M deal)",
+    "community": "Low public presence, B2B/research focused",
+    "market": "Competitive AI biotech space, differentiated by 'large medicine models'"
+  },
+  "last_updated": "2026-01-30"
+}

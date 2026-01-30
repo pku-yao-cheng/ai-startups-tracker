@@ -1,0 +1,90 @@
+{
+  "name": "Thinking Machines Lab",
+  "slug": "thinking-machines-lab",
+  "stage": "seed",
+  "category": "foundation-model",
+  "founded": 2025,
+  "hq": "San Francisco, CA",
+  "website": "https://thinkingmachines.ai",
+  "description": "AI lab founded by former OpenAI CTO Mira Murati and ex-OpenAI researchers. Building next-generation AI systems.",
+  "founders": [
+    {
+      "name": "Mira Murati",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Dartmouth", "degree": "BS", "field": "Engineering", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "CTO", "years": "2022-2024", "tier": "faang"},
+        {"company": "Tesla", "role": "Senior Product Manager (Autopilot)", "years": "2018-2022", "tier": "faang"},
+        {"company": "Leap Motion", "role": "VP of Product", "years": "2016-2018", "tier": "tier-1"}
+      ],
+      "achievements": ["Led ChatGPT, GPT-4, DALL-E, Sora development at OpenAI", "OpenAI's public face"],
+      "founder_score": 98
+    },
+    {
+      "name": "John Schulman",
+      "role": "Co-founder & Chief Scientist",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "Co-founder & Research Lead", "years": "2015-2024", "tier": "faang"}
+      ],
+      "achievements": ["Invented PPO (Proximal Policy Optimization)", "Pioneer in RLHF", "OpenAI co-founder"],
+      "founder_score": 100
+    },
+    {
+      "name": "Lilian Weng",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Indiana University", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "VP of Research", "years": "2018-2024", "tier": "faang"}
+      ],
+      "achievements": ["Famous for 'Lil Log' ML blog", "Led safety research at OpenAI"],
+      "founder_score": 90
+    },
+    {
+      "name": "Barrett Zoph",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "USC", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "Research Lead", "years": "2019-2024", "tier": "faang"},
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2019", "tier": "faang"}
+      ],
+      "achievements": ["Invented Neural Architecture Search (NAS)", "Led GPT-4 post-training"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 2000,
+    "latest_valuation": 12,
+    "rounds": [
+      {"type": "Seed", "amount": 2000, "date": "2025-07", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "One of largest seed rounds ever. In talks for $5B raise at $50B valuation, but facing internal turmoil Jan 2026."
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 80, "as_of": "2025-12"}
+  },
+  "products": ["Tinker (fine-tuning platform)"],
+  "recent_news": [
+    {"title": "Thinking Machines Lab $2B seed at $12B valuation", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/", "date": "2025-07-15", "sentiment": "positive"},
+    {"title": "Thinking Machines in talks at $50B valuation", "url": "https://www.bloomberg.com/news/articles/2025-11-13/murati-s-thinking-machines-in-funding-talks-at-50-billion-value", "date": "2025-11-13", "sentiment": "positive"},
+    {"title": "Internal turmoil, employees considering return to OpenAI", "url": "https://brendonbeebe.substack.com/p/thinking-machines-lab-timeline-of", "date": "2026-01", "sentiment": "negative"}
+  ],
+  "scores": {
+    "founder_score": 100,
+    "revenue_score": 0,
+    "funding_score": 70,
+    "momentum_score": 60,
+    "composite_score": 58
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Dream team of ex-OpenAI leadership, but facing challenges in Jan 2026 with departures and internal issues."
+}

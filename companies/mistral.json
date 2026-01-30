@@ -1,0 +1,78 @@
+{
+  "name": "Mistral AI",
+  "slug": "mistral",
+  "stage": "series-c",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Paris, France",
+  "website": "https://mistral.ai",
+  "description": "French AI company building open-weight and commercial frontier models. Known for efficiency and open approach. Europe's largest AI company.",
+  "founders": [
+    {
+      "name": "Arthur Mensch",
+      "role": "CEO",
+      "education": [
+        {"institution": "ENS Paris", "degree": "MS", "field": "Mathematics", "tier": "tier-1"},
+        {"institution": "Université PSL", "degree": "PhD", "field": "Machine Learning", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "DeepMind", "role": "Research Scientist", "years": "2019-2023", "tier": "faang"}
+      ],
+      "achievements": ["Led Chinchilla scaling laws research at DeepMind"],
+      "founder_score": 88
+    },
+    {
+      "name": "Guillaume Lample",
+      "role": "Chief Scientist",
+      "education": [
+        {"institution": "École Polytechnique", "degree": "MS", "field": "Mathematics", "tier": "tier-1"},
+        {"institution": "Sorbonne", "degree": "PhD", "field": "NLP", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Meta AI", "role": "Research Scientist", "years": "2018-2023", "tier": "faang"}
+      ],
+      "achievements": ["Led LLaMA development at Meta", "Pioneer in cross-lingual NLP"],
+      "founder_score": 90
+    },
+    {
+      "name": "Timothée Lacroix",
+      "role": "CTO",
+      "education": [
+        {"institution": "ENS Paris", "degree": "MS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Meta AI", "role": "Research Engineer", "years": "2018-2023", "tier": "faang"}
+      ],
+      "achievements": ["Core contributor to LLaMA"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 3050,
+    "latest_valuation": 14,
+    "rounds": [
+      {"type": "Series C", "amount": 1700, "date": "2025-09", "lead": "ASML", "notes": "ASML took 11% stake for €1.3B"},
+      {"type": "Series B", "amount": 600, "date": "2024-06", "lead": "General Catalyst, DST Global"},
+      {"type": "Series A", "amount": 415, "date": "2023-12", "lead": "A16z"}
+    ],
+    "notes": "Europe's largest AI funding round. ASML is now largest shareholder."
+  },
+  "financials": {
+    "arr": {"value": 100, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 150, "as_of": "2025-12"}
+  },
+  "products": ["Mistral Large 2", "Mistral Small", "Mixtral", "Le Chat", "La Plateforme", "Mistral Compute (2026)"],
+  "recent_news": [
+    {"title": "Mistral AI raises €1.7B Series C at €11.7B valuation", "url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai", "date": "2025-09", "sentiment": "positive"},
+    {"title": "ASML takes 11% stake in Mistral", "url": "https://cloudsummit.eu/blog/mistral-ai-14-billion-valuation-europe-turning-point", "date": "2025-09", "sentiment": "positive"},
+    {"title": "Mistral Compute launching in 2026 with 18,000 NVIDIA Grace Blackwell chips", "url": "https://brief.bismarckanalysis.com/p/ai-2026-mistral-will-rise-as-compute", "date": "2026-01", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 88,
+    "revenue_score": 14,
+    "funding_score": 70,
+    "momentum_score": 90,
+    "composite_score": 66
+  },
+  "last_updated": "2026-01-29"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "ElevenLabs",
+  "slug": "elevenlabs",
+  "stage": "series-b",
+  "category": "ai-application",
+  "founded": 2022,
+  "hq": "New York, NY",
+  "website": "https://elevenlabs.io",
+  "description": "AI voice synthesis platform. Creates realistic text-to-speech, voice cloning, and audio content generation.",
+  "founders": [
+    {
+      "name": "Piotr Dabkowski",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "University of Edinburgh", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Machine Learning Engineer", "years": "2019-2022", "tier": "faang"}
+      ],
+      "achievements": ["Built speech synthesis systems at Google", "Polish AI prodigy"],
+      "founder_score": 80
+    },
+    {
+      "name": "Mati Staniszewski",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Palantir", "role": "Deployment Strategist", "years": "2018-2022", "tier": "tier-1"}
+      ],
+      "achievements": ["Strategic advisor at Palantir"],
+      "founder_score": 72
+    }
+  ],
+  "funding": {
+    "total_raised": 180,
+    "latest_valuation": 1.1,
+    "rounds": [
+      {"type": "Series B", "amount": 80, "date": "2024-01", "lead": "A16z, Nat Friedman, Daniel Gross"},
+      {"type": "Series A", "amount": 19, "date": "2023-06", "lead": "Nat Friedman, Daniel Gross"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 80, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["ElevenLabs API", "Voice Library", "Speech Synthesis", "Voice Cloning", "Dubbing"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 76,
+    "revenue_score": 11,
+    "funding_score": 22,
+    "momentum_score": 85,
+    "composite_score": 49
+  },
+  "last_updated": "2026-01-29"
+}

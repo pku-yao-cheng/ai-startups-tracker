@@ -1,0 +1,56 @@
+{
+  "name": "Magic AI",
+  "slug": "magic-ai",
+  "stage": "series-b",
+  "category": "ai-agent",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://magic.dev",
+  "description": "Building AI software engineer with very long context window. Focus on code understanding and generation at scale.",
+  "founders": [
+    {
+      "name": "Eric Steinberger",
+      "role": "CEO",
+      "education": [
+        {"institution": "TU Vienna", "degree": "MS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Meta AI", "role": "Research Scientist", "years": "2020-2022", "tier": "faang"}
+      ],
+      "achievements": ["World champion poker AI researcher", "Deep learning specialist"],
+      "founder_score": 78
+    },
+    {
+      "name": "Sebastian De Ro",
+      "role": "CTO",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 60
+    }
+  ],
+  "funding": {
+    "total_raised": 465,
+    "latest_valuation": 1.5,
+    "rounds": [
+      {"type": "Series B", "amount": 320, "date": "2024-08", "lead": "BOND"},
+      {"type": "Series A", "amount": 145, "date": "2023-08", "lead": "CapitalG, Elad Gil"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 2, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 50, "as_of": "2025-12"}
+  },
+  "products": ["Magic LTM (Long-Term Memory)", "Magic Code Assistant"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 78,
+    "revenue_score": 0,
+    "funding_score": 30,
+    "momentum_score": 60,
+    "composite_score": 43
+  },
+  "last_updated": "2026-01-29"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Fireworks AI",
+  "slug": "fireworks",
+  "stage": "series-b",
+  "category": "ai-infrastructure",
+  "founded": 2022,
+  "hq": "Redwood City, CA",
+  "website": "https://fireworks.ai",
+  "description": "Fastest generative AI inference platform. Provides API and infrastructure for running open-source and custom models.",
+  "founders": [
+    {
+      "name": "Lin Qiao",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Tsinghua University", "degree": "BS", "field": "Computer Science", "tier": "tier-2"},
+        {"institution": "Carnegie Mellon", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Meta", "role": "Director of PyTorch", "years": "2017-2022", "tier": "faang"}
+      ],
+      "achievements": ["Built PyTorch infrastructure at Meta", "Key contributor to PyTorch ecosystem"],
+      "founder_score": 88
+    },
+    {
+      "name": "Daya Khudia",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "IIT Bombay", "degree": "BTech", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Meta", "role": "Engineering Manager", "years": "2016-2022", "tier": "faang"}
+      ],
+      "achievements": ["Led PyTorch quantization team"],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 77,
+    "latest_valuation": 0.55,
+    "rounds": [
+      {"type": "Series B", "amount": 52, "date": "2024-05", "lead": "Benchmark"},
+      {"type": "Series A", "amount": 25, "date": "2023-06", "lead": "Sequoia"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 80, "as_of": "2025-12"}
+  },
+  "products": ["Fireworks API", "Fireworks Function Calling", "FireOptimizer"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 88,
+    "revenue_score": 3,
+    "funding_score": 18,
+    "momentum_score": 70,
+    "composite_score": 46
+  },
+  "last_updated": "2026-01-29"
+}

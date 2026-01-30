@@ -1,0 +1,65 @@
+{
+  "name": "Skild AI",
+  "slug": "skild-ai",
+  "stage": "series-c",
+  "category": "ai-infrastructure",
+  "founded": 2023,
+  "hq": "Pittsburgh, PA",
+  "website": "https://skild.ai",
+  "description": "Robotics AI building 'omni-bodied' brain to operate any robot for any task. Founded by CMU professors.",
+  "founders": [
+    {
+      "name": "Deepak Pathak",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "CMU", "degree": "PhD", "field": "Robotics/AI", "tier": "tier-1"},
+        {"institution": "UC Berkeley", "degree": "Postdoc", "field": "AI", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "CMU", "role": "Assistant Professor", "years": "2019-present", "tier": "tier-1"},
+        {"company": "Meta AI", "role": "Research Scientist", "years": "2018-2019", "tier": "faang"}
+      ],
+      "achievements": ["Pioneer in self-supervised robotics", "Highly cited researcher"],
+      "founder_score": 92
+    },
+    {
+      "name": "Abhinav Gupta",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "CMU", "degree": "PhD", "field": "Robotics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "CMU", "role": "Professor", "years": "2011-present", "tier": "tier-1"},
+        {"company": "Meta AI", "role": "Research Director", "years": "2020-present", "tier": "faang"}
+      ],
+      "achievements": ["Pioneer in embodied AI", "IEEE Fellow"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 1535,
+    "latest_valuation": 14,
+    "rounds": [
+      {"type": "Series C", "amount": 1400, "date": "2026-01", "lead": "SoftBank"},
+      {"type": "Series B", "amount": 135, "date": "2025-06", "lead": "Various", "notes": "Valued at $4.5B"}
+    ],
+    "notes": "Tripled valuation in 7 months. Backed by Nvidia (NVentures), Bezos, Macquarie, Samsung, LG, Salesforce."
+  },
+  "financials": {
+    "arr": {"value": 10, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["Skild Brain", "Foundation Model for Robotics"],
+  "recent_news": [
+    {"title": "Skild AI raises $1.4B, tripling valuation to $14B", "url": "https://news.crunchbase.com/venture/robotics-startup-skild-ai-triples-valuation/", "date": "2026-01", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 94,
+    "revenue_score": 1,
+    "funding_score": 70,
+    "momentum_score": 95,
+    "composite_score": 65
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "DeepMind",
+  "slug": "deepmind",
+  "stage": "acquired",
+  "category": "foundation-model",
+  "founded": 2010,
+  "hq": "London, UK",
+  "website": "https://deepmind.google",
+  "description": "Google's AI research lab. Created AlphaGo, AlphaFold, Gemini. Pioneer in reinforcement learning and AI for science.",
+  "founders": [
+    {
+      "name": "Demis Hassabis",
+      "role": "CEO",
+      "education": [
+        {"institution": "Cambridge", "degree": "BA", "field": "Computer Science", "tier": "tier-1"},
+        {"institution": "UCL", "degree": "PhD", "field": "Cognitive Neuroscience", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Elixir Studios", "role": "Founder & CEO", "years": "1998-2005", "tier": "prior-exit"}
+      ],
+      "achievements": ["Nobel Prize in Chemistry 2024 (AlphaFold)", "Chess prodigy", "Created AlphaGo"],
+      "founder_score": 100
+    },
+    {
+      "name": "Shane Legg",
+      "role": "Chief AGI Scientist",
+      "education": [
+        {"institution": "IDSIA", "degree": "PhD", "field": "Machine Learning", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Coined term 'Artificial General Intelligence'", "Pioneer in universal AI theory"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 0,
+    "latest_valuation": 0,
+    "rounds": [
+      {"type": "Acquisition", "amount": 500, "date": "2014-01", "lead": "Google"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "not-applicable", "as_of": "2025-12"},
+    "employees": {"value": 3000, "as_of": "2025-12"}
+  },
+  "products": ["Gemini", "AlphaFold", "AlphaGo", "Veo", "Gemma"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 100,
+    "revenue_score": 0,
+    "funding_score": 100,
+    "momentum_score": 90,
+    "composite_score": 73
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Subsidiary of Google/Alphabet. Revenue tracked as part of Google Cloud."
+}

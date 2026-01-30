@@ -1,0 +1,64 @@
+{
+  "name": "Character AI",
+  "slug": "character-ai",
+  "stage": "series-a",
+  "category": "ai-application",
+  "founded": 2021,
+  "hq": "Palo Alto, CA",
+  "website": "https://character.ai",
+  "description": "AI chatbot platform for creating and interacting with fictional AI characters. Popular with Gen Z users.",
+  "founders": [
+    {
+      "name": "Noam Shazeer",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Duke", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Principal Engineer", "years": "2000-2021", "tier": "faang"}
+      ],
+      "achievements": ["Co-author of 'Attention Is All You Need' (Transformer paper)", "Invented many core Google Search algorithms", "One of most influential AI researchers"],
+      "founder_score": 100
+    },
+    {
+      "name": "Daniel De Freitas",
+      "role": "Co-founder & President",
+      "education": [
+        {"institution": "University of Waterloo", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Research Scientist", "years": "2018-2021", "tier": "faang"}
+      ],
+      "achievements": ["Created LaMDA/Bard at Google", "Conversation AI pioneer"],
+      "founder_score": 88
+    }
+  ],
+  "funding": {
+    "total_raised": 150,
+    "latest_valuation": 1,
+    "rounds": [
+      {"type": "Series A", "amount": 150, "date": "2023-03", "lead": "A16z"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["Character.AI", "c.ai Mobile App"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 100,
+    "revenue_score": 3,
+    "funding_score": 22,
+    "momentum_score": 70,
+    "composite_score": 50
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Core team partially acqui-hired by Google in 2024. Company continues with licensing deal.",
+  "_archive_metadata": {
+    "removed_date": "2026-01-29",
+    "reason": "Core team acqui-hired by Google - Noam Shazeer (Transformer co-author) returned to Google",
+    "final_composite_score": 50,
+    "red_flag_score": 45
+  }
+}

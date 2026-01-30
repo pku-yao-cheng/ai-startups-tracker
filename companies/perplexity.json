@@ -1,0 +1,94 @@
+{
+  "name": "Perplexity AI",
+  "slug": "perplexity",
+  "stage": "series-c",
+  "category": "ai-application",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://perplexity.ai",
+  "description": "AI-powered answer engine. Combines web search with LLMs to provide accurate, sourced answers to questions.",
+  "founders": [
+    {
+      "name": "Aravind Srinivas",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "IIT Madras", "degree": "BTech", "field": "Electrical Engineering", "tier": "tier-2"},
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "Research Scientist", "years": "2021-2022", "tier": "faang"},
+        {"company": "DeepMind", "role": "Research Intern", "years": "2020", "tier": "faang"},
+        {"company": "Google", "role": "Research Intern", "years": "2019", "tier": "faang"}
+      ],
+      "achievements": ["Led DALL-E development at OpenAI", "Published top AI papers"],
+      "founder_score": 90
+    },
+    {
+      "name": "Denis Yarats",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "NYU", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Meta AI", "role": "Research Scientist", "years": "2018-2022", "tier": "faang"}
+      ],
+      "achievements": ["Pioneer in reinforcement learning research"],
+      "founder_score": 82
+    },
+    {
+      "name": "Johnny Ho",
+      "role": "Co-founder & CSO",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Quora", "role": "Software Engineer", "years": "Unknown", "tier": "tier-2"}
+      ],
+      "achievements": ["Built search systems at Quora"],
+      "founder_score": 75
+    },
+    {
+      "name": "Andy Konwinski",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Databricks", "role": "Co-founder", "years": "2013-2022", "tier": "prior-exit"}
+      ],
+      "achievements": ["Co-founded Databricks", "Created Apache Mesos"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 1500,
+    "latest_valuation": 20,
+    "rounds": [
+      {"type": "Series C", "amount": 200, "date": "2025-09", "lead": "Various"},
+      {"type": "Extension", "amount": 100, "date": "2025-07", "lead": "Various"},
+      {"type": "Series B", "amount": 500, "date": "2025-06", "lead": "Accel"},
+      {"type": "Series B", "amount": 250, "date": "2024-04", "lead": "IVP, NEA"},
+      {"type": "Series A", "amount": 74, "date": "2024-01", "lead": "IVP, Jeff Bezos"}
+    ],
+    "notes": "Trading at ~100x revenue. Valuation grew from $520M to $20B in 2024-2025."
+  },
+  "financials": {
+    "arr": {"value": 200, "confidence": "estimated", "as_of": "2025-12"},
+    "projected_arr_2026": 656,
+    "mau": 22000000,
+    "employees": {"value": 150, "as_of": "2025-12"}
+  },
+  "products": ["Perplexity Search", "Perplexity Pro", "Perplexity API", "Perplexity Enterprise"],
+  "recent_news": [
+    {"title": "Perplexity raised $200M at $20B valuation", "url": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/", "date": "2025-09-10", "sentiment": "positive"},
+    {"title": "Perplexity partners with Snapchat", "url": "https://www.demandsage.com/perplexity-ai-statistics/", "date": "2026-01", "sentiment": "positive", "notes": "Powers AI search in Snapchat chat (1B MAU)"}
+  ],
+  "scores": {
+    "founder_score": 88,
+    "revenue_score": 28,
+    "funding_score": 75,
+    "momentum_score": 100,
+    "composite_score": 73
+  },
+  "last_updated": "2026-01-29"
+}

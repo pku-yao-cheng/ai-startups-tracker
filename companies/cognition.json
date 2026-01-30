@@ -1,0 +1,81 @@
+{
+  "name": "Cognition AI",
+  "slug": "cognition",
+  "stage": "series-c",
+  "category": "ai-agent",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://cognition-labs.com",
+  "description": "Creator of Devin, the first AI software engineer. Building autonomous AI agents for software development. Acquired Windsurf in July 2025.",
+  "founders": [
+    {
+      "name": "Scott Wu",
+      "role": "CEO",
+      "education": [
+        {"institution": "Harvard", "degree": "BA", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Jane Street", "role": "Quantitative Trader", "years": "2018-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["IOI Gold Medalist (3x)", "Competitive programming champion"],
+      "founder_score": 85
+    },
+    {
+      "name": "Steven Hao",
+      "role": "CTO",
+      "education": [
+        {"institution": "Harvard", "degree": "BA", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Nuro", "role": "Software Engineer", "years": "Unknown", "tier": "tier-1"}
+      ],
+      "achievements": ["IOI Gold Medalist"],
+      "founder_score": 80
+    },
+    {
+      "name": "Walden Yan",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Cursor", "role": "Founding Engineer", "years": "Unknown", "tier": "tier-2"}
+      ],
+      "achievements": ["IOI Gold Medalist"],
+      "founder_score": 78
+    }
+  ],
+  "funding": {
+    "total_raised": 1100,
+    "latest_valuation": 10.2,
+    "rounds": [
+      {"type": "Series C", "amount": 400, "date": "2025-09", "lead": "Founders Fund"},
+      {"type": "Series B", "amount": 500, "date": "2025-08", "lead": "Various", "notes": "Valued at $9.8B"},
+      {"type": "Series A", "amount": 175, "date": "2024-04", "lead": "Founders Fund"},
+      {"type": "Seed", "amount": 21, "date": "2023-11", "lead": "Peter Thiel, Patrick & John Collison"}
+    ],
+    "notes": "Joined the $10B valuation club alongside OpenAI and Anthropic"
+  },
+  "financials": {
+    "arr": {"value": 73, "confidence": "confirmed", "as_of": "2025-06", "notes": "Grew from $1M in Sept 2024 to $73M in June 2025"},
+    "combined_arr_post_windsurf": {"value": 100, "confidence": "estimated", "as_of": "2025-09", "notes": "30%+ growth post Windsurf acquisition"},
+    "employees": {"value": 100, "as_of": "2025-12"},
+    "net_burn_total": 20
+  },
+  "products": ["Devin", "Windsurf", "SWE-1.5 (frontier coding model)"],
+  "customers": ["Goldman Sachs", "Citi", "Dell", "Cisco", "Ramp", "Palantir", "Nubank", "Mercado Libre"],
+  "recent_news": [
+    {"title": "Cognition valued at $10.2B two months after Windsurf purchase", "url": "https://www.cnbc.com/2025/09/08/cognition-valued-at-10point2-billion-two-months-after-windsurf-.html", "date": "2025-09-08", "sentiment": "positive"},
+    {"title": "Cognition raises $400M Series C", "url": "https://techfundingnews.com/cognition-ai-scores-400m-at-10-2b-valuation-as-demand-spikes-for-coding-agents/", "date": "2025-09", "sentiment": "positive"},
+    {"title": "Cognition acquired Windsurf", "url": "https://cognition.ai/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents", "date": "2025-07", "sentiment": "positive"},
+    {"title": "SWE-1.5 launch with Cerebras at 950 tok/s", "url": "https://www.swyx.io/cognition", "date": "2025-10", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "revenue_score": 10,
+    "funding_score": 75,
+    "momentum_score": 95,
+    "composite_score": 66
+  },
+  "last_updated": "2026-01-29"
+}

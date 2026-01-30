@@ -1,0 +1,111 @@
+{
+  "name": "Imbue",
+  "slug": "imbue",
+  "stage": "series-b",
+  "category": "ai-agent",
+  "founded": 2020,
+  "hq": "San Francisco, CA",
+  "website": "https://imbue.com",
+  "description": "AI research lab building agents with strong reasoning capabilities. Focus on AI systems that can help accomplish complex goals in the world. Woman-led AI unicorn.",
+  "founders": [
+    {
+      "name": "Kanjun Qiu",
+      "role": "CEO & Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Dropbox", "role": "First Chief of Staff", "years": "2014-2018", "tier": "tier-1"},
+        {"company": "Sourceress", "role": "CEO & Co-founder", "years": "2018-2020", "tier": "founder"}
+      ],
+      "achievements": ["Scaled Dropbox from 200 to 1200 employees", "Founded Sourceress (AI recruiting)", "One of few women leading AI unicorns"],
+      "founder_score": 85
+    },
+    {
+      "name": "Josh Albrecht",
+      "role": "CTO & Co-founder",
+      "education": [
+        {"institution": "Harvey Mudd College", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Sourceress", "role": "CTO & Co-founder", "years": "2018-2020", "tier": "founder"},
+        {"company": "Various", "role": "ML Research", "years": "2015-2018", "tier": "tier-2"}
+      ],
+      "achievements": ["Co-founded Sourceress", "ML research background"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 232,
+    "latest_valuation": 1.0,
+    "rounds": [
+      {"type": "Series B", "amount": 200, "date": "2023-09", "lead": "Astera Institute"},
+      {"type": "Series B Extension", "amount": 12, "date": "2023-10", "lead": "Alexa Fund"},
+      {"type": "Series A", "amount": 20, "date": "2022-10", "lead": "Unknown"}
+    ],
+    "notes": "Achieved unicorn status with $200M round"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 40, "as_of": "2026-01"},
+    "runway_months": 60,
+    "notes": "Research-focused, pre-revenue"
+  },
+  "products": ["Reasoning AI models (internal)", "AI agents (in development)"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Custom reasoning models, agent infrastructure"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "target_markets": ["Enterprise AI", "AI agents", "Reasoning systems"]
+  },
+  "investors": {
+    "lead_investors": ["Astera Institute", "Alexa Fund"],
+    "strategic_investors": ["NVIDIA"],
+    "other_investors": [],
+    "angel_investors": ["Kyle Vogt (Cruise CEO)", "Simon Last (Notion co-founder)"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 15000,
+    "github_stars": 500
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["OpenAI", "Anthropic", "Cognition"],
+    "tam_estimate": "$100B",
+    "moats": ["Reasoning focus", "Woman-led unicorn", "Research-first approach"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Imbue Raises $200 Million to Build Reasoning Models and Autonomous Agents", "url": "https://www.maginative.com/article/imbue-raises-200-million-to-build-reasoning-models/", "date": "2023-09-07", "sentiment": "positive"},
+    {"title": "Why the latest $1 billion AI startup doesn't want to beat OpenAI", "url": "https://venturebeat.com/ai/why-the-latest-1-billion-ai-startup-doesnt-want-to-beat-openai", "date": "2023-09-08", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 25,
+    "funding_score": 60,
+    "momentum_score": 50,
+    "product_score": 30,
+    "traction_score": 20,
+    "community_score": 30,
+    "market_position_score": 60,
+    "composite_score": 45
+  },
+  "score_notes": {
+    "founder": "Kanjun Qiu: Dropbox Chief of Staff, scaled 200→1200. Strong operational background. Woman-led AI unicorn.",
+    "financial": "Pre-revenue, strong runway",
+    "funding": "$1B unicorn, NVIDIA backing",
+    "momentum": "Lower recent visibility, research phase",
+    "product": "Not yet launched publicly",
+    "traction": "No public customers",
+    "community": "Research community awareness",
+    "market": "Differentiated reasoning focus"
+  },
+  "last_updated": "2026-01-30"
+}

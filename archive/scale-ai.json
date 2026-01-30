@@ -1,0 +1,51 @@
+{
+  "name": "Scale AI",
+  "slug": "scale-ai",
+  "stage": "series-f",
+  "category": "ai-infrastructure",
+  "founded": 2016,
+  "hq": "San Francisco, CA",
+  "website": "https://scale.com",
+  "description": "Data infrastructure for AI. Provides data labeling, model evaluation, and AI-ready datasets for enterprises.",
+  "founders": [
+    {
+      "name": "Alexandr Wang",
+      "role": "Founder & CEO",
+      "education": [
+        {"institution": "MIT", "degree": "Dropout", "field": "Math/CS", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Quora", "role": "Software Engineer", "years": "2015-2016", "tier": "tier-2"}
+      ],
+      "achievements": ["Youngest self-made billionaire at 25", "Built critical AI infrastructure for OpenAI, Meta, US government"],
+      "founder_score": 88
+    }
+  ],
+  "funding": {
+    "total_raised": 1000,
+    "latest_valuation": 14,
+    "rounds": [
+      {"type": "Series F", "amount": 325, "date": "2024-05", "lead": "Accel"},
+      {"type": "Series E", "amount": 325, "date": "2021-04", "lead": "Dragoneer, Greenoaks"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 400, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 700, "as_of": "2025-12"}
+  },
+  "products": ["Scale Data Engine", "Scale Nucleus", "Scale Rapid", "Scale Donovan (Government AI)"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 88,
+    "revenue_score": 56,
+    "funding_score": 70,
+    "momentum_score": 85,
+    "composite_score": 74
+  },
+  "last_updated": "2026-01-29",
+  "_archive_metadata": {
+    "removed_date": "2026-01-29",
+    "reason": "Founder joined Meta, company no longer promising",
+    "final_composite_score": 74
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Humans&",
+  "slug": "humans-and",
+  "stage": "seed",
+  "category": "foundation-model",
+  "founded": 2026,
+  "hq": "San Francisco, CA",
+  "website": "https://humansand.ai",
+  "description": "Human-centric AI startup founded by ex-OpenAI, Anthropic, Google DeepMind, Meta researchers. Mission is to empower workers, not replace them.",
+  "founders": [
+    {
+      "name": "Georges Harik",
+      "role": "Co-founder",
+      "education": [],
+      "experience": [
+        {"company": "Google", "role": "Employee #7", "years": "1999-2010", "tier": "faang"},
+        {"company": "Android", "role": "Led acquisition", "years": "2005", "tier": "faang"}
+      ],
+      "achievements": ["Google Employee #7", "Worked on Gmail", "Kick-started Google Docs", "Led Android acquisition"],
+      "founder_score": 98
+    },
+    {
+      "name": "Eric Zelikman",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "CS", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "xAI", "role": "Researcher", "years": "2023-2025", "tier": "faang"}
+      ],
+      "achievements": ["Contributed to Grok-2 training data", "Research in reasoning-based reinforcement learning"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 480,
+    "latest_valuation": 4.48,
+    "rounds": [
+      {"type": "Seed", "amount": 480, "date": "2026-01", "lead": "SV Angel, Georges Harik"}
+    ],
+    "notes": "One of largest seed rounds ever. Pre-product."
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 30, "as_of": "2026-01"}
+  },
+  "products": [],
+  "recent_news": [
+    {"title": "Humans& raises $480M seed at $4.48B valuation", "url": "https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/", "date": "2026-01-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 98,
+    "revenue_score": 0,
+    "funding_score": 45,
+    "momentum_score": 80,
+    "composite_score": 56
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

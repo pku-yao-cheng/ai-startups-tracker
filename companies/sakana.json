@@ -1,0 +1,58 @@
+{
+  "name": "Sakana AI",
+  "slug": "sakana",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Tokyo, Japan",
+  "website": "https://sakana.ai",
+  "description": "Japanese AI lab focused on nature-inspired AI and efficient model architectures. Founded by ex-Google researchers.",
+  "founders": [
+    {
+      "name": "David Ha",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "University of Toronto", "degree": "BS", "field": "Engineering", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2017-2023", "tier": "faang"}
+      ],
+      "achievements": ["Pioneer in world models", "Created 'Weight Agnostic Neural Networks'"],
+      "founder_score": 82
+    },
+    {
+      "name": "Llion Jones",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2015-2023", "tier": "faang"}
+      ],
+      "achievements": ["Co-author of 'Attention Is All You Need' (Transformer paper)"],
+      "founder_score": 92
+    }
+  ],
+  "funding": {
+    "total_raised": 300,
+    "latest_valuation": 1.5,
+    "rounds": [
+      {"type": "Series A", "amount": 200, "date": "2024-09", "lead": "New Enterprise Associates"},
+      {"type": "Seed", "amount": 30, "date": "2023-10", "lead": "Lux Capital, Khosla Ventures"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 2, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 40, "as_of": "2025-12"}
+  },
+  "products": ["Sakana models", "AI Scientist"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 92,
+    "revenue_score": 0,
+    "funding_score": 25,
+    "momentum_score": 70,
+    "composite_score": 48
+  },
+  "last_updated": "2026-01-29"
+}

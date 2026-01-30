@@ -1,0 +1,113 @@
+{
+  "name": "Pika Labs",
+  "slug": "pika-labs",
+  "stage": "series-b",
+  "category": "ai-application",
+  "founded": 2023,
+  "hq": "Palo Alto, CA",
+  "website": "https://pika.art",
+  "description": "AI-powered video generation platform. Founded by Stanford PhD dropouts who were frustrated with existing AI video tools. 14.5M users as of late 2025.",
+  "founders": [
+    {
+      "name": "Demi Guo",
+      "role": "CEO & Co-founder",
+      "education": [
+        {"institution": "Stanford University", "degree": "PhD (dropped out)", "field": "AI/Computer Science", "tier": "tier-1"},
+        {"institution": "Harvard University", "degree": "BA + MS", "field": "Mathematics + Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford AI Lab", "role": "PhD Researcher", "years": "2021-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Silver Medal at International Olympiad in Informatics (IOI) 2015", "Harvard Math + CS", "Stanford PhD"],
+      "founder_score": 82
+    },
+    {
+      "name": "Chenlin Meng",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Stanford University", "degree": "PhD (dropped out)", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford AI Lab", "role": "PhD Researcher", "years": "2019-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Stanford PhD research in generative models"],
+      "founder_score": 78
+    }
+  ],
+  "funding": {
+    "total_raised": 135,
+    "latest_valuation": 0.47,
+    "rounds": [
+      {"type": "Series B", "amount": 80, "date": "2024-06", "lead": "Spark Capital"},
+      {"type": "Series A", "amount": 35, "date": "2023-11", "lead": "Lightspeed Venture Partners"},
+      {"type": "Seed", "amount": 20, "date": "2023-04", "lead": "Nat Friedman, Daniel Gross"}
+    ],
+    "notes": "Nat Friedman + Daniel Gross led seed, strong angel backing"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 36,
+    "notes": "Consumer subscription revenue, 14.5M users"
+  },
+  "products": ["Pika 1.0", "Pika 2.0 (text-to-video, image-to-video)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-11",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 7,
+    "infrastructure": "AI video generation from text/image prompts"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 14500000, "type": "registered users", "as_of": "2025-10"},
+    "partnerships": [],
+    "target_markets": ["Content creators", "Marketing", "Entertainment", "Social media"]
+  },
+  "investors": {
+    "lead_investors": ["Spark Capital", "Lightspeed Venture Partners"],
+    "strategic_investors": [],
+    "other_investors": ["Greycroft"],
+    "angel_investors": ["Nat Friedman (ex-GitHub CEO)", "Daniel Gross", "Elad Gil", "Adam D'Angelo", "Andrej Karpathy", "Clem Delangue (Hugging Face)", "Jared Leto"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 500000,
+    "twitter_followers": 200000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 2,
+    "competitors": ["Runway", "Sora (OpenAI)", "Kling", "Luma AI"],
+    "tam_estimate": "$50B",
+    "moats": ["14.5M user base", "Strong community", "Fast iteration", "Elite angel investors"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Pika Labs Secures $80M in Series B Funding", "url": "https://www.maginative.com/article/pika-labs-secures-80m-in-series-b-funding/", "date": "2024-06-15", "sentiment": "positive"},
+    {"title": "Pika reaches 14.5 million users", "url": "https://pika.art/blog/milestones", "date": "2025-10-01", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 45,
+    "funding_score": 50,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 70,
+    "community_score": 75,
+    "market_position_score": 65,
+    "composite_score": 67
+  },
+  "score_notes": {
+    "founder": "Young Stanford PhD dropouts, IOI silver medalist, strong technical background",
+    "financial": "~$30M ARR estimated, growing revenue",
+    "funding": "$470M valuation, tier-1 VCs, elite angels (Karpathy, Nat Friedman)",
+    "momentum": "Strong user growth, product updates",
+    "product": "Pika 1.0/2.0 shipped, fast iteration",
+    "traction": "14.5M users is impressive growth",
+    "community": "500k Discord, 200k Twitter - strong community",
+    "market": "#2 in AI video behind Runway, competing with Sora"
+  },
+  "last_updated": "2026-01-30"
+}

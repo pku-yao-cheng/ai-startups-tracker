@@ -1,0 +1,77 @@
+{
+  "name": "Adept AI",
+  "slug": "adept",
+  "stage": "series-b",
+  "category": "ai-agent",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://adept.ai",
+  "description": "Building AI that can take actions on computers. Creating general intelligence that helps people get things done.",
+  "founders": [
+    {
+      "name": "David Luan",
+      "role": "CEO",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "VP of Engineering", "years": "2018-2022", "tier": "faang"},
+        {"company": "Axon", "role": "VP of AI", "years": "2016-2018", "tier": "tier-2"}
+      ],
+      "achievements": ["Led GPT-3 engineering at OpenAI", "Scaled OpenAI's infrastructure"],
+      "founder_score": 90
+    },
+    {
+      "name": "Ashish Vaswani",
+      "role": "Chief Scientist",
+      "education": [
+        {"institution": "USC", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2022", "tier": "faang"}
+      ],
+      "achievements": ["Lead author of 'Attention Is All You Need' (Transformer paper)", "One of the most cited AI researchers"],
+      "founder_score": 100
+    },
+    {
+      "name": "Niki Parmar",
+      "role": "CTO",
+      "education": [
+        {"institution": "USC", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2022", "tier": "faang"}
+      ],
+      "achievements": ["Co-author of Transformer paper"],
+      "founder_score": 92
+    }
+  ],
+  "funding": {
+    "total_raised": 415,
+    "latest_valuation": 1,
+    "rounds": [
+      {"type": "Series B", "amount": 350, "date": "2023-03", "lead": "General Catalyst, Spark Capital"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 5, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["ACT-1", "Adept Assistant"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 95,
+    "revenue_score": 1,
+    "funding_score": 30,
+    "momentum_score": 55,
+    "composite_score": 47
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Team partially acqui-hired by Amazon in 2024. Company continues operations.",
+  "_archive_metadata": {
+    "removed_date": "2026-01-29",
+    "reason": "Team partially acqui-hired by Amazon - key talent including Transformer authors moved to Amazon",
+    "final_composite_score": 47,
+    "red_flag_score": 45
+  }
+}

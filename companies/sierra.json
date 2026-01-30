@@ -1,0 +1,61 @@
+{
+  "name": "Sierra",
+  "slug": "sierra",
+  "stage": "series-b",
+  "category": "ai-agent",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://sierra.ai",
+  "description": "Conversational AI platform for customer experience. Building AI agents for enterprise customer service.",
+  "founders": [
+    {
+      "name": "Bret Taylor",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "MS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Salesforce", "role": "Co-CEO & CTO", "years": "2016-2022", "tier": "faang"},
+        {"company": "Facebook", "role": "CTO", "years": "2009-2012", "tier": "faang"},
+        {"company": "Google", "role": "Co-creator of Google Maps", "years": "2003-2007", "tier": "faang"},
+        {"company": "FriendFeed", "role": "Co-founder", "years": "2007-2009", "tier": "prior-exit"}
+      ],
+      "achievements": ["Co-created Google Maps", "Co-founded FriendFeed (acquired by Facebook)", "Salesforce Co-CEO", "OpenAI Board Chair"],
+      "founder_score": 100
+    },
+    {
+      "name": "Clay Bavor",
+      "role": "Co-founder & President",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Symbolic Systems", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "VP of Labs (AR/VR)", "years": "2005-2023", "tier": "faang"}
+      ],
+      "achievements": ["Created Google Labs division", "Led Google's AR/VR efforts", "Gmail design lead"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 285,
+    "latest_valuation": 4.5,
+    "rounds": [
+      {"type": "Series B", "amount": 175, "date": "2024-10", "lead": "Greenoaks"},
+      {"type": "Series A", "amount": 110, "date": "2024-02", "lead": "Sequoia, Benchmark"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["Sierra Agent Platform", "Conversational AI for Customer Experience"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 100,
+    "revenue_score": 3,
+    "funding_score": 35,
+    "momentum_score": 75,
+    "composite_score": 55
+  },
+  "last_updated": "2026-01-29"
+}

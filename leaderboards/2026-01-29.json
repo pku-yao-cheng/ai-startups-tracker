@@ -1,0 +1,96 @@
+{
+  "date": "2026-01-29",
+  "version": "v4",
+  "total_companies": 39,
+  "scoring_model": "8-component",
+  "rankings": [
+    {"rank": 1, "slug": "openai", "name": "OpenAI", "category": "foundation-model", "composite_score": 99, "arr_m": 20000, "valuation_b": 500},
+    {"rank": 2, "slug": "anthropic", "name": "Anthropic", "category": "foundation-model", "composite_score": 99, "arr_m": 9000, "valuation_b": 350},
+    {"rank": 3, "slug": "databricks", "name": "Databricks", "category": "ai-infrastructure", "composite_score": 98, "arr_m": 4800, "valuation_b": 134},
+    {"rank": 4, "slug": "anysphere", "name": "Anysphere (Cursor)", "category": "ai-agent", "composite_score": 91, "arr_m": 1000, "valuation_b": 29.3},
+    {"rank": 5, "slug": "xai", "name": "xAI", "category": "foundation-model", "composite_score": 84, "arr_m": 500, "valuation_b": 230},
+    {"rank": 6, "slug": "perplexity", "name": "Perplexity", "category": "ai-application", "composite_score": 73, "arr_m": 200, "valuation_b": 20},
+    {"rank": 7, "slug": "deepmind", "name": "DeepMind", "category": "foundation-model", "composite_score": 73, "arr_m": null, "valuation_b": null},
+    {"rank": 8, "slug": "decagon", "name": "Decagon", "category": "ai-agent", "composite_score": 70, "arr_m": 100, "valuation_b": 4.5},
+    {"rank": 9, "slug": "microsoft-ai", "name": "Microsoft AI", "category": "foundation-model", "composite_score": 70, "arr_m": null, "valuation_b": null},
+    {"rank": 10, "slug": "moonshot-ai", "name": "Moonshot AI (Kimi)", "category": "foundation-model", "composite_score": 68, "arr_m": 50, "valuation_b": 3},
+    {"rank": 11, "slug": "world-labs", "name": "World Labs", "category": "foundation-model", "composite_score": 67, "arr_m": 0, "valuation_b": 5},
+    {"rank": 12, "slug": "mercor", "name": "Mercor", "category": "vertical-ai", "composite_score": 67, "arr_m": 50, "valuation_b": 10},
+    {"rank": 13, "slug": "cognition", "name": "Cognition", "category": "ai-agent", "composite_score": 66, "arr_m": 73, "valuation_b": 10.2},
+    {"rank": 14, "slug": "mistral", "name": "Mistral", "category": "foundation-model", "composite_score": 66, "arr_m": 100, "valuation_b": 14},
+    {"rank": 15, "slug": "skild-ai", "name": "Skild AI", "category": "ai-robotics", "composite_score": 65, "arr_m": 10, "valuation_b": 14},
+    {"rank": 16, "slug": "lila-sciences", "name": "Lila Sciences", "category": "vertical-ai", "composite_score": 63, "arr_m": 10, "valuation_b": 1.3},
+    {"rank": 17, "slug": "physical-intelligence", "name": "Physical Intelligence", "category": "ai-robotics", "composite_score": 61, "arr_m": 10, "valuation_b": 5},
+    {"rank": 18, "slug": "harmattan-ai", "name": "Harmattan AI", "category": "vertical-ai", "composite_score": 59, "arr_m": 30, "valuation_b": 1.4},
+    {"rank": 19, "slug": "inworld-ai", "name": "Inworld AI", "category": "ai-application", "composite_score": 59, "arr_m": 15, "valuation_b": 0.5},
+    {"rank": 20, "slug": "glean", "name": "Glean", "category": "vertical-ai", "composite_score": 58, "arr_m": 100, "valuation_b": 4.6},
+    {"rank": 21, "slug": "ssi", "name": "SSI", "category": "foundation-model", "composite_score": 58, "arr_m": 0, "valuation_b": 5},
+    {"rank": 22, "slug": "thinking-machines-lab", "name": "Thinking Machines Lab", "category": "foundation-model", "composite_score": 58, "arr_m": 0, "valuation_b": 12, "flagged": true},
+    {"rank": 23, "slug": "ricursive-intelligence", "name": "Ricursive Intelligence", "category": "ai-infrastructure", "composite_score": 58, "arr_m": 0, "valuation_b": 4},
+    {"rank": 24, "slug": "unconventional-ai", "name": "Unconventional AI", "category": "ai-infrastructure", "composite_score": 57, "arr_m": 0, "valuation_b": 4.5},
+    {"rank": 25, "slug": "ami-labs", "name": "AMI Labs", "category": "foundation-model", "composite_score": 57, "arr_m": 0, "valuation_b": 3},
+    {"rank": 26, "slug": "humans-and", "name": "Humans&", "category": "foundation-model", "composite_score": 56, "arr_m": 0, "valuation_b": 4.48},
+    {"rank": 27, "slug": "sierra", "name": "Sierra", "category": "ai-agent", "composite_score": 55, "arr_m": 20, "valuation_b": 4.5},
+    {"rank": 28, "slug": "hugging-face", "name": "Hugging Face", "category": "ai-infrastructure", "composite_score": 55, "arr_m": 70, "valuation_b": 4.5},
+    {"rank": 29, "slug": "cohere", "name": "Cohere", "category": "foundation-model", "composite_score": 54, "arr_m": 50, "valuation_b": 5.5},
+    {"rank": 30, "slug": "baseten", "name": "Baseten", "category": "ai-infrastructure", "composite_score": 52, "arr_m": 30, "valuation_b": 5},
+    {"rank": 31, "slug": "etched", "name": "Etched", "category": "ai-infrastructure", "composite_score": 50, "arr_m": 0, "valuation_b": 3},
+    {"rank": 32, "slug": "harvey", "name": "Harvey", "category": "vertical-ai", "composite_score": 49, "arr_m": 30, "valuation_b": 1.5},
+    {"rank": 33, "slug": "elevenlabs", "name": "ElevenLabs", "category": "ai-application", "composite_score": 49, "arr_m": 80, "valuation_b": 1.1},
+    {"rank": 34, "slug": "runway", "name": "Runway", "category": "ai-application", "composite_score": 49, "arr_m": 50, "valuation_b": 4},
+    {"rank": 35, "slug": "sakana", "name": "Sakana", "category": "foundation-model", "composite_score": 48, "arr_m": 2, "valuation_b": 1.5},
+    {"rank": 36, "slug": "poolside", "name": "Poolside", "category": "foundation-model", "composite_score": 47, "arr_m": 5, "valuation_b": 3},
+    {"rank": 37, "slug": "fireworks", "name": "Fireworks", "category": "ai-infrastructure", "composite_score": 46, "arr_m": 20, "valuation_b": 0.55},
+    {"rank": 38, "slug": "magic-ai", "name": "Magic AI", "category": "ai-agent", "composite_score": 43, "arr_m": 2, "valuation_b": 1.5},
+    {"rank": 39, "slug": "reflection-ai", "name": "Reflection AI", "category": "foundation-model", "composite_score": 30, "arr_m": 0, "valuation_b": 0.5, "flagged": true}
+  ],
+  "category_breakdown": {
+    "foundation-model": 16,
+    "ai-agent": 5,
+    "ai-infrastructure": 7,
+    "vertical-ai": 5,
+    "ai-application": 4,
+    "ai-robotics": 2
+  },
+  "tier_distribution": {
+    "S_tier_90_100": 4,
+    "A_tier_70_89": 5,
+    "B_tier_60_69": 8,
+    "C_tier_50_59": 13,
+    "D_tier_40_49": 7,
+    "F_tier_below_40": 2
+  },
+  "highlights": {
+    "biggest_rounds_jan_2026": [
+      {"company": "xAI", "amount_b": 20, "valuation_b": 230},
+      {"company": "Anthropic", "amount_b": 20, "valuation_b": 350},
+      {"company": "Anysphere", "amount_b": 2.3, "valuation_b": 29.3},
+      {"company": "Skild AI", "amount_b": 1.4, "valuation_b": 14},
+      {"company": "Physical Intelligence", "amount_b": 0.6, "valuation_b": 5},
+      {"company": "Etched", "amount_b": 0.5, "valuation_b": 3},
+      {"company": "Mercor", "amount_b": 0.35, "valuation_b": 10},
+      {"company": "Decagon", "amount_b": 0.25, "valuation_b": 4.5},
+      {"company": "Harmattan AI", "amount_b": 0.2, "valuation_b": 1.4}
+    ],
+    "momentum_leaders": ["OpenAI", "Anthropic", "Anysphere", "Moonshot AI", "xAI", "Skild AI"],
+    "new_discoveries_run1": ["physical-intelligence", "mercor", "harmattan-ai", "decagon"],
+    "new_discoveries_run2": ["world-labs", "lila-sciences", "ricursive-intelligence", "unconventional-ai", "ami-labs"],
+    "manual_adds": ["inworld-ai"]
+  },
+  "flagged_companies": [
+    {"slug": "thinking-machines-lab", "red_flag_score": 40, "reasons": ["Internal turmoil", "Employees considering return to OpenAI"]},
+    {"slug": "reflection-ai", "red_flag_score": 60, "reasons": ["Benchmark controversy", "Credibility concerns"]}
+  ],
+  "blocklist": [
+    {"slug": "scale-ai", "reason": "Founder joined Meta", "final_score": 74},
+    {"slug": "inflection", "reason": "Acqui-hired by Microsoft", "final_score": 47},
+    {"slug": "adept", "reason": "Acqui-hired by Amazon", "final_score": 47},
+    {"slug": "character-ai", "reason": "Acqui-hired by Google", "final_score": 50}
+  ],
+  "stats": {
+    "total_arr_millions": 35620,
+    "average_composite_score": 61,
+    "companies_above_90": 4,
+    "companies_above_70": 9
+  }
+}

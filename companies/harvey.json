@@ -1,0 +1,61 @@
+{
+  "name": "Harvey",
+  "slug": "harvey",
+  "stage": "series-c",
+  "category": "vertical-ai",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://harvey.ai",
+  "description": "AI-powered legal platform. Building custom AI models for law firms and legal departments.",
+  "founders": [
+    {
+      "name": "Winston Weinberg",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Cambridge", "degree": "BA", "field": "Law", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "O'Melveny & Myers", "role": "M&A Lawyer", "years": "2016-2020", "tier": "tier-2"},
+        {"company": "DeepMind", "role": "Business Development", "years": "2020-2022", "tier": "faang"}
+      ],
+      "achievements": ["Practiced law at top firm", "Worked at DeepMind"],
+      "founder_score": 80
+    },
+    {
+      "name": "Gabriel Pereyra",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "DeepMind", "role": "Research Scientist", "years": "2019-2022", "tier": "faang"},
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2019", "tier": "faang"}
+      ],
+      "achievements": ["Published NeurIPS papers", "Deep learning researcher"],
+      "founder_score": 88
+    }
+  ],
+  "funding": {
+    "total_raised": 206,
+    "latest_valuation": 1.5,
+    "rounds": [
+      {"type": "Series C", "amount": 100, "date": "2024-07", "lead": "GV, Kleiner Perkins"},
+      {"type": "Series B", "amount": 80, "date": "2023-12", "lead": "Sequoia"},
+      {"type": "Series A", "amount": 21, "date": "2023-04", "lead": "Sequoia"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 150, "as_of": "2025-12"}
+  },
+  "products": ["Harvey Legal AI", "Harvey for Litigation", "Harvey for M&A"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 84,
+    "revenue_score": 4,
+    "funding_score": 25,
+    "momentum_score": 80,
+    "composite_score": 49
+  },
+  "last_updated": "2026-01-29"
+}

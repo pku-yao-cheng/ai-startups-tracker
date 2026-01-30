@@ -1,0 +1,114 @@
+{
+  "name": "Wayve",
+  "slug": "wayve",
+  "stage": "series-c",
+  "category": "ai-robotics",
+  "founded": 2017,
+  "hq": "London, UK",
+  "website": "https://wayve.ai",
+  "description": "Embodied AI for autonomous driving. Uses end-to-end deep learning instead of HD maps and hand-coded rules. First robotaxi trials in London with Uber partnership.",
+  "founders": [
+    {
+      "name": "Alex Kendall",
+      "role": "CEO & Co-founder",
+      "education": [
+        {"institution": "University of Cambridge", "degree": "PhD", "field": "Deep Learning for Computer Vision & Robotics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "University of Cambridge", "role": "PhD Researcher", "years": "2014-2017", "tier": "tier-1"}
+      ],
+      "achievements": ["OBE for services to AI", "Royal Academy of Engineering Silver Medal", "MIT Technology Review Innovators Under 35", "Woolf Fisher Scholar"],
+      "founder_score": 90
+    },
+    {
+      "name": "Amar Shah",
+      "role": "Co-founder (departed 2020)",
+      "education": [
+        {"institution": "University of Cambridge", "degree": "PhD", "field": "Machine Learning", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "University of Cambridge", "role": "PhD Researcher", "years": "2014-2017", "tier": "tier-1"}
+      ],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 1300,
+    "latest_valuation": 2.3,
+    "rounds": [
+      {"type": "Series C", "amount": 1050, "date": "2024-05", "lead": "SoftBank"},
+      {"type": "Series B", "amount": 200, "date": "2022-01", "lead": "Eclipse Ventures"},
+      {"type": "Series A", "amount": 20, "date": "2020-06", "lead": "Balderton Capital"}
+    ],
+    "notes": "Reports suggest another $2B round in progress"
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 300, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Revenue from Uber partnership and OEM deals"
+  },
+  "products": ["LINGO-2 (driving world model)", "AV2.0 Platform", "Robotaxi software"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-10",
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": 84,
+    "infrastructure": "End-to-end learned driving with vision-based AI, no HD maps required"
+  },
+  "traction": {
+    "enterprise_customers": ["Uber", "Nissan", "Asda (Walmart UK)"],
+    "partnerships": [
+      {"partner": "Uber", "type": "strategic", "date": "2025-10", "details": "Robotaxi trials in London, 2026 commercial launch"},
+      {"partner": "Nissan", "type": "OEM", "date": "2025-09", "details": "Mass production of Wayve-equipped cars FY2027"},
+      {"partner": "Microsoft", "type": "strategic", "date": "2025-10", "details": "Expanded Azure partnership for training"},
+      {"partner": "Asda", "type": "customer", "date": "2024", "details": "Autonomous delivery trials"}
+    ],
+    "target_markets": ["Robotaxis", "Autonomous delivery", "ADAS for OEMs"]
+  },
+  "investors": {
+    "lead_investors": ["SoftBank Vision Fund"],
+    "strategic_investors": ["Microsoft", "NVIDIA"],
+    "other_investors": ["Eclipse Ventures", "Balderton Capital", "Virgin"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "github_stars": 1000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "competitors": ["Waymo", "Cruise", "Tesla FSD", "Mobileye"],
+    "tam_estimate": "$500B",
+    "moats": ["End-to-end learning approach", "No HD maps required", "Uber partnership", "UK/Europe focus"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "UK's First Robotaxi Trial Brings AI Driving to London Streets", "url": "https://www.techbuzz.ai/articles/uk-s-first-robotaxi-trial-brings-ai-driving-to-london-streets", "date": "2025-10-15", "sentiment": "positive"},
+    {"title": "Wayve and Nissan announce mass production deal for FY2027", "url": "https://wayve.ai/press/nissan", "date": "2025-09-20", "sentiment": "positive"},
+    {"title": "Wayve Raises Over $1 Billion Led by SoftBank", "url": "https://wayve.ai/press/series-c/", "date": "2024-05-07", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 88,
+    "financial_health_score": 40,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 70,
+    "traction_score": 70,
+    "community_score": 45,
+    "market_position_score": 75,
+    "composite_score": 70
+  },
+  "score_notes": {
+    "founder": "Alex Kendall: Cambridge PhD, OBE, Royal Academy Silver Medal. Exceptional recognition.",
+    "financial": "Early revenue from partnerships, strong runway",
+    "funding": "$1.3B+ raised, $2.3B valuation, SoftBank/Microsoft/NVIDIA backing",
+    "momentum": "London robotaxi trials, Nissan OEM deal, high visibility",
+    "product": "LINGO-2 shipped, real-world testing active",
+    "traction": "Uber, Nissan, Microsoft partnerships - strong enterprise traction",
+    "community": "Growing awareness in AV space",
+    "market": "Differentiated approach (no HD maps), Europe leader"
+  },
+  "last_updated": "2026-01-30"
+}

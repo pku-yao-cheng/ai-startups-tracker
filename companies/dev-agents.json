@@ -1,0 +1,131 @@
+{
+  "name": "/dev/agents",
+  "slug": "dev-agents",
+  "stage": "seed",
+  "category": "ai-agent",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://dev-agents.com",
+  "description": "Building an operating system for AI agents - a common technical framework to connect AI services and allow them to communicate, similar to Android for mobile.",
+  "founders": [
+    {
+      "name": "David Singleton",
+      "role": "CEO & Co-founder",
+      "linkedin": "https://linkedin.com/in/davidpsingleton",
+      "education": [
+        {"institution": "University of Cambridge", "degree": "BA/MA", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stripe", "role": "CTO", "years": "2018-2024", "tier": "tier-1"},
+        {"company": "Google", "role": "VP Engineering, Android", "years": "2013-2018", "tier": "faang"}
+      ],
+      "achievements": ["Built Stripe's technical infrastructure", "Led Android engineering at Google"],
+      "founder_score": 92
+    },
+    {
+      "name": "Hugo Barra",
+      "role": "CPO & Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS/MS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Meta", "role": "VP, Oculus VR", "years": "2017-2020", "tier": "faang"},
+        {"company": "Xiaomi", "role": "VP, International", "years": "2013-2017", "tier": "tier-1"},
+        {"company": "Google", "role": "VP Product Management, Android", "years": "2008-2013", "tier": "faang"}
+      ],
+      "achievements": ["Led Android product at Google", "Built Oculus consumer products at Meta", "Xiaomi international expansion"],
+      "founder_score": 90
+    },
+    {
+      "name": "Ficus Kirkpatrick",
+      "role": "CTO & Co-founder",
+      "experience": [
+        {"company": "Meta", "role": "VP, AR/VR Engineering", "years": "2015-2024", "tier": "faang"},
+        {"company": "Google", "role": "Early Android Engineer", "years": "2005-2015", "tier": "faang"}
+      ],
+      "achievements": ["Early Android engineer", "Led Meta's AR/VR engineering"],
+      "founder_score": 88
+    },
+    {
+      "name": "Nicholas Jitkoff",
+      "role": "Co-founder",
+      "experience": [
+        {"company": "Figma", "role": "Senior Design Role", "years": "2020-2024", "tier": "tier-1"},
+        {"company": "Dropbox", "role": "Senior Design Role", "years": "2015-2020", "tier": "tier-1"},
+        {"company": "Google", "role": "Principal Designer, Chrome", "years": "2008-2015", "tier": "faang"}
+      ],
+      "achievements": ["Designed Google Chrome", "Senior design at Figma and Dropbox"],
+      "founder_score": 82
+    }
+  ],
+  "funding": {
+    "total_raised": 56,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Seed", "amount": 56, "date": "2024-11", "lead": "Index Ventures, CapitalG"}
+    ],
+    "notes": "CapitalG rarely invests in pre-product companies"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 30, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Pre-revenue, building product"
+  },
+  "products": ["AI Agent OS (in development)"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Operating system for AI agents - framework for agent communication and coordination"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "target_markets": ["Enterprise AI", "Developer tools", "AI agents"]
+  },
+  "investors": {
+    "lead_investors": ["Index Ventures", "CapitalG (Alphabet)"],
+    "strategic_investors": ["CapitalG"],
+    "other_investors": ["Conviction Capital (Sarah Guo)"],
+    "angel_investors": ["Alexandr Wang (Scale AI CEO)", "Andrej Karpathy (OpenAI co-founder)", "Nikesh Arora (Palo Alto Networks CEO)"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 5000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["LangChain", "AutoGPT", "CrewAI"],
+    "tam_estimate": "$50B",
+    "moats": ["Android + Stripe founding team", "Deep platform expertise", "CapitalG backing"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "/dev/agents raises $56M seed at $500M valuation", "url": "https://techcrunch.com/2024/11/28/ai-agent-startup-dev-agents-has-raised-a-massive-56m-seed-round-at-a-500m-valuation/", "date": "2024-11-28", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 25,
+    "funding_score": 55,
+    "momentum_score": 70,
+    "product_score": 30,
+    "traction_score": 20,
+    "community_score": 25,
+    "market_position_score": 75,
+    "composite_score": 51
+  },
+  "score_notes": {
+    "founder": "Exceptional team: Stripe CTO + Android founding team + Meta AR/VR VP. One of the strongest founding teams in AI.",
+    "financial": "Pre-revenue, well-funded seed",
+    "funding": "$500M valuation on $56M seed, tier-1 VCs",
+    "momentum": "High buzz, major seed round",
+    "product": "Not yet launched",
+    "traction": "No customers yet",
+    "community": "Building awareness",
+    "market": "Novel 'AI agent OS' concept, strong team credibility"
+  },
+  "last_updated": "2026-01-30"
+}

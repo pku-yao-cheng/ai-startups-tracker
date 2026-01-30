@@ -1,0 +1,76 @@
+{
+  "month": "2026-01",
+  "articles": [
+    {
+      "title": "Anthropic upped its latest raise to $20B at $350B valuation",
+      "url": "https://techcrunch.com/2026/01/27/anthropic-reportedly-upped-its-latest-raise-to-20b/",
+      "date": "2026-01-27",
+      "company": "anthropic",
+      "type": "funding"
+    },
+    {
+      "title": "Databricks raises $1.8B in debt financing",
+      "url": "https://siliconangle.com/2026/01/23/databricks-reportedly-raises-1-8b-debt-financing/",
+      "date": "2026-01-23",
+      "company": "databricks",
+      "type": "funding"
+    },
+    {
+      "title": "OpenAI's API business hits $1B monthly ARR",
+      "url": "https://www.webpronews.com/openais-api-surge-1-billion-monthly-revenue-milestone-reshapes-ai-economics/",
+      "date": "2026-01-22",
+      "company": "openai",
+      "type": "revenue"
+    },
+    {
+      "title": "Anthropic's revenue run rate tops $9 billion",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/anthropic-s-revenue-run-rate-tops-9-billion-as-vcs-pile-in",
+      "date": "2026-01-21",
+      "company": "anthropic",
+      "type": "revenue"
+    },
+    {
+      "title": "xAI raises $20B Series E at $230B valuation",
+      "url": "https://x.ai/news/series-e",
+      "date": "2026-01-06",
+      "company": "xai",
+      "type": "funding"
+    },
+    {
+      "title": "Skild AI raises $1.4B at $14B valuation (robotics AI)",
+      "url": "https://news.crunchbase.com/venture/robotics-startup-skild-ai-triples-valuation/",
+      "date": "2026-01",
+      "company": "discovery",
+      "type": "funding"
+    },
+    {
+      "title": "Inferact (vLLM commercial) raises $150M seed at $800M valuation",
+      "url": "https://techstartups.com/2026/01/22/top-startup-and-tech-funding-news-january-22-2025/",
+      "date": "2026-01-22",
+      "company": "discovery",
+      "type": "funding"
+    },
+    {
+      "title": "LMArena raises $150M at $1.7B valuation",
+      "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-xai-parabilis-medicines-soley-therapeutics/",
+      "date": "2026-01",
+      "company": "discovery",
+      "type": "funding"
+    },
+    {
+      "title": "Perplexity partners with Snapchat (1B MAU)",
+      "url": "https://www.demandsage.com/perplexity-ai-statistics/",
+      "date": "2026-01",
+      "company": "perplexity",
+      "type": "partnership"
+    }
+  ],
+  "summary": {
+    "total_funding_announced": 43000,
+    "top_rounds": [
+      {"company": "xAI", "amount": 20000, "valuation": 230},
+      {"company": "Anthropic", "amount": 20000, "valuation": 350},
+      {"company": "Databricks", "amount": 1800, "type": "debt"}
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Anysphere (Cursor)",
+  "slug": "anysphere",
+  "stage": "series-d",
+  "category": "ai-agent",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://cursor.com",
+  "description": "Creator of Cursor, the AI-first code editor. Fastest-growing AI coding tool with 1M+ daily active users.",
+  "founders": [
+    {
+      "name": "Michael Truell",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Built Cursor from scratch", "Competitive programmer"],
+      "founder_score": 80
+    },
+    {
+      "name": "Sualeh Asif",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Core Cursor architect"],
+      "founder_score": 78
+    },
+    {
+      "name": "Arvid Lunnemark",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 75
+    },
+    {
+      "name": "Aman Sanger",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 3400,
+    "latest_valuation": 29.3,
+    "rounds": [
+      {"type": "Series D", "amount": 2300, "date": "2025-11", "lead": "Accel, Coatue"},
+      {"type": "Series C", "amount": 900, "date": "2025-06", "lead": "Thrive Capital"},
+      {"type": "Seed", "amount": 8, "date": "2023-10", "lead": "OpenAI Startup Fund"}
+    ],
+    "notes": "Fastest growing AI coding startup. NVIDIA and Google participated in Series D."
+  },
+  "financials": {
+    "arr": {"value": 1000, "confidence": "confirmed", "as_of": "2025-12", "notes": "Exceeded $1B ARR"},
+    "revenue_growth_yoy": 400,
+    "employees": {"value": 100, "as_of": "2025-12"}
+  },
+  "products": ["Cursor IDE", "Cursor Pro", "Cursor Business"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-03",
+    "github": {
+      "repo": "getcursor/cursor",
+      "stars": 50000,
+      "as_of": "2026-01"
+    },
+    "api_available": false,
+    "time_to_ship_months": 6
+  },
+  "traction": {
+    "enterprise_customers": ["Stripe", "Shopify", "Instacart"],
+    "user_count": {"value": 1000000, "type": "DAU", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 400
+  },
+  "investors": {
+    "lead_investors": ["Accel", "Thrive Capital", "Andreessen Horowitz"],
+    "strategic_investors": ["NVIDIA", "Google", "OpenAI"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 200000,
+    "github_stars": 50000,
+    "twitter_followers": 150000,
+    "hn_mentions": 100,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-code-editors",
+    "competitors": ["GitHub Copilot", "Windsurf", "Zed"],
+    "tam_estimate": "$20B",
+    "moats": ["product", "distribution", "brand"],
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "Anysphere soars to $29.3B valuation with $2.3B Series D", "url": "https://techfundingnews.com/anysphere-soars-to-29-3b-valuation-with-2-3b-funding-redefining-the-future-of-coding/", "date": "2025-11-13", "sentiment": "positive"},
+    {"title": "Cursor exceeds $1B ARR", "url": "https://cursor.com/blog/series-d", "date": "2025-11", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 77,
+    "financial_health_score": 90,
+    "funding_score": 95,
+    "momentum_score": 100,
+    "product_score": 90,
+    "traction_score": 95,
+    "community_score": 95,
+    "market_position_score": 90,
+    "composite_score": 91
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

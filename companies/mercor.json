@@ -1,0 +1,91 @@
+{
+  "name": "Mercor",
+  "slug": "mercor",
+  "stage": "series-c",
+  "category": "vertical-ai",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://mercor.com",
+  "description": "AI-powered hiring platform that uses machine learning to match candidates with jobs. Rapidly scaling to become a major player in AI-assisted recruiting.",
+  "founders": [
+    {
+      "name": "Brendan Foody",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Harvard", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Built Mercor to $10B valuation in under 2 years"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 500,
+    "latest_valuation": 10,
+    "rounds": [
+      {"type": "Series C", "amount": 350, "date": "2025-10", "lead": "Felicis"},
+      {"type": "Series B", "amount": 100, "date": "2025-02", "lead": "Benchmark"}
+    ],
+    "notes": "Fivefold valuation increase from February to October 2025. Benchmark, General Catalyst, Robinhood Ventures participated."
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 150, "as_of": "2026-01"}
+  },
+  "products": ["Mercor Hiring Platform", "AI Candidate Matching"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-06",
+    "benchmarks": [],
+    "github": {
+      "repo": null,
+      "stars": 0,
+      "as_of": "2026-01"
+    },
+    "api_available": true,
+    "time_to_ship_months": 6
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 500000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 300
+  },
+  "investors": {
+    "lead_investors": ["Felicis", "Benchmark", "General Catalyst"],
+    "strategic_investors": ["Robinhood Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 0,
+    "github_stars": 0,
+    "twitter_followers": 25000,
+    "hn_mentions": 10,
+    "reddit_sentiment": "neutral"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-hiring",
+    "competitors": ["LinkedIn", "Indeed", "HireVue"],
+    "tam_estimate": "$30B",
+    "moats": ["data", "network-effects"],
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "AI startup Mercor now valued at $10 billion with new $350 million funding round", "url": "https://www.cnbc.com/2025/10/27/ai-hiring-startup-mercor-funding.html", "date": "2025-10-27", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 75,
+    "financial_health_score": 50,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 70,
+    "traction_score": 60,
+    "community_score": 35,
+    "market_position_score": 75,
+    "composite_score": 67
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

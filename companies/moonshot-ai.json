@@ -1,0 +1,99 @@
+{
+  "name": "Moonshot AI (Kimi)",
+  "slug": "moonshot-ai",
+  "stage": "series-b",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Beijing, China",
+  "website": "https://www.moonshot.cn",
+  "description": "Chinese AI company behind Kimi, known for long-context models and open-source releases. Kimi K2.5 (1T params) is the best open-source coding model, beating GPT-5.2 on multiple benchmarks.",
+  "founders": [
+    {
+      "name": "Yang Zhilin",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Tsinghua University", "degree": "BS", "field": "Computer Science", "tier": "tier-2"},
+        {"institution": "CMU", "degree": "PhD", "field": "Machine Learning", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google AI", "role": "Research Scientist", "years": "2019-2023", "tier": "faang"}
+      ],
+      "achievements": ["Co-author of XLNet, Transformer-XL", "Pioneer in long-context models"],
+      "research_output": [
+        {"title": "XLNet: Generalized Autoregressive Pretraining", "venue": "NeurIPS", "year": 2019, "citations": 10000},
+        {"title": "Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context", "venue": "ACL", "year": 2019, "citations": 5000}
+      ],
+      "founder_score": 92
+    }
+  ],
+  "funding": {
+    "total_raised": 1000,
+    "latest_valuation": 3,
+    "rounds": [
+      {"type": "Series B", "amount": 400, "date": "2024-02", "lead": "Alibaba, Sequoia China"}
+    ],
+    "notes": "Leading Chinese AI lab competing with DeepSeek"
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 300, "as_of": "2025-12"}
+  },
+  "products": ["Kimi K2.5", "Kimi Chat", "Kimi API", "Kimi Agent Swarm", "Kimi Code"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-10",
+    "benchmarks": [
+      {"name": "SWE-bench", "rank": 1, "notes": "Best open-source model", "date": "2026-01"},
+      {"name": "HumanEval", "rank": 2, "notes": "Beats GPT-5.2", "date": "2026-01"}
+    ],
+    "github": {
+      "repo": "moonshotai/Kimi-K2.5",
+      "stars": 15000,
+      "as_of": "2026-01"
+    },
+    "api_available": true,
+    "time_to_ship_months": 8
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 10000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 200
+  },
+  "community": {
+    "discord_members": 50000,
+    "github_stars": 15000,
+    "twitter_followers": 100000,
+    "hn_mentions": 30,
+    "reddit_sentiment": "very positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "open-source-coding-models",
+    "competitors": ["DeepSeek", "Qwen", "Llama"],
+    "tam_estimate": "$10B",
+    "moats": ["research", "open-source-community"],
+    "first_mover": false,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "Moonshot AI releases Kimi K2.5 with 1T parameters - beats GPT-5.2", "url": "https://siliconangle.com/2026/01/27/moonshot-ai-releases-open-source-kimi-k2-5-model-1t-parameters/", "date": "2026-01-27", "sentiment": "positive"},
+    {"title": "Kimi K2.5 AMA on Reddit - called best open coding model", "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qpewj7/ama_with_kimi_the_opensource_frontier_lab_behind/", "date": "2026-01-28", "sentiment": "positive"},
+    {"title": "Kimi K2.5 is the best open model for coding", "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qp87tk/kimi_k25_is_the_best_open_model_for_coding/", "date": "2026-01-28", "sentiment": "positive"},
+    {"title": "China's Moonshot releases new open source model and coding agent", "url": "https://techcrunch.com/2026/01/27/chinas-moonshot-releases-a-new-open-source-model-kimi-k2-5-and-a-coding-agent/", "date": "2026-01-27", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 92,
+    "financial_health_score": 20,
+    "funding_score": 40,
+    "momentum_score": 100,
+    "product_score": 95,
+    "traction_score": 45,
+    "community_score": 85,
+    "market_position_score": 70,
+    "composite_score": 68
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered",
+  "notes": "Major player in China AI. Kimi K2.5 (1T params, 32B active) is the best open-source coding model, featuring novel Agent Swarm with 100 parallel sub-agents. Strong community momentum."
+}

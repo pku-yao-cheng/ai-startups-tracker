@@ -1,0 +1,59 @@
+{
+  "name": "Poolside",
+  "slug": "poolside",
+  "stage": "series-b",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://poolside.ai",
+  "description": "AI company building foundation models specifically for software development and coding assistance.",
+  "founders": [
+    {
+      "name": "Jason Warner",
+      "role": "CEO",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "GitHub", "role": "CTO", "years": "2017-2021", "tier": "faang"},
+        {"company": "Heroku", "role": "VP of Engineering", "years": "2014-2017", "tier": "tier-1"}
+      ],
+      "achievements": ["Led GitHub through Microsoft acquisition", "Scaled GitHub engineering"],
+      "founder_score": 85
+    },
+    {
+      "name": "Eiso Kant",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "source{d}", "role": "Co-founder & CEO", "years": "2015-2021", "tier": "prior-exit"}
+      ],
+      "achievements": ["Founded source{d} (code analysis platform)"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 626,
+    "latest_valuation": 3,
+    "rounds": [
+      {"type": "Series B", "amount": 500, "date": "2024-10", "lead": "Bain Capital Ventures"},
+      {"type": "Series A", "amount": 126, "date": "2023-07", "lead": "Redpoint Ventures"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 5, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 80, "as_of": "2025-12"}
+  },
+  "products": ["Poolside Code Model"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 85,
+    "revenue_score": 1,
+    "funding_score": 38,
+    "momentum_score": 60,
+    "composite_score": 47
+  },
+  "last_updated": "2026-01-29"
+}

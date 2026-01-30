@@ -1,0 +1,175 @@
+{
+  "discovery_date": "2026-01-29T21:00:00Z",
+  "discovery_run": 2,
+  "sources_checked": {
+    "mcp_news": ["36kr", "theverge", "infoq", "nytimes", "bbc"],
+    "mcp_community": ["hacker-news-show", "hacker-news-new", "reddit-localllama", "reddit-machinelearning", "reddit-singularity"],
+    "web_search": ["techcrunch", "bloomberg", "crunchbase", "siliconangle"]
+  },
+  "candidates": [
+    {
+      "name": "Ricursive Intelligence",
+      "slug": "ricursive-intelligence",
+      "discovery_score": 85,
+      "signals": {
+        "funding": true,
+        "notable_founder": true,
+        "product_launch": false,
+        "mentions": 8
+      },
+      "key_data": {
+        "valuation": "$4B",
+        "raised": "$335M",
+        "stage": "Series A",
+        "founders": "Anna Goldie, Azalia Mirhoseini (ex-Google AlphaChip)"
+      },
+      "action": "auto-added",
+      "composite_score": 58
+    },
+    {
+      "name": "AMI Labs",
+      "slug": "ami-labs",
+      "discovery_score": 90,
+      "signals": {
+        "funding": true,
+        "notable_founder": true,
+        "product_launch": false,
+        "mentions": 10
+      },
+      "key_data": {
+        "valuation": "$3B (target)",
+        "raised": "$0 (seeking $500M)",
+        "stage": "Pre-seed",
+        "founders": "Yann LeCun (Turing Award), Alex LeBrun"
+      },
+      "action": "auto-added",
+      "composite_score": 57
+    },
+    {
+      "name": "World Labs",
+      "slug": "world-labs",
+      "discovery_score": 92,
+      "signals": {
+        "funding": true,
+        "notable_founder": true,
+        "product_launch": true,
+        "mentions": 12
+      },
+      "key_data": {
+        "valuation": "$5B (in talks)",
+        "raised": "$230M",
+        "stage": "Series A",
+        "founders": "Fei-Fei Li (ImageNet creator)"
+      },
+      "action": "auto-added",
+      "composite_score": 67
+    },
+    {
+      "name": "Unconventional AI",
+      "slug": "unconventional-ai",
+      "discovery_score": 88,
+      "signals": {
+        "funding": true,
+        "notable_founder": true,
+        "product_launch": false,
+        "mentions": 9
+      },
+      "key_data": {
+        "valuation": "$4.5B",
+        "raised": "$485M",
+        "stage": "Seed",
+        "founders": "Naveen Rao (ex-Databricks, MosaicML)"
+      },
+      "action": "auto-added",
+      "composite_score": 57
+    },
+    {
+      "name": "Lila Sciences",
+      "slug": "lila-sciences",
+      "discovery_score": 78,
+      "signals": {
+        "funding": true,
+        "notable_founder": false,
+        "product_launch": true,
+        "mentions": 6
+      },
+      "key_data": {
+        "valuation": "$1.3B+",
+        "raised": "$550M",
+        "stage": "Series A",
+        "founders": "Flagship Pioneering (incubator)"
+      },
+      "action": "auto-added",
+      "composite_score": 63
+    },
+    {
+      "name": "Aaru",
+      "slug": "aaru",
+      "discovery_score": 55,
+      "signals": {
+        "funding": true,
+        "notable_founder": false,
+        "product_launch": true,
+        "mentions": 3
+      },
+      "key_data": {
+        "valuation": "$1B",
+        "raised": "Series A (undisclosed)",
+        "stage": "Series A",
+        "focus": "AI synthetic research for market research"
+      },
+      "action": "watchlist",
+      "reason": "Below threshold, monitor for growth"
+    },
+    {
+      "name": "Hebbia",
+      "slug": "hebbia",
+      "discovery_score": 52,
+      "signals": {
+        "funding": true,
+        "notable_founder": false,
+        "product_launch": true,
+        "mentions": 2
+      },
+      "key_data": {
+        "valuation": "$700M",
+        "raised": "$130M",
+        "stage": "Series B",
+        "focus": "Enterprise AI search and data parsing"
+      },
+      "action": "watchlist",
+      "reason": "Below threshold, solid traction"
+    },
+    {
+      "name": "Manus AI",
+      "slug": "manus-ai",
+      "discovery_score": 48,
+      "signals": {
+        "funding": true,
+        "notable_founder": false,
+        "product_launch": true,
+        "mentions": 2
+      },
+      "key_data": {
+        "valuation": "$500M",
+        "raised": "$75M",
+        "stage": "Series A",
+        "focus": "Chinese AI agent startup"
+      },
+      "action": "watchlist",
+      "reason": "China-based, monitor international expansion"
+    }
+  ],
+  "summary": {
+    "total_candidates": 8,
+    "auto_added": 5,
+    "watchlist": 3,
+    "new_signals_detected": ["world_models", "autonomous_labs", "ai_chip_design"],
+    "notable_trends": [
+      "Mega-seed rounds becoming common ($400M+ seeds)",
+      "AI pioneers leaving big tech to start companies (LeCun, Li)",
+      "World models emerging as hot category",
+      "AI chip design attracting major investment"
+    ]
+  }
+}

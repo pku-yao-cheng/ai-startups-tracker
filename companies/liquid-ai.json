@@ -1,0 +1,137 @@
+{
+  "name": "Liquid AI",
+  "slug": "liquid-ai",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Boston, MA",
+  "website": "https://liquid.ai",
+  "description": "MIT CSAIL spinoff building novel 'liquid neural networks' - dynamically adjustable AI architectures inspired by biological neural systems (C. elegans worm brain).",
+  "founders": [
+    {
+      "name": "Ramin Hasani",
+      "role": "CEO & Co-founder",
+      "education": [
+        {"institution": "Vienna University of Technology", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "MIT CSAIL", "role": "Research Scientist", "years": "2020-2023", "tier": "tier-1"},
+        {"company": "Vanguard Group", "role": "Principal AI/ML Scientist", "years": "2021-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Invented Liquid Neural Networks", "HPC Innovation Excellence Award 2022", "TÜV Austria Dissertation Award nominee"],
+      "founder_score": 88
+    },
+    {
+      "name": "Daniela Rus",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Cornell University", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "MIT CSAIL", "role": "Director", "years": "2012-present", "tier": "tier-1"}
+      ],
+      "achievements": ["Director of MIT CSAIL", "MacArthur Fellow", "Member of National Academy of Engineering"],
+      "founder_score": 95
+    },
+    {
+      "name": "Mathias Lechner",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "IST Austria", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "MIT CSAIL", "role": "Postdoc", "years": "2020-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Co-inventor of Liquid Neural Networks"],
+      "founder_score": 80
+    },
+    {
+      "name": "Alexander Amini",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "MIT CSAIL", "role": "Research Scientist", "years": "2018-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["MIT PhD", "Deep learning for autonomous systems research"],
+      "founder_score": 82
+    }
+  ],
+  "funding": {
+    "total_raised": 297,
+    "latest_valuation": 2.4,
+    "rounds": [
+      {"type": "Series A", "amount": 250, "date": "2025-03", "lead": "AMD Ventures"},
+      {"type": "Seed", "amount": 47, "date": "2023-12", "lead": "OSS Capital"}
+    ],
+    "notes": "Valued at $2.4B after Series A"
+  },
+  "financials": {
+    "arr": {"value": 13, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 88, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Early enterprise revenue, expanding team to 150+"
+  },
+  "products": ["LFM-7B (Liquid Foundation Model)", "Hyena Edge (mobile/edge models)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2025-01",
+    "benchmarks": [{"name": "Edge efficiency", "rank": 1, "date": "2025-04"}],
+    "api_available": true,
+    "time_to_ship_months": 14,
+    "infrastructure": "Novel liquid neural networks with dynamically adjustable parameters"
+  },
+  "traction": {
+    "enterprise_customers": ["G42 (Abu Dhabi)"],
+    "partnerships": [
+      {"partner": "G42", "type": "strategic", "date": "2025-06", "details": "Private, local AI solutions for enterprises"},
+      {"partner": "AMD", "type": "strategic", "date": "2025-03", "details": "Strategic investment + hardware optimization"}
+    ],
+    "target_markets": ["Enterprise AI", "Edge computing", "Mobile AI", "Autonomous systems"]
+  },
+  "investors": {
+    "lead_investors": ["AMD Ventures", "OSS Capital"],
+    "strategic_investors": ["AMD"],
+    "other_investors": ["PagsGroup"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 30000,
+    "github_stars": 5000,
+    "discord_members": 10000
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["OpenAI", "Anthropic", "Mistral", "Cohere"],
+    "tam_estimate": "$200B",
+    "moats": ["Novel architecture (liquid neural networks)", "MIT CSAIL pedigree", "Edge/efficiency focus", "Daniela Rus as co-founder"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Liquid AI Raises $250M Series A at $2.35B Valuation", "url": "https://aibusinessweekly.net/p/liquid-ai-250-million-series-a-foundation-models", "date": "2025-03-15", "sentiment": "positive"},
+    {"title": "Liquid AI releases Hyena Edge models for smartphones", "url": "https://liquid.ai/blog/hyena-edge", "date": "2025-04-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 35,
+    "funding_score": 70,
+    "momentum_score": 75,
+    "product_score": 65,
+    "traction_score": 40,
+    "community_score": 45,
+    "market_position_score": 75,
+    "composite_score": 63
+  },
+  "score_notes": {
+    "founder": "MIT CSAIL Director (Daniela Rus) + inventor of liquid neural networks. Exceptional academic pedigree.",
+    "financial": "Early revenue (~$13M), strong runway",
+    "funding": "$2.4B valuation, AMD strategic backing",
+    "momentum": "Strong product releases, G42 partnership",
+    "product": "LFM-7B and Hyena Edge shipped, novel architecture",
+    "traction": "G42 partnership, growing enterprise interest",
+    "community": "Growing developer community",
+    "market": "Differentiated approach (liquid networks), edge computing focus"
+  },
+  "last_updated": "2026-01-30"
+}

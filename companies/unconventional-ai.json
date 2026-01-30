@@ -1,0 +1,106 @@
+{
+  "name": "Unconventional AI",
+  "slug": "unconventional-ai",
+  "stage": "seed",
+  "category": "ai-infrastructure",
+  "founded": 2025,
+  "hq": "San Francisco, CA",
+  "website": "https://unconventional.ai",
+  "description": "Neuromorphic computing startup building energy-efficient AI computers inspired by the human brain. Founded by ex-Databricks AI head.",
+  "founders": [
+    {
+      "name": "Naveen Rao",
+      "role": "CEO",
+      "education": [
+        {"institution": "Brown University", "degree": "PhD", "field": "Neuroscience", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Databricks", "role": "Head of AI", "years": "2023-2025", "tier": "tier-1"},
+        {"company": "Intel", "role": "VP & GM AI Products", "years": "2016-2023", "tier": "faang"}
+      ],
+      "achievements": ["Founded MosaicML (acquired by Databricks for $1.3B)", "Founded Nervana Systems (acquired by Intel for $350M)"],
+      "founder_score": 95
+    },
+    {
+      "name": "Michael Carbin",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "MIT", "role": "Professor", "years": "2015-2025", "tier": "tier-1"}
+      ],
+      "achievements": ["Lottery Ticket Hypothesis research"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 485,
+    "latest_valuation": 4.5,
+    "rounds": [
+      {"type": "Seed", "amount": 475, "date": "2025-12", "lead": "Andreessen Horowitz, Lightspeed"}
+    ],
+    "notes": "Naveen Rao invested $10M personal funds. Exploring up to $1B total raise."
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 40, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Pre-revenue, R&D focused"
+  },
+  "products": ["Neuromorphic AI computing platform (in development)"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Brain-inspired computing, analog compute exploration"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [
+      {"partner": "Databricks", "type": "investor", "date": "2025-12"}
+    ]
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "Lightspeed Venture Partners"],
+    "strategic_investors": ["Databricks", "Jeff Bezos"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 10000
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["Intel Loihi", "IBM TrueNorth", "BrainChip"],
+    "tam_estimate": "$50B",
+    "moats": ["Serial founder with 2 exits", "Neuroscience + AI expertise", "Brain-inspired approach"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Unconventional AI confirms its massive $475M seed round", "url": "https://techcrunch.com/2025/12/09/unconventional-ai-confirms-its-massive-475m-seed-round/", "date": "2025-12-09", "sentiment": "positive"},
+    {"title": "Jeff Bezos backs $475M seed round for chip startup Unconventional AI", "url": "https://siliconangle.com/2025/12/08/jeff-bezos-backs-475m-seed-round-chip-startup-unconventional-ai/", "date": "2025-12-08", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 95,
+    "financial_health_score": 25,
+    "funding_score": 90,
+    "momentum_score": 85,
+    "product_score": 35,
+    "traction_score": 20,
+    "community_score": 35,
+    "market_position_score": 70,
+    "composite_score": 57
+  },
+  "score_notes": {
+    "founder": "Serial founder with 2 major exits (MosaicML, Nervana), exceptional track record",
+    "financial": "Pre-revenue but massive runway",
+    "funding": "$4.5B valuation, tier-1 VCs + Jeff Bezos",
+    "momentum": "Record seed round, high buzz",
+    "product": "Not yet launched",
+    "traction": "No customers yet",
+    "community": "Building awareness",
+    "market": "Novel approach to energy-efficient AI computing"
+  },
+  "last_updated": "2026-01-29"
+}

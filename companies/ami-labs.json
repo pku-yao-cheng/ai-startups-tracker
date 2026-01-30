@@ -1,0 +1,104 @@
+{
+  "name": "AMI Labs",
+  "slug": "ami-labs",
+  "stage": "seed",
+  "category": "foundation-model",
+  "founded": 2025,
+  "hq": "Paris, France",
+  "website": "https://ami-labs.ai",
+  "description": "World model AI startup founded by Yann LeCun, building AI systems that understand physics, maintain persistent memory, and plan complex actions.",
+  "founders": [
+    {
+      "name": "Yann LeCun",
+      "role": "Executive Chairman",
+      "education": [
+        {"institution": "Pierre and Marie Curie University", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Meta", "role": "Chief AI Scientist", "years": "2013-2025", "tier": "faang"},
+        {"company": "Bell Labs", "role": "Research Director", "years": "1988-2003", "tier": "tier-1"}
+      ],
+      "achievements": ["Turing Award winner 2018", "Convolutional Neural Networks pioneer", "Deep learning pioneer"],
+      "founder_score": 100
+    },
+    {
+      "name": "Alex LeBrun",
+      "role": "CEO",
+      "education": [
+        {"institution": "École Polytechnique", "degree": "MS", "field": "Engineering", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Nabla", "role": "CEO & Co-founder", "years": "2018-2025", "tier": "prior-exit"},
+        {"company": "Meta FAIR", "role": "Research Lead", "years": "2015-2018", "tier": "faang"}
+      ],
+      "achievements": ["Founded and exited Wit.ai to Facebook"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 0,
+    "latest_valuation": 3,
+    "rounds": [],
+    "notes": "Seeking €500M (~$586M) at €3B (~$3.5B) valuation"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 30, "as_of": "2026-01"},
+    "notes": "Pre-launch, building team"
+  },
+  "products": ["World Model AI platform (in development)"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Focus on world models - AI that understands physics and can plan"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "target_markets": ["Industrial automation", "Robotics", "Healthcare", "Wearables"]
+  },
+  "investors": {
+    "lead_investors": [],
+    "strategic_investors": [],
+    "investor_tier": "pending"
+  },
+  "community": {
+    "twitter_followers": 1500000,
+    "notes": "Yann LeCun has massive following"
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["World Labs", "Google DeepMind"],
+    "tam_estimate": "$50B",
+    "moats": ["Yann LeCun reputation", "World model expertise", "Deep learning pioneer"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Yann LeCun confirms his new 'world model' startup, reportedly seeks $5B+ valuation", "url": "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/", "date": "2025-12-19", "sentiment": "positive"},
+    {"title": "Who's behind AMI Labs, Yann LeCun's 'world model' startup", "url": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/", "date": "2026-01-23", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 100,
+    "financial_health_score": 20,
+    "funding_score": 70,
+    "momentum_score": 85,
+    "product_score": 30,
+    "traction_score": 15,
+    "community_score": 75,
+    "market_position_score": 70,
+    "composite_score": 57
+  },
+  "score_notes": {
+    "founder": "Turing Award winner, deep learning pioneer - exceptional",
+    "financial": "Pre-revenue, seeking initial funding",
+    "funding": "Strong valuation target but not yet closed",
+    "momentum": "High buzz around Yann LeCun's new venture",
+    "product": "Not yet launched",
+    "traction": "No customers yet",
+    "community": "Massive personal following from LeCun",
+    "market": "World models is emerging category with strong potential"
+  },
+  "last_updated": "2026-01-29"
+}

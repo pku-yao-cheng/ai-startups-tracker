@@ -1,0 +1,46 @@
+{
+  "name": "Microsoft AI",
+  "slug": "microsoft-ai",
+  "stage": "division",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Redmond, WA",
+  "website": "https://microsoft.com/ai",
+  "description": "Microsoft's AI division led by Mustafa Suleyman. Includes Copilot, Azure AI, and consumer AI products.",
+  "founders": [
+    {
+      "name": "Mustafa Suleyman",
+      "role": "CEO, Microsoft AI",
+      "education": [
+        {"institution": "Oxford", "degree": "BA", "field": "Philosophy & Theology", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Inflection AI", "role": "Co-founder & CEO", "years": "2022-2024", "tier": "prior-exit"},
+        {"company": "DeepMind", "role": "Co-founder & Head of Applied AI", "years": "2010-2019", "tier": "faang"},
+        {"company": "Google", "role": "VP of AI Product", "years": "2019-2022", "tier": "faang"}
+      ],
+      "achievements": ["Co-founded DeepMind", "Built Google Assistant", "Founded Inflection (acqui-hired by Microsoft)"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 0,
+    "latest_valuation": 0,
+    "rounds": []
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "not-applicable", "as_of": "2025-12"},
+    "employees": {"value": 5000, "as_of": "2025-12"}
+  },
+  "products": ["Copilot", "Azure OpenAI Service", "Bing Chat", "Microsoft 365 Copilot"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 95,
+    "revenue_score": 0,
+    "funding_score": 100,
+    "momentum_score": 85,
+    "composite_score": 70
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Division of Microsoft. Revenue tracked as part of Microsoft Cloud."
+}

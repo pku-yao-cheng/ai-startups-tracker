@@ -1,0 +1,49 @@
+{
+  "name": "Glean",
+  "slug": "glean",
+  "stage": "series-e",
+  "category": "vertical-ai",
+  "founded": 2019,
+  "hq": "Palo Alto, CA",
+  "website": "https://glean.com",
+  "description": "AI-powered enterprise search platform. Connects all company knowledge and makes it searchable with AI.",
+  "founders": [
+    {
+      "name": "Arvind Jain",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "IIT Delhi", "degree": "BTech", "field": "Computer Science", "tier": "tier-2"},
+        {"institution": "University of Washington", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Distinguished Engineer", "years": "2003-2019", "tier": "faang"},
+        {"company": "Rubrik", "role": "Co-founder & CTO", "years": "2014-2019", "tier": "prior-exit"}
+      ],
+      "achievements": ["Co-founded Rubrik ($4B+ valuation)", "Built Google's enterprise search", "16 years at Google"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 600,
+    "latest_valuation": 4.6,
+    "rounds": [
+      {"type": "Series E", "amount": 260, "date": "2024-08", "lead": "DST Global, Lightspeed"},
+      {"type": "Series D", "amount": 200, "date": "2023-12", "lead": "Lightspeed, GV"},
+      {"type": "Series C", "amount": 100, "date": "2022-08", "lead": "Lightspeed"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 100, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 500, "as_of": "2025-12"}
+  },
+  "products": ["Glean Search", "Glean Assistant", "Glean for Slack/Teams"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 95,
+    "revenue_score": 14,
+    "funding_score": 40,
+    "momentum_score": 80,
+    "composite_score": 58
+  },
+  "last_updated": "2026-01-29"
+}

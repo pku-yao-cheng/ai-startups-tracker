@@ -1,0 +1,104 @@
+{
+  "name": "Ricursive Intelligence",
+  "slug": "ricursive-intelligence",
+  "stage": "series-a",
+  "category": "ai-infrastructure",
+  "founded": 2025,
+  "hq": "San Francisco, CA",
+  "website": "https://ricursive.ai",
+  "description": "AI chip design startup using reinforcement learning to create recursive self-improving silicon. Founded by ex-Google AlphaChip researchers.",
+  "founders": [
+    {
+      "name": "Anna Goldie",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Research Scientist", "years": "2018-2025", "tier": "faang"}
+      ],
+      "achievements": ["AlphaChip creator - used in 4 generations of Google TPU"],
+      "founder_score": 95
+    },
+    {
+      "name": "Azalia Mirhoseini",
+      "role": "CTO",
+      "education": [
+        {"institution": "Rice", "degree": "PhD", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Research Scientist", "years": "2017-2025", "tier": "faang"}
+      ],
+      "achievements": ["AlphaChip co-creator", "Nature paper on RL for chip design"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 335,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series A", "amount": 300, "date": "2026-01", "lead": "Lightspeed Venture Partners"},
+      {"type": "Seed", "amount": 35, "date": "2025-11", "lead": "Sequoia"}
+    ],
+    "notes": "Raised $300M Series A just 2 months after launch"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Pre-revenue, focused on R&D"
+  },
+  "products": ["AI-powered chip design platform"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Recursive self-improvement cycle for silicon design"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": []
+  },
+  "investors": {
+    "lead_investors": ["Lightspeed Venture Partners", "Sequoia"],
+    "strategic_investors": ["NVIDIA (NVentures)"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 0,
+    "twitter_followers": 5000
+  },
+  "market_position": {
+    "category_rank": null,
+    "competitors": ["NVIDIA", "AMD", "Intel"],
+    "tam_estimate": "$100B",
+    "moats": ["AlphaChip technology", "Google TPU experience"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Ricursive Intelligence raises $300M Series A at $4B valuation", "url": "https://techcrunch.com/2026/01/26/ai-chip-startup-ricursive-hits-4b-valuation-two-months-after-launch/", "date": "2026-01-26", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 95,
+    "financial_health_score": 25,
+    "funding_score": 85,
+    "momentum_score": 90,
+    "product_score": 40,
+    "traction_score": 20,
+    "community_score": 30,
+    "market_position_score": 80,
+    "composite_score": 58
+  },
+  "score_notes": {
+    "founder": "AlphaChip creators from Google, PhD researchers with proven track record",
+    "financial": "Pre-revenue but well-funded with 4+ year runway",
+    "funding": "$4B valuation, tier-1 VCs + NVIDIA strategic",
+    "momentum": "Massive buzz, $300M raise 2 months after launch",
+    "product": "Not yet launched, in R&D phase",
+    "traction": "No customers yet",
+    "community": "Early stage, building awareness",
+    "market": "First-mover in AI-for-chip-design, huge TAM"
+  },
+  "last_updated": "2026-01-29"
+}

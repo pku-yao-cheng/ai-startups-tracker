@@ -1,0 +1,42 @@
+{
+  "name": "Reflection AI",
+  "slug": "reflection-ai",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://reflection.ai",
+  "description": "AI company building advanced reasoning models. Founded by former Inflection CEO.",
+  "founders": [
+    {
+      "name": "Sahil Lavingia",
+      "role": "Unknown",
+      "education": [],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 50
+    }
+  ],
+  "funding": {
+    "total_raised": 100,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series A", "amount": 100, "date": "2024-08", "lead": "Unknown"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 20, "as_of": "2025-12"}
+  },
+  "products": ["Reflection 70B"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 50,
+    "revenue_score": 0,
+    "funding_score": 15,
+    "momentum_score": 55,
+    "composite_score": 30
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Known for releasing Reflection 70B model. Faced controversy over benchmark claims."
+}

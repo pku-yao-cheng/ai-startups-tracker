@@ -1,0 +1,208 @@
+{
+  "discovery_date": "2026-01-29",
+  "sources": [
+    "TechCrunch",
+    "CNBC",
+    "Crunchbase News",
+    "36kr",
+    "Hacker News",
+    "Reddit r/LocalLLaMA",
+    "Reddit r/MachineLearning",
+    "Reddit r/singularity"
+  ],
+  "candidates": [
+    {
+      "company": "Physical Intelligence",
+      "slug": "physical-intelligence",
+      "discovery_priority": 85,
+      "signals": {
+        "funding": "+20 - $600M Series B",
+        "founder": "+20 - Ex-DeepMind/Berkeley faculty",
+        "product": "+10 - Robot foundation model launched",
+        "mentions": "+35 - Multiple source mentions"
+      },
+      "action": "auto-added",
+      "category": "ai-robotics"
+    },
+    {
+      "company": "Mercor",
+      "slug": "mercor",
+      "discovery_priority": 75,
+      "signals": {
+        "funding": "+20 - $350M Series C at $10B valuation",
+        "founder": "+10 - Harvard",
+        "product": "+10 - Shipped product",
+        "mentions": "+35 - CNBC coverage"
+      },
+      "action": "auto-added",
+      "category": "vertical-ai"
+    },
+    {
+      "company": "Harmattan AI",
+      "slug": "harmattan-ai",
+      "discovery_priority": 72,
+      "signals": {
+        "funding": "+20 - $200M Series B, unicorn",
+        "product": "+10 - Defense contracts",
+        "mentions": "+22 - TechCrunch coverage",
+        "regulatory": "+20 - European defense moat"
+      },
+      "action": "auto-added",
+      "category": "vertical-ai"
+    },
+    {
+      "company": "Decagon",
+      "slug": "decagon",
+      "discovery_priority": 71,
+      "signals": {
+        "funding": "+20 - $250M Series D at $4.5B",
+        "founder": "+10 - Stanford",
+        "product": "+10 - AI customer support shipped",
+        "mentions": "+31 - Multiple sources"
+      },
+      "action": "auto-added",
+      "category": "ai-agent"
+    },
+    {
+      "company": "Unconventional AI",
+      "slug": "unconventional-ai",
+      "discovery_priority": 68,
+      "signals": {
+        "funding": "+20 - $475M seed at $4.5B",
+        "founder": "+20 - Ex-Databricks AI head Naveen Rao",
+        "product": "+0 - Pre-product",
+        "mentions": "+28 - News coverage"
+      },
+      "action": "watchlist",
+      "category": "ai-infrastructure",
+      "notes": "Neuromorphic computing, founded 2 months ago. Watch for product launch."
+    },
+    {
+      "company": "Waabi",
+      "slug": "waabi",
+      "discovery_priority": 65,
+      "signals": {
+        "funding": "+20 - $1B raise",
+        "founder": "+20 - Ex-Uber ATG",
+        "product": "+10 - Robotaxis for Uber",
+        "mentions": "+15 - Crunchbase"
+      },
+      "action": "watchlist",
+      "category": "ai-robotics",
+      "notes": "AI-powered robotaxis, Uber partnership"
+    },
+    {
+      "company": "Genspark",
+      "slug": "genspark",
+      "discovery_priority": 60,
+      "signals": {
+        "funding": "+20 - $300M raise",
+        "product": "+10 - AI Workspace suite",
+        "mentions": "+30"
+      },
+      "action": "watchlist",
+      "category": "ai-application"
+    },
+    {
+      "company": "Cyera",
+      "slug": "cyera",
+      "discovery_priority": 58,
+      "signals": {
+        "funding": "+20 - $400M at $9B valuation",
+        "product": "+10 - Data security shipped",
+        "mentions": "+28 - Fortune 500 customers"
+      },
+      "action": "watchlist",
+      "category": "ai-infrastructure",
+      "notes": "Data security, not pure AI play but AI-powered"
+    },
+    {
+      "company": "Ricursive Technologies",
+      "slug": "ricursive",
+      "discovery_priority": 55,
+      "signals": {
+        "funding": "+20 - $300M Series A",
+        "founder": "+10 - Palo Alto based",
+        "mentions": "+25"
+      },
+      "action": "watchlist",
+      "category": "foundation-model",
+      "notes": "AI lab, Lightspeed led"
+    },
+    {
+      "company": "Aaru",
+      "slug": "aaru",
+      "discovery_priority": 52,
+      "signals": {
+        "funding": "+20 - $50M Series A at $1B",
+        "product": "+10 - Synthetic populations for research",
+        "mentions": "+22 - TechCrunch"
+      },
+      "action": "watchlist",
+      "category": "ai-application",
+      "notes": "AI agents for market research, rapid growth"
+    },
+    {
+      "company": "Deep Robotics",
+      "slug": "deep-robotics",
+      "discovery_priority": 50,
+      "signals": {
+        "funding": "+20 - $70M+ raise",
+        "product": "+10 - Embodied AI robots",
+        "mentions": "+20 - China IPO filing"
+      },
+      "action": "watchlist",
+      "category": "ai-robotics",
+      "notes": "China embodied intelligence company, IPO candidate"
+    },
+    {
+      "company": "Articul8",
+      "slug": "articul8",
+      "discovery_priority": 48,
+      "signals": {
+        "funding": "+20 - $70M at $500M valuation",
+        "founder": "+10 - Intel spinout",
+        "mentions": "+18 - TechCrunch"
+      },
+      "action": "watchlist",
+      "category": "ai-infrastructure",
+      "notes": "Intel spinout, enterprise AI"
+    },
+    {
+      "company": "Lyte",
+      "slug": "lyte",
+      "discovery_priority": 45,
+      "signals": {
+        "funding": "+20 - $107M disclosed",
+        "product": "+10 - Integrated perception for robotics",
+        "mentions": "+15"
+      },
+      "action": "watchlist",
+      "category": "ai-robotics",
+      "notes": "Stealth mode exit, robotics perception"
+    }
+  ],
+  "blocklist_skipped": [
+    "scale-ai",
+    "inflection",
+    "adept",
+    "character-ai"
+  ],
+  "community_signals": {
+    "hacker_news": [
+      {"title": "Cua-Bench - benchmark for AI agents in GUI environments", "company_hint": "trycua", "relevance": "tool"},
+      {"title": "LemonSlice - Upgrade voice agents to real-time video", "company_hint": "lemonslice", "relevance": "tool"},
+      {"title": "Sandbox Agent SDK - unified API for coding agents", "company_hint": "rivet", "relevance": "tool"}
+    ],
+    "reddit_locallama": [
+      {"title": "Kimi K2.5 - best open model for coding", "company_slug": "moonshot-ai", "sentiment": "very positive"},
+      {"title": "Prismer - open-source alternative to OpenAI Prism", "company_hint": "prismer", "relevance": "tool"},
+      {"title": "Reasoning Devstral 2 - hybrid reasoner", "company_slug": "mistral", "sentiment": "positive"}
+    ],
+    "36kr": [
+      {"title": "DeepSeek vs Kimi - Chinese AI battle", "companies": ["deepseek", "moonshot-ai"], "sentiment": "neutral"},
+      {"title": "Alibaba AI chip 真武810E deployed", "company": "alibaba", "relevance": "big-tech"},
+      {"title": "ByteDance Doubao phone", "company": "bytedance", "relevance": "big-tech"}
+    ]
+  }
+}

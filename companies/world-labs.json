@@ -1,0 +1,97 @@
+{
+  "name": "World Labs",
+  "slug": "world-labs",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://worldlabs.ai",
+  "description": "Spatial AI startup building Large World Models that understand physics and generate 3D worlds. Founded by AI pioneer Fei-Fei Li.",
+  "founders": [
+    {
+      "name": "Fei-Fei Li",
+      "role": "CEO",
+      "education": [
+        {"institution": "Caltech", "degree": "PhD", "field": "Electrical Engineering", "tier": "tier-1"},
+        {"institution": "Princeton", "degree": "BS", "field": "Physics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford", "role": "Professor of Computer Science", "years": "2009-present", "tier": "tier-1"},
+        {"company": "Google Cloud", "role": "Chief Scientist AI/ML", "years": "2017-2018", "tier": "faang"}
+      ],
+      "achievements": ["ImageNet creator", "'Godmother of AI'", "Stanford HAI Co-Director"],
+      "founder_score": 100
+    }
+  ],
+  "funding": {
+    "total_raised": 230,
+    "latest_valuation": 5,
+    "rounds": [
+      {"type": "Series A", "amount": 130, "date": "2025-08", "lead": "NEA, a16z"},
+      {"type": "Seed", "amount": 100, "date": "2024-08", "lead": "a16z"}
+    ],
+    "notes": "In talks to raise at $5B valuation in Jan 2026"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 60, "as_of": "2026-01"},
+    "runway_months": 36,
+    "notes": "Pre-revenue, product just launched"
+  },
+  "products": ["Marble (3D world generation)", "World API"],
+  "product": {
+    "launched": true,
+    "launch_date": "2025-12",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 18,
+    "infrastructure": "Large World Models (LWMs) for spatial intelligence"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "target_markets": ["Robotics", "Autonomous vehicles", "Gaming", "Creative tools"]
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "NEA", "Radical Ventures"],
+    "strategic_investors": ["NVIDIA (NVentures)", "AMD Ventures", "Adobe Ventures", "Databricks Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["AMI Labs", "Google DeepMind"],
+    "tam_estimate": "$50B",
+    "moats": ["Fei-Fei Li reputation", "First-mover in spatial AI", "Strong investor backing"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Fei-Fei Li's World Labs in talks to raise at $5B valuation", "url": "https://www.bloomberg.com/news/articles/2026-01-23/fei-fei-li-s-ai-startup-world-labs-in-funding-talks-at-5-billion-valuation", "date": "2026-01-23", "sentiment": "positive"},
+    {"title": "World Labs launches World API for Large World Models", "url": "https://worldlabs.ai/blog/world-api", "date": "2026-01-21", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 100,
+    "financial_health_score": 25,
+    "funding_score": 90,
+    "momentum_score": 90,
+    "product_score": 65,
+    "traction_score": 25,
+    "community_score": 50,
+    "market_position_score": 85,
+    "composite_score": 67
+  },
+  "score_notes": {
+    "founder": "ImageNet creator, 'Godmother of AI', Stanford professor - exceptional",
+    "financial": "Pre-revenue but well-funded",
+    "funding": "$5B valuation talks, tier-1 VCs + strategic investors",
+    "momentum": "High buzz, product launch, major funding talks",
+    "product": "Marble and World API just launched",
+    "traction": "Early stage, building customer base",
+    "community": "Growing presence",
+    "market": "Category leader in spatial AI / world models"
+  },
+  "last_updated": "2026-01-29"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Inflection AI",
+  "slug": "inflection",
+  "stage": "series-b",
+  "category": "foundation-model",
+  "founded": 2022,
+  "hq": "Palo Alto, CA",
+  "website": "https://inflection.ai",
+  "description": "Personal AI company that created Pi. Most of team acqui-hired by Microsoft in 2024.",
+  "founders": [
+    {
+      "name": "Mustafa Suleyman",
+      "role": "Former CEO (now at Microsoft)",
+      "education": [
+        {"institution": "Oxford", "degree": "BA", "field": "Philosophy & Theology", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "DeepMind", "role": "Co-founder", "years": "2010-2019", "tier": "faang"},
+        {"company": "Google", "role": "VP of AI Product", "years": "2019-2022", "tier": "faang"}
+      ],
+      "achievements": ["Co-founded DeepMind"],
+      "founder_score": 95
+    },
+    {
+      "name": "Reid Hoffman",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Symbolic Systems", "tier": "tier-1"},
+        {"institution": "Oxford", "degree": "MS", "field": "Philosophy", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "LinkedIn", "role": "Co-founder & Chairman", "years": "2003-2016", "tier": "prior-exit"},
+        {"company": "PayPal", "role": "COO", "years": "2000-2002", "tier": "prior-exit"}
+      ],
+      "achievements": ["Founded LinkedIn ($26B acquisition)", "PayPal mafia member"],
+      "founder_score": 98
+    },
+    {
+      "name": "Karén Simonyan",
+      "role": "Chief Scientist",
+      "education": [
+        {"institution": "Oxford", "degree": "PhD", "field": "Computer Vision", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "DeepMind", "role": "Research Director", "years": "2015-2022", "tier": "faang"}
+      ],
+      "achievements": ["Created VGG neural network", "Highly cited researcher"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 1500,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series B", "amount": 1300, "date": "2023-06", "lead": "Microsoft, Reid Hoffman, Bill Gates"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 10, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 50, "as_of": "2025-12"}
+  },
+  "products": ["Pi", "Inflection 2.5"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 95,
+    "revenue_score": 1,
+    "funding_score": 45,
+    "momentum_score": 40,
+    "composite_score": 47
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Most of team and IP transferred to Microsoft in March 2024. Company continues with skeleton crew.",
+  "_archive_metadata": {
+    "removed_date": "2026-01-29",
+    "reason": "Acqui-hired by Microsoft - CEO Mustafa Suleyman and most team now at Microsoft AI",
+    "final_composite_score": 47,
+    "red_flag_score": 50
+  }
+}

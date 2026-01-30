@@ -1,0 +1,69 @@
+{
+  "name": "OpenAI",
+  "slug": "openai",
+  "stage": "pre-ipo",
+  "category": "foundation-model",
+  "founded": 2015,
+  "hq": "San Francisco, CA",
+  "website": "https://openai.com",
+  "description": "AI research company developing general-purpose AI systems. Creator of GPT-4, ChatGPT, DALL-E, and Sora.",
+  "founders": [
+    {
+      "name": "Sam Altman",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "Dropout", "field": "CS", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Y Combinator", "role": "President", "years": "2014-2019", "tier": "tier-1"},
+        {"company": "Loopt", "role": "Co-founder & CEO", "years": "2005-2012", "tier": "prior-exit"}
+      ],
+      "achievements": ["YC President", "Founded Loopt (acquired)"],
+      "founder_score": 95
+    },
+    {
+      "name": "Greg Brockman",
+      "role": "President",
+      "education": [
+        {"institution": "Harvard", "degree": "Dropout", "field": "CS", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stripe", "role": "CTO", "years": "2010-2015", "tier": "tier-1"}
+      ],
+      "achievements": ["Stripe CTO", "Built Stripe's technical foundation"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 57900,
+    "latest_valuation": 500,
+    "rounds": [
+      {"type": "Funding Round", "amount": 40000, "date": "2025-03", "lead": "SoftBank"},
+      {"type": "Funding Round", "amount": 6600, "date": "2024-10", "lead": "Thrive Capital"},
+      {"type": "Funding Round", "amount": 10000, "date": "2023-04", "lead": "Microsoft"}
+    ],
+    "notes": "Discussing raise of $100B at $750-830B valuation for Q1 2026. IPO expected late 2026 at $1T valuation."
+  },
+  "financials": {
+    "arr": {"value": 20000, "confidence": "confirmed", "as_of": "2025-12"},
+    "api_arr": {"value": 1000, "confidence": "confirmed", "as_of": "2026-01", "notes": "API business alone hit $1B ARR in January 2026"},
+    "employees": {"value": 3000, "as_of": "2025-12"},
+    "projected_revenue_2026": 45000,
+    "burn_rate_2026": 17000
+  },
+  "products": ["ChatGPT", "GPT-4o", "GPT-o1", "GPT-o3", "DALL-E 3", "Sora", "OpenAI API"],
+  "recent_news": [
+    {"title": "OpenAI's ARR reached over $20 billion in 2025", "url": "https://sherwood.news/business/openais-arr-reached-over-usd20-billion-in-2025-cfo-says/", "date": "2026-01-22", "sentiment": "positive"},
+    {"title": "OpenAI's API hits $1B monthly ARR milestone", "url": "https://www.webpronews.com/openais-api-surge-1-billion-monthly-revenue-milestone-reshapes-ai-economics/", "date": "2026-01-22", "sentiment": "positive"},
+    {"title": "OpenAI reportedly trying to raise $100B at $830B valuation", "url": "https://techcrunch.com/2025/12/19/openai-is-reportedly-trying-to-raise-100b-at-an-830b-valuation/", "date": "2025-12-19", "sentiment": "positive"},
+    {"title": "OpenAI is 2025 Yahoo Finance Company of the Year", "url": "https://finance.yahoo.com/news/openai-is-the-2025-yahoo-finance-company-of-the-year-120054312.html", "date": "2025-12", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 95,
+    "revenue_score": 100,
+    "funding_score": 100,
+    "momentum_score": 100,
+    "composite_score": 99
+  },
+  "last_updated": "2026-01-29"
+}

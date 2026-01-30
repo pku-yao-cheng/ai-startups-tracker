@@ -1,0 +1,73 @@
+{
+  "name": "Anthropic",
+  "slug": "anthropic",
+  "stage": "series-f",
+  "category": "foundation-model",
+  "founded": 2021,
+  "hq": "San Francisco, CA",
+  "website": "https://anthropic.com",
+  "description": "AI safety company building reliable, interpretable, and steerable AI systems. Creator of Claude.",
+  "founders": [
+    {
+      "name": "Dario Amodei",
+      "role": "CEO",
+      "education": [
+        {"institution": "Princeton", "degree": "PhD", "field": "Computational Neuroscience", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "VP of Research", "years": "2016-2021", "tier": "faang"}
+      ],
+      "achievements": ["Led GPT-2/GPT-3 development at OpenAI", "Pioneer in AI safety research"],
+      "founder_score": 98
+    },
+    {
+      "name": "Daniela Amodei",
+      "role": "President",
+      "education": [
+        {"institution": "Yale", "degree": "BA", "field": "English", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "VP of Operations", "years": "2018-2021", "tier": "faang"},
+        {"company": "Stripe", "role": "VP of People", "years": "2014-2018", "tier": "tier-1"}
+      ],
+      "achievements": ["Scaled OpenAI operations", "Built Stripe's people team"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 27300,
+    "latest_valuation": 350,
+    "rounds": [
+      {"type": "Series F", "amount": 20000, "date": "2026-01", "lead": "GIC", "notes": "Upped from initial $10B target"},
+      {"type": "Series F", "amount": 13000, "date": "2025-09", "lead": "Various"},
+      {"type": "Series E", "amount": 2000, "date": "2024-08", "lead": "Lightspeed"},
+      {"type": "Series D", "amount": 4000, "date": "2024-03", "lead": "Amazon"},
+      {"type": "Series C", "amount": 2000, "date": "2023-09", "lead": "Google"}
+    ],
+    "notes": "Microsoft committed $10B, Nvidia $5B. Coatue, GIC, Iconiq participating with $1B+ checks."
+  },
+  "financials": {
+    "arr": {"value": 9000, "confidence": "confirmed", "as_of": "2025-12", "notes": "Run rate doubled from $4B in July 2025"},
+    "claude_code_arr": {"value": 1000, "confidence": "estimated", "as_of": "2026-01", "notes": "Up from $400M in July"},
+    "employees": {"value": 1200, "as_of": "2025-12"},
+    "projected_arr_2026": 18000,
+    "projected_arr_2027": 55000,
+    "gross_margin_2026": 50,
+    "cash_flow_positive": "2028"
+  },
+  "products": ["Claude 4", "Claude API", "Claude Code", "Claude for Enterprise"],
+  "recent_news": [
+    {"title": "Anthropic upped its latest raise to $20B", "url": "https://techcrunch.com/2026/01/27/anthropic-reportedly-upped-its-latest-raise-to-20b/", "date": "2026-01-27", "sentiment": "positive"},
+    {"title": "Anthropic's revenue run rate tops $9 billion", "url": "https://www.bloomberg.com/news/articles/2026-01-21/anthropic-s-revenue-run-rate-tops-9-billion-as-vcs-pile-in", "date": "2026-01-21", "sentiment": "positive"},
+    {"title": "Anthropic hikes 2026 revenue forecast 20%", "url": "https://www.theinformation.com/articles/anthropic-hikes-2026-revenue-forecast-20-delays-will-go-cash-flow-positive", "date": "2026-01", "sentiment": "positive"},
+    {"title": "Anthropic projects $70B revenue by 2028", "url": "https://techcrunch.com/2025/11/04/anthropic-expects-b2b-demand-to-boost-revenue-to-70b-in-2028-report/", "date": "2025-11-04", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 98,
+    "revenue_score": 100,
+    "funding_score": 100,
+    "momentum_score": 100,
+    "composite_score": 99
+  },
+  "last_updated": "2026-01-29"
+}

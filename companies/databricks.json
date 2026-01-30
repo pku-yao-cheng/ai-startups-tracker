@@ -1,0 +1,80 @@
+{
+  "name": "Databricks",
+  "slug": "databricks",
+  "stage": "series-l",
+  "category": "ai-infrastructure",
+  "founded": 2013,
+  "hq": "San Francisco, CA",
+  "website": "https://databricks.com",
+  "description": "Unified data analytics platform. Created Apache Spark. Now building Lakehouse architecture and AI/ML platform.",
+  "founders": [
+    {
+      "name": "Ali Ghodsi",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "KTH Royal Institute", "degree": "PhD", "field": "Distributed Systems", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "UC Berkeley", "role": "Adjunct Professor", "years": "2008-present", "tier": "tier-2"}
+      ],
+      "achievements": ["Co-created Apache Spark", "Building toward $1T company"],
+      "founder_score": 92
+    },
+    {
+      "name": "Matei Zaharia",
+      "role": "Co-founder & Chief Technologist",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford", "role": "Assistant Professor", "years": "2015-present", "tier": "tier-1"}
+      ],
+      "achievements": ["Invented Apache Spark", "ACM Doctoral Dissertation Award", "Pioneer in distributed computing"],
+      "founder_score": 98
+    },
+    {
+      "name": "Ion Stoica",
+      "role": "Co-founder & Chairman",
+      "education": [
+        {"institution": "Carnegie Mellon", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "UC Berkeley", "role": "Professor", "years": "2000-present", "tier": "tier-1"},
+        {"company": "Anyscale", "role": "Co-founder", "years": "2019-present", "tier": "tier-1"}
+      ],
+      "achievements": ["Co-created Apache Spark, Mesos, Ray", "ACM Fellow", "Multiple startup founder"],
+      "founder_score": 100
+    }
+  ],
+  "funding": {
+    "total_raised": 8100,
+    "latest_valuation": 134,
+    "rounds": [
+      {"type": "Series L", "amount": 4000, "date": "2025-12", "lead": "Insight Partners, Fidelity, J.P. Morgan"},
+      {"type": "Debt", "amount": 1800, "date": "2026-01", "notes": "Revolving credit + term loan, up to $7.05B access"},
+      {"type": "Series I", "amount": 500, "date": "2024-09", "lead": "Thrive Capital"},
+      {"type": "Series H", "amount": 1000, "date": "2021-08", "lead": "Morgan Stanley, Baillie Gifford"}
+    ],
+    "notes": "IPO expected early 2026. CEO targeting $1T valuation."
+  },
+  "financials": {
+    "arr": {"value": 4800, "confidence": "confirmed", "as_of": "2025-Q3", "notes": "55% YoY growth, accelerating"},
+    "employees": {"value": 8000, "as_of": "2025-12"},
+    "growth_rate": 55
+  },
+  "products": ["Databricks Lakehouse", "Unity Catalog", "Mosaic ML", "Delta Lake", "MLflow", "AI Agents"],
+  "recent_news": [
+    {"title": "Databricks raising $4B Series L at $134B valuation", "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-surpasses-4-8b-revenue-run-rate-growing-55-year-over-year", "date": "2025-12", "sentiment": "positive"},
+    {"title": "Databricks raises $1.8B debt financing", "url": "https://siliconangle.com/2026/01/23/databricks-reportedly-raises-1-8b-debt-financing/", "date": "2026-01-23", "sentiment": "positive"},
+    {"title": "Databricks CEO says company will be worth $1 trillion", "url": "https://fortune.com/2025/12/09/databticks-ceo-1-trillion-valuation-agents-brainstorm-ai/", "date": "2025-12-09", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 98,
+    "revenue_score": 100,
+    "funding_score": 100,
+    "momentum_score": 95,
+    "composite_score": 98
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Acquired Mosaic ML in 2023 for $1.3B. IPO expected early 2026."
+}

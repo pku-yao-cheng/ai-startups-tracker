@@ -1,0 +1,90 @@
+{
+  "name": "Harmattan AI",
+  "slug": "harmattan-ai",
+  "stage": "series-b",
+  "category": "vertical-ai",
+  "founded": 2022,
+  "hq": "Paris, France",
+  "website": "https://harmattan.ai",
+  "description": "European defense AI company building autonomy and mission-system software for defense aircraft. Described as a 'European Anduril'.",
+  "founders": [
+    {
+      "name": "Unknown",
+      "role": "Co-founder & CEO",
+      "education": [],
+      "experience": [],
+      "achievements": ["Built European defense AI unicorn"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 300,
+    "latest_valuation": 1.4,
+    "rounds": [
+      {"type": "Series B", "amount": 200, "date": "2026-01", "lead": "Dassault Aviation"}
+    ],
+    "notes": "Became a defense AI unicorn with Series B. Strategic lead from Dassault Aviation."
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 100, "as_of": "2026-01"}
+  },
+  "products": ["Defense Autonomy Software", "Mission Systems"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-01",
+    "benchmarks": [],
+    "github": {
+      "repo": null,
+      "stars": 0,
+      "as_of": "2026-01"
+    },
+    "api_available": false,
+    "time_to_ship_months": 12
+  },
+  "traction": {
+    "enterprise_customers": ["Dassault Aviation"],
+    "user_count": {"value": 0, "type": "N/A", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "Dassault Aviation", "type": "strategic", "date": "2026-01", "details": "Led Series B, strategic defense partnership"}
+    ],
+    "revenue_growth_yoy": 100
+  },
+  "investors": {
+    "lead_investors": ["Dassault Aviation"],
+    "strategic_investors": ["Dassault Aviation"],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "discord_members": 0,
+    "github_stars": 0,
+    "twitter_followers": 5000,
+    "hn_mentions": 5,
+    "reddit_sentiment": "neutral"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "european-defense-ai",
+    "competitors": ["Anduril", "Palantir"],
+    "tam_estimate": "$20B",
+    "moats": ["regulatory", "government-contracts"],
+    "first_mover": true,
+    "regulatory_advantage": true
+  },
+  "recent_news": [
+    {"title": "Harmattan AI raises $200M Series B led by Dassault Aviation, becomes defense unicorn", "url": "https://techcrunch.com/2026/01/12/harmattan-ai-raises-200m-series-b-led-by-dassault-aviation-becomes-defense-unicorn/", "date": "2026-01-12", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 70,
+    "financial_health_score": 50,
+    "funding_score": 60,
+    "momentum_score": 70,
+    "product_score": 65,
+    "traction_score": 55,
+    "community_score": 20,
+    "market_position_score": 80,
+    "composite_score": 59
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

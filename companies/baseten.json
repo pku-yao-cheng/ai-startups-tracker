@@ -1,0 +1,68 @@
+{
+  "name": "Baseten",
+  "slug": "baseten",
+  "stage": "series-c",
+  "category": "ai-infrastructure",
+  "founded": 2019,
+  "hq": "San Francisco, CA",
+  "website": "https://baseten.co",
+  "description": "AI inference startup enabling deployment and scaling of ML models. Doubled valuation in 6 months.",
+  "founders": [
+    {
+      "name": "Tuhin Srivastava",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Princeton", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Gumroad", "role": "Engineering Lead", "years": "2015-2019", "tier": "tier-2"}
+      ],
+      "achievements": ["Built ML infrastructure at scale"],
+      "founder_score": 75
+    },
+    {
+      "name": "Amir Haghighat",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "MIT", "degree": "PhD", "field": "Mechanical Engineering", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 78
+    },
+    {
+      "name": "Philip Kiely",
+      "role": "Co-founder",
+      "education": [],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 500,
+    "latest_valuation": 5,
+    "rounds": [
+      {"type": "Series C", "amount": 300, "date": "2026-01", "lead": "Various"},
+      {"type": "Series B", "amount": 150, "date": "2025-09", "lead": "Various", "notes": "Valued at $2.15B"}
+    ],
+    "notes": "Doubled valuation in 6 months"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 80, "as_of": "2025-12"}
+  },
+  "products": ["Baseten Platform", "Truss (open-source)", "Model serving infrastructure"],
+  "recent_news": [
+    {"title": "Baseten raises $300M at $5B valuation", "url": "https://www.bloomberg.com/news/articles/2026-01-20/ai-inference-startup-baseten-raises-300-million-at-5-billion-valuation", "date": "2026-01-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 74,
+    "revenue_score": 4,
+    "funding_score": 50,
+    "momentum_score": 80,
+    "composite_score": 52
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

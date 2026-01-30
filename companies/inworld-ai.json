@@ -1,0 +1,137 @@
+{
+  "name": "Inworld AI",
+  "slug": "inworld-ai",
+  "stage": "series-a",
+  "category": "ai-application",
+  "founded": 2021,
+  "hq": "Mountain View, CA",
+  "website": "https://inworld.ai",
+  "description": "AI-powered Character Engine for creating intelligent NPCs in games, entertainment, and virtual worlds. Enables lifelike, real-time conversational characters with reasoning and cognition.",
+  "founders": [
+    {
+      "name": "Ilya Gelfenbeyn",
+      "role": "Executive Chairman (formerly CEO)",
+      "linkedin": "https://linkedin.com/in/gelfenbeyn",
+      "education": [
+        {"institution": "Stanford University", "degree": "Certificate", "field": "GSB LEAD Executive Program", "tier": "tier-1"},
+        {"institution": "Novosibirsk State University", "degree": "BS", "field": "Mathematics", "tier": "tier-2"},
+        {"institution": "University of Brighton", "degree": "MBA", "field": "General Management", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Founding Head, Google Assistant Investments", "years": "2017-2021", "tier": "faang"},
+        {"company": "Google", "role": "Product Lead (post-acquisition)", "years": "2016-2017", "tier": "faang"},
+        {"company": "API.AI (Dialogflow)", "role": "CEO & Co-founder", "years": "2010-2016", "tier": "founder-exit"}
+      ],
+      "achievements": ["Founded API.AI (acquired by Google 2016)", "Built Speaktoit/Assistant.ai (40M+ users)", "Created Dialogflow"],
+      "founder_score": 88
+    },
+    {
+      "name": "Kylan Gibbs",
+      "role": "CEO & Co-founder",
+      "linkedin": "https://linkedin.com/in/kylangibbs",
+      "education": [
+        {"institution": "University of Cambridge", "degree": "Master's", "field": "Unknown", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google DeepMind", "role": "Lead, Generative Models", "years": "2018-2021", "tier": "faang"},
+        {"company": "Bain & Company", "role": "Established ML Practice", "years": "2015-2018", "tier": "tier-1"}
+      ],
+      "achievements": ["Led generative model development at DeepMind", "Built ML consulting practice at Bain"],
+      "founder_score": 82
+    },
+    {
+      "name": "Michael Ermolenko",
+      "role": "CTO & Co-founder",
+      "experience": [
+        {"company": "API.AI (Dialogflow)", "role": "Co-founder", "years": "2010-2016", "tier": "founder-exit"}
+      ],
+      "achievements": ["Co-founded API.AI (acquired by Google)"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 120,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series A Extension", "amount": 50, "date": "2023-08", "lead": "Lightspeed Venture Partners"},
+      {"type": "Series A", "amount": 50, "date": "2022-08", "lead": "Intel Capital, Section 32"},
+      {"type": "Seed", "amount": 20, "date": "2021-11", "lead": "Founders Fund, CRV"}
+    ],
+    "notes": "No announced funding rounds since Aug 2023"
+  },
+  "financials": {
+    "arr": {"value": 15, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 108, "as_of": "2026-01"},
+    "runway_months": 36,
+    "notes": "Revenue estimates range $11M-$35M from third-party sources"
+  },
+  "products": ["Inworld Character Engine", "Inworld Runtime", "Narrative Graph (Xbox co-dev)", "Project Explora"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-04",
+    "benchmarks": [],
+    "github": {"repo": null, "stars": 0, "as_of": "2026-01"},
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Real-time AI character engine with reasoning, cognition, and multimodal perception"
+  },
+  "traction": {
+    "enterprise_customers": ["Xbox/Microsoft", "NVIDIA", "Ubisoft", "NetEase Games", "Niantic", "Logitech/Streamlabs"],
+    "user_count": {"value": null, "type": "B2B", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "Xbox/Microsoft", "type": "strategic", "date": "2023-11", "details": "Multi-year partnership for AI game tools (Project Explora)"},
+      {"partner": "NVIDIA", "type": "strategic", "date": "2024-03", "details": "ACE technology integration, CES 2025 collab with Streamlabs"},
+      {"partner": "Disney", "type": "accelerator", "date": "2022", "details": "2022 Disney Accelerator participant"},
+      {"partner": "Ubisoft", "type": "customer", "date": "2023", "details": "AI NPC development"},
+      {"partner": "Logitech/Streamlabs", "type": "product", "date": "2025-01", "details": "Intelligent Streaming Assistant"}
+    ],
+    "revenue_growth_yoy": 50
+  },
+  "investors": {
+    "lead_investors": ["Lightspeed Venture Partners", "Intel Capital", "Section 32", "Founders Fund", "CRV"],
+    "strategic_investors": ["M12 (Microsoft)", "Meta", "Intel Capital", "LG Technology Ventures", "Samsung Next", "Stanford University"],
+    "other_investors": ["Kleiner Perkins", "Bitkraft", "First Spark Ventures (Eric Schmidt)"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 50000,
+    "github_stars": 0,
+    "twitter_followers": 25000,
+    "hn_mentions": 15,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Convai", "Charisma.ai", "Replica Studios", "Unity Muse"],
+    "tam_estimate": "$15B",
+    "moats": ["Xbox/Microsoft multi-year partnership", "Disney Accelerator alumni", "Founder with prior Google exit", "First-mover in AI NPCs"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Inworld AI collaborates with Logitech Streamlabs and NVIDIA for Intelligent Streaming Assistant", "url": "https://www.businesswire.com/news/home/20250106653761/en/Inworld-AI-Collaborates-with-Logitech-Gs-Streamlabs-and-NVIDIA-to-Power-the-Brains-Behind-Intelligent-Streaming-Assistant", "date": "2025-01-06", "sentiment": "positive"},
+    {"title": "GDC 2025: Beyond prototypes to production AI", "url": "https://inworld.ai/blog/gdc-2025", "date": "2025-03", "sentiment": "positive"},
+    {"title": "Inworld AI raises $50M at $500M valuation", "url": "https://venturebeat.com/games/inworld-ai-raises-new-round-at-500m-valuation-for-ai-game-characters/", "date": "2023-08-02", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "financial_health_score": 40,
+    "funding_score": 45,
+    "momentum_score": 55,
+    "product_score": 70,
+    "traction_score": 65,
+    "community_score": 45,
+    "market_position_score": 70,
+    "composite_score": 59
+  },
+  "score_notes": {
+    "founder": "Ilya Gelfenbeyn: prior exit (API.AI to Google), FAANG exp. Kylan Gibbs: DeepMind lead. Strong founding team.",
+    "financial": "~$15M ARR estimated, 108 employees, solid runway but smaller scale",
+    "funding": "$500M valuation, $120M raised - good but not mega-round territory",
+    "momentum": "Active partnerships (CES 2025, GDC 2025) but no new funding since 2023",
+    "product": "Shipped product, API available, Xbox co-development, real-time AI NPCs",
+    "traction": "Xbox, NVIDIA, Ubisoft, Disney relationships - strong enterprise partnerships",
+    "community": "Growing Discord, B2B focused, limited consumer visibility",
+    "market": "Category leader in AI NPCs, first-mover, but narrow TAM compared to foundation models"
+  },
+  "last_updated": "2026-01-29"
+}

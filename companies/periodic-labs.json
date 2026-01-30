@@ -1,0 +1,108 @@
+{
+  "name": "Periodic Labs",
+  "slug": "periodic-labs",
+  "stage": "seed",
+  "category": "vertical-ai",
+  "founded": 2025,
+  "hq": "San Francisco, CA",
+  "website": "https://periodic.ai",
+  "description": "Building 'AI scientists' and automated laboratories for materials science discovery. First goal: invent new superconductors. Founded by the creator of ChatGPT.",
+  "founders": [
+    {
+      "name": "Liam Fedus",
+      "role": "CEO & Co-founder",
+      "education": [
+        {"institution": "Princeton University", "degree": "PhD", "field": "Machine Learning", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "VP of Research, Post-Training", "years": "2019-2025", "tier": "tier-1"},
+        {"company": "OpenAI", "role": "Core ChatGPT Team", "years": "2022-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Created ChatGPT", "Led OpenAI post-training team", "Key contributor to GPT-4 reasoning"],
+      "founder_score": 98
+    },
+    {
+      "name": "Ekin Dogus Cubuk",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Harvard University", "degree": "PhD", "field": "Physics", "tier": "tier-1"},
+        {"institution": "Stanford University", "degree": "Postdoc", "field": "Materials Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google DeepMind", "role": "Lead, Materials Science & Chemistry Research", "years": "2018-2025", "tier": "faang"}
+      ],
+      "achievements": ["Co-created GNoME (discovered 2.2M new crystals)", "Led DeepMind materials science"],
+      "founder_score": 92
+    }
+  ],
+  "funding": {
+    "total_raised": 300,
+    "latest_valuation": 1.5,
+    "rounds": [
+      {"type": "Seed", "amount": 300, "date": "2025-10", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "One of the largest seed rounds ever. OpenAI is NOT an investor."
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 30, "as_of": "2026-01"},
+    "runway_months": 60,
+    "notes": "Pre-revenue, R&D focused on materials discovery"
+  },
+  "products": ["AI Scientist Platform (in development)", "Automated Laboratory"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "AI systems that generate and test hypotheses in the physical world"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "target_markets": ["Materials science", "Superconductors", "Drug discovery", "Chemistry"]
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz"],
+    "strategic_investors": ["NVentures (NVIDIA)"],
+    "other_investors": ["Felicis", "DST Global", "Accel", "General Catalyst"],
+    "angel_investors": ["Jeff Bezos", "Elad Gil", "Eric Schmidt", "Jeff Dean"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 10000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Lila Sciences", "Recursion", "Insilico Medicine"],
+    "tam_estimate": "$100B",
+    "moats": ["ChatGPT creator as founder", "GNoME creator as co-founder", "Massive seed funding", "Elite research team"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Top OpenAI, Google Brain researchers set off a $300M VC frenzy for their startup Periodic Labs", "url": "https://techcrunch.com/2025/10/20/top-openai-google-brain-researchers-set-off-a-300m-vc-frenzy-for-their-startup-periodic-labs/", "date": "2025-10-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 98,
+    "financial_health_score": 25,
+    "funding_score": 75,
+    "momentum_score": 85,
+    "product_score": 30,
+    "traction_score": 20,
+    "community_score": 30,
+    "market_position_score": 85,
+    "composite_score": 58
+  },
+  "score_notes": {
+    "founder": "EXCEPTIONAL: Liam Fedus created ChatGPT. Ekin Cubuk created GNoME. One of the strongest founder pairs in AI history.",
+    "financial": "Pre-revenue but massive runway",
+    "funding": "$300M seed is historic, a16z led, Bezos + Schmidt angels",
+    "momentum": "Massive buzz, record seed round",
+    "product": "Not yet launched",
+    "traction": "No customers yet, R&D phase",
+    "community": "Building awareness",
+    "market": "Category creator in AI-driven scientific discovery"
+  },
+  "last_updated": "2026-01-30"
+}

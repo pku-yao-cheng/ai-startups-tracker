@@ -1,0 +1,99 @@
+{
+  "name": "xAI",
+  "slug": "xai",
+  "stage": "series-e",
+  "category": "foundation-model",
+  "founded": 2023,
+  "hq": "Austin, TX",
+  "website": "https://x.ai",
+  "description": "AI company founded by Elon Musk building Grok, focused on understanding the universe. Acquired X (Twitter) in March 2026.",
+  "founders": [
+    {
+      "name": "Elon Musk",
+      "role": "CEO",
+      "education": [
+        {"institution": "UPenn", "degree": "BS", "field": "Physics & Economics", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Tesla", "role": "CEO", "years": "2008-present", "tier": "faang"},
+        {"company": "SpaceX", "role": "CEO", "years": "2002-present", "tier": "prior-exit"},
+        {"company": "PayPal", "role": "Co-founder", "years": "1999-2002", "tier": "prior-exit"}
+      ],
+      "achievements": ["Founded Tesla, SpaceX, PayPal", "Richest person in the world", "Built world's largest AI supercomputer (Colossus)"],
+      "founder_score": 100
+    }
+  ],
+  "funding": {
+    "total_raised": 32000,
+    "latest_valuation": 230,
+    "rounds": [
+      {"type": "Series E", "amount": 20000, "date": "2026-01", "lead": "Valor Equity Partners, Fidelity, Qatar Investment Authority", "notes": "Exceeded $15B target"},
+      {"type": "Series B", "amount": 6000, "date": "2024-05", "lead": "A16z, Sequoia"}
+    ],
+    "notes": "Strategic investors include NVIDIA and Cisco. Doubled valuation YoY."
+  },
+  "financials": {
+    "arr": {"value": 500, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 500, "as_of": "2025-12"},
+    "mau": 600000000,
+    "runway_months": 36,
+    "notes": "600M MAU across X and Grok apps. High burn rate offset by massive funding."
+  },
+  "products": ["Grok 4", "Grok 5 (in training)", "Grok Imagine", "Colossus (GPU cluster)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-11",
+    "benchmarks": [{"name": "Chatbot Arena", "rank": 5, "date": "2026-01"}],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Colossus - 100,000+ NVIDIA H100 GPUs"
+  },
+  "traction": {
+    "enterprise_customers": ["US DoD"],
+    "user_count": {"value": 600000000, "type": "MAU", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "strategic", "date": "2026-01", "details": "GPU supply + investment"},
+      {"partner": "X Corp", "type": "acquisition", "date": "2026-03", "details": "$45B acquisition"}
+    ],
+    "government_contracts": ["DoD contract for Grok"]
+  },
+  "investors": {
+    "lead_investors": ["A16z", "Sequoia", "Valor Equity Partners", "Fidelity"],
+    "strategic_investors": ["NVIDIA", "Cisco", "Qatar Investment Authority"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 1500000,
+    "x_integration": true,
+    "developer_api": true
+  },
+  "recent_news": [
+    {"title": "xAI raises $20B Series E at $230B valuation", "url": "https://x.ai/news/series-e", "date": "2026-01-06", "sentiment": "positive"},
+    {"title": "xAI funding from NVIDIA, Cisco, Fidelity", "url": "https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html", "date": "2026-01-06", "sentiment": "positive"},
+    {"title": "xAI acquired X for $45B", "url": "https://deadline.com/2026/01/xai-funding-raise-grok-ai-deepfake-backlash-1236666307/", "date": "2026-03", "sentiment": "neutral"},
+    {"title": "xAI lands DoD contract for Grok", "url": "https://invezz.com/news/2026/01/07/elon-musks-xai-secures-20b-in-funding-amid-intensifying-scrutiny/", "date": "2026-01", "sentiment": "positive"},
+    {"title": "Grok deepfake controversy and EU investigation", "url": "https://aibusiness.com/data-centers/xai-new-funding-round-despite-grok-controversy", "date": "2026-01", "sentiment": "negative"}
+  ],
+  "scores": {
+    "founder_score": 100,
+    "financial_health_score": 40,
+    "funding_score": 100,
+    "momentum_score": 95,
+    "product_score": 85,
+    "traction_score": 90,
+    "community_score": 55,
+    "market_position_score": 90,
+    "composite_score": 84
+  },
+  "score_notes": {
+    "founder": "Elon Musk - multiple successful exits (PayPal, Tesla, SpaceX), world's richest person",
+    "financial": "Low ARR confidence ($500M estimated) but massive runway with $20B raise",
+    "funding": "Top-tier: $230B valuation, $32B total raised, NVIDIA + tier-1 VCs",
+    "momentum": "Constant news coverage, $20B raise, DoD contract (some negative: deepfake controversy)",
+    "product": "Grok 4 shipped, Colossus infrastructure (100k H100s), fast time to ship",
+    "traction": "600M MAU via X integration, DoD contract, NVIDIA strategic partnership",
+    "community": "Strong X presence but lower GitHub/developer ecosystem vs OpenAI",
+    "market": "Top-5 foundation model player, massive distribution through X, huge TAM"
+  },
+  "last_updated": "2026-01-29"
+}

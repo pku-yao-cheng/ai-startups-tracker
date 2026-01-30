@@ -1,0 +1,211 @@
+{
+  "last_discovery": "2026-01-29T08:45:00Z",
+  "candidates": [
+    {
+      "name": "Humans&",
+      "slug": "humans-and",
+      "category": "foundation-model",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": false,
+        "mention_count": 2
+      },
+      "discovery_priority": 90,
+      "funding": {"amount": 480, "valuation": 4480, "round": "seed", "date": "2026-01"},
+      "founders": ["Georges Harik (Google #7, Gmail, Android)", "Eric Zelikman (ex-xAI, Grok-2)"],
+      "description": "Human-centric AI startup founded by ex-OpenAI, Anthropic, Google DeepMind, Meta researchers",
+      "source_urls": ["https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Ricursive Intelligence",
+      "slug": "ricursive",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": false,
+        "mention_count": 2
+      },
+      "discovery_priority": 85,
+      "funding": {"amount": 300, "valuation": 4000, "round": "series-a", "date": "2026-01"},
+      "founders": ["DeepMind alumni"],
+      "description": "AI chip startup from DeepMind alumni, platform tightly coupling AI algorithms with semiconductor design",
+      "source_urls": ["https://techcrunch.com/2026/01/26/ai-chip-startup-ricursive-hits-4b-valuation-two-months-after-launch/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Unconventional AI",
+      "slug": "unconventional-ai",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": false,
+        "product_launch": false,
+        "mention_count": 1
+      },
+      "discovery_priority": 75,
+      "funding": {"amount": 475, "valuation": 4500, "round": "seed", "date": "2026-01"},
+      "founders": [],
+      "description": "Brain-inspired neuromorphic AI compute startup",
+      "source_urls": ["https://www.datacenterdynamics.com/en/news/neuromorphic-compute-startup-unconventional-ai-raises-475m-in-seed-funding/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Skild AI",
+      "slug": "skild-ai",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 3
+      },
+      "discovery_priority": 95,
+      "funding": {"amount": 1400, "valuation": 14000, "round": "series-c", "date": "2026-01"},
+      "founders": ["Deepak Pathak (CMU)", "Abhinav Gupta (CMU)"],
+      "description": "Robotics AI building 'omni-bodied' brain to operate any robot. Backed by SoftBank, Nvidia, Bezos.",
+      "source_urls": ["https://news.crunchbase.com/venture/robotics-startup-skild-ai-triples-valuation/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Baseten",
+      "slug": "baseten",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": false,
+        "product_launch": true,
+        "mention_count": 2
+      },
+      "discovery_priority": 80,
+      "funding": {"amount": 300, "valuation": 5000, "round": "series-c", "date": "2026-01"},
+      "founders": [],
+      "description": "AI inference startup, doubled valuation in 6 months",
+      "source_urls": ["https://www.bloomberg.com/news/articles/2026-01-20/ai-inference-startup-baseten-raises-300-million-at-5-billion-valuation"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Etched",
+      "slug": "etched",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 2
+      },
+      "discovery_priority": 85,
+      "funding": {"amount": 500, "valuation": 3000, "round": "series-b", "date": "2026-01"},
+      "founders": ["Gavin Uberti (Harvard)", "Chris Zhu (Harvard)"],
+      "description": "AI chip startup competing with Nvidia, built Sohu ASIC for transformer inference",
+      "source_urls": ["https://www.bloomberg.com/news/articles/2026-01-13/ai-chip-startup-etched-raises-500-million-to-take-on-nvidia"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "LMArena (LMSYS)",
+      "slug": "lmarena",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 2
+      },
+      "discovery_priority": 85,
+      "funding": {"amount": 150, "valuation": 1700, "round": "series-a", "date": "2026-01"},
+      "founders": ["UC Berkeley researchers"],
+      "description": "Platform for evaluating AI models, created Chatbot Arena benchmark",
+      "source_urls": ["https://news.crunchbase.com/venture/biggest-funding-rounds-xai-parabilis-medicines-soley-therapeutics/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Inferact (vLLM)",
+      "slug": "inferact",
+      "category": "ai-infrastructure",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 1
+      },
+      "discovery_priority": 80,
+      "funding": {"amount": 150, "valuation": 800, "round": "seed", "date": "2026-01"},
+      "founders": ["vLLM creators"],
+      "description": "Commercial startup behind open-source vLLM inference engine",
+      "source_urls": ["https://techstartups.com/2026/01/22/top-startup-and-tech-funding-news-january-22-2025/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Moonshot AI (Kimi)",
+      "slug": "moonshot-ai",
+      "category": "foundation-model",
+      "signals": {
+        "funding": false,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 5
+      },
+      "discovery_priority": 90,
+      "funding": {"amount": 0, "valuation": 3000, "round": "unknown", "date": "2025"},
+      "founders": ["Yang Zhilin (ex-Google AI)"],
+      "description": "Chinese AI company behind Kimi K2.5, trending on Reddit for open-source frontier model",
+      "source_urls": ["https://www.reddit.com/r/LocalLLaMA/comments/1qpewj7/ama_with_kimi_the_opensource_frontier_lab_behind/"],
+      "status": "auto-add",
+      "added_date": "2026-01-29",
+      "notes": "Kimi K2.5 being called best open coding model, AMA on Reddit"
+    },
+    {
+      "name": "Periodic Labs",
+      "slug": "periodic-labs",
+      "category": "vertical-ai",
+      "signals": {
+        "funding": true,
+        "notable_founders": false,
+        "product_launch": false,
+        "mention_count": 1
+      },
+      "discovery_priority": 70,
+      "funding": {"amount": 300, "valuation": 0, "round": "seed", "date": "2025"},
+      "founders": [],
+      "description": "AI startup, backed by Felicis and a16z",
+      "source_urls": ["https://qubit.capital/blog/ai-startup-fundraising-trends"],
+      "status": "candidate",
+      "added_date": "2026-01-29"
+    },
+    {
+      "name": "Anysphere (Cursor)",
+      "slug": "anysphere",
+      "category": "ai-agent",
+      "signals": {
+        "funding": true,
+        "notable_founders": true,
+        "product_launch": true,
+        "mention_count": 3
+      },
+      "discovery_priority": 95,
+      "funding": {"amount": 2300, "valuation": 15000, "round": "series-c", "date": "2025"},
+      "founders": ["Michael Truell (MIT)", "Sualeh Asif (MIT)", "Arvid Lunnemark (MIT)", "Aman Sanger (MIT)"],
+      "description": "Creator of Cursor IDE, AI coding assistant. Massive traction.",
+      "source_urls": ["https://qubit.capital/blog/ai-startup-fundraising-trends"],
+      "status": "auto-add",
+      "added_date": "2026-01-29",
+      "notes": "Already a major player, should have been tracked"
+    }
+  ],
+  "summary": {
+    "total_candidates": 11,
+    "auto_added": 10,
+    "pending_review": 1,
+    "top_signals": ["AI infrastructure/chips sector hot", "Massive seed rounds ($400M+)", "Ex-FAANG founders commanding premium"]
+  }
+}

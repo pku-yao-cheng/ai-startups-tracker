@@ -1,0 +1,73 @@
+{
+  "name": "Safe Superintelligence Inc",
+  "slug": "ssi",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2024,
+  "hq": "Palo Alto, CA",
+  "website": "https://ssi.inc",
+  "description": "AI safety-focused company building safe superintelligence. Founded by former OpenAI Chief Scientist Ilya Sutskever.",
+  "founders": [
+    {
+      "name": "Ilya Sutskever",
+      "role": "Co-founder & Chief Scientist",
+      "education": [
+        {"institution": "University of Toronto", "degree": "PhD", "field": "Machine Learning", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "Co-founder & Chief Scientist", "years": "2015-2024", "tier": "faang"},
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2012-2015", "tier": "faang"}
+      ],
+      "achievements": ["Co-inventor of AlexNet (deep learning revolution)", "Led GPT development at OpenAI", "Pioneer of modern deep learning"],
+      "founder_score": 100
+    },
+    {
+      "name": "Daniel Gross",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Apple", "role": "Head of AI/ML", "years": "2016-2017", "tier": "faang"},
+        {"company": "Y Combinator", "role": "Partner", "years": "2017-2019", "tier": "tier-1"},
+        {"company": "Cue", "role": "Co-founder & CEO", "years": "2010-2013", "tier": "prior-exit"}
+      ],
+      "achievements": ["Founded Cue (acquired by Apple)", "Pioneer AI investor"],
+      "founder_score": 88
+    },
+    {
+      "name": "Daniel Levy",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "OpenAI", "role": "Researcher", "years": "2019-2024", "tier": "faang"}
+      ],
+      "achievements": ["Worked on core OpenAI models"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 1000,
+    "latest_valuation": 5,
+    "rounds": [
+      {"type": "Series A", "amount": 1000, "date": "2024-09", "lead": "A16z, Sequoia, DST Global"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2025-12"},
+    "employees": {"value": 20, "as_of": "2025-12"}
+  },
+  "products": [],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 100,
+    "revenue_score": 0,
+    "funding_score": 45,
+    "momentum_score": 75,
+    "composite_score": 58
+  },
+  "last_updated": "2026-01-29",
+  "notes": "Pre-product stealth company focused on safe superintelligence research."
+}

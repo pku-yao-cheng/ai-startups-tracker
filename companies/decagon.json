@@ -1,0 +1,90 @@
+{
+  "name": "Decagon",
+  "slug": "decagon",
+  "stage": "series-d",
+  "category": "ai-agent",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://decagon.ai",
+  "description": "AI startup building 'concierge' customer support agents. Rapidly growing with enterprise customers.",
+  "founders": [
+    {
+      "name": "Jesse Zhang",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Built Decagon to $4.5B in under 2 years"],
+      "founder_score": 78
+    }
+  ],
+  "funding": {
+    "total_raised": 400,
+    "latest_valuation": 4.5,
+    "rounds": [
+      {"type": "Series D", "amount": 250, "date": "2026-01", "lead": "Coatue, Index Ventures"}
+    ],
+    "notes": "Tripled valuation in 6 months. Coatue Management and Index Ventures co-led."
+  },
+  "financials": {
+    "arr": {"value": 100, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 120, "as_of": "2026-01"}
+  },
+  "products": ["Decagon AI Customer Support", "Concierge Agents"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-09",
+    "benchmarks": [],
+    "github": {
+      "repo": null,
+      "stars": 0,
+      "as_of": "2026-01"
+    },
+    "api_available": true,
+    "time_to_ship_months": 6
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 1000000, "type": "conversations/month", "as_of": "2026-01"},
+    "partnerships": [],
+    "revenue_growth_yoy": 400
+  },
+  "investors": {
+    "lead_investors": ["Coatue", "Index Ventures"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 5000,
+    "github_stars": 0,
+    "twitter_followers": 20000,
+    "hn_mentions": 15,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-customer-support",
+    "competitors": ["Intercom", "Zendesk", "Sierra"],
+    "tam_estimate": "$25B",
+    "moats": ["product", "data"],
+    "first_mover": false,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "Decagon raises $250M Series D at $4.5B valuation", "url": "https://news.crunchbase.com/venture/decagon-series-d/", "date": "2026-01-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 78,
+    "financial_health_score": 60,
+    "funding_score": 75,
+    "momentum_score": 90,
+    "product_score": 75,
+    "traction_score": 70,
+    "community_score": 45,
+    "market_position_score": 65,
+    "composite_score": 70
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

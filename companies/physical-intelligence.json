@@ -1,0 +1,111 @@
+{
+  "name": "Physical Intelligence",
+  "slug": "physical-intelligence",
+  "stage": "series-b",
+  "category": "ai-robotics",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://physicalintelligence.company",
+  "description": "Building foundation models for robots to understand and interact with the physical world. Developing generalizable AI systems that can control diverse robotic hardware.",
+  "founders": [
+    {
+      "name": "Karol Hausman",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "USC", "degree": "PhD", "field": "Robotics", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google DeepMind", "role": "Research Scientist", "years": "2019-2024", "tier": "faang"}
+      ],
+      "achievements": ["Led RT-2 robotics research at DeepMind", "Key papers on robot learning"],
+      "founder_score": 88
+    },
+    {
+      "name": "Sergey Levine",
+      "role": "Co-founder & Chief Scientist",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "UC Berkeley", "role": "Professor", "years": "2016-2024", "tier": "tier-1"},
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2024", "tier": "faang"}
+      ],
+      "achievements": ["Pioneer in robot learning", "Widely-cited RL researcher"],
+      "research_output": [
+        {"title": "End-to-End Training of Deep Visuomotor Policies", "venue": "JMLR", "year": 2016, "citations": 3000}
+      ],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 1000,
+    "latest_valuation": 5,
+    "rounds": [
+      {"type": "Series B", "amount": 600, "date": "2026-01", "lead": "CapitalG (Alphabet)"},
+      {"type": "Series A", "amount": 400, "date": "2025-01", "lead": "Sequoia Capital"}
+    ],
+    "notes": "CapitalG led Series B, with Lux Capital, Bond, Redpoint, and Sequoia participating."
+  },
+  "financials": {
+    "arr": {"value": 10, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 100, "as_of": "2026-01"}
+  },
+  "products": ["π0 Foundation Model", "Robot Learning Platform"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-10",
+    "benchmarks": [],
+    "github": {
+      "repo": null,
+      "stars": 0,
+      "as_of": "2026-01"
+    },
+    "api_available": false,
+    "time_to_ship_months": 6
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 0, "type": "N/A", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "Alphabet", "type": "strategic", "date": "2026-01", "details": "CapitalG investment"}
+    ],
+    "revenue_growth_yoy": 0
+  },
+  "investors": {
+    "lead_investors": ["CapitalG", "Sequoia Capital", "Lux Capital"],
+    "strategic_investors": ["Bezos Expeditions"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 0,
+    "github_stars": 0,
+    "twitter_followers": 15000,
+    "hn_mentions": 20,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "robot-foundation-models",
+    "competitors": ["Figure AI", "Skild AI", "1X"],
+    "tam_estimate": "$50B",
+    "moats": ["research", "talent", "data"],
+    "first_mover": false,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "Physical Intelligence raises $600M to advance robot foundation models", "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/", "date": "2026-01-28", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 92,
+    "financial_health_score": 30,
+    "funding_score": 75,
+    "momentum_score": 80,
+    "product_score": 60,
+    "traction_score": 30,
+    "community_score": 40,
+    "market_position_score": 75,
+    "composite_score": 61
+  },
+  "last_updated": "2026-01-29",
+  "discovery_source": "auto-discovered"
+}

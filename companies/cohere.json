@@ -1,0 +1,70 @@
+{
+  "name": "Cohere",
+  "slug": "cohere",
+  "stage": "series-d",
+  "category": "foundation-model",
+  "founded": 2019,
+  "hq": "Toronto, Canada",
+  "website": "https://cohere.com",
+  "description": "Enterprise-focused AI company building LLMs for business applications. Known for enterprise security and RAG.",
+  "founders": [
+    {
+      "name": "Aidan Gomez",
+      "role": "CEO",
+      "education": [
+        {"institution": "University of Toronto", "degree": "PhD Candidate", "field": "Machine Learning", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google Brain", "role": "Research Intern", "years": "2017", "tier": "faang"}
+      ],
+      "achievements": ["Co-author of 'Attention Is All You Need' (Transformer paper)"],
+      "founder_score": 92
+    },
+    {
+      "name": "Ivan Zhang",
+      "role": "COO",
+      "education": [
+        {"institution": "University of Waterloo", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "FOR.ai", "role": "Co-founder", "years": "2017-2019", "tier": "tier-2"}
+      ],
+      "achievements": [],
+      "founder_score": 70
+    },
+    {
+      "name": "Nick Chicken",
+      "role": "CTO",
+      "education": [
+        {"institution": "University of Waterloo", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Software Engineer", "years": "2017-2019", "tier": "faang"}
+      ],
+      "achievements": [],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 970,
+    "latest_valuation": 5.5,
+    "rounds": [
+      {"type": "Series D", "amount": 500, "date": "2024-06", "lead": "PSP Investments"},
+      {"type": "Series C", "amount": 270, "date": "2023-06", "lead": "Inovia Capital"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 500, "as_of": "2025-12"}
+  },
+  "products": ["Command R+", "Command R", "Embed", "Rerank", "Coral"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 92,
+    "revenue_score": 7,
+    "funding_score": 50,
+    "momentum_score": 65,
+    "composite_score": 54
+  },
+  "last_updated": "2026-01-29"
+}

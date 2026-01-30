@@ -1,0 +1,66 @@
+{
+  "name": "Runway",
+  "slug": "runway",
+  "stage": "series-d",
+  "category": "ai-application",
+  "founded": 2018,
+  "hq": "New York, NY",
+  "website": "https://runwayml.com",
+  "description": "AI-powered creative tools for video generation and editing. Pioneer in AI video synthesis with Gen-1 and Gen-2.",
+  "founders": [
+    {
+      "name": "Cristóbal Valenzuela",
+      "role": "Co-founder & CEO",
+      "education": [
+        {"institution": "NYU ITP", "degree": "MPS", "field": "Interactive Telecommunications", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Various", "role": "Creative Technologist", "years": "Unknown", "tier": "tier-2"}
+      ],
+      "achievements": ["Pioneer in creative AI tools", "NYU professor"],
+      "founder_score": 75
+    },
+    {
+      "name": "Alejandro Matamala",
+      "role": "Co-founder & COO",
+      "education": [
+        {"institution": "NYU ITP", "degree": "MPS", "field": "Interactive Telecommunications", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Visual artist and technologist"],
+      "founder_score": 65
+    },
+    {
+      "name": "Anastasis Germanidis",
+      "role": "Co-founder & CTO",
+      "education": [
+        {"institution": "NYU ITP", "degree": "MPS", "field": "Interactive Telecommunications", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Research in generative models"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 240,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series D", "amount": 141, "date": "2024-06", "lead": "General Atlantic"},
+      {"type": "Series C", "amount": 50, "date": "2022-12", "lead": "Felicis Ventures"}
+    ]
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 150, "as_of": "2025-12"}
+  },
+  "products": ["Gen-3 Alpha", "Gen-2", "Runway Studios", "AI Magic Tools"],
+  "recent_news": [],
+  "scores": {
+    "founder_score": 70,
+    "revenue_score": 7,
+    "funding_score": 35,
+    "momentum_score": 85,
+    "composite_score": 49
+  },
+  "last_updated": "2026-01-29"
+}
