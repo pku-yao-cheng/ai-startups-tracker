@@ -6,7 +6,7 @@
   "founded": 2024,
   "hq": "San Francisco, CA",
   "website": "https://physicalintelligence.company",
-  "description": "Building foundation models for robots to understand and interact with the physical world. Developing generalizable AI systems that can control diverse robotic hardware.",
+  "description": "Building foundation models for robots to understand and interact with the physical world. Created π0 (pi-zero), the first generalist robotic foundation model. Open-sourced π0 model in February 2025.",
   "founders": [
     {
       "name": "Karol Hausman",
@@ -30,7 +30,7 @@
         {"company": "UC Berkeley", "role": "Professor", "years": "2016-2024", "tier": "tier-1"},
         {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2024", "tier": "faang"}
       ],
-      "achievements": ["Pioneer in robot learning", "Widely-cited RL researcher"],
+      "achievements": ["Pioneer in robot learning", "Widely-cited RL researcher", "3000+ citations"],
       "research_output": [
         {"title": "End-to-End Training of Deep Visuomotor Policies", "venue": "JMLR", "year": 2016, "citations": 3000}
       ],
@@ -38,74 +38,90 @@
     }
   ],
   "funding": {
-    "total_raised": 1000,
-    "latest_valuation": 5,
+    "total_raised": 1100,
+    "latest_valuation": 5.6,
     "rounds": [
-      {"type": "Series B", "amount": 600, "date": "2026-01", "lead": "CapitalG (Alphabet)"},
-      {"type": "Series A", "amount": 400, "date": "2025-01", "lead": "Sequoia Capital"}
+      {"type": "Series B", "amount": 600, "date": "2025-11", "lead": "CapitalG (Alphabet), Lux Capital"},
+      {"type": "Series A", "amount": 400, "date": "2024-11", "lead": "Thrive Capital, Lux Capital"},
+      {"type": "Seed", "amount": 70, "date": "2024-03", "lead": "Khosla Ventures"}
     ],
-    "notes": "CapitalG led Series B, with Lux Capital, Bond, Redpoint, and Sequoia participating."
+    "notes": "Raised $1.1B in under 2 years. Valuation grew from $2B to $5.6B in one year."
   },
   "financials": {
     "arr": {"value": 10, "confidence": "estimated", "as_of": "2026-01"},
-    "employees": {"value": 100, "as_of": "2026-01"}
+    "employees": {"value": 100, "as_of": "2026-01"},
+    "notes": "B2B SaaS model: $300/month per connected robot"
   },
-  "products": ["π0 Foundation Model", "Robot Learning Platform"],
+  "products": ["π0 Foundation Model", "π0.5", "Robot Learning Platform"],
   "product": {
     "launched": true,
     "launch_date": "2024-10",
     "benchmarks": [],
     "github": {
-      "repo": null,
-      "stars": 0,
+      "repo": "physical-intelligence/openpi",
+      "stars": 5000,
       "as_of": "2026-01"
     },
-    "api_available": false,
-    "time_to_ship_months": 6
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Generalist robotic foundation model capable of controlling diverse robot platforms"
   },
   "traction": {
-    "enterprise_customers": [],
-    "user_count": {"value": 0, "type": "N/A", "as_of": "2026-01"},
+    "enterprise_customers": ["Manufacturing companies", "Automation integrators"],
+    "user_count": {"value": null, "type": "B2B robots connected", "as_of": "2026-01"},
     "partnerships": [
-      {"partner": "Alphabet", "type": "strategic", "date": "2026-01", "details": "CapitalG investment"}
+      {"partner": "Alphabet", "type": "strategic", "date": "2025-11", "details": "CapitalG led Series B"},
+      {"partner": "Amazon", "type": "strategic", "date": "2025-11", "details": "Bezos Expeditions investment"}
     ],
-    "revenue_growth_yoy": 0
+    "revenue_growth_yoy": 0,
+    "target_markets": ["Manufacturing", "Warehouses", "Data Centers", "Robotics Companies"]
   },
   "investors": {
-    "lead_investors": ["CapitalG", "Sequoia Capital", "Lux Capital"],
-    "strategic_investors": ["Bezos Expeditions"],
+    "lead_investors": ["CapitalG", "Lux Capital", "Thrive Capital"],
+    "strategic_investors": ["Bezos Expeditions", "OpenAI", "Amazon"],
+    "other_investors": ["Bond Capital", "Redpoint", "Sequoia", "Index Ventures", "T. Rowe Price", "Khosla Ventures"],
     "investor_tier": "tier-1"
   },
   "community": {
     "discord_members": 0,
-    "github_stars": 0,
-    "twitter_followers": 15000,
-    "hn_mentions": 20,
+    "github_stars": 5000,
+    "twitter_followers": 20000,
+    "hn_mentions": 30,
     "reddit_sentiment": "positive"
   },
   "market_position": {
     "category_rank": 2,
     "category": "robot-foundation-models",
-    "competitors": ["Figure AI", "Skild AI", "1X"],
+    "competitors": ["Figure AI", "Skild AI", "1X", "Boston Dynamics"],
     "tam_estimate": "$50B",
-    "moats": ["research", "talent", "data"],
-    "first_mover": false,
+    "moats": ["World-class research team", "First generalist robot model", "Open-sourced model", "Strategic investors"],
+    "first_mover": true,
     "regulatory_advantage": false
   },
   "recent_news": [
-    {"title": "Physical Intelligence raises $600M to advance robot foundation models", "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/", "date": "2026-01-28", "sentiment": "positive"}
+    {"title": "Robotics Startup Physical Intelligence Valued at $5.6 Billion in New Funding", "url": "https://www.bloomberg.com/news/articles/2025-11-20/robotics-startup-physical-intelligence-valued-at-5-6-billion-in-new-funding", "date": "2025-11-20", "sentiment": "positive"},
+    {"title": "Physical Intelligence raises $600M to advance robot foundation models", "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/", "date": "2025-11-20", "sentiment": "positive"}
   ],
   "scores": {
     "founder_score": 92,
-    "financial_health_score": 30,
-    "funding_score": 75,
-    "momentum_score": 80,
-    "product_score": 60,
-    "traction_score": 30,
-    "community_score": 40,
-    "market_position_score": 75,
-    "composite_score": 61
+    "financial_health_score": 35,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 75,
+    "traction_score": 35,
+    "community_score": 50,
+    "market_position_score": 80,
+    "composite_score": 66
   },
-  "last_updated": "2026-01-29",
-  "discovery_source": "auto-discovered"
+  "score_notes": {
+    "founder": "Sergey Levine (Stanford PhD, Berkeley Prof) + Karol Hausman (DeepMind RT-2). World-class.",
+    "financial": "Early revenue, strong funding runway",
+    "funding": "$5.6B valuation, $1.1B raised, strategic backing from Alphabet/Amazon/OpenAI",
+    "momentum": "Rapid valuation growth, major announcements",
+    "product": "First generalist robot foundation model, open-sourced",
+    "traction": "Early enterprise deployments, B2B SaaS model",
+    "community": "Strong open-source presence, research credibility",
+    "market": "Leading position in robot foundation models"
+  },
+  "last_updated": "2026-01-31"
 }

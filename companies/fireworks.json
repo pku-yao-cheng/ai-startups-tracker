@@ -1,12 +1,12 @@
 {
   "name": "Fireworks AI",
   "slug": "fireworks",
-  "stage": "series-b",
+  "stage": "series-c",
   "category": "ai-infrastructure",
   "founded": 2022,
   "hq": "Redwood City, CA",
   "website": "https://fireworks.ai",
-  "description": "Fastest generative AI inference platform. Provides API and infrastructure for running open-source and custom models.",
+  "description": "Fastest generative AI inference platform. Founded by PyTorch team. Processes 10+ trillion tokens daily for 10,000+ customers.",
   "founders": [
     {
       "name": "Lin Qiao",
@@ -35,25 +35,82 @@
     }
   ],
   "funding": {
-    "total_raised": 77,
-    "latest_valuation": 0.55,
+    "total_raised": 331,
+    "latest_valuation": 4,
     "rounds": [
-      {"type": "Series B", "amount": 52, "date": "2024-05", "lead": "Benchmark"},
+      {"type": "Series C", "amount": 250, "date": "2025-10", "lead": "Lightspeed, Index Ventures, Evantic"},
+      {"type": "Series B", "amount": 52, "date": "2024-05", "lead": "Sequoia"},
       {"type": "Series A", "amount": 25, "date": "2023-06", "lead": "Sequoia"}
-    ]
+    ],
+    "notes": "Valuation jumped 7x from $552M to $4B in less than a year. Series C included $230M primary + $24M secondary."
   },
   "financials": {
-    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 80, "as_of": "2025-12"}
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 120, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Processing 10+ trillion tokens daily for 10,000+ customers"
   },
-  "products": ["Fireworks API", "Fireworks Function Calling", "FireOptimizer"],
-  "recent_news": [],
+  "products": ["Fireworks API", "Fireworks Function Calling", "FireOptimizer", "Compound AI Systems"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-01",
+    "benchmarks": [{"name": "Inference speed", "rank": 1, "date": "2025"}],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Fastest inference for open-source and custom AI models"
+  },
+  "traction": {
+    "enterprise_customers": ["10,000+ customers"],
+    "user_count": {"value": 10000, "type": "customers", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "strategic", "date": "2024-05", "details": "NVIDIA investment"},
+      {"partner": "AMD", "type": "strategic", "date": "2024-05", "details": "AMD Ventures investment"}
+    ],
+    "revenue_growth_yoy": 200,
+    "target_markets": ["AI developers", "Enterprise", "Inference-heavy applications"],
+    "notes": "10+ trillion tokens processed daily"
+  },
+  "investors": {
+    "lead_investors": ["Lightspeed Venture Partners", "Index Ventures", "Sequoia"],
+    "strategic_investors": ["NVIDIA", "AMD Ventures", "MongoDB Ventures"],
+    "other_investors": ["Evantic Capital", "Maple Pledge Capital"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 25000,
+    "github_stars": 2000,
+    "discord_members": 5000
+  },
+  "market_position": {
+    "category_rank": 3,
+    "competitors": ["Together AI", "Replicate", "Modal", "Baseten"],
+    "tam_estimate": "$30B",
+    "moats": ["PyTorch team pedigree", "10T+ tokens daily scale", "Fastest inference", "10,000+ customers"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Fireworks AI Raises $250M Series C to Lead the AI Inference Market", "url": "https://www.businesswire.com/news/home/20251028604819/en/Fireworks-AI-Raises-$250M-Series-C-to-Lead-the-AI-Inference-Market", "date": "2025-10-28", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 88,
-    "revenue_score": 3,
-    "funding_score": 18,
-    "momentum_score": 70,
-    "composite_score": 46
+    "financial_health_score": 60,
+    "funding_score": 70,
+    "momentum_score": 80,
+    "product_score": 80,
+    "traction_score": 75,
+    "community_score": 50,
+    "market_position_score": 70,
+    "composite_score": 72
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Lin Qiao: PyTorch Director at Meta. Strong infrastructure expertise.",
+    "financial": "Growing revenue, massive scale (10T tokens/day)",
+    "funding": "$4B valuation (7x increase), $331M raised",
+    "momentum": "Rapid valuation growth, major Series C",
+    "product": "Fastest inference platform, widely adopted",
+    "traction": "10,000+ customers, enterprise adoption",
+    "community": "Developer-focused, growing presence",
+    "market": "Top 3 in inference infrastructure"
+  },
+  "last_updated": "2026-01-31"
 }

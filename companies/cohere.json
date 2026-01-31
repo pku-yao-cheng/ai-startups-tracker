@@ -6,7 +6,7 @@
   "founded": 2019,
   "hq": "Toronto, Canada",
   "website": "https://cohere.com",
-  "description": "Enterprise-focused AI company building LLMs for business applications. Known for enterprise security and RAG.",
+  "description": "Enterprise-focused AI company building LLMs for business applications. Known for enterprise security, RAG, and agentic AI. Hired Meta's former AI head Joelle Pineau as Chief AI Officer.",
   "founders": [
     {
       "name": "Aidan Gomez",
@@ -33,38 +33,97 @@
       "founder_score": 70
     },
     {
-      "name": "Nick Chicken",
-      "role": "CTO",
+      "name": "Nick Frosst",
+      "role": "Former CTO",
       "education": [
-        {"institution": "University of Waterloo", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
+        {"institution": "University of Toronto", "degree": "BS", "field": "Cognitive Science", "tier": "tier-2"}
       ],
       "experience": [
-        {"company": "Google", "role": "Software Engineer", "years": "2017-2019", "tier": "faang"}
+        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2019", "tier": "faang"}
       ],
-      "achievements": [],
-      "founder_score": 75
+      "achievements": ["Worked with Geoffrey Hinton at Google Brain"],
+      "founder_score": 80
     }
   ],
   "funding": {
-    "total_raised": 970,
-    "latest_valuation": 5.5,
+    "total_raised": 1600,
+    "latest_valuation": 7,
     "rounds": [
-      {"type": "Series D", "amount": 500, "date": "2024-06", "lead": "PSP Investments"},
-      {"type": "Series C", "amount": 270, "date": "2023-06", "lead": "Inovia Capital"}
-    ]
+      {"type": "Series D Extension", "amount": 100, "date": "2025-09", "lead": "BDC, Nexxus Capital"},
+      {"type": "Series D", "amount": 500, "date": "2025-08", "lead": "Radical Ventures, Inovia Capital"},
+      {"type": "Series C", "amount": 270, "date": "2023-06", "lead": "Inovia Capital"},
+      {"type": "Series B", "amount": 125, "date": "2022-02", "lead": "Tiger Global"}
+    ],
+    "notes": "Valuation up 200% since June 2023. Considering London Stock Exchange IPO."
   },
   "financials": {
-    "arr": {"value": 50, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 500, "as_of": "2025-12"}
+    "arr": {"value": 150, "confidence": "confirmed", "as_of": "2025-10"},
+    "employees": {"value": 450, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "ARR reached $150M in October 2025, expects $200M+ by end of 2025"
   },
-  "products": ["Command R+", "Command R", "Embed", "Rerank", "Coral"],
-  "recent_news": [],
+  "products": ["Command R+", "Command R", "Embed", "Rerank", "Coral", "Aya (multilingual)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2021-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Enterprise LLMs with focus on security, RAG, and agentic AI"
+  },
+  "traction": {
+    "enterprise_customers": ["Oracle", "Fujitsu", "McKinsey"],
+    "user_count": {"value": null, "type": "enterprise", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "AMD", "type": "strategic", "date": "2025-09", "details": "AMD Ventures investment + partnership"},
+      {"partner": "NVIDIA", "type": "strategic", "date": "2025-08", "details": "NVIDIA investment"}
+    ],
+    "revenue_growth_yoy": 100,
+    "target_markets": ["Enterprise", "Government", "Sovereign AI"]
+  },
+  "investors": {
+    "lead_investors": ["Radical Ventures", "Inovia Capital", "Tiger Global"],
+    "strategic_investors": ["AMD Ventures", "NVIDIA", "Salesforce Ventures", "Oracle"],
+    "other_investors": ["PSP Investments", "HOOPP", "BDC", "Index Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 80000,
+    "github_stars": 5000,
+    "discord_members": 20000
+  },
+  "market_position": {
+    "category_rank": 5,
+    "competitors": ["OpenAI", "Anthropic", "Google", "Mistral"],
+    "tam_estimate": "$100B",
+    "moats": ["Transformer co-author founder", "Enterprise focus", "Sovereign AI positioning", "Canadian HQ"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Cohere hits $7B valuation a month after its last raise, partners with AMD", "url": "https://techcrunch.com/2025/09/24/cohere-hits-7b-valuation-a-month-after-its-last-raise-partners-with-amd/", "date": "2025-09-24", "sentiment": "positive"},
+    {"title": "Cohere raises $500M at $6.8B valuation", "url": "https://cohere.com/blog/august-2025-funding-round", "date": "2025-08-14", "sentiment": "positive"},
+    {"title": "Cohere hires Meta's former AI head Joelle Pineau as Chief AI Officer", "url": "https://ca.finance.yahoo.com/news/cohere-hits-us-6-8-203211440.html", "date": "2025-08-14", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 92,
-    "revenue_score": 7,
-    "funding_score": 50,
-    "momentum_score": 65,
-    "composite_score": 54
+    "financial_health_score": 70,
+    "funding_score": 70,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 70,
+    "community_score": 55,
+    "market_position_score": 70,
+    "composite_score": 72
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Aidan Gomez: Transformer paper co-author. Strong research credibility.",
+    "financial": "$150M ARR confirmed, growing to $200M+",
+    "funding": "$7B valuation, $1.6B raised, strategic investors (AMD, NVIDIA)",
+    "momentum": "Back-to-back funding rounds, key executive hires",
+    "product": "Enterprise LLMs, strong in RAG and security",
+    "traction": "Major enterprise customers, sovereign AI deals",
+    "community": "Active developer community, open-source contributions",
+    "market": "Strong #5 in foundation models, enterprise differentiation"
+  },
+  "last_updated": "2026-01-31"
 }

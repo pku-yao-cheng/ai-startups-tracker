@@ -1,12 +1,12 @@
 {
   "name": "Sierra",
   "slug": "sierra",
-  "stage": "series-b",
+  "stage": "series-c",
   "category": "ai-agent",
   "founded": 2023,
   "hq": "San Francisco, CA",
   "website": "https://sierra.ai",
-  "description": "Conversational AI platform for customer experience. Building AI agents for enterprise customer service.",
+  "description": "Conversational AI platform for customer experience. Building AI agents for enterprise customer service. Reached $100M ARR in under two years.",
   "founders": [
     {
       "name": "Bret Taylor",
@@ -37,25 +37,79 @@
     }
   ],
   "funding": {
-    "total_raised": 285,
-    "latest_valuation": 4.5,
+    "total_raised": 635,
+    "latest_valuation": 10,
     "rounds": [
+      {"type": "Series C", "amount": 350, "date": "2025-09", "lead": "Greenoaks"},
       {"type": "Series B", "amount": 175, "date": "2024-10", "lead": "Greenoaks"},
       {"type": "Series A", "amount": 110, "date": "2024-02", "lead": "Sequoia, Benchmark"}
-    ]
+    ],
+    "notes": "Reached $10B valuation, one of handful of AI startups valued at or above $10B"
   },
   "financials": {
-    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 100, "as_of": "2025-12"}
+    "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-11"},
+    "employees": {"value": 150, "as_of": "2026-01"},
+    "notes": "Reached $100M ARR in under 21 months. Outcomes-based pricing model."
   },
-  "products": ["Sierra Agent Platform", "Conversational AI for Customer Experience"],
-  "recent_news": [],
+  "products": ["Sierra Agent Platform", "Sierra Agent OS 2.0", "Conversational AI for Customer Experience"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "AI agents with memory, context, and cross-system action capabilities"
+  },
+  "traction": {
+    "enterprise_customers": ["ADT", "Bissell", "Cigna", "Deliveroo", "Discord", "Ramp", "Rivian", "SiriusXM", "SoFi", "Tubi", "Vans"],
+    "user_count": {"value": null, "type": "enterprise seats", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "Stellarus", "type": "strategic", "date": "2026-01", "details": "Health plans AI deployment"}
+    ],
+    "revenue_growth_yoy": 400,
+    "target_markets": ["Enterprise", "Customer Service", "Health Plans"]
+  },
+  "investors": {
+    "lead_investors": ["Greenoaks Capital", "Sequoia", "Benchmark"],
+    "strategic_investors": [],
+    "other_investors": ["ICONIQ", "Thrive Capital"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 15000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Decagon", "Intercom", "Zendesk AI"],
+    "tam_estimate": "$30B",
+    "moats": ["Bret Taylor brand", "OpenAI Board Chair connection", "Enterprise relationships", "100x revenue multiple"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Bret Taylor's Sierra reaches $100M ARR in under two years", "url": "https://techcrunch.com/2025/11/21/bret-taylors-sierra-reaches-100m-arr-in-under-two-years/", "date": "2025-11-21", "sentiment": "positive"},
+    {"title": "Bret Taylor's Sierra raises $350M at a $10B valuation", "url": "https://techcrunch.com/2025/09/04/bret-taylors-sierra-raises-350m-at-a-10b-valuation/", "date": "2025-09-04", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 100,
-    "revenue_score": 3,
-    "funding_score": 35,
-    "momentum_score": 75,
-    "composite_score": 55
+    "financial_health_score": 80,
+    "funding_score": 80,
+    "momentum_score": 90,
+    "product_score": 75,
+    "traction_score": 80,
+    "community_score": 35,
+    "market_position_score": 85,
+    "composite_score": 78
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Bret Taylor: OpenAI Chair, Salesforce Co-CEO, Google Maps co-creator. Exceptional.",
+    "financial": "$100M ARR confirmed in 21 months, $635M raised",
+    "funding": "$10B valuation, tier-1 investors",
+    "momentum": "Rapid ARR growth, major enterprise wins",
+    "product": "Agent OS 2.0 with memory and cross-system actions",
+    "traction": "Major enterprise customers across sectors",
+    "community": "B2B focused, limited public presence",
+    "market": "Category leader in conversational AI agents"
+  },
+  "last_updated": "2026-01-31"
 }
