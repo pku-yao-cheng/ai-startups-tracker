@@ -1,16 +1,16 @@
 {
   "name": "ElevenLabs",
   "slug": "elevenlabs",
-  "stage": "series-b",
+  "stage": "series-c",
   "category": "ai-application",
   "founded": 2022,
   "hq": "New York, NY",
   "website": "https://elevenlabs.io",
-  "description": "AI voice synthesis platform. Creates realistic text-to-speech, voice cloning, and audio content generation.",
+  "description": "AI voice synthesis platform. Creates realistic text-to-speech, voice cloning, and audio content generation. Built by two Polish friends who grew the company from $0 to $330M ARR in 3 years.",
   "founders": [
     {
       "name": "Piotr Dabkowski",
-      "role": "Co-founder & CEO",
+      "role": "Co-founder & CTO",
       "education": [
         {"institution": "University of Edinburgh", "degree": "BS", "field": "Computer Science", "tier": "tier-2"}
       ],
@@ -23,36 +23,92 @@
     {
       "name": "Mati Staniszewski",
       "role": "Co-founder & CEO",
-      "education": [
-        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
-      ],
       "experience": [
         {"company": "Palantir", "role": "Deployment Strategist", "years": "2018-2022", "tier": "tier-1"}
       ],
-      "achievements": ["Strategic advisor at Palantir"],
-      "founder_score": 72
+      "achievements": ["Strategic advisor at Palantir", "Business scaling expertise"],
+      "founder_score": 75
     }
   ],
   "funding": {
-    "total_raised": 180,
-    "latest_valuation": 1.1,
+    "total_raised": 381,
+    "latest_valuation": 6.6,
     "rounds": [
+      {"type": "Tender Offer", "amount": 100, "date": "2025-09", "lead": "ICONIQ, Sequoia"},
+      {"type": "Series C", "amount": 180, "date": "2025-01", "lead": "Andreessen Horowitz, ICONIQ"},
       {"type": "Series B", "amount": 80, "date": "2024-01", "lead": "A16z, Nat Friedman, Daniel Gross"},
       {"type": "Series A", "amount": 19, "date": "2023-06", "lead": "Nat Friedman, Daniel Gross"}
-    ]
+    ],
+    "notes": "Valuation doubled from $3.3B to $6.6B in 9 months via employee tender"
   },
   "financials": {
-    "arr": {"value": 80, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 100, "as_of": "2025-12"}
+    "arr": {"value": 330, "confidence": "confirmed", "as_of": "2025-12"},
+    "employees": {"value": 200, "as_of": "2026-01"},
+    "runway_months": 60,
+    "notes": "Grew from $25M to $330M ARR in 2024-2025. ~50/50 self-serve and enterprise."
   },
-  "products": ["ElevenLabs API", "Voice Library", "Speech Synthesis", "Voice Cloning", "Dubbing"],
-  "recent_news": [],
+  "products": ["ElevenLabs API", "Voice Library", "Speech Synthesis", "Voice Cloning", "Dubbing", "Audio AI"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-11",
+    "benchmarks": [{"name": "Voice quality", "rank": 1, "date": "2025"}],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Proprietary voice synthesis models, real-time voice generation"
+  },
+  "traction": {
+    "enterprise_customers": ["Multiple Fortune 500"],
+    "user_count": {"value": 1000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "strategic", "date": "2025-09", "details": "NVIDIA investment in Series C"}
+    ],
+    "revenue_growth_yoy": 250,
+    "target_markets": ["Content creators", "Media companies", "Gaming", "Enterprise"]
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "ICONIQ", "Sequoia"],
+    "strategic_investors": ["NVIDIA"],
+    "other_investors": ["NEA", "SV Angel"],
+    "angel_investors": ["Nat Friedman", "Daniel Gross"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 200000,
+    "discord_members": 100000,
+    "github_stars": 5000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Amazon Polly", "Google Cloud TTS", "Microsoft Azure TTS", "Play.ht"],
+    "tam_estimate": "$30B",
+    "moats": ["Best-in-class voice quality", "Strong brand", "Large user base", "API ecosystem"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "ElevenLabs CEO says the voice AI startup crossed $330M ARR last year", "url": "https://techcrunch.com/2026/01/13/elevenlabs-ceo-says-the-voice-ai-startup-crossed-330-million-arr-last-year/", "date": "2026-01-13", "sentiment": "positive"},
+    {"title": "Announcing an Employee Tender Offer at $6.6B valuation", "url": "https://elevenlabs.io/blog/announcing-an-employee-tender", "date": "2025-09-23", "sentiment": "positive"},
+    {"title": "ElevenLabs raises $180M Series C at $3.3B valuation", "url": "https://elevenlabs.io/blog/series-c", "date": "2025-01-22", "sentiment": "positive"}
+  ],
   "scores": {
-    "founder_score": 76,
-    "revenue_score": 11,
-    "funding_score": 22,
-    "momentum_score": 85,
-    "composite_score": 49
+    "founder_score": 78,
+    "financial_health_score": 85,
+    "funding_score": 75,
+    "momentum_score": 95,
+    "product_score": 85,
+    "traction_score": 85,
+    "community_score": 70,
+    "market_position_score": 85,
+    "composite_score": 82
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Google ML engineer + Palantir strategist. Strong execution track record.",
+    "financial": "$330M ARR confirmed, exceptional growth (25M → 330M in ~18 months)",
+    "funding": "$6.6B valuation, a16z + Sequoia + ICONIQ + NVIDIA",
+    "momentum": "Explosive growth, multiple funding rounds, major press",
+    "product": "Category-defining voice AI, widely adopted",
+    "traction": "1M+ users, Fortune 500 customers, 50/50 consumer/enterprise",
+    "community": "Strong Discord, active developer community",
+    "market": "Clear category leader in voice AI"
+  },
+  "last_updated": "2026-01-30"
 }

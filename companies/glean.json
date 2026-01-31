@@ -1,12 +1,12 @@
 {
   "name": "Glean",
   "slug": "glean",
-  "stage": "series-e",
+  "stage": "series-f",
   "category": "vertical-ai",
   "founded": 2019,
   "hq": "Palo Alto, CA",
   "website": "https://glean.com",
-  "description": "AI-powered enterprise search platform. Connects all company knowledge and makes it searchable with AI.",
+  "description": "AI-powered enterprise search and work assistant. Connects all company knowledge and makes it searchable with AI. Powers 100M+ agent actions annually.",
   "founders": [
     {
       "name": "Arvind Jain",
@@ -24,26 +24,80 @@
     }
   ],
   "funding": {
-    "total_raised": 600,
-    "latest_valuation": 4.6,
+    "total_raised": 770,
+    "latest_valuation": 7.2,
     "rounds": [
+      {"type": "Series F", "amount": 150, "date": "2025-06", "lead": "Wellington Management"},
       {"type": "Series E", "amount": 260, "date": "2024-08", "lead": "DST Global, Lightspeed"},
       {"type": "Series D", "amount": 200, "date": "2023-12", "lead": "Lightspeed, GV"},
       {"type": "Series C", "amount": 100, "date": "2022-08", "lead": "Lightspeed"}
-    ]
+    ],
+    "notes": "Valuation increased $2.6B in less than a year. Didn't need to raise but wanted flexibility."
   },
   "financials": {
-    "arr": {"value": 100, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 500, "as_of": "2025-12"}
+    "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-12"},
+    "employees": {"value": 1000, "as_of": "2026-01"},
+    "runway_months": 60,
+    "notes": "Surpassed $100M ARR in less than 3 years after launch"
   },
-  "products": ["Glean Search", "Glean Assistant", "Glean for Slack/Teams"],
-  "recent_news": [],
+  "products": ["Glean Search", "Glean Assistant", "Glean Agents", "Glean for Slack/Teams"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Enterprise AI search + AI agents for workflow automation"
+  },
+  "traction": {
+    "enterprise_customers": ["Fortune 500 companies"],
+    "user_count": {"value": null, "type": "enterprise seats", "as_of": "2026-01"},
+    "partnerships": [],
+    "revenue_growth_yoy": 100,
+    "target_markets": ["Enterprise", "Knowledge workers", "IT teams"],
+    "notes": "Glean Agents powering 100M+ agent actions annually"
+  },
+  "investors": {
+    "lead_investors": ["Wellington Management", "DST Global", "Lightspeed Venture Partners", "Sequoia"],
+    "strategic_investors": [],
+    "other_investors": ["Altimeter", "Capital One Ventures", "Citi", "Coatue", "General Catalyst", "ICONIQ", "IVP", "Kleiner Perkins", "Khosla Ventures", "Sapphire Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 20000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Coveo", "Elastic", "Algolia", "Microsoft Copilot"],
+    "tam_estimate": "$50B",
+    "moats": ["Google search pedigree", "Deep enterprise integrations", "AI-native architecture", "1000 employees"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Glean raises $150M Series F at $7.2B valuation", "url": "https://www.glean.com/blog/glean-series-f-announcement", "date": "2025-06-10", "sentiment": "positive"},
+    {"title": "Glean launches Glean Agents for enterprise AI automation", "url": "https://www.glean.com/press/glean-agents", "date": "2025-03-15", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 95,
-    "revenue_score": 14,
-    "funding_score": 40,
-    "momentum_score": 80,
-    "composite_score": 58
+    "financial_health_score": 70,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 80,
+    "traction_score": 75,
+    "community_score": 35,
+    "market_position_score": 85,
+    "composite_score": 77
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Arvind Jain: Google Distinguished Engineer (16 years) + Rubrik co-founder (prior exit). Exceptional.",
+    "financial": "$100M+ ARR, $770M raised, strong runway",
+    "funding": "$7.2B valuation, tier-1 investor syndicate",
+    "momentum": "Rapid valuation growth, AI agents launch",
+    "product": "Enterprise search + AI agents platform, widely deployed",
+    "traction": "Fortune 500 customers, 100M+ agent actions",
+    "community": "B2B focused, limited public presence",
+    "market": "Category leader in enterprise AI search"
+  },
+  "last_updated": "2026-01-30"
 }

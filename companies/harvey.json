@@ -1,61 +1,119 @@
 {
   "name": "Harvey",
   "slug": "harvey",
-  "stage": "series-c",
+  "stage": "series-f",
   "category": "vertical-ai",
   "founded": 2022,
   "hq": "San Francisco, CA",
   "website": "https://harvey.ai",
-  "description": "AI-powered legal platform. Building custom AI models for law firms and legal departments.",
+  "description": "AI-powered legal platform building custom AI models for law firms and legal departments. One of OpenAI Startup Fund's first investments.",
   "founders": [
     {
       "name": "Winston Weinberg",
       "role": "Co-founder & CEO",
       "education": [
-        {"institution": "Cambridge", "degree": "BA", "field": "Law", "tier": "tier-1"}
+        {"institution": "Cambridge University", "degree": "BA", "field": "Law", "tier": "tier-1"}
       ],
       "experience": [
-        {"company": "O'Melveny & Myers", "role": "M&A Lawyer", "years": "2016-2020", "tier": "tier-2"},
+        {"company": "O'Melveny & Myers", "role": "Securities & Antitrust Litigator", "years": "2016-2020", "tier": "tier-2"},
         {"company": "DeepMind", "role": "Business Development", "years": "2020-2022", "tier": "faang"}
       ],
-      "achievements": ["Practiced law at top firm", "Worked at DeepMind"],
+      "achievements": ["Practiced law at top AmLaw firm", "Worked at DeepMind"],
       "founder_score": 80
     },
     {
       "name": "Gabriel Pereyra",
       "role": "Co-founder & CTO",
       "education": [
-        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+        {"institution": "Stanford University", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
       ],
       "experience": [
         {"company": "DeepMind", "role": "Research Scientist", "years": "2019-2022", "tier": "faang"},
-        {"company": "Google Brain", "role": "Research Scientist", "years": "2016-2019", "tier": "faang"}
+        {"company": "Meta", "role": "Research Scientist", "years": "2016-2019", "tier": "faang"}
       ],
-      "achievements": ["Published NeurIPS papers", "Deep learning researcher"],
+      "achievements": ["Published NeurIPS papers", "Deep learning researcher at DeepMind and Meta"],
       "founder_score": 88
     }
   ],
   "funding": {
-    "total_raised": 206,
-    "latest_valuation": 1.5,
+    "total_raised": 806,
+    "latest_valuation": 8,
     "rounds": [
+      {"type": "Series F", "amount": 160, "date": "2025-12", "lead": "Andreessen Horowitz"},
+      {"type": "Series E", "amount": 300, "date": "2025-06", "lead": "Sequoia"},
+      {"type": "Series D", "amount": 300, "date": "2025-02", "lead": "Sequoia"},
       {"type": "Series C", "amount": 100, "date": "2024-07", "lead": "GV, Kleiner Perkins"},
       {"type": "Series B", "amount": 80, "date": "2023-12", "lead": "Sequoia"},
       {"type": "Series A", "amount": 21, "date": "2023-04", "lead": "Sequoia"}
-    ]
+    ],
+    "notes": "Raised $760M in 2025 alone across 3 rounds. OpenAI Startup Fund's first investment."
   },
   "financials": {
-    "arr": {"value": 30, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 150, "as_of": "2025-12"}
+    "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-12"},
+    "employees": {"value": 250, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Surpassed $100M ARR in August 2025"
   },
-  "products": ["Harvey Legal AI", "Harvey for Litigation", "Harvey for M&A"],
-  "recent_news": [],
+  "products": ["Harvey Legal AI", "Harvey for Litigation", "Harvey for M&A", "Harvey for Due Diligence"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 8,
+    "infrastructure": "Custom AI models for legal workflows, built on OpenAI"
+  },
+  "traction": {
+    "enterprise_customers": ["50+ of AmLaw 100 firms"],
+    "user_count": {"value": null, "type": "enterprise", "as_of": "2026-01"},
+    "partnerships": [
+      {"partner": "OpenAI", "type": "strategic", "date": "2022", "details": "One of OpenAI Startup Fund's first investments"}
+    ],
+    "revenue_growth_yoy": 200,
+    "target_markets": ["Law firms", "Corporate legal departments", "Litigation", "M&A"]
+  },
+  "investors": {
+    "lead_investors": ["Sequoia", "Andreessen Horowitz", "GV", "Kleiner Perkins"],
+    "strategic_investors": ["OpenAI Startup Fund"],
+    "other_investors": ["WndrCo", "T. Rowe Price", "Conviction", "Elad Gil"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 30000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Casetext (acquired by Thomson Reuters)", "Ironclad", "Spellbook", "Clio"],
+    "tam_estimate": "$50B",
+    "moats": ["50+ AmLaw 100 customers", "OpenAI partnership", "Legal domain expertise", "First-mover in AI legal"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Legal AI startup Harvey confirms $8B valuation", "url": "https://techcrunch.com/2025/12/04/legal-ai-startup-harvey-confirms-8b-valuation/", "date": "2025-12-04", "sentiment": "positive"},
+    {"title": "Harvey raises $300 million at $5 billion valuation", "url": "https://fortune.com/2025/06/23/harvey-raises-300-million-at-5-billion-valuation-to-be-legal-ai-for-lawyers-worldwide/", "date": "2025-06-23", "sentiment": "positive"},
+    {"title": "Harvey $300M Series D at $3B valuation", "url": "https://fortune.com/2025/02/12/legal-ai-startup-harvey-300-million-series-d-funding-3-billion-valuation-sequoia/", "date": "2025-02-12", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 84,
-    "revenue_score": 4,
-    "funding_score": 25,
-    "momentum_score": 80,
-    "composite_score": 49
+    "financial_health_score": 65,
+    "funding_score": 80,
+    "momentum_score": 95,
+    "product_score": 75,
+    "traction_score": 80,
+    "community_score": 40,
+    "market_position_score": 85,
+    "composite_score": 76
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Gabriel Pereyra: Stanford PhD, DeepMind + Meta researcher. Winston Weinberg: Cambridge + DeepMind.",
+    "financial": "$100M+ ARR confirmed, strong growth",
+    "funding": "$8B valuation, $806M raised, Sequoia + a16z led",
+    "momentum": "3 mega rounds in 2025, 5x valuation growth",
+    "product": "Shipped, widely deployed in AmLaw 100",
+    "traction": "50+ of AmLaw 100 firms as customers - exceptional",
+    "community": "B2B focused, limited consumer presence",
+    "market": "Category leader in legal AI, clear first-mover advantage"
+  },
+  "last_updated": "2026-01-30"
 }
