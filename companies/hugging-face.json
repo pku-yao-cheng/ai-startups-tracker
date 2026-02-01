@@ -55,17 +55,102 @@
     ]
   },
   "financials": {
-    "arr": {"value": 70, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 250, "as_of": "2025-12"}
+    "arr": {"value": 130, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2021-12", "value": 10, "notes": "Early monetization"},
+      {"date": "2022-12", "value": 15, "notes": "Transformers growth"},
+      {"date": "2023-12", "value": 70, "notes": "367% YoY growth, consulting contracts"},
+      {"date": "2024-12", "value": 130, "notes": "Enterprise expansion"}
+    ],
+    "arr_by_product": {
+      "enterprise_hub": {"value": 80, "as_of": "2025-12", "notes": "2000+ organizations"},
+      "inference_api": {"value": 30, "as_of": "2025-12"},
+      "consulting": {"value": 20, "as_of": "2025-12", "notes": "NVIDIA, Amazon, Microsoft contracts"}
+    },
+    "revenue_growth_yoy": 85,
+    "burn_rate_monthly": 5,
+    "runway_months": 72,
+    "gross_margin": 70,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 300, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 30,
+      "research_annual": 15,
+      "personnel_annual": 25,
+      "other_annual": 10,
+      "total_annual": 80,
+      "notes": "Lean operation, community-driven growth"
+    },
+    "projections": {
+      "arr_2026": 200,
+      "arr_2027": 350,
+      "notes": "Enterprise Hub driving growth"
+    }
   },
   "products": ["Hub", "Transformers", "Inference API", "Spaces", "Autotrain"],
-  "recent_news": [],
+  "product": {
+    "launched": true,
+    "launch_date": "2018-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Model Hub with 1M+ models, 200K+ datasets"
+  },
+  "traction": {
+    "enterprise_customers": ["Intel", "Pfizer", "Bloomberg", "eBay", "10,000+ companies"],
+    "user_count": {"value": 5000000, "type": "registered users", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Google", "type": "strategic", "date": "2023-08", "details": "Google investment"},
+      {"partner": "Amazon", "type": "strategic", "date": "2023-08", "details": "AWS partnership"},
+      {"partner": "NVIDIA", "type": "strategic", "date": "2023-08", "details": "NVIDIA investment"}
+    ],
+    "revenue_growth_yoy": 85
+  },
+  "investors": {
+    "lead_investors": ["Google", "Amazon", "NVIDIA", "Salesforce"],
+    "strategic_investors": ["Intel", "AMD", "Qualcomm"],
+    "other_investors": ["Lux Capital", "Addition", "Betaworks"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 150000,
+    "discord_members": 100000,
+    "twitter_followers": 500000,
+    "hn_mentions": 1000,
+    "reddit_sentiment": "very positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Weights & Biases", "Neptune.ai", "Modal"],
+    "tam_estimate": "$50B",
+    "moats": ["Transformers library dominance", "1M+ models", "Community network effects", "Strategic investor backing"],
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
+  "recent_news": [
+    {"title": "Hugging Face launches LeRobot for robotics", "url": "https://huggingface.co/blog/lerobot", "date": "2025-09", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 82,
-    "revenue_score": 10,
-    "funding_score": 38,
-    "momentum_score": 90,
-    "composite_score": 55
+    "financial_health_score": 65,
+    "funding_score": 65,
+    "momentum_score": 80,
+    "product_score": 95,
+    "traction_score": 90,
+    "community_score": 100,
+    "market_position_score": 95,
+    "composite_score": 84
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Multiple prior exits (Google, GoPro). Strong execution track record.",
+    "financial": "$130M ARR, 85% YoY growth, lean operation",
+    "funding": "$4.5B valuation, strategic backing from Google/Amazon/NVIDIA",
+    "momentum": "LeRobot launch, continued platform growth",
+    "product": "Transformers is industry standard, 1M+ models on Hub",
+    "traction": "5M+ users, 10k+ companies, Fortune 500 adoption",
+    "community": "Largest ML community, 150k GitHub stars, dominant developer mindshare",
+    "market": "Uncontested #1 in ML model sharing, GitHub of AI"
+  },
+  "last_updated": "2026-01-31"
 }

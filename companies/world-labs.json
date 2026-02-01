@@ -93,5 +93,9 @@
     "community": "Growing presence",
     "market": "Category leader in spatial AI / world models"
   },
+  "risks": [
+    {"type": "overvalued", "description": "Infinite multiple ($5B valuation on $0 ARR) - pure bet on founder reputation"},
+    {"type": "product", "description": "Just launched, commercial traction unproven"}
+  ],
   "last_updated": "2026-01-29"
 }

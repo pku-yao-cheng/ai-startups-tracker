@@ -1,0 +1,99 @@
+{
+  "name": "AlphaSense",
+  "slug": "alphasense",
+  "stage": "series-f",
+  "category": "vertical-ai",
+  "founded": 2011,
+  "hq": "New York, NY",
+  "website": "https://alpha-sense.com",
+  "description": "AI-powered market intelligence platform. $500M ARR. 6,500+ customers including 88% of S&P 100. Acquired Tegus for $930M.",
+  "founders": [
+    {
+      "name": "Jack Kokko",
+      "role": "CEO",
+      "education": [
+        {"institution": "Carnegie Mellon", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Morgan Stanley", "role": "Analyst", "years": "2005-2008", "tier": "tier-1"}
+      ],
+      "achievements": ["Built AlphaSense to $500M ARR", "Acquired Tegus for $930M"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 1390,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series F", "amount": 650, "date": "2024-06", "lead": "Viking Global"}
+    ],
+    "notes": "Acquired Tegus for $930M in July 2024"
+  },
+  "financials": {
+    "arr": {"value": 500, "confidence": "confirmed", "as_of": "2025-10"},
+    "employees": {"value": 1500, "as_of": "2025-12"},
+    "runway_months": 48,
+    "revenue_growth_yoy": 150
+  },
+  "products": ["AlphaSense Platform", "Expert Insights", "Market Intelligence", "Document Search"],
+  "product": {
+    "launched": true,
+    "launch_date": "2011-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "AI search and analysis for finance"
+  },
+  "traction": {
+    "enterprise_customers": ["Google", "JP Morgan", "Pfizer", "Microsoft", "NVIDIA", "UBS"],
+    "user_count": {"value": 6500, "type": "customers", "as_of": "2025-10"},
+    "partnerships": [],
+    "revenue_growth_yoy": 150,
+    "notes": "88% of S&P 100 are customers"
+  },
+  "investors": {
+    "lead_investors": ["Viking Global", "BDT & MSD Partners"],
+    "strategic_investors": ["SoftBank Vision Fund", "J.P. Morgan", "Goldman Sachs"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 20000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "market-intelligence-ai",
+    "competitors": ["Glean", "Hebbia", "Bloomberg Terminal", "FactSet"],
+    "tam_estimate": "$30B",
+    "moats": ["$500M ARR", "88% of S&P 100", "Tegus acquisition"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "AlphaSense surpasses $500M in ARR", "url": "https://www.alpha-sense.com/press/alphasense-surpasses-500m-in-arr/", "date": "2025-10-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "financial_health_score": 85,
+    "funding_score": 80,
+    "momentum_score": 80,
+    "product_score": 85,
+    "traction_score": 95,
+    "community_score": 40,
+    "market_position_score": 90,
+    "composite_score": 81
+  },
+  "score_notes": {
+    "founder": "CMU, Morgan Stanley background",
+    "financial": "$500M ARR, 150% growth",
+    "funding": "$4B valuation, $1.4B raised",
+    "momentum": "Strong growth, M&A activity",
+    "product": "Market-leading platform",
+    "traction": "88% of S&P 100, 6,500 customers",
+    "community": "Enterprise-focused",
+    "market": "Category leader in market intelligence"
+  },
+  "risks": [
+    {"type": "competition", "description": "Glean expanding into finance; Bloomberg and FactSet are entrenched incumbents"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

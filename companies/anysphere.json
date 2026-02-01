@@ -118,6 +118,9 @@
     "market_position_score": 90,
     "composite_score": 91
   },
+  "risks": [
+    {"type": "competition", "description": "GitHub Copilot (Microsoft) has massive distribution advantage via VS Code"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered"
 }

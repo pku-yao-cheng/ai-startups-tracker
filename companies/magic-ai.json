@@ -52,5 +52,9 @@
     "momentum_score": 60,
     "composite_score": 43
   },
+  "risks": [
+    {"type": "overvalued", "description": "750x ARR multiple ($1.5B on ~$2M ARR) - extremely high"},
+    {"type": "product", "description": "Limited product traction; competing against Cursor, Cognition with stronger adoption"}
+  ],
   "last_updated": "2026-01-29"
 }

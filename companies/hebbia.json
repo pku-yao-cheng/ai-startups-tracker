@@ -1,0 +1,99 @@
+{
+  "name": "Hebbia",
+  "slug": "hebbia",
+  "stage": "series-b",
+  "category": "vertical-ai",
+  "founded": 2020,
+  "hq": "New York, NY",
+  "website": "https://hebbia.com",
+  "description": "AI-powered document analysis platform for finance and legal. 33% of top global asset managers by AUM are customers. Profitable on $13M ARR.",
+  "founders": [
+    {
+      "name": "George Sivulka",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD Candidate", "field": "Machine Learning", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Built profitable AI company at 24"],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 161,
+    "latest_valuation": 0.7,
+    "rounds": [
+      {"type": "Series B", "amount": 130, "date": "2024-07", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "Profitable at time of Series B"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 80, "as_of": "2026-01"},
+    "cash_flow_positive": true,
+    "runway_months": 60,
+    "notes": "Profitable since Series B"
+  },
+  "products": ["Hebbia Matrix", "Document Analysis", "AI Research Agents"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Enterprise AI for knowledge work"
+  },
+  "traction": {
+    "enterprise_customers": ["American Industrial Partners", "Oak Hill Advisors", "Charlesbank", "US Air Force"],
+    "partnerships": [
+      {"partner": "FlashDocs", "type": "acquisition", "date": "2025-07"}
+    ],
+    "revenue_growth_yoy": 150,
+    "notes": "33% of top global asset managers are customers"
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "Index Ventures"],
+    "strategic_investors": ["Google Ventures", "Peter Thiel"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 15000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-finance-legal",
+    "competitors": ["Harvey", "Glean", "Rogo", "Kira Systems"],
+    "tam_estimate": "$20B",
+    "moats": ["Finance vertical expertise", "Profitability", "Enterprise penetration"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Hebbia acquires FlashDocs for document-to-draft generation", "url": "https://www.hebbia.com/", "date": "2025-07-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 80,
+    "funding_score": 60,
+    "momentum_score": 70,
+    "product_score": 75,
+    "traction_score": 75,
+    "community_score": 40,
+    "market_position_score": 70,
+    "composite_score": 70
+  },
+  "score_notes": {
+    "founder": "Stanford PhD candidate, young but proven",
+    "financial": "Profitable, strong unit economics",
+    "funding": "$700M valuation, tier-1 VCs",
+    "momentum": "Steady growth, acquisition activity",
+    "product": "Strong enterprise product",
+    "traction": "33% of top asset managers",
+    "community": "Enterprise-focused",
+    "market": "Strong position in finance AI"
+  },
+  "risks": [
+    {"type": "competition", "description": "Harvey and Glean competing for enterprise AI market share"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

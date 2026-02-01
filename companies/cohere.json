@@ -57,10 +57,40 @@
     "notes": "Valuation up 200% since June 2023. Considering London Stock Exchange IPO."
   },
   "financials": {
-    "arr": {"value": 150, "confidence": "confirmed", "as_of": "2025-10"},
-    "employees": {"value": 450, "as_of": "2026-01"},
-    "runway_months": 48,
-    "notes": "ARR reached $150M in October 2025, expects $200M+ by end of 2025"
+    "arr": {"value": 200, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2023-12", "value": 13, "notes": "Late 2023 baseline"},
+      {"date": "2024-03", "value": 22, "notes": "Early 2024"},
+      {"date": "2024-12", "value": 62, "notes": "End of 2024"},
+      {"date": "2025-02", "value": 70, "notes": "5x growth in 14 months"},
+      {"date": "2025-05", "value": 100, "notes": "Crossed $100M milestone"},
+      {"date": "2025-10", "value": 150, "notes": "Sacra October 2025 estimate"},
+      {"date": "2025-12", "value": 200, "notes": "Expected $200M+ by year end"}
+    ],
+    "arr_by_product": {
+      "private_deployments": {"value": 170, "as_of": "2025-12", "notes": "85% of revenue from private deployments"},
+      "api": {"value": 30, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 220,
+    "burn_rate_monthly": 25,
+    "runway_months": 60,
+    "gross_margin": 50,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2029"},
+    "employees": {"value": 500, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 150,
+      "research_annual": 60,
+      "personnel_annual": 80,
+      "other_annual": 30,
+      "total_annual": 320,
+      "notes": "Heavy compute investment for enterprise-grade models"
+    },
+    "projections": {
+      "arr_2026": 500,
+      "arr_2027": 1000,
+      "notes": "On pace to 3x in 2026 if trends continue"
+    }
   },
   "products": ["Command R+", "Command R", "Embed", "Rerank", "Coral", "Aya (multilingual)"],
   "product": {
@@ -125,5 +155,8 @@
     "community": "Active developer community, open-source contributions",
     "market": "Strong #5 in foundation models, enterprise differentiation"
   },
+  "risks": [
+    {"type": "competition", "description": "Competing against OpenAI, Anthropic, Google with much larger resources and brand recognition"}
+  ],
   "last_updated": "2026-01-31"
 }

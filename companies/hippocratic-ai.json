@@ -1,0 +1,104 @@
+{
+  "name": "Hippocratic AI",
+  "slug": "hippocratic-ai",
+  "stage": "series-c",
+  "category": "vertical-ai",
+  "founded": 2023,
+  "hq": "Palo Alto, CA",
+  "website": "https://hippocraticai.com",
+  "description": "Healthcare AI agents for patient-facing tasks including scheduling, intake, chronic disease management, and post-discharge care. 115M+ clinical interactions with no safety issues.",
+  "founders": [
+    {
+      "name": "Munjal Shah",
+      "role": "CEO",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Health IQ", "role": "Founder & CEO", "years": "2014-2022", "tier": "prior-exit"},
+        {"company": "Like.com", "role": "Founder & CEO", "years": "2004-2010", "tier": "prior-exit"}
+      ],
+      "achievements": ["Serial entrepreneur with 2 exits", "Like.com acquired by Google"],
+      "founder_score": 88
+    }
+  ],
+  "funding": {
+    "total_raised": 404,
+    "latest_valuation": 3.5,
+    "rounds": [
+      {"type": "Series C", "amount": 126, "date": "2025-11", "lead": "Avenir Growth"},
+      {"type": "Series B", "amount": 141, "date": "2025-01", "lead": "General Catalyst"},
+      {"type": "Series A", "amount": 53, "date": "2024-03", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "Valuation more than doubled from Series B ($1.64B) to Series C ($3.5B)"
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 150, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Healthcare AI Agents", "Patient Scheduling", "Chronic Disease Management", "Post-Discharge Outreach"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Safety-focused LLM agents for healthcare"
+  },
+  "traction": {
+    "enterprise_customers": ["Cincinnati Children's Hospital", "WellSpan Health", "Universal Health Services"],
+    "user_count": {"value": 115000000, "type": "clinical interactions", "as_of": "2025-11"},
+    "partnerships": [
+      {"partner": "50+ health systems", "type": "customer", "date": "2025-11"}
+    ],
+    "revenue_growth_yoy": 400,
+    "notes": "1,000+ clinical use cases across 6 countries"
+  },
+  "investors": {
+    "lead_investors": ["Avenir Growth", "General Catalyst", "Andreessen Horowitz"],
+    "strategic_investors": ["CapitalG", "Kleiner Perkins", "Premji Invest"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 10000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "healthcare-ai-agents",
+    "competitors": ["OpenEvidence", "Abridge", "Notable Health"],
+    "tam_estimate": "$7B",
+    "moats": ["115M+ interactions with zero safety issues", "50+ health system partnerships", "Serial founder"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Hippocratic AI raises $126M Series C at $3.5B valuation", "url": "https://www.businesswire.com/news/home/20251103432446/en/Hippocratic-AI-Raises-$126-Million-in-Series-C-at-$3.5-Billion-Valuation-Led-by-Avenir-Growth-to-Expand-Clinically-Safe-Generative-AI-Agents-Across-Healthcare", "date": "2025-11-03", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 88,
+    "financial_health_score": 55,
+    "funding_score": 75,
+    "momentum_score": 85,
+    "product_score": 80,
+    "traction_score": 75,
+    "community_score": 35,
+    "market_position_score": 80,
+    "composite_score": 73
+  },
+  "score_notes": {
+    "founder": "Serial entrepreneur, 2 prior exits including Google acquisition",
+    "financial": "Growing revenue, well-funded",
+    "funding": "$3.5B valuation, tier-1 VCs",
+    "momentum": "Valuation doubled in 10 months",
+    "product": "115M+ clinical interactions",
+    "traction": "50+ health systems, 6 countries",
+    "community": "Enterprise-focused",
+    "market": "Leader in healthcare AI agents"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "70x ARR multiple ($3.5B on ~$50M ARR) - high for healthcare AI"},
+    {"type": "legal", "description": "Healthcare AI faces regulatory and liability risks despite safety record"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

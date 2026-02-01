@@ -74,17 +74,37 @@
   },
   "products": ["Tinker (fine-tuning platform)"],
   "recent_news": [
-    {"title": "Thinking Machines Lab $2B seed at $12B valuation", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/", "date": "2025-07-15", "sentiment": "positive"},
-    {"title": "Thinking Machines in talks at $50B valuation", "url": "https://www.bloomberg.com/news/articles/2025-11-13/murati-s-thinking-machines-in-funding-talks-at-50-billion-value", "date": "2025-11-13", "sentiment": "positive"},
-    {"title": "Internal turmoil, employees considering return to OpenAI", "url": "https://brendonbeebe.substack.com/p/thinking-machines-lab-timeline-of", "date": "2026-01", "sentiment": "negative"}
+    {"title": "Co-founders Zoph and Metz leave, return to OpenAI", "url": "https://brendonbeebe.substack.com/p/thinking-machines-lab-timeline-of", "date": "2026-01", "sentiment": "negative"},
+    {"title": "Unable to secure new funding by Jan 2026", "url": "https://brendonbeebe.substack.com/p/thinking-machines-lab-timeline-of", "date": "2026-01", "sentiment": "negative"},
+    {"title": "Tinker product launch deflates expectations", "url": "https://builtin.com/articles/what-is-thinking-machines-lab", "date": "2025-10", "sentiment": "negative"},
+    {"title": "Thinking Machines Lab $2B seed at $12B valuation", "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/", "date": "2025-07-15", "sentiment": "positive"}
   ],
   "scores": {
-    "founder_score": 100,
-    "revenue_score": 0,
-    "funding_score": 70,
-    "momentum_score": 60,
-    "composite_score": 58
+    "founder_score": 90,
+    "financial_health_score": 30,
+    "funding_score": 60,
+    "momentum_score": 35,
+    "product_score": 40,
+    "traction_score": 20,
+    "community_score": 50,
+    "market_position_score": 55,
+    "composite_score": 48
   },
-  "last_updated": "2026-01-29",
-  "notes": "Dream team of ex-OpenAI leadership, but facing challenges in Jan 2026 with departures and internal issues."
+  "score_notes": {
+    "founder": "Dream team initially, but Zoph and Metz left in Jan 2026. Remaining team still strong.",
+    "financial": "Zero revenue, burning through $2B seed, unable to raise more",
+    "funding": "$12B valuation but struggling to raise at $50B target, funding concerns",
+    "momentum": "Severe negative momentum - key departures, funding difficulties, disappointing product",
+    "product": "Tinker (fine-tuning tool) underwhelmed market given $12B valuation",
+    "traction": "No meaningful commercial traction yet",
+    "community": "High initial hype has turned to skepticism",
+    "market": "Strong positioning but execution concerns mounting"
+  },
+  "risks": [
+    {"type": "execution", "description": "Lost co-founders Zoph (CTO) and Metz in Jan 2026, both returned to OpenAI"},
+    {"type": "funding", "description": "Unable to secure new funding; $50B raise failed, burning through $2B seed"},
+    {"type": "product", "description": "Tinker product launch disappointed expectations given $12B valuation"}
+  ],
+  "last_updated": "2026-01-31",
+  "notes": "TROUBLED: Lost co-founders Zoph (CTO) and Metz in Jan 2026, both returned to OpenAI. Unable to secure new funding. Tinker product launch disappointed. Was seeking $50B valuation but now struggling."
 }

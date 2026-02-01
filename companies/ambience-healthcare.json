@@ -1,0 +1,108 @@
+{
+  "name": "Ambience Healthcare",
+  "slug": "ambience-healthcare",
+  "stage": "series-c",
+  "category": "vertical-ai",
+  "founded": 2020,
+  "hq": "San Francisco, CA",
+  "website": "https://ambiencehealthcare.com",
+  "description": "Ambient AI platform for clinical documentation, coding, and clinical documentation integrity (CDI). Used by Cleveland Clinic, Houston Methodist, and other major health systems.",
+  "founders": [
+    {
+      "name": "Mike Ng",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Product Manager", "years": "2016-2020", "tier": "faang"}
+      ],
+      "achievements": ["Built Ambience to unicorn status"],
+      "founder_score": 78
+    },
+    {
+      "name": "Nikhil Buduma",
+      "role": "CTO",
+      "education": [
+        {"institution": "MIT", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Author of 'Fundamentals of Deep Learning'"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 344,
+    "latest_valuation": 1.25,
+    "rounds": [
+      {"type": "Series C", "amount": 243, "date": "2025-07", "lead": "Oak HC/FT, Andreessen Horowitz"}
+    ],
+    "notes": "Reached unicorn status with Series C"
+  },
+  "financials": {
+    "arr": {"value": 60, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 200, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Ambience AutoScribe", "Ambience AutoCDI", "Ambience AutoCode"],
+  "product": {
+    "launched": true,
+    "launch_date": "2021-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Ambient AI for clinical workflows"
+  },
+  "traction": {
+    "enterprise_customers": ["Cleveland Clinic", "Houston Methodist", "St. Luke's Health System"],
+    "partnerships": [
+      {"partner": "OpenAI", "type": "investor", "date": "2025-07", "details": "OpenAI Startup Fund"}
+    ],
+    "revenue_growth_yoy": 200
+  },
+  "investors": {
+    "lead_investors": ["Oak HC/FT", "Andreessen Horowitz"],
+    "strategic_investors": ["OpenAI Startup Fund", "Kleiner Perkins", "Optum Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 8000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-clinical-documentation",
+    "competitors": ["Abridge", "Nuance/Microsoft", "Suki AI"],
+    "tam_estimate": "$20B",
+    "moats": ["Cleveland Clinic partnership", "OpenAI backing", "Full workflow coverage"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Ambience Healthcare raises $243M Series C, reaches $1.25B valuation", "url": "https://www.fiercehealthcare.com/health-tech/ambience-banks-243m-series-c-investors-continue-bet-big-ambient-ai", "date": "2025-07-29", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 78,
+    "financial_health_score": 55,
+    "funding_score": 65,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 70,
+    "community_score": 35,
+    "market_position_score": 70,
+    "composite_score": 66
+  },
+  "score_notes": {
+    "founder": "Stanford/MIT founders, Google PM background",
+    "financial": "Growing revenue, good runway",
+    "funding": "$1.25B unicorn, a16z + OpenAI backed",
+    "momentum": "Strong Series C momentum",
+    "product": "Full documentation platform",
+    "traction": "Major health system customers",
+    "community": "Enterprise-focused",
+    "market": "#2 behind Abridge in AI scribes"
+  },
+  "risks": [
+    {"type": "competition", "description": "Abridge has larger market share and higher valuation; Microsoft/Nuance is major incumbent"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

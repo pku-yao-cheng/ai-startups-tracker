@@ -1,0 +1,110 @@
+{
+  "name": "Brightwave",
+  "slug": "brightwave",
+  "stage": "series-a",
+  "category": "vertical-ai",
+  "founded": 2023,
+  "hq": "Boulder, CO",
+  "website": "https://brightwave.io",
+  "description": "AI-powered investment research platform. Transforms thousands of pages into actionable insights in minutes. 4x revenue growth since seed round.",
+  "founders": [
+    {
+      "name": "Mike Conover",
+      "role": "CEO",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Databricks", "role": "Head of Open Source LLM Engineering", "years": "2020-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Led open-source LLM work at Databricks", "Dolly model creator"],
+      "founder_score": 85
+    },
+    {
+      "name": "Brandon Kotara",
+      "role": "CTO",
+      "education": [],
+      "experience": [
+        {"company": "LedgerX", "role": "CTO", "years": "2016-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Built LedgerX crypto derivatives platform"],
+      "founder_score": 78
+    }
+  ],
+  "funding": {
+    "total_raised": 21,
+    "latest_valuation": 0.1,
+    "rounds": [
+      {"type": "Series A", "amount": 15, "date": "2024-10", "lead": "Decibel Partners"},
+      {"type": "Seed", "amount": 6, "date": "2024-06", "lead": "Decibel Partners"}
+    ],
+    "notes": "Point72 Ventures, OpenAI angels invested"
+  },
+  "financials": {
+    "arr": {"value": 5, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 25, "as_of": "2026-01"},
+    "runway_months": 36,
+    "revenue_growth_yoy": 400
+  },
+  "products": ["Brightwave Research Platform", "Research Agents", "Document Analysis"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "AI research agents for finance"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 120, "type": "firms ($120B+ AUM)", "as_of": "2024-06"},
+    "partnerships": [],
+    "revenue_growth_yoy": 400,
+    "notes": "Customers from RIAs to $20B hedge funds"
+  },
+  "investors": {
+    "lead_investors": ["Decibel Partners"],
+    "strategic_investors": ["Point72 Ventures", "OMERS Ventures"],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "twitter_followers": 5000
+  },
+  "market_position": {
+    "category_rank": null,
+    "category": "ai-investment-research",
+    "competitors": ["Hebbia", "Rogo", "AlphaSense", "Visible Alpha"],
+    "tam_estimate": "$10B",
+    "moats": ["Databricks LLM expertise", "Finance focus", "Research agents"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Brightwave closes $15M Series A for AI financial research", "url": "https://www.brightwave.io/news/brightwave-secures-15m-series-a-to-scale-ai-powered-financial-research-platform", "date": "2024-10-29", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "financial_health_score": 45,
+    "funding_score": 40,
+    "momentum_score": 65,
+    "product_score": 70,
+    "traction_score": 50,
+    "community_score": 30,
+    "market_position_score": 55,
+    "composite_score": 55
+  },
+  "score_notes": {
+    "founder": "Databricks LLM lead, strong technical background",
+    "financial": "Early revenue, 4x growth",
+    "funding": "Series A, Point72 backing",
+    "momentum": "Growing in finance vertical",
+    "product": "Research agents launched",
+    "traction": "$120B+ AUM in customers",
+    "community": "Enterprise-focused",
+    "market": "Competing with Hebbia, Rogo"
+  },
+  "risks": [
+    {"type": "competition", "description": "Hebbia and Rogo have larger funding and market share in finance AI"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

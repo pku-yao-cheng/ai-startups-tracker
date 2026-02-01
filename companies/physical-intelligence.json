@@ -48,9 +48,35 @@
     "notes": "Raised $1.1B in under 2 years. Valuation grew from $2B to $5.6B in one year."
   },
   "financials": {
-    "arr": {"value": 10, "confidence": "estimated", "as_of": "2026-01"},
-    "employees": {"value": 100, "as_of": "2026-01"},
-    "notes": "B2B SaaS model: $300/month per connected robot"
+    "arr": {"value": 10, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-12", "value": 0, "notes": "Pre-commercial"},
+      {"date": "2025-06", "value": 2, "notes": "Early deployments"},
+      {"date": "2025-12", "value": 10, "notes": "B2B SaaS launch"}
+    ],
+    "arr_by_product": {
+      "robot_platform_subscriptions": {"value": 10, "as_of": "2025-12", "notes": "$300/mo per robot"}
+    },
+    "revenue_growth_yoy": 0,
+    "burn_rate_monthly": 20,
+    "runway_months": 50,
+    "gross_margin": 80,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": false},
+    "employees": {"value": 120, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 100,
+      "research_annual": 80,
+      "personnel_annual": 50,
+      "other_annual": 20,
+      "total_annual": 250,
+      "notes": "Heavy R&D investment in robot foundation models"
+    },
+    "projections": {
+      "arr_2026": 50,
+      "arr_2027": 150,
+      "notes": "Dependent on fleet deployment scale"
+    }
   },
   "products": ["π0 Foundation Model", "π0.5", "Robot Learning Platform"],
   "product": {
@@ -123,5 +149,9 @@
     "community": "Strong open-source presence, research credibility",
     "market": "Leading position in robot foundation models"
   },
+  "risks": [
+    {"type": "overvalued", "description": "560x ARR multiple ($5.6B on ~$10M ARR) - very high for early-stage robotics"},
+    {"type": "product", "description": "Robotics commercialization is historically slow; deployment at scale unproven"}
+  ],
   "last_updated": "2026-01-31"
 }

@@ -1,0 +1,62 @@
+{
+  "name": "Microsoft",
+  "slug": "microsoft",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "MSFT",
+  "founded": 1975,
+  "hq": "Redmond, WA",
+  "website": "https://microsoft.com",
+  "description": "Enterprise software giant and exclusive OpenAI commercial partner. Copilot across Office, Azure, and GitHub transforming productivity.",
+  "financials": {
+    "market_cap": 3100,
+    "annual_revenue": 250000,
+    "ai_revenue": {
+      "value": 60000,
+      "breakdown": {
+        "azure_ai": 50000,
+        "copilot": 8000,
+        "github_copilot": 2000
+      },
+      "notes": "Azure AI ($60B+ cloud segment), Microsoft 365 Copilot ($30/user/mo), GitHub Copilot ($19/mo)"
+    },
+    "ai_revenue_growth_yoy": 50,
+    "employees": {
+      "value": 220000,
+      "ai_employees": 10000,
+      "notes": "10,000+ across Azure AI, Microsoft Research, GitHub"
+    }
+  },
+  "ai_products": [
+    {"name": "Microsoft Copilot", "description": "AI assistant across Windows, Office, Edge, Bing", "status": "launched"},
+    {"name": "Azure OpenAI Service", "description": "Enterprise access to GPT-4, DALL-E, Whisper", "status": "launched"},
+    {"name": "GitHub Copilot", "description": "AI pair programmer (1.8M+ paying users)", "status": "launched"},
+    {"name": "Microsoft 365 Copilot", "description": "AI assistant in Word, Excel, PowerPoint, Teams", "status": "launched"},
+    {"name": "Bing Chat", "description": "AI-powered search with GPT-4", "status": "launched"},
+    {"name": "Azure AI Studio", "description": "Platform for building AI applications", "status": "launched"},
+    {"name": "Phi", "description": "Microsoft's small language models (Phi-3, Phi-4)", "status": "launched"}
+  ],
+  "ai_investments": [
+    {"company": "OpenAI", "amount": 13000, "date": "2023", "stake": "49%", "notes": "$13B+ invested, exclusive commercial partnership"},
+    {"company": "Mistral", "amount": 15, "date": "2024", "notes": "Strategic partnership and Azure integration"},
+    {"company": "Inflection AI", "amount": 650, "date": "2024", "notes": "Licensing deal, hired founders"}
+  ],
+  "ai_research": {
+    "papers_2024": 600,
+    "notable_contributions": ["Turing-NLG", "Phi models", "Florence", "VALL-E", "Copilot architecture"],
+    "labs": ["Microsoft Research", "Microsoft AI", "GitHub Next"]
+  },
+  "market_position": {
+    "ai_ranking": 1,
+    "moats": ["OpenAI exclusive partnership", "Enterprise relationships", "Office 365 distribution", "Azure infrastructure", "GitHub developer ecosystem"],
+    "competitors": ["Google", "Amazon", "Salesforce"],
+    "ai_strategy": "Copilot everywhere - embed AI into every Microsoft product and monetize via enterprise"
+  },
+  "recent_news": [
+    {"title": "Microsoft 365 Copilot reaches 1M+ enterprise customers", "url": "https://news.microsoft.com/copilot/", "date": "2024-11", "sentiment": "positive"},
+    {"title": "GitHub Copilot generates 40% of code for developers", "url": "https://github.blog/copilot-statistics/", "date": "2024-10", "sentiment": "positive"},
+    {"title": "Microsoft reports Azure AI revenue up 50% YoY", "url": "https://www.microsoft.com/investor/", "date": "2025-01", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

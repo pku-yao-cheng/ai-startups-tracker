@@ -1,0 +1,62 @@
+{
+  "name": "Amazon",
+  "slug": "amazon",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "AMZN",
+  "founded": 1994,
+  "hq": "Seattle, WA",
+  "website": "https://amazon.com",
+  "description": "E-commerce and cloud computing giant. AWS Bedrock offers leading AI infrastructure. Major investor in Anthropic.",
+  "financials": {
+    "market_cap": 2300,
+    "annual_revenue": 600000,
+    "ai_revenue": {
+      "value": 100000,
+      "breakdown": {
+        "aws_ai_ml": 80000,
+        "alexa_ai": 10000,
+        "retail_ai": 10000
+      },
+      "notes": "AWS ($100B+ segment) includes significant AI/ML services. AI powers recommendations, logistics, Alexa."
+    },
+    "ai_revenue_growth_yoy": 35,
+    "employees": {
+      "value": 1500000,
+      "ai_employees": 15000,
+      "notes": "Thousands across AWS AI, Alexa, Amazon Science"
+    }
+  },
+  "ai_products": [
+    {"name": "AWS Bedrock", "description": "Managed service for foundation models (Claude, Titan, Mistral)", "status": "launched"},
+    {"name": "Amazon SageMaker", "description": "Enterprise ML platform", "status": "launched"},
+    {"name": "Amazon Q", "description": "Enterprise AI assistant for AWS and business", "status": "launched"},
+    {"name": "Alexa", "description": "Voice AI assistant (500M+ devices)", "status": "launched"},
+    {"name": "Amazon Titan", "description": "Amazon's own foundation models", "status": "launched"},
+    {"name": "Trainium/Inferentia", "description": "Custom AI chips for training and inference", "status": "launched"},
+    {"name": "CodeWhisperer", "description": "AI-powered code suggestions", "status": "launched"}
+  ],
+  "ai_investments": [
+    {"company": "Anthropic", "amount": 4000, "date": "2024", "notes": "Up to $4B committed, strategic AWS partnership"},
+    {"company": "Stability AI", "amount": 100, "date": "2023", "notes": "Participated in funding round"},
+    {"company": "Hugging Face", "amount": 50, "date": "2023", "notes": "Strategic partnership"}
+  ],
+  "ai_research": {
+    "papers_2024": 200,
+    "notable_contributions": ["Alexa Prize", "AWS research", "Trainium architecture"],
+    "labs": ["Amazon Science", "AWS AI Labs", "Alexa AI"]
+  },
+  "market_position": {
+    "ai_ranking": 3,
+    "moats": ["AWS cloud dominance (32% market)", "E-commerce data", "Alexa ecosystem", "Logistics AI", "Enterprise relationships"],
+    "competitors": ["Microsoft Azure", "Google Cloud", "OpenAI"],
+    "ai_strategy": "Platform play via Bedrock - host all models, become the AI infrastructure layer"
+  },
+  "recent_news": [
+    {"title": "Amazon commits up to $4B in Anthropic investment", "url": "https://www.aboutamazon.com/news/company-news/amazon-anthropic-ai-investment", "date": "2024-09", "sentiment": "positive"},
+    {"title": "AWS launches Amazon Q enterprise assistant", "url": "https://aws.amazon.com/q/", "date": "2024-04", "sentiment": "positive"},
+    {"title": "Amazon debuts new Trainium2 chips for AI training", "url": "https://aws.amazon.com/machine-learning/trainium/", "date": "2024-12", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

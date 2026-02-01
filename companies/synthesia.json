@@ -1,0 +1,110 @@
+{
+  "name": "Synthesia",
+  "slug": "synthesia",
+  "stage": "series-d",
+  "category": "ai-application",
+  "founded": 2017,
+  "hq": "London, UK",
+  "website": "https://synthesia.io",
+  "description": "AI video generation platform that creates professional videos from text using AI avatars. Used by 50,000+ enterprises for training, marketing, and communications.",
+  "founders": [
+    {
+      "name": "Victor Riparbelli",
+      "role": "CEO",
+      "education": [
+        {"institution": "Technical University of Denmark", "degree": "MS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Built Synthesia to $4B valuation"],
+      "founder_score": 75
+    },
+    {
+      "name": "Steffen Tjerrild",
+      "role": "COO",
+      "education": [
+        {"institution": "Copenhagen Business School", "degree": "MBA", "field": "Business", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 65
+    }
+  ],
+  "funding": {
+    "total_raised": 450,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series D", "amount": 200, "date": "2025-10", "lead": "NEA, NVIDIA"}
+    ],
+    "notes": "NVIDIA and Alphabet backed; $4B valuation"
+  },
+  "financials": {
+    "arr": {"value": 150, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 400, "as_of": "2026-01"},
+    "runway_months": 36,
+    "revenue_growth_yoy": 100
+  },
+  "products": ["Synthesia Studio", "AI Avatars", "Video Translation", "Screen Recording"],
+  "product": {
+    "launched": true,
+    "launch_date": "2019-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Proprietary AI video generation"
+  },
+  "traction": {
+    "enterprise_customers": ["Amazon", "Zoom", "Accenture", "BBC", "Nike"],
+    "user_count": {"value": 50000, "type": "enterprise customers", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "investor", "date": "2025-10"},
+      {"partner": "Alphabet", "type": "investor", "date": "2025-10"}
+    ],
+    "revenue_growth_yoy": 100
+  },
+  "investors": {
+    "lead_investors": ["NEA", "Accel", "Kleiner Perkins"],
+    "strategic_investors": ["NVIDIA", "Alphabet"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "discord_members": 0
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-video-enterprise",
+    "competitors": ["HeyGen", "D-ID", "Colossyan"],
+    "tam_estimate": "$15B",
+    "moats": ["50,000+ enterprise customers", "NVIDIA/Alphabet backing", "First-mover in enterprise AI video"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Synthesia raises $200M at $4B valuation backed by NVIDIA and Alphabet", "url": "https://techcrunch.com/2025/10/15/synthesia-series-d/", "date": "2025-10-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 75,
+    "financial_health_score": 65,
+    "funding_score": 75,
+    "momentum_score": 75,
+    "product_score": 80,
+    "traction_score": 80,
+    "community_score": 45,
+    "market_position_score": 80,
+    "composite_score": 73
+  },
+  "score_notes": {
+    "founder": "Strong execution track record",
+    "financial": "Estimated $150M ARR, healthy growth",
+    "funding": "$4B valuation, NVIDIA + Alphabet strategic backing",
+    "momentum": "Strong enterprise adoption",
+    "product": "Mature product, market leader",
+    "traction": "50,000+ enterprise customers including Fortune 500",
+    "community": "Enterprise-focused, limited developer community",
+    "market": "Category leader in enterprise AI video"
+  },
+  "risks": [
+    {"type": "competition", "description": "OpenAI Sora, Google Veo, and other foundation model video could commoditize the space"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

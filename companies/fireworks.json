@@ -45,10 +45,39 @@
     "notes": "Valuation jumped 7x from $552M to $4B in less than a year. Series C included $230M primary + $24M secondary."
   },
   "financials": {
-    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
-    "employees": {"value": 120, "as_of": "2026-01"},
-    "runway_months": 48,
-    "notes": "Processing 10+ trillion tokens daily for 10,000+ customers"
+    "arr": {"value": 280, "confidence": "confirmed", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-05", "value": 7, "notes": "Early traction ~$6.5M"},
+      {"date": "2024-12", "value": 40, "notes": "Year-end 2024"},
+      {"date": "2025-05", "value": 130, "notes": "Sacra May 2025 estimate - 20x YoY growth"},
+      {"date": "2025-10", "value": 200, "notes": "Series C announcement"},
+      {"date": "2025-12", "value": 280, "notes": "CEO confirmed $280M ARR"}
+    ],
+    "arr_by_product": {
+      "inference_api": {"value": 200, "as_of": "2025-12", "notes": "Core inference platform"},
+      "enterprise": {"value": 60, "as_of": "2025-12"},
+      "other": {"value": 20, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 2000,
+    "burn_rate_monthly": 5,
+    "runway_months": 60,
+    "gross_margin": 55,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2026"},
+    "employees": {"value": 150, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 40,
+      "research_annual": 10,
+      "personnel_annual": 20,
+      "other_annual": 10,
+      "total_annual": 80,
+      "notes": "Lean infrastructure, 10T+ tokens/day"
+    },
+    "projections": {
+      "arr_2026": 450,
+      "arr_2027": 800,
+      "notes": "Target $450M ARR in 2026"
+    }
   },
   "products": ["Fireworks API", "Fireworks Function Calling", "FireOptimizer", "Compound AI Systems"],
   "product": {
@@ -112,5 +141,8 @@
     "community": "Developer-focused, growing presence",
     "market": "Top 3 in inference infrastructure"
   },
+  "risks": [
+    {"type": "competition", "description": "Together AI, Modal, Replicate competing in inference; margins may compress"}
+  ],
   "last_updated": "2026-01-31"
 }

@@ -55,5 +55,9 @@
     "momentum_score": 60,
     "composite_score": 47
   },
+  "risks": [
+    {"type": "overvalued", "description": "600x ARR multiple ($3B on ~$5M ARR) - extremely high valuation for early traction"},
+    {"type": "product", "description": "Limited commercial traction; model not yet widely deployed"}
+  ],
   "last_updated": "2026-01-29"
 }

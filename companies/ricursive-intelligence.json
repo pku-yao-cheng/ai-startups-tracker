@@ -100,5 +100,9 @@
     "community": "Early stage, building awareness",
     "market": "First-mover in AI-for-chip-design, huge TAM"
   },
+  "risks": [
+    {"type": "overvalued", "description": "Infinite multiple ($4B on $0 ARR) - pure bet on founder reputation"},
+    {"type": "execution", "description": "Chip development has high execution risk; long path to commercial product"}
+  ],
   "last_updated": "2026-01-29"
 }

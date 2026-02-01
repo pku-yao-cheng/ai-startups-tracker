@@ -1,0 +1,97 @@
+{
+  "name": "Deepgram",
+  "slug": "deepgram",
+  "stage": "series-c",
+  "category": "ai-infrastructure",
+  "founded": 2015,
+  "hq": "San Francisco, CA",
+  "website": "https://deepgram.com",
+  "description": "Voice AI platform providing speech-to-text and text-to-speech APIs. Powers voice applications for enterprises with industry-leading accuracy and speed.",
+  "founders": [
+    {
+      "name": "Scott Stephenson",
+      "role": "CEO",
+      "education": [
+        {"institution": "University of Michigan", "degree": "PhD", "field": "Physics", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Built Deepgram from particle physics research background"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 200,
+    "latest_valuation": 1.3,
+    "rounds": [
+      {"type": "Series C", "amount": 130, "date": "2025-07", "lead": "Madrona Venture Group"}
+    ],
+    "notes": "Raised $130M Series C at $1.3B valuation"
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 200, "as_of": "2026-01"},
+    "runway_months": 36
+  },
+  "products": ["Speech-to-Text API", "Text-to-Speech API", "Voice Agent API", "Audio Intelligence"],
+  "product": {
+    "launched": true,
+    "launch_date": "2017-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "End-to-end deep learning speech recognition"
+  },
+  "traction": {
+    "enterprise_customers": ["NASA", "Spotify", "Twilio"],
+    "user_count": {"value": 200000, "type": "developers", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 100
+  },
+  "investors": {
+    "lead_investors": ["Madrona Venture Group", "Tiger Global"],
+    "strategic_investors": [],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "github_stars": 5000,
+    "twitter_followers": 15000,
+    "discord_members": 10000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "voice-ai",
+    "competitors": ["AssemblyAI", "OpenAI Whisper", "Google Speech-to-Text", "Amazon Transcribe"],
+    "tam_estimate": "$10B",
+    "moats": ["Speed and accuracy", "Enterprise relationships", "Multi-language support"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Deepgram raises $130M Series C at $1.3B valuation", "url": "https://techcrunch.com/2025/07/15/deepgram-series-c/", "date": "2025-07-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 70,
+    "financial_health_score": 55,
+    "funding_score": 55,
+    "momentum_score": 65,
+    "product_score": 75,
+    "traction_score": 60,
+    "community_score": 45,
+    "market_position_score": 60,
+    "composite_score": 61
+  },
+  "score_notes": {
+    "founder": "PhD physicist, long company history",
+    "financial": "Estimated $50M ARR, healthy growth",
+    "funding": "$1.3B valuation, tier-2 investors",
+    "momentum": "Steady growth, recent funding",
+    "product": "Mature product, strong API",
+    "traction": "Enterprise customers including NASA, Spotify",
+    "community": "Active developer community",
+    "market": "Strong position in voice AI space"
+  },
+  "risks": [
+    {"type": "competition", "description": "OpenAI Whisper (free, open-source) and cloud giants pose competitive threat"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

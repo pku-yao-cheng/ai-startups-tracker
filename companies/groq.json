@@ -1,0 +1,107 @@
+{
+  "name": "Groq",
+  "slug": "groq",
+  "stage": "series-d",
+  "category": "ai-infrastructure",
+  "founded": 2016,
+  "hq": "Mountain View, CA",
+  "website": "https://groq.com",
+  "description": "AI inference chip company with LPU (Language Processing Unit) architecture. 10x energy efficiency vs GPUs. Licensed technology to NVIDIA for $20B in December 2025.",
+  "founders": [
+    {
+      "name": "Jonathan Ross",
+      "role": "CEO (joined NVIDIA Dec 2025)",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Engineering", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "TPU Architect", "years": "2013-2016", "tier": "faang"}
+      ],
+      "achievements": ["Designed Google's first TPU", "Built Groq LPU architecture"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 1500,
+    "latest_valuation": 20,
+    "rounds": [
+      {"type": "NVIDIA License", "amount": 20000, "date": "2025-12", "lead": "NVIDIA", "notes": "Technology licensing deal valued at $20B"},
+      {"type": "Series D", "amount": 750, "date": "2025-09", "lead": "Disruptive", "notes": "$6.9B valuation"},
+      {"type": "Series C", "amount": 640, "date": "2024-08", "lead": "BlackRock"}
+    ],
+    "notes": "NVIDIA $20B licensing deal in Dec 2025; founders joined NVIDIA"
+  },
+  "financials": {
+    "arr": {"value": 500, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 300, "as_of": "2025-12"},
+    "runway_months": 60,
+    "notes": "Projected $500M revenue in 2025"
+  },
+  "products": ["Groq LPU", "GroqCloud", "Groq Inference API"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-01",
+    "benchmarks": [
+      {"name": "Inference Speed", "rank": 1, "notes": "Ultra-fast inference", "date": "2025-09"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 72,
+    "infrastructure": "LPU chips with deterministic execution"
+  },
+  "traction": {
+    "enterprise_customers": ["Fortune 500 companies"],
+    "user_count": {"value": 2000000, "type": "developers", "as_of": "2025-09"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "licensing", "date": "2025-12", "details": "$20B technology license"},
+      {"partner": "Saudi Arabia", "type": "infrastructure", "date": "2025-02", "details": "$1.5B data center commitment"}
+    ],
+    "revenue_growth_yoy": 400
+  },
+  "investors": {
+    "lead_investors": ["BlackRock", "Disruptive"],
+    "strategic_investors": ["Samsung", "Cisco", "NVIDIA"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 100000,
+    "discord_members": 30000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-inference-chips",
+    "competitors": ["NVIDIA", "Cerebras", "Etched", "AMD"],
+    "tam_estimate": "$100B",
+    "moats": ["LPU architecture", "Speed leadership", "NVIDIA partnership"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "NVIDIA licenses Groq technology for $20B", "url": "https://intuitionlabs.ai/articles/nvidia-groq-ai-inference-deal", "date": "2025-12-24", "sentiment": "positive"},
+    {"title": "Groq raises $750M at $6.9B valuation", "url": "https://techcrunch.com/2025/09/17/nvidia-ai-chip-challenger-groq-raises-even-more-than-expected-hits-6-9b-valuation/", "date": "2025-09-17", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 70,
+    "funding_score": 90,
+    "momentum_score": 95,
+    "product_score": 85,
+    "traction_score": 75,
+    "community_score": 65,
+    "market_position_score": 85,
+    "composite_score": 82
+  },
+  "score_notes": {
+    "founder": "Google TPU architect, now at NVIDIA",
+    "financial": "$500M projected revenue",
+    "funding": "$20B NVIDIA deal, $6.9B valuation",
+    "momentum": "Massive NVIDIA deal",
+    "product": "Fastest inference chips",
+    "traction": "2M+ developers, enterprise customers",
+    "community": "Strong developer adoption",
+    "market": "Leading alternative to NVIDIA GPUs"
+  },
+  "risks": [
+    {"type": "execution", "description": "Founders joined NVIDIA; unclear future as independent company"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -1,18 +1,18 @@
 {
   "name": "Safe Superintelligence Inc",
   "slug": "ssi",
-  "stage": "series-a",
+  "stage": "series-b",
   "category": "foundation-model",
   "founded": 2024,
   "hq": "Palo Alto, CA",
   "website": "https://ssi.inc",
-  "description": "AI safety-focused company building safe superintelligence. Founded by former OpenAI Chief Scientist Ilya Sutskever.",
+  "description": "AI safety-focused company building safe superintelligence. Founded by former OpenAI Chief Scientist Ilya Sutskever. Pure research lab with no product plans.",
   "founders": [
     {
       "name": "Ilya Sutskever",
       "role": "Co-founder & Chief Scientist",
       "education": [
-        {"institution": "University of Toronto", "degree": "PhD", "field": "Machine Learning", "tier": "tier-2"}
+        {"institution": "University of Toronto", "degree": "PhD", "field": "Machine Learning", "tier": "tier-1"}
       ],
       "experience": [
         {"company": "OpenAI", "role": "Co-founder & Chief Scientist", "years": "2015-2024", "tier": "faang"},
@@ -24,9 +24,6 @@
     {
       "name": "Daniel Gross",
       "role": "Co-founder",
-      "education": [
-        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
-      ],
       "experience": [
         {"company": "Apple", "role": "Head of AI/ML", "years": "2016-2017", "tier": "faang"},
         {"company": "Y Combinator", "role": "Partner", "years": "2017-2019", "tier": "tier-1"},
@@ -38,9 +35,6 @@
     {
       "name": "Daniel Levy",
       "role": "Co-founder",
-      "education": [
-        {"institution": "Unknown", "degree": "Unknown", "field": "Unknown", "tier": "tier-3"}
-      ],
       "experience": [
         {"company": "OpenAI", "role": "Researcher", "years": "2019-2024", "tier": "faang"}
       ],
@@ -49,25 +43,65 @@
     }
   ],
   "funding": {
-    "total_raised": 1000,
-    "latest_valuation": 5,
+    "total_raised": 3000,
+    "latest_valuation": 32,
     "rounds": [
+      {"type": "Series B", "amount": 2000, "date": "2025-04", "lead": "Greenoaks", "notes": "A16z, Lightspeed, DST Global, Alphabet, Nvidia participated"},
       {"type": "Series A", "amount": 1000, "date": "2024-09", "lead": "A16z, Sequoia, DST Global"}
-    ]
+    ],
+    "notes": "Meta attempted acquisition in early 2025, rebuffed by Sutskever. Google Cloud's largest external TPU customer."
   },
   "financials": {
-    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2025-12"},
-    "employees": {"value": 20, "as_of": "2025-12"}
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 20, "as_of": "2026-01", "notes": "Extremely lean for valuation"},
+    "notes": "Pure research lab. No immediate product plans. Uses Google TPUs instead of Nvidia GPUs."
   },
   "products": [],
-  "recent_news": [],
+  "product": {
+    "launched": false,
+    "notes": "No product released. Sutskever stated may release product if timeline is longer than expected or if it would be useful for world to see powerful AI."
+  },
+  "investors": {
+    "lead_investors": ["Greenoaks", "Andreessen Horowitz", "Sequoia"],
+    "strategic_investors": ["Alphabet", "Nvidia"],
+    "other_investors": ["Lightspeed Venture Partners", "DST Global"],
+    "investor_tier": "tier-1"
+  },
+  "market_position": {
+    "competitors": ["OpenAI", "Anthropic", "DeepMind"],
+    "moats": ["Ilya Sutskever (legendary founder)", "Safety-first approach", "Top-tier investor backing"],
+    "notes": "Pure research play betting on AGI/ASI breakthrough"
+  },
+  "recent_news": [
+    {"title": "SSI valued at $32B after raising $2B", "url": "https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b/", "date": "2025-04", "sentiment": "positive"},
+    {"title": "Meta attempted to acquire SSI, rebuffed", "url": "https://www.calcalistech.com/ctechnews/article/hjfywdtajl", "date": "2025-03", "sentiment": "positive"},
+    {"title": "SSI raises $1B at $5B valuation", "url": "https://www.cio.com/article/3504983/ilya-sutskevers-safe-superintelligence-inc-lands-1b-investment.html", "date": "2024-09", "sentiment": "positive"}
+  ],
   "scores": {
     "founder_score": 100,
-    "revenue_score": 0,
-    "funding_score": 45,
-    "momentum_score": 75,
-    "composite_score": 58
+    "financial_health_score": 30,
+    "funding_score": 85,
+    "momentum_score": 70,
+    "product_score": 0,
+    "traction_score": 0,
+    "community_score": 50,
+    "market_position_score": 75,
+    "composite_score": 55
   },
-  "last_updated": "2026-01-29",
-  "notes": "Pre-product stealth company focused on safe superintelligence research."
+  "score_notes": {
+    "founder": "Ilya Sutskever - legendary AI researcher, co-invented AlexNet, led GPT at OpenAI",
+    "financial": "Zero revenue, pure research lab. $32B valuation on vision alone.",
+    "funding": "$32B valuation, $3B raised, tier-1 investors including Alphabet/Nvidia",
+    "momentum": "Major valuation jump but no product progress visible",
+    "product": "No product, no timeline. Pure research bet.",
+    "traction": "Zero commercial traction",
+    "community": "High interest due to Ilya but no public engagement",
+    "market": "Betting on ASI breakthrough. High risk, high reward."
+  },
+  "risks": [
+    {"type": "product", "description": "No product released, no timeline. Pure research lab with no commercial plans."},
+    {"type": "overvalued", "description": "$32B valuation with $0 ARR - infinite multiple on founder reputation alone"}
+  ],
+  "last_updated": "2026-01-31",
+  "notes": "Pre-product research lab. $32B valuation is pure bet on Ilya Sutskever achieving AGI/ASI breakthrough. Zero revenue expected for years."
 }

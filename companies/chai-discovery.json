@@ -1,0 +1,97 @@
+{
+  "name": "Chai Discovery",
+  "slug": "chai-discovery",
+  "stage": "series-b",
+  "category": "vertical-ai",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://chaidiscovery.com",
+  "description": "AI-powered drug discovery company that creates models to predict biochemical molecular structures. Aims to accelerate pharmaceutical research using foundation models for biology.",
+  "founders": [
+    {
+      "name": "Joshua Meier",
+      "role": "CEO",
+      "education": [
+        {"institution": "Princeton", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Meta AI", "role": "Research Scientist", "years": "2018-2024", "tier": "faang"}
+      ],
+      "achievements": ["Key contributor to ESMFold at Meta", "Protein structure prediction research"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 230,
+    "latest_valuation": 1.3,
+    "rounds": [
+      {"type": "Series B", "amount": 130, "date": "2025-10", "lead": "General Catalyst, Thrive Capital"}
+    ],
+    "notes": "Rapid funding for AI drug discovery"
+  },
+  "financials": {
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 60,
+    "notes": "Pre-revenue, R&D focused"
+  },
+  "products": ["Chai Molecular Structure Prediction", "Drug Discovery Platform"],
+  "product": {
+    "launched": false,
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": null,
+    "infrastructure": "Foundation models for molecular biology"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "notes": "Early-stage, building platform"
+  },
+  "investors": {
+    "lead_investors": ["General Catalyst", "Thrive Capital"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 5000
+  },
+  "market_position": {
+    "category_rank": null,
+    "category": "ai-drug-discovery",
+    "competitors": ["Isomorphic Labs", "Recursion", "Insilico Medicine", "Generate Biomedicines"],
+    "tam_estimate": "$50B",
+    "moats": ["ESMFold expertise", "Meta AI research background"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Chai Discovery raises $130M Series B for AI drug discovery", "url": "https://techcrunch.com/2025/10/20/chai-discovery-series-b/", "date": "2025-10-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 25,
+    "funding_score": 65,
+    "momentum_score": 75,
+    "product_score": 35,
+    "traction_score": 20,
+    "community_score": 30,
+    "market_position_score": 60,
+    "composite_score": 51
+  },
+  "score_notes": {
+    "founder": "Meta AI protein structure research background, Princeton PhD",
+    "financial": "Pre-revenue, R&D focused",
+    "funding": "$1.3B valuation, tier-1 VCs",
+    "momentum": "Strong AI drug discovery interest",
+    "product": "Not yet launched",
+    "traction": "No customers yet",
+    "community": "Limited public presence",
+    "market": "Competing with well-funded AI drug discovery players"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "Infinite multiple ($1.3B on $0 ARR) - pure bet on founder and technology"},
+    {"type": "execution", "description": "AI drug discovery has long development timelines and regulatory hurdles"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

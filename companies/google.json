@@ -1,0 +1,61 @@
+{
+  "name": "Google (Alphabet)",
+  "slug": "google",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "GOOGL",
+  "founded": 1998,
+  "hq": "Mountain View, CA",
+  "website": "https://google.com",
+  "description": "Global technology leader and AI pioneer. Creator of Gemini, DeepMind, and Cloud AI services. Major investor in AI startups.",
+  "financials": {
+    "market_cap": 2300,
+    "annual_revenue": 350000,
+    "ai_revenue": {
+      "value": 50000,
+      "breakdown": {
+        "google_cloud": 40000,
+        "gemini_api": 5000,
+        "other_ai": 5000
+      },
+      "notes": "Google Cloud ($40B+) includes AI/ML services, Gemini API, Vertex AI"
+    },
+    "ai_revenue_growth_yoy": 30,
+    "employees": {
+      "value": 180000,
+      "ai_employees": 5000,
+      "notes": "5,000+ in DeepMind alone, thousands more across Google AI"
+    }
+  },
+  "ai_products": [
+    {"name": "Gemini", "description": "Multimodal foundation model family (Ultra, Pro, Flash, Nano)", "status": "launched"},
+    {"name": "DeepMind", "description": "World-leading AI research lab (AlphaFold, AlphaGo)", "status": "research"},
+    {"name": "Vertex AI", "description": "Enterprise ML platform on Google Cloud", "status": "launched"},
+    {"name": "TPUs", "description": "Custom AI accelerator chips (v5p, Trillium)", "status": "launched"},
+    {"name": "Search AI", "description": "AI Overviews and Search Generative Experience", "status": "launched"},
+    {"name": "Gemini Code Assist", "description": "AI-powered coding assistant", "status": "launched"},
+    {"name": "NotebookLM", "description": "AI-powered research assistant", "status": "launched"}
+  ],
+  "ai_investments": [
+    {"company": "Anthropic", "amount": 2000, "date": "2023", "stake": "10%", "notes": "Strategic partnership, GCP deal"},
+    {"company": "Character.AI", "amount": 2500, "date": "2024", "notes": "Licensing deal for founders and technology"}
+  ],
+  "ai_research": {
+    "papers_2024": 500,
+    "notable_contributions": ["Transformer architecture (2017)", "BERT", "PaLM", "Gemini", "AlphaFold", "AlphaGo"],
+    "labs": ["DeepMind", "Google AI", "Google Research"]
+  },
+  "market_position": {
+    "ai_ranking": 1,
+    "moats": ["Search monopoly", "YouTube data", "Android ecosystem", "Cloud infrastructure", "TPU hardware", "Talent density"],
+    "competitors": ["OpenAI", "Microsoft", "Meta", "Amazon"],
+    "ai_strategy": "Full-stack AI: models (Gemini), infrastructure (TPUs/Cloud), applications (Search, Workspace)"
+  },
+  "recent_news": [
+    {"title": "Google launches Gemini 2.0 with agentic capabilities", "url": "https://blog.google/technology/google-deepmind/gemini-2/", "date": "2024-12", "sentiment": "positive"},
+    {"title": "DeepMind's AlphaFold 3 predicts all biomolecular interactions", "url": "https://www.nature.com/articles/d41586-024-01337-y", "date": "2024-05", "sentiment": "positive"},
+    {"title": "Google invests additional $1B in Anthropic", "url": "https://techcrunch.com/2024/10/anthropic-google-investment/", "date": "2024-10", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

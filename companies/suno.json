@@ -1,0 +1,98 @@
+{
+  "name": "Suno",
+  "slug": "suno",
+  "stage": "series-c",
+  "category": "ai-application",
+  "founded": 2023,
+  "hq": "Cambridge, MA",
+  "website": "https://suno.com",
+  "description": "AI music generation platform. Nearly 100M users have created music. $200M ARR. Facing copyright lawsuits from Sony, Universal, and Warner.",
+  "founders": [
+    {
+      "name": "Mikey Shulman",
+      "role": "CEO",
+      "education": [
+        {"institution": "Harvard", "degree": "PhD", "field": "Physics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Kensho", "role": "ML Engineer", "years": "2016-2022", "tier": "tier-1"}
+      ],
+      "achievements": ["Built Suno to 100M users"],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 375,
+    "latest_valuation": 2.45,
+    "rounds": [
+      {"type": "Series C", "amount": 250, "date": "2025-11", "lead": "Menlo Ventures"}
+    ],
+    "notes": "Nearly 4x valuation jump from previous round"
+  },
+  "financials": {
+    "arr": {"value": 200, "confidence": "confirmed", "as_of": "2025-11"},
+    "employees": {"value": 100, "as_of": "2025-12"},
+    "runway_months": 36
+  },
+  "products": ["Suno AI", "Suno Studio", "Suno v5"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-12",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Proprietary music generation models"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 100000000, "type": "users", "as_of": "2025-11"},
+    "partnerships": [],
+    "revenue_growth_yoy": 300
+  },
+  "investors": {
+    "lead_investors": ["Menlo Ventures", "Lightspeed"],
+    "strategic_investors": ["NVIDIA NVentures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 200000,
+    "discord_members": 500000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-music-generation",
+    "competitors": ["Udio", "Stability Audio", "Google MusicLM"],
+    "tam_estimate": "$18B",
+    "moats": ["100M users", "First-mover", "$200M ARR"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Suno raises $250M at $2.45B valuation on $200M revenue", "url": "https://techcrunch.com/2025/11/19/legally-embattled-ai-music-startup-suno-raises-at-2-45b-valuation-on-200m-revenue/", "date": "2025-11-19", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 70,
+    "funding_score": 70,
+    "momentum_score": 85,
+    "product_score": 85,
+    "traction_score": 90,
+    "community_score": 85,
+    "market_position_score": 80,
+    "composite_score": 81
+  },
+  "score_notes": {
+    "founder": "Harvard PhD, Kensho background",
+    "financial": "$200M ARR confirmed",
+    "funding": "$2.45B valuation, tier-1 VCs",
+    "momentum": "Strong revenue growth",
+    "product": "Market-leading music AI",
+    "traction": "100M users, massive adoption",
+    "community": "Huge Discord community",
+    "market": "Category leader in AI music"
+  },
+  "risks": [
+    {"type": "legal", "description": "Major copyright lawsuits from Sony, Universal, and Warner Music Group"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

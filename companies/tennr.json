@@ -1,0 +1,108 @@
+{
+  "name": "Tennr",
+  "slug": "tennr",
+  "stage": "series-c",
+  "category": "vertical-ai",
+  "founded": 2021,
+  "hq": "New York, NY",
+  "website": "https://tennr.com",
+  "description": "AI platform automating patient referral workflows for healthcare. Processes 10M documents monthly. Used by hundreds of healthcare organizations.",
+  "founders": [
+    {
+      "name": "Trey Holterman",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": ["Built Tennr to $605M valuation"],
+      "founder_score": 72
+    },
+    {
+      "name": "Tyler Johnson",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 162,
+    "latest_valuation": 0.605,
+    "rounds": [
+      {"type": "Series C", "amount": 101, "date": "2025-06", "lead": "IVP"},
+      {"type": "Series B", "amount": 37, "date": "2024-10", "lead": "a16z"}
+    ],
+    "notes": "Frank Slootman (ex-Snowflake CEO) is investor"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 100, "as_of": "2026-01"},
+    "runway_months": 48,
+    "notes": "Triple revenue since Series B"
+  },
+  "products": ["Tennr Referral Automation", "Document Processing", "Healthcare Workflow AI"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "AI document processing for healthcare"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 10000000, "type": "documents/month", "as_of": "2025-06"},
+    "partnerships": [],
+    "revenue_growth_yoy": 200,
+    "notes": "Hundreds of healthcare organizations"
+  },
+  "investors": {
+    "lead_investors": ["IVP", "Andreessen Horowitz"],
+    "strategic_investors": ["Lightspeed", "GV", "ICONIQ", "Foundation Capital"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 5000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "healthcare-referral-automation",
+    "competitors": ["Notable Health", "Olive AI", "Rhyme"],
+    "tam_estimate": "$5B",
+    "moats": ["Healthcare domain expertise", "10M docs/month scale"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Tennr raises $101M Series C at $605M valuation", "url": "https://fortune.com/2025/06/18/tennr-health-tech-ai-patient-referral-ivp-a16z-lightspeed-iconiq-series-c/", "date": "2025-06-18", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 72,
+    "financial_health_score": 55,
+    "funding_score": 60,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 70,
+    "community_score": 30,
+    "market_position_score": 70,
+    "composite_score": 64
+  },
+  "score_notes": {
+    "founder": "Stanford founders, young company",
+    "financial": "Triple revenue growth, well-funded",
+    "funding": "$605M valuation, tier-1 VCs",
+    "momentum": "Strong healthcare AI traction",
+    "product": "10M documents/month processing",
+    "traction": "Hundreds of healthcare customers",
+    "community": "Enterprise-focused",
+    "market": "Leader in referral automation"
+  },
+  "risks": [
+    {"type": "competition", "description": "Larger healthcare AI players (Abridge, Ambience) could expand into referral workflows"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

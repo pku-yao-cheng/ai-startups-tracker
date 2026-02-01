@@ -1,0 +1,111 @@
+{
+  "name": "HeyGen",
+  "slug": "heygen",
+  "stage": "series-a",
+  "category": "ai-application",
+  "founded": 2020,
+  "hq": "Los Angeles, CA",
+  "website": "https://heygen.com",
+  "description": "AI video avatar platform for business video creation. 85K+ customers. $95M ARR. Profitable since Q2 2023.",
+  "founders": [
+    {
+      "name": "Joshua Xu",
+      "role": "CEO",
+      "education": [
+        {"institution": "Carnegie Mellon", "degree": "MS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Snap", "role": "Software Engineer", "years": "2018-2020", "tier": "tier-1"}
+      ],
+      "achievements": ["Built HeyGen to profitability in 2 years"],
+      "founder_score": 78
+    },
+    {
+      "name": "Wayne Liang",
+      "role": "CTO",
+      "education": [
+        {"institution": "Unknown", "degree": "MS", "field": "Computer Science", "tier": "tier-3"}
+      ],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 66,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series A", "amount": 60, "date": "2024-06", "lead": "Benchmark"}
+    ],
+    "notes": "Profitable, raised primarily for growth"
+  },
+  "financials": {
+    "arr": {"value": 95, "confidence": "estimated", "as_of": "2025-09"},
+    "employees": {"value": 157, "as_of": "2025-12"},
+    "cash_flow_positive": true,
+    "runway_months": 60,
+    "revenue_growth_yoy": 170
+  },
+  "products": ["HeyGen Video Avatar", "Video Translate", "Interactive Avatar"],
+  "product": {
+    "launched": true,
+    "launch_date": "2021-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "AI video generation with avatars"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 85000, "type": "customers", "as_of": "2025-05"},
+    "partnerships": [],
+    "revenue_growth_yoy": 170,
+    "notes": "Profitable since Q2 2023"
+  },
+  "investors": {
+    "lead_investors": ["Benchmark"],
+    "strategic_investors": ["Thrive Capital", "BOND", "SV Angel"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "discord_members": 20000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-video-avatars",
+    "competitors": ["Synthesia", "D-ID", "Colossyan", "Elai.io"],
+    "tam_estimate": "$15B",
+    "moats": ["Profitability", "85K customers", "SMB focus"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "HeyGen reaches $95M ARR with 157 employees", "url": "https://getlatka.com/companies/heygen", "date": "2025-09-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 78,
+    "financial_health_score": 85,
+    "funding_score": 50,
+    "momentum_score": 75,
+    "product_score": 80,
+    "traction_score": 80,
+    "community_score": 55,
+    "market_position_score": 70,
+    "composite_score": 72
+  },
+  "score_notes": {
+    "founder": "CMU, Snap background",
+    "financial": "Profitable, $95M ARR",
+    "funding": "$500M valuation, Benchmark led",
+    "momentum": "Strong growth trajectory",
+    "product": "Popular video avatar platform",
+    "traction": "85K+ customers",
+    "community": "Active user community",
+    "market": "#2 behind Synthesia"
+  },
+  "risks": [
+    {"type": "competition", "description": "Synthesia has $4B valuation and enterprise focus; OpenAI Sora entering video"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

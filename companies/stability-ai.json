@@ -1,0 +1,103 @@
+{
+  "name": "Stability AI",
+  "slug": "stability-ai",
+  "stage": "series-a",
+  "category": "foundation-model",
+  "founded": 2019,
+  "hq": "London, UK",
+  "website": "https://stability.ai",
+  "description": "Open-source AI company behind Stable Diffusion. Pivoting from open-source to commercial. New CEO Prem Akkaraju driving turnaround.",
+  "founders": [
+    {
+      "name": "Emad Mostaque",
+      "role": "Former CEO (resigned 2024)",
+      "education": [
+        {"institution": "Oxford", "degree": "BA", "field": "Mathematics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Synaptic Capital", "role": "Founder", "years": "2014-2019", "tier": "tier-2"}
+      ],
+      "achievements": ["Released Stable Diffusion open-source"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 225,
+    "latest_valuation": 1,
+    "rounds": [
+      {"type": "Bridge", "amount": 80, "date": "2024-06", "lead": "Coatue, Lightspeed"}
+    ],
+    "notes": "Down round from previous $4B valuation"
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 184, "as_of": "2025-12"},
+    "runway_months": 18,
+    "notes": "High burn rate, <$5M quarterly revenue reported earlier"
+  },
+  "products": ["Stable Diffusion", "Stable Audio", "Stable Video", "Stable LM"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-08",
+    "benchmarks": [],
+    "github": {"repo": "Stability-AI/stablediffusion", "stars": 70000, "as_of": "2025-12"},
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Open-source foundation models"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 10000000, "type": "Stable Diffusion users", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 100,
+    "notes": "Pivoting to commercial endpoints"
+  },
+  "investors": {
+    "lead_investors": ["Coatue Management", "Lightspeed"],
+    "strategic_investors": ["Eric Schmidt", "Sean Parker"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 500000,
+    "github_stars": 70000,
+    "discord_members": 200000
+  },
+  "market_position": {
+    "category_rank": 3,
+    "category": "image-generation",
+    "competitors": ["OpenAI DALL-E", "Midjourney", "Adobe Firefly", "Google Imagen"],
+    "tam_estimate": "$20B",
+    "moats": ["Open-source community", "Stable Diffusion adoption"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Stability AI launches Stable Audio 2.5 for enterprise", "url": "https://stability.ai/news/stable-audio-2-5", "date": "2025-09-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 70,
+    "financial_health_score": 30,
+    "funding_score": 50,
+    "momentum_score": 50,
+    "product_score": 80,
+    "traction_score": 60,
+    "community_score": 90,
+    "market_position_score": 60,
+    "composite_score": 60
+  },
+  "score_notes": {
+    "founder": "Original founder resigned; new CEO driving turnaround",
+    "financial": "High burn rate, struggling with monetization",
+    "funding": "Down round to $1B from $4B",
+    "momentum": "Turnaround in progress",
+    "product": "Strong open-source products",
+    "traction": "Millions of users but low revenue",
+    "community": "Massive open-source community",
+    "market": "Behind Midjourney and OpenAI in commercial market"
+  },
+  "risks": [
+    {"type": "funding", "description": "High burn rate with uncertain path to profitability; may need additional funding at lower valuation"},
+    {"type": "execution", "description": "CEO transition and strategic pivot create execution risk"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

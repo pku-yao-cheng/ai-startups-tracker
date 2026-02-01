@@ -1,0 +1,103 @@
+{
+  "name": "Cerebras Systems",
+  "slug": "cerebras",
+  "stage": "series-g",
+  "category": "ai-infrastructure",
+  "founded": 2016,
+  "hq": "Sunnyvale, CA",
+  "website": "https://cerebras.ai",
+  "description": "Wafer-scale AI chip company. WSE-3 chip has 4 trillion transistors and 900,000 AI cores. $10B+ OpenAI deal signed. Planning Q2 2026 IPO at $22B valuation.",
+  "founders": [
+    {
+      "name": "Andrew Feldman",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "MBA", "field": "Business", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "SeaMicro", "role": "Founder & CEO", "years": "2007-2012", "tier": "prior-exit"}
+      ],
+      "achievements": ["Founded SeaMicro (acquired by AMD for $334M)", "Built largest chip ever made"],
+      "founder_score": 88
+    }
+  ],
+  "funding": {
+    "total_raised": 1100,
+    "latest_valuation": 8.1,
+    "rounds": [
+      {"type": "Series G", "amount": 1100, "date": "2025-09", "lead": "Fidelity, Atreides"}
+    ],
+    "notes": "In talks for $1B at $22B valuation ahead of Q2 2026 IPO"
+  },
+  "financials": {
+    "arr": {"value": 1000, "confidence": "estimated", "as_of": "2025-12"},
+    "employees": {"value": 500, "as_of": "2025-12"},
+    "runway_months": 36,
+    "notes": "Estimated $1B+ revenue in 2025"
+  },
+  "products": ["WSE-3 Wafer Scale Engine", "CS-3 System", "Cerebras Cloud"],
+  "product": {
+    "launched": true,
+    "launch_date": "2019-01",
+    "benchmarks": [
+      {"name": "Transistor Count", "rank": 1, "notes": "4 trillion transistors", "date": "2024-01"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 36,
+    "infrastructure": "Wafer-scale chips, 125 petaflops per chip"
+  },
+  "traction": {
+    "enterprise_customers": ["OpenAI", "IBM", "US Department of Energy"],
+    "partnerships": [
+      {"partner": "OpenAI", "type": "customer", "date": "2026-01", "details": "$10B+ deal for 750MW compute"},
+      {"partner": "US DOE", "type": "customer", "date": "2024-01"}
+    ],
+    "revenue_growth_yoy": 200
+  },
+  "investors": {
+    "lead_investors": ["Fidelity", "Atreides Management", "Tiger Global"],
+    "strategic_investors": ["Benchmark", "Altimeter"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 30000
+  },
+  "market_position": {
+    "category_rank": 3,
+    "category": "ai-chips",
+    "competitors": ["NVIDIA", "Groq", "AMD", "Google TPU"],
+    "tam_estimate": "$100B",
+    "moats": ["Wafer-scale technology", "OpenAI partnership", "US government contracts"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Cerebras in talks for $1B at $22B valuation ahead of IPO", "url": "https://techstartups.com/2026/01/13/ai-chip-startup-cerebras-in-talks-to-raise-1b-at-22b-valuation-ahead-of-2026-ipo/", "date": "2026-01-13", "sentiment": "positive"},
+    {"title": "Cerebras signs $10B+ OpenAI deal", "url": "https://www.financialcontent.com/article/tokenring-2026-1-6-the-wafer-scale-revolution-cerebras-systems-sets-sights-on-8-billion-ipo-to-challenge-nvidias-throne", "date": "2026-01-06", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 88,
+    "financial_health_score": 75,
+    "funding_score": 85,
+    "momentum_score": 90,
+    "product_score": 90,
+    "traction_score": 85,
+    "community_score": 45,
+    "market_position_score": 85,
+    "composite_score": 81
+  },
+  "score_notes": {
+    "founder": "Serial founder with AMD exit",
+    "financial": "$1B+ revenue, strong growth",
+    "funding": "$8.1B valuation, targeting $22B IPO",
+    "momentum": "OpenAI deal, IPO imminent",
+    "product": "World's largest chip",
+    "traction": "OpenAI, IBM, DOE customers",
+    "community": "Enterprise-focused",
+    "market": "Leading wafer-scale chip company"
+  },
+  "risks": [
+    {"type": "execution", "description": "IPO timing uncertain; previous G42/CFIUS issues resolved but regulatory scrutiny remains"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

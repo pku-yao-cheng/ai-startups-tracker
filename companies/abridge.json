@@ -1,0 +1,104 @@
+{
+  "name": "Abridge",
+  "slug": "abridge",
+  "stage": "series-e",
+  "category": "vertical-ai",
+  "founded": 2018,
+  "hq": "Pittsburgh, PA",
+  "website": "https://abridge.com",
+  "description": "AI-powered clinical documentation platform that uses ambient AI to automatically generate medical notes from doctor-patient conversations. Deployed in 150+ health systems.",
+  "founders": [
+    {
+      "name": "Shiv Rao",
+      "role": "CEO",
+      "education": [
+        {"institution": "Johns Hopkins", "degree": "MD", "field": "Medicine", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "UPMC", "role": "Cardiologist", "years": "2010-2018", "tier": "tier-1"}
+      ],
+      "achievements": ["Practicing cardiologist turned entrepreneur", "Built Abridge to $5.3B"],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 800,
+    "latest_valuation": 5.3,
+    "rounds": [
+      {"type": "Series E", "amount": 300, "date": "2025-06", "lead": "Andreessen Horowitz, Khosla Ventures"},
+      {"type": "Series D", "amount": 250, "date": "2025-02", "lead": "Elad Gil, IVP", "notes": "CapitalG, NVIDIA participated"}
+    ],
+    "notes": "Valuation nearly doubled in 4 months (Series D to E)"
+  },
+  "financials": {
+    "arr": {"value": 100, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 300, "as_of": "2026-01"},
+    "runway_months": 48,
+    "revenue_growth_yoy": 300
+  },
+  "products": ["Abridge Clinical Documentation", "AI Medical Scribe", "Revenue Cycle AI"],
+  "product": {
+    "launched": true,
+    "launch_date": "2020-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Ambient AI for clinical documentation"
+  },
+  "traction": {
+    "enterprise_customers": ["UPMC", "UCI Health", "Emory Healthcare"],
+    "user_count": {"value": 150, "type": "health systems", "as_of": "2025-06"},
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "investor", "date": "2025-02"},
+      {"partner": "Epic", "type": "integration", "date": "2024-01"}
+    ],
+    "revenue_growth_yoy": 300,
+    "notes": "50% growth in health system deployments in 4 months"
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "Khosla Ventures", "IVP"],
+    "strategic_investors": ["NVIDIA", "CapitalG"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 15000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-clinical-documentation",
+    "competitors": ["Ambience Healthcare", "Nuance/Microsoft", "Suki AI", "Nabla"],
+    "tam_estimate": "$20B",
+    "moats": ["150+ health system deployments", "Epic integration", "Physician founder"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Abridge raises $300M Series E at $5.3B valuation", "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/ambient-ai-startup-abridge-scores-300m-series-e-backed-a16z-and-khosla", "date": "2025-06-24", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 65,
+    "funding_score": 80,
+    "momentum_score": 90,
+    "product_score": 85,
+    "traction_score": 80,
+    "community_score": 40,
+    "market_position_score": 85,
+    "composite_score": 77
+  },
+  "score_notes": {
+    "founder": "MD founder with domain expertise",
+    "financial": "Strong revenue growth, well-funded",
+    "funding": "$5.3B valuation, a16z + Khosla led",
+    "momentum": "Valuation doubled in 4 months",
+    "product": "Mature product, 150+ deployments",
+    "traction": "Category leader in health systems",
+    "community": "Enterprise-focused",
+    "market": "Leading AI scribe platform"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "53x ARR multiple ($5.3B on ~$100M ARR) - high but justifiable for category leader"},
+    {"type": "competition", "description": "Microsoft/Nuance, Ambience, and others competing in ambient AI"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -33,11 +33,42 @@
     "notes": "Strategic investors include NVIDIA and Cisco. Doubled valuation YoY."
   },
   "financials": {
-    "arr": {"value": 500, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 500, "as_of": "2025-12"},
-    "mau": 600000000,
+    "arr": {"value": 3200, "confidence": "estimated", "as_of": "2025-12", "notes": "Combined xAI + X ecosystem run-rate"},
+    "arr_standalone": {"value": 500, "confidence": "confirmed", "as_of": "2025-12", "notes": "xAI standalone (excluding X)"},
+    "arr_history": [
+      {"date": "2024-12", "value": 100, "notes": "xAI standalone: $100M ARR 16 months after founding"},
+      {"date": "2025-03", "value": 200, "notes": "xAI standalone: SuperGrok subscription growth"},
+      {"date": "2025-06", "value": 3200, "notes": "Combined xAI + X ecosystem after acquisition"},
+      {"date": "2025-12", "value": 3500, "notes": "Combined: xAI $500M + X ~$3B"}
+    ],
+    "arr_by_product": {
+      "x_advertising": {"value": 2200, "as_of": "2025-12", "notes": "X Corp advertising revenue"},
+      "x_subscriptions": {"value": 300, "as_of": "2025-12", "notes": "X Premium subscriptions"},
+      "supergrok_subscriptions": {"value": 250, "as_of": "2025-12", "notes": "SuperGrok $30-300/mo tiers"},
+      "api_revenue": {"value": 100, "as_of": "2025-12"},
+      "dod_contracts": {"value": 100, "as_of": "2025-12", "notes": "Government contracts"},
+      "other": {"value": 50, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 400,
+    "burn_rate_monthly": 1000,
     "runway_months": 36,
-    "notes": "600M MAU across X and Grok apps. High burn rate offset by massive funding."
+    "gross_margin": 25,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 500, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 8000,
+      "research_annual": 1500,
+      "personnel_annual": 1000,
+      "other_annual": 1500,
+      "total_annual": 12000,
+      "notes": "~$1B/month burn. Colossus supercomputer operations dominant cost."
+    },
+    "projections": {
+      "arr_2026": 2000,
+      "arr_2027": 5000,
+      "notes": "Management guided $2B+ revenue in 2026"
+    }
   },
   "products": ["Grok 4", "Grok 5 (in training)", "Grok Imagine", "Colossus (GPU cluster)"],
   "product": {
@@ -87,7 +118,7 @@
   },
   "score_notes": {
     "founder": "Elon Musk - multiple successful exits (PayPal, Tesla, SpaceX), world's richest person",
-    "financial": "Low ARR confidence ($500M estimated) but massive runway with $20B raise",
+    "financial": "Combined xAI+X: ~$3.2B ARR. xAI standalone only $500M. $230B val = 72x combined (reasonable for AI leader)",
     "funding": "Top-tier: $230B valuation, $32B total raised, NVIDIA + tier-1 VCs",
     "momentum": "Constant news coverage, $20B raise, DoD contract (some negative: deepfake controversy)",
     "product": "Grok 4 shipped, Colossus infrastructure (100k H100s), fast time to ship",
@@ -95,5 +126,8 @@
     "community": "Strong X presence but lower GitHub/developer ecosystem vs OpenAI",
     "market": "Top-5 foundation model player, massive distribution through X, huge TAM"
   },
-  "last_updated": "2026-01-29"
+  "risks": [
+    {"type": "legal", "description": "Grok deepfake controversy and EU investigation; regulatory scrutiny increasing"}
+  ],
+  "last_updated": "2026-01-31"
 }

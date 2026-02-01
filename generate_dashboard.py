@@ -9,20 +9,28 @@ COMPANIES_DIR = Path(__file__).parent / "companies"
 OUTPUT_FILE = Path(__file__).parent / "dashboard.html"
 
 def load_companies():
-    """Load all company JSON files."""
-    companies = []
+    """Load all company JSON files, separating startups from reference companies."""
+    startups = []
+    reference_companies = []
     for json_file in COMPANIES_DIR.glob("*.json"):
         with open(json_file, 'r') as f:
             try:
                 company = json.load(f)
-                companies.append(company)
+                if company.get('company_type') == 'public-reference':
+                    reference_companies.append(company)
+                else:
+                    startups.append(company)
             except json.JSONDecodeError as e:
                 print(f"Error loading {json_file}: {e}")
-    return sorted(companies, key=lambda x: x.get('scores', {}).get('composite_score', 0), reverse=True)
+    # Sort startups by composite score, reference companies by market cap
+    startups = sorted(startups, key=lambda x: x.get('scores', {}).get('composite_score', 0), reverse=True)
+    reference_companies = sorted(reference_companies, key=lambda x: x.get('financials', {}).get('market_cap', 0), reverse=True)
+    return startups, reference_companies
 
-def generate_html(companies):
+def generate_html(companies, reference_companies):
     """Generate the HTML dashboard."""
     companies_json = json.dumps(companies, ensure_ascii=False, indent=2)
+    reference_json = json.dumps(reference_companies, ensure_ascii=False, indent=2)
 
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -142,6 +150,21 @@ def generate_html(companies):
         .flagged {{ color: var(--accent-yellow); }}
         .flagged::before {{ content: "⚠️ "; }}
         .results-count {{ padding: 8px 14px; color: var(--text-secondary); font-size: 0.85rem; border-bottom: 1px solid var(--border-color); }}
+        /* Risk Badges */
+        .risk-badge {{ display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.65rem; font-weight: 600; margin-left: 4px; vertical-align: middle; }}
+        .risk-legal {{ background: rgba(248,81,73,0.2); color: #f85149; }}
+        .risk-overvalued {{ background: rgba(210,153,34,0.2); color: #d29922; }}
+        .risk-execution {{ background: rgba(163,113,247,0.2); color: #a371f7; }}
+        .risk-competition {{ background: rgba(88,166,255,0.2); color: #58a6ff; }}
+        .risk-funding {{ background: rgba(248,81,73,0.2); color: #f85149; }}
+        .risk-product {{ background: rgba(210,153,34,0.2); color: #d29922; }}
+        .risks-cell {{ max-width: 150px; }}
+        .risks-section {{ margin-top: 15px; padding: 12px; background: rgba(248,81,73,0.1); border: 1px solid rgba(248,81,73,0.3); border-radius: 8px; }}
+        .risks-section .section-title {{ color: #f85149; border-bottom-color: rgba(248,81,73,0.3); }}
+        .risk-item {{ display: flex; align-items: flex-start; gap: 8px; margin-bottom: 8px; }}
+        .risk-item:last-child {{ margin-bottom: 0; }}
+        .risk-item .risk-type {{ min-width: 80px; }}
+        .risk-item .risk-desc {{ font-size: 0.85rem; color: var(--text-secondary); }}
 
         /* Modal Styles */
         .modal {{
@@ -216,9 +239,186 @@ def generate_html(companies):
         .market-item {{ background: var(--bg-tertiary); padding: 10px; border-radius: 8px; }}
         .market-item .label {{ font-size: 0.75rem; color: var(--text-secondary); }}
         .market-item .value {{ font-size: 0.9rem; margin-top: 3px; }}
+        /* Financial Charts Styles */
+        .arr-chart {{ display: flex; flex-direction: column; gap: 6px; }}
+        .arr-bar-row {{ display: flex; align-items: center; gap: 10px; }}
+        .arr-bar-date {{ width: 60px; font-size: 0.75rem; color: var(--text-secondary); }}
+        .arr-bar-wrapper {{ flex: 1; height: 20px; background: var(--bg-primary); border-radius: 4px; overflow: hidden; position: relative; }}
+        .arr-bar {{ height: 100%; background: linear-gradient(90deg, var(--accent-green) 0%, var(--accent-blue) 100%); border-radius: 4px; transition: width 0.3s; }}
+        .arr-bar-value {{ min-width: 60px; font-size: 0.8rem; text-align: right; }}
+        .arr-bar-notes {{ font-size: 0.7rem; color: var(--text-secondary); margin-left: 8px; }}
+        .product-breakdown {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 10px; }}
+        .product-item {{ background: var(--bg-tertiary); padding: 12px; border-radius: 8px; }}
+        .product-item .name {{ font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 4px; }}
+        .product-item .value {{ font-size: 1.1rem; font-weight: 600; color: var(--accent-green); }}
+        .cost-breakdown {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; }}
+        .cost-item {{ background: var(--bg-tertiary); padding: 10px; border-radius: 8px; text-align: center; }}
+        .cost-item .label {{ font-size: 0.7rem; color: var(--text-secondary); margin-bottom: 4px; }}
+        .cost-item .value {{ font-size: 1rem; font-weight: 600; color: var(--accent-red); }}
+        .cost-item.total {{ border: 1px solid var(--accent-red); }}
+        .projections-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; }}
+        .projection-item {{ background: var(--bg-tertiary); padding: 12px; border-radius: 8px; text-align: center; }}
+        .projection-item .year {{ font-size: 0.75rem; color: var(--text-secondary); margin-bottom: 4px; }}
+        .projection-item .value {{ font-size: 1.1rem; font-weight: 600; color: var(--accent-purple); }}
+        .financial-metrics {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 8px; margin-top: 10px; }}
+        .metric-item {{ background: var(--bg-tertiary); padding: 8px; border-radius: 6px; text-align: center; }}
+        .metric-item .label {{ font-size: 0.7rem; color: var(--text-secondary); }}
+        .metric-item .value {{ font-size: 0.9rem; font-weight: 600; }}
+        .metric-item .value.positive {{ color: var(--accent-green); }}
+        .metric-item .value.negative {{ color: var(--accent-red); }}
+        .metric-item .value.neutral {{ color: var(--accent-yellow); }}
         @media (max-width: 768px) {{
             .filters {{ flex-direction: column; }}
             th, td {{ padding: 6px 8px; font-size: 0.8rem; }}
+        }}
+        /* Reference Companies Section */
+        .reference-section {{
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid var(--border-color);
+        }}
+        .reference-header {{
+            margin-bottom: 20px;
+        }}
+        .reference-header h2 {{
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }}
+        .reference-header p {{
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }}
+        .reference-table-container {{
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            opacity: 0.9;
+        }}
+        .reference-table-container table {{
+            width: 100%;
+            border-collapse: collapse;
+        }}
+        .reference-table-container th {{
+            background: var(--bg-tertiary);
+            font-weight: 600;
+            color: var(--text-secondary);
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }}
+        .reference-table-container td {{
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }}
+        .reference-table-container tr:hover {{
+            background: var(--bg-tertiary);
+            cursor: pointer;
+        }}
+        .reference-company-name {{
+            font-weight: 600;
+            color: var(--text-secondary);
+        }}
+        .ticker-badge {{
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            background: rgba(139,148,158,0.2);
+            color: var(--text-secondary);
+            margin-left: 6px;
+        }}
+        .market-cap {{
+            color: var(--text-primary);
+            font-weight: 500;
+        }}
+        .ai-revenue {{
+            color: var(--accent-green);
+            font-weight: 500;
+        }}
+        .ai-products-cell {{
+            max-width: 200px;
+            font-size: 0.85rem;
+        }}
+        .ai-investment-cell {{
+            font-size: 0.85rem;
+        }}
+        .ai-investment-cell a {{
+            color: var(--accent-blue);
+            text-decoration: none;
+        }}
+        .ai-investment-cell a:hover {{
+            text-decoration: underline;
+        }}
+        /* Reference modal specific styles */
+        .ai-products-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+            margin-top: 10px;
+        }}
+        .ai-product-card {{
+            background: var(--bg-tertiary);
+            padding: 12px;
+            border-radius: 8px;
+        }}
+        .ai-product-card .name {{
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }}
+        .ai-product-card .desc {{
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }}
+        .ai-product-card .status {{
+            font-size: 0.75rem;
+            margin-top: 6px;
+            padding: 2px 6px;
+            border-radius: 10px;
+            display: inline-block;
+        }}
+        .ai-product-card .status.launched {{
+            background: rgba(63,185,80,0.2);
+            color: var(--accent-green);
+        }}
+        .ai-product-card .status.research {{
+            background: rgba(163,113,247,0.2);
+            color: var(--accent-purple);
+        }}
+        .ai-investments-list {{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }}
+        .ai-investment-item {{
+            background: var(--bg-tertiary);
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }}
+        .ai-investment-item .company {{
+            font-weight: 600;
+            color: var(--accent-blue);
+            min-width: 100px;
+        }}
+        .ai-investment-item .amount {{
+            color: var(--accent-green);
+            font-weight: 500;
+        }}
+        .ai-investment-item .date {{
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }}
+        .ai-investment-item .notes {{
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            flex: 1;
         }}
     </style>
 </head>
@@ -286,6 +486,28 @@ def generate_html(companies):
                 <tbody id="companiesBody"></tbody>
             </table>
         </div>
+
+        <!-- Reference Companies Section -->
+        <div class="reference-section">
+            <div class="reference-header">
+                <h2>Reference Companies (Public Benchmarks)</h2>
+                <p>Major tech companies for benchmarking AI startups. Click for AI products and investment details.</p>
+            </div>
+            <div class="reference-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Market Cap</th>
+                            <th>AI Revenue</th>
+                            <th>AI Products</th>
+                            <th>AI Investments</th>
+                        </tr>
+                    </thead>
+                    <tbody id="referenceBody"></tbody>
+                </table>
+            </div>
+        </div>
     </div>
     <div class="modal" id="companyModal">
         <div class="modal-content">
@@ -295,6 +517,7 @@ def generate_html(companies):
     </div>
     <script>
 const companies = {companies_json};
+const referenceCompanies = {reference_json};
 
 let currentSort = {{ field: 'score', direction: 'desc' }};
 let filters = {{ search: '', category: '', stage: '', tier: '' }};
@@ -302,6 +525,7 @@ let filters = {{ search: '', category: '', stage: '', tier: '' }};
 document.addEventListener('DOMContentLoaded', () => {{
     renderStats();
     renderTable();
+    renderReferenceTable();
     setupEventListeners();
 }});
 
@@ -398,7 +622,7 @@ function renderTable() {{
     document.getElementById('companiesBody').innerHTML = sorted.map((c, i) => `
         <tr onclick="showDetails('${{c.slug}}')">
             <td>${{i + 1}}</td>
-            <td class="company-name ${{c.flagged ? 'flagged' : ''}}">${{c.name}}</td>
+            <td class="company-name ${{c.flagged ? 'flagged' : ''}}">${{c.name}}${{getRiskBadges(c)}}</td>
             <td><span class="category-tag">${{fmtCat(c.category)}}</span></td>
             <td><span class="stage-tag">${{fmtStage(c.stage)}}</span></td>
             <td><span class="score-badge ${{getScoreClass(getScore(c))}}">${{getScore(c)}}</span></td>
@@ -407,6 +631,202 @@ function renderTable() {{
             <td style="max-width:200px;font-size:0.85rem;color:var(--text-secondary)">${{getFounderSignal(c)}}</td>
         </tr>
     `).join('');
+}}
+
+const riskLabels = {{
+    'legal': 'Legal',
+    'overvalued': 'Overvalued',
+    'execution': 'Execution',
+    'competition': 'Competition',
+    'funding': 'Funding',
+    'product': 'Product'
+}};
+
+function getRiskBadges(c) {{
+    if (!c.risks || c.risks.length === 0) return '';
+    return c.risks.map(r => {{
+        const type = typeof r === 'string' ? r : r.type;
+        const label = riskLabels[type] || type;
+        return `<span class="risk-badge risk-${{type}}">${{label}}</span>`;
+    }}).join('');
+}}
+
+function getRiskSection(c) {{
+    if (!c.risks || c.risks.length === 0) return '';
+    let html = `<div class="risks-section"><div class="section-title">⚠️ Risk Factors</div>`;
+    c.risks.forEach(r => {{
+        const type = typeof r === 'string' ? r : r.type;
+        const desc = typeof r === 'object' ? r.description : '';
+        const label = riskLabels[type] || type;
+        html += `<div class="risk-item">
+            <span class="risk-badge risk-${{type}} risk-type">${{label}}</span>
+            <span class="risk-desc">${{desc || ''}}</span>
+        </div>`;
+    }});
+    html += `</div>`;
+    return html;
+}}
+
+function fmtMarketCap(v) {{
+    if (!v) return '—';
+    if (v >= 1000) return '$' + (v/1000).toFixed(1) + 'T';
+    return '$' + v + 'B';
+}}
+
+function fmtAIRevenue(fin) {{
+    if (!fin?.ai_revenue) return '—';
+    const v = typeof fin.ai_revenue === 'object' ? fin.ai_revenue.value : fin.ai_revenue;
+    if (!v) return '—';
+    if (v >= 1000) return '$' + (v/1000).toFixed(0) + 'B';
+    return '$' + v + 'B';
+}}
+
+function getTopAIProducts(c, limit = 3) {{
+    if (!c.ai_products || c.ai_products.length === 0) return '—';
+    const products = c.ai_products.slice(0, limit);
+    return products.map(p => typeof p === 'string' ? p : p.name).join(', ');
+}}
+
+function getAIInvestments(c) {{
+    if (!c.ai_investments || c.ai_investments.length === 0) return '—';
+    return c.ai_investments.map(inv => {{
+        const amount = inv.amount ? '$' + (inv.amount >= 1000 ? (inv.amount/1000).toFixed(1) + 'B' : inv.amount + 'M') : '';
+        const startup = companies.find(s => s.name.toLowerCase() === inv.company.toLowerCase());
+        if (startup) {{
+            return `<a href="#" onclick="event.stopPropagation(); showDetails('${{startup.slug}}')">${{inv.company}}</a> ${{amount}}`;
+        }}
+        return `${{inv.company}} ${{amount}}`;
+    }}).join(', ');
+}}
+
+function renderReferenceTable() {{
+    document.getElementById('referenceBody').innerHTML = referenceCompanies.map(c => `
+        <tr onclick="showReferenceDetails('${{c.slug}}')">
+            <td>
+                <span class="reference-company-name">${{c.name}}</span>
+                ${{c.ticker ? `<span class="ticker-badge">${{c.ticker}}</span>` : ''}}
+            </td>
+            <td class="market-cap">${{fmtMarketCap(c.financials?.market_cap)}}</td>
+            <td class="ai-revenue">${{fmtAIRevenue(c.financials)}}</td>
+            <td class="ai-products-cell">${{getTopAIProducts(c)}}</td>
+            <td class="ai-investment-cell">${{getAIInvestments(c)}}</td>
+        </tr>
+    `).join('');
+}}
+
+function showReferenceDetails(slug) {{
+    const c = referenceCompanies.find(x => x.slug === slug);
+    if (!c) return;
+    const fin = c.financials || {{}};
+
+    let html = `
+        <div class="modal-header">
+            <h2>${{c.name}} ${{c.ticker ? `<span class="ticker-badge" style="font-size:0.9rem">${{c.ticker}}</span>` : ''}}</h2>
+            <div class="desc">${{c.description || ''}}</div>
+            <div class="tags">
+                <span class="category-tag">Public Company</span>
+                ${{c.website ? `<a href="${{c.website}}" target="_blank" style="color:var(--accent-blue);font-size:0.85rem">🔗 Website</a>` : ''}}
+            </div>
+        </div>
+        <div class="meta-grid">
+            <div class="meta-item"><div class="label">Market Cap</div><div class="value">${{fmtMarketCap(fin.market_cap)}}</div></div>
+            <div class="meta-item"><div class="label">Annual Revenue</div><div class="value">${{fin.annual_revenue ? '$' + (fin.annual_revenue/1000).toFixed(0) + 'B' : '—'}}</div></div>
+            <div class="meta-item"><div class="label">AI Revenue</div><div class="value" style="color:var(--accent-green)">${{fmtAIRevenue(fin)}}</div></div>
+            <div class="meta-item"><div class="label">AI Growth YoY</div><div class="value" style="color:var(--accent-green)">${{fin.ai_revenue_growth_yoy ? fin.ai_revenue_growth_yoy + '%' : '—'}}</div></div>
+            <div class="meta-item"><div class="label">Founded</div><div class="value">${{c.founded || '—'}}</div></div>
+            <div class="meta-item"><div class="label">Employees</div><div class="value">${{fin.employees?.value ? fin.employees.value.toLocaleString() : '—'}}</div></div>
+            <div class="meta-item"><div class="label">AI Employees</div><div class="value">${{fin.employees?.ai_employees ? fin.employees.ai_employees.toLocaleString() + '+' : '—'}}</div></div>
+        </div>`;
+
+    // AI Revenue Breakdown
+    if (fin.ai_revenue && typeof fin.ai_revenue === 'object') {{
+        html += `<div class="section"><div class="section-title">AI Revenue Details</div>`;
+        if (fin.ai_revenue.breakdown) {{
+            html += `<div class="product-breakdown">`;
+            Object.entries(fin.ai_revenue.breakdown).forEach(([name, value]) => {{
+                const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                const fmtV = value >= 1000 ? '$' + (value/1000).toFixed(0) + 'B' : '$' + value + 'B';
+                html += `<div class="product-item">
+                    <div class="name">${{displayName}}</div>
+                    <div class="value">${{fmtV}}</div>
+                </div>`;
+            }});
+            html += `</div>`;
+        }}
+        if (fin.ai_revenue.notes) {{
+            html += `<div style="font-size:0.85rem;color:var(--text-secondary);margin-top:10px">${{fin.ai_revenue.notes}}</div>`;
+        }}
+        html += `</div>`;
+    }}
+
+    // AI Products
+    if (c.ai_products && c.ai_products.length > 0) {{
+        html += `<div class="section"><div class="section-title">AI Products</div><div class="ai-products-grid">`;
+        c.ai_products.forEach(p => {{
+            const name = typeof p === 'string' ? p : p.name;
+            const desc = typeof p === 'object' ? p.description : '';
+            const status = typeof p === 'object' ? p.status : '';
+            html += `<div class="ai-product-card">
+                <div class="name">${{name}}</div>
+                ${{desc ? `<div class="desc">${{desc}}</div>` : ''}}
+                ${{status ? `<span class="status ${{status}}">${{status}}</span>` : ''}}
+            </div>`;
+        }});
+        html += `</div></div>`;
+    }}
+
+    // AI Investments
+    if (c.ai_investments && c.ai_investments.length > 0) {{
+        html += `<div class="section"><div class="section-title">AI Investments in Startups</div><div class="ai-investments-list">`;
+        c.ai_investments.forEach(inv => {{
+            const amount = inv.amount ? '$' + (inv.amount >= 1000 ? (inv.amount/1000).toFixed(1) + 'B' : inv.amount + 'M') : '';
+            const startup = companies.find(s => s.name.toLowerCase() === inv.company.toLowerCase());
+            html += `<div class="ai-investment-item">
+                <span class="company">${{startup ? `<a href="#" onclick="event.stopPropagation(); showDetails('${{startup.slug}}')">${{inv.company}}</a>` : inv.company}}</span>
+                <span class="amount">${{amount}}</span>
+                <span class="date">${{inv.date || ''}}</span>
+                <span class="notes">${{inv.notes || ''}}</span>
+            </div>`;
+        }});
+        html += `</div></div>`;
+    }}
+
+    // AI Research
+    if (c.ai_research) {{
+        html += `<div class="section"><div class="section-title">AI Research</div><div class="market-info">`;
+        if (c.ai_research.labs) {{
+            html += `<div class="market-item"><div class="label">Research Labs</div><div class="value">${{c.ai_research.labs.join(', ')}}</div></div>`;
+        }}
+        if (c.ai_research.papers_2024) {{
+            html += `<div class="market-item"><div class="label">Papers (2024)</div><div class="value">${{c.ai_research.papers_2024}}+</div></div>`;
+        }}
+        if (c.ai_research.notable_contributions) {{
+            html += `<div class="market-item" style="grid-column: span 2"><div class="label">Notable Contributions</div><div class="value">${{c.ai_research.notable_contributions.join(', ')}}</div></div>`;
+        }}
+        html += `</div></div>`;
+    }}
+
+    // Market Position
+    if (c.market_position) {{
+        html += `<div class="section"><div class="section-title">AI Market Position</div><div class="market-info">`;
+        if (c.market_position.ai_ranking) html += `<div class="market-item"><div class="label">AI Ranking</div><div class="value">#${{c.market_position.ai_ranking}}</div></div>`;
+        if (c.market_position.moats) html += `<div class="market-item" style="grid-column: span 2"><div class="label">Moats</div><div class="value">${{c.market_position.moats.join(', ')}}</div></div>`;
+        if (c.market_position.ai_strategy) html += `<div class="market-item" style="grid-column: span 2"><div class="label">AI Strategy</div><div class="value">${{c.market_position.ai_strategy}}</div></div>`;
+        if (c.market_position.competitors) html += `<div class="market-item"><div class="label">Competitors</div><div class="value">${{c.market_position.competitors.join(', ')}}</div></div>`;
+        html += `</div></div>`;
+    }}
+
+    // News
+    if (c.recent_news && c.recent_news.length > 0) {{
+        html += `<div class="section"><div class="section-title">Recent AI News</div><div class="news-list">`;
+        c.recent_news.slice(0, 5).forEach(n => {{
+            html += `<div class="news-item"><a href="${{n.url}}" target="_blank">${{n.title}}</a><div class="news-date">${{n.date || ''}}</div></div>`;
+        }});
+        html += `</div></div>`;
+    }}
+
+    document.getElementById('modalContent').innerHTML = html;
+    document.getElementById('companyModal').classList.add('active');
 }}
 
 function showDetails(slug) {{
@@ -456,6 +876,85 @@ function showDetails(slug) {{
         </div>`;
     }});
     html += `</div></div>`;
+
+    // Financials Section - ARR Trend, Cost Structure, Projections
+    const fin = c.financials || {{}};
+    const hasFinancials = fin.arr_history || fin.arr_by_product || fin.cost_structure || fin.projections;
+
+    if (hasFinancials) {{
+        html += `<div class="section"><div class="section-title">Financial Details</div>`;
+
+        // ARR Growth Trend Chart
+        if (fin.arr_history && fin.arr_history.length > 0) {{
+            const maxARR = Math.max(...fin.arr_history.map(h => h.value));
+            html += `<div style="margin-bottom:15px"><div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:8px">📈 ARR Growth Trend</div><div class="arr-chart">`;
+            fin.arr_history.forEach(h => {{
+                const pct = (h.value / maxARR) * 100;
+                const fmtV = h.value >= 1000 ? '$' + (h.value/1000).toFixed(1) + 'B' : '$' + h.value + 'M';
+                html += `<div class="arr-bar-row">
+                    <span class="arr-bar-date">${{h.date}}</span>
+                    <div class="arr-bar-wrapper"><div class="arr-bar" style="width:${{pct}}%"></div></div>
+                    <span class="arr-bar-value">${{fmtV}}</span>
+                    ${{h.notes ? `<span class="arr-bar-notes">${{h.notes}}</span>` : ''}}
+                </div>`;
+            }});
+            html += `</div></div>`;
+        }}
+
+        // ARR by Product breakdown
+        if (fin.arr_by_product) {{
+            html += `<div style="margin-bottom:15px"><div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:8px">📦 ARR by Product</div><div class="product-breakdown">`;
+            Object.entries(fin.arr_by_product).forEach(([name, data]) => {{
+                const val = typeof data === 'object' ? data.value : data;
+                const fmtV = val >= 1000 ? '$' + (val/1000).toFixed(1) + 'B' : '$' + val + 'M';
+                const displayName = name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+                html += `<div class="product-item">
+                    <div class="name">${{displayName}}</div>
+                    <div class="value">${{fmtV}}</div>
+                    ${{data.notes ? `<div style="font-size:0.7rem;color:var(--text-secondary);margin-top:4px">${{data.notes}}</div>` : ''}}
+                </div>`;
+            }});
+            html += `</div></div>`;
+        }}
+
+        // Cost Structure
+        if (fin.cost_structure) {{
+            const cs = fin.cost_structure;
+            html += `<div style="margin-bottom:15px"><div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:8px">💰 Annual Cost Structure</div><div class="cost-breakdown">`;
+            if (cs.compute_annual) html += `<div class="cost-item"><div class="label">Compute</div><div class="value">$${{cs.compute_annual >= 1000 ? (cs.compute_annual/1000).toFixed(1) + 'B' : cs.compute_annual + 'M'}}</div></div>`;
+            if (cs.research_annual) html += `<div class="cost-item"><div class="label">Research</div><div class="value">$${{cs.research_annual >= 1000 ? (cs.research_annual/1000).toFixed(1) + 'B' : cs.research_annual + 'M'}}</div></div>`;
+            if (cs.personnel_annual) html += `<div class="cost-item"><div class="label">Personnel</div><div class="value">$${{cs.personnel_annual >= 1000 ? (cs.personnel_annual/1000).toFixed(1) + 'B' : cs.personnel_annual + 'M'}}</div></div>`;
+            if (cs.other_annual) html += `<div class="cost-item"><div class="label">Other</div><div class="value">$${{cs.other_annual >= 1000 ? (cs.other_annual/1000).toFixed(1) + 'B' : cs.other_annual + 'M'}}</div></div>`;
+            if (cs.total_annual) html += `<div class="cost-item total"><div class="label">Total Annual</div><div class="value">$${{cs.total_annual >= 1000 ? (cs.total_annual/1000).toFixed(1) + 'B' : cs.total_annual + 'M'}}</div></div>`;
+            html += `</div>`;
+            if (cs.notes) html += `<div style="font-size:0.75rem;color:var(--text-secondary);margin-top:6px">${{cs.notes}}</div>`;
+            html += `</div>`;
+        }}
+
+        // Projections
+        if (fin.projections) {{
+            const proj = fin.projections;
+            html += `<div style="margin-bottom:15px"><div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:8px">🔮 Revenue Projections</div><div class="projections-grid">`;
+            if (proj.arr_2026) html += `<div class="projection-item"><div class="year">2026</div><div class="value">$${{proj.arr_2026 >= 1000 ? (proj.arr_2026/1000).toFixed(0) + 'B' : proj.arr_2026 + 'M'}}</div></div>`;
+            if (proj.arr_2027) html += `<div class="projection-item"><div class="year">2027</div><div class="value">$${{proj.arr_2027 >= 1000 ? (proj.arr_2027/1000).toFixed(0) + 'B' : proj.arr_2027 + 'M'}}</div></div>`;
+            if (proj.arr_2028) html += `<div class="projection-item"><div class="year">2028</div><div class="value">$${{proj.arr_2028 >= 1000 ? (proj.arr_2028/1000).toFixed(0) + 'B' : proj.arr_2028 + 'M'}}</div></div>`;
+            html += `</div>`;
+            if (proj.notes) html += `<div style="font-size:0.75rem;color:var(--text-secondary);margin-top:6px">${{proj.notes}}</div>`;
+            html += `</div>`;
+        }}
+
+        // Key Financial Metrics
+        html += `<div style="margin-bottom:10px"><div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:8px">📊 Key Metrics</div><div class="financial-metrics">`;
+        if (fin.revenue_growth_yoy) html += `<div class="metric-item"><div class="label">YoY Growth</div><div class="value positive">${{fin.revenue_growth_yoy}}%</div></div>`;
+        if (fin.gross_margin) html += `<div class="metric-item"><div class="label">Gross Margin</div><div class="value ${{fin.gross_margin >= 50 ? 'positive' : 'neutral'}}">${{fin.gross_margin}}%</div></div>`;
+        if (fin.burn_rate_monthly) html += `<div class="metric-item"><div class="label">Burn/Month</div><div class="value negative">$${{fin.burn_rate_monthly >= 1000 ? (fin.burn_rate_monthly/1000).toFixed(1) + 'B' : fin.burn_rate_monthly + 'M'}}</div></div>`;
+        if (fin.runway_months) html += `<div class="metric-item"><div class="label">Runway</div><div class="value ${{fin.runway_months >= 24 ? 'positive' : 'neutral'}}">${{fin.runway_months}} mo</div></div>`;
+        if (fin.cash_flow_positive !== undefined) html += `<div class="metric-item"><div class="label">Cash Flow+</div><div class="value ${{fin.cash_flow_positive ? 'positive' : 'negative'}}">${{fin.cash_flow_positive ? 'Yes' : 'No'}}</div></div>`;
+        if (fin.path_to_profitability?.target_date) html += `<div class="metric-item"><div class="label">Profitable By</div><div class="value neutral">${{fin.path_to_profitability.target_date}}</div></div>`;
+        html += `</div></div>`;
+
+        html += `</div>`;
+    }}
 
     // Founders
     if (c.founders && c.founders.length > 0) {{
@@ -544,6 +1043,9 @@ function showDetails(slug) {{
         html += `</div></div>`;
     }}
 
+    // Risk factors
+    html += getRiskSection(c);
+
     document.getElementById('modalContent').innerHTML = html;
     document.getElementById('companyModal').classList.add('active');
 }}
@@ -579,11 +1081,11 @@ function setupEventListeners() {{
 
 def main():
     print("Loading companies...")
-    companies = load_companies()
-    print(f"Loaded {len(companies)} companies")
+    startups, reference_companies = load_companies()
+    print(f"Loaded {len(startups)} startups and {len(reference_companies)} reference companies")
 
     print("Generating dashboard...")
-    html = generate_html(companies)
+    html = generate_html(startups, reference_companies)
 
     with open(OUTPUT_FILE, 'w') as f:
         f.write(html)

@@ -107,5 +107,8 @@
     "community": "Research community awareness",
     "market": "Differentiated reasoning focus"
   },
+  "risks": [
+    {"type": "product", "description": "No product launched publicly after 4+ years; competing against OpenAI, Anthropic, Cognition"}
+  ],
   "last_updated": "2026-01-30"
 }

@@ -1,0 +1,98 @@
+{
+  "name": "Lovable",
+  "slug": "lovable",
+  "stage": "series-b",
+  "category": "ai-agent",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://lovable.dev",
+  "description": "AI-powered 'vibe coding' platform that generates full-stack web applications from natural language descriptions. Part of the emerging AI coding agent wave.",
+  "founders": [
+    {
+      "name": "Anton Osika",
+      "role": "CEO",
+      "education": [
+        {"institution": "KTH Royal Institute of Technology", "degree": "MS", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [],
+      "achievements": ["Built viral AI coding product", "Creator of GPT Engineer"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 150,
+    "latest_valuation": 6.6,
+    "rounds": [
+      {"type": "Series B", "amount": 100, "date": "2026-01", "lead": "Index Ventures"}
+    ],
+    "notes": "Rapid rise to $6.6B valuation in under a year"
+  },
+  "financials": {
+    "arr": {"value": 20, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Lovable App Builder", "AI Code Generation"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-09",
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": 6,
+    "infrastructure": "LLM-powered full-stack code generation"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 500000, "type": "users", "as_of": "2026-01"},
+    "partnerships": [],
+    "revenue_growth_yoy": 1000
+  },
+  "investors": {
+    "lead_investors": ["Index Ventures"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 100000,
+    "discord_members": 50000,
+    "github_stars": 30000
+  },
+  "market_position": {
+    "category_rank": null,
+    "category": "ai-coding-agent",
+    "competitors": ["Bolt.new", "Replit", "Cursor", "v0.dev"],
+    "tam_estimate": "$50B",
+    "moats": ["Viral growth", "Strong community", "Full-stack focus"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Lovable raises at $6.6B valuation for 'vibe coding' AI platform", "url": "https://techcrunch.com/2026/01/10/lovable-series-b/", "date": "2026-01-10", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 70,
+    "financial_health_score": 40,
+    "funding_score": 75,
+    "momentum_score": 95,
+    "product_score": 70,
+    "traction_score": 60,
+    "community_score": 80,
+    "market_position_score": 60,
+    "composite_score": 67
+  },
+  "score_notes": {
+    "founder": "GPT Engineer creator, strong technical background",
+    "financial": "Early revenue, growing fast",
+    "funding": "$6.6B valuation, Index Ventures led",
+    "momentum": "Viral growth, massive buzz",
+    "product": "Popular vibe coding tool",
+    "traction": "500K+ users, rapid adoption",
+    "community": "Strong GitHub and Discord presence",
+    "market": "Crowded AI coding space"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "330x ARR multiple ($6.6B on ~$20M ARR) - extremely high for unproven business model"},
+    {"type": "competition", "description": "Bolt.new, Replit, Cursor, and v0.dev all competing in vibe coding space"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Cartesia",
+  "slug": "cartesia",
+  "stage": "series-a",
+  "category": "ai-infrastructure",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://cartesia.ai",
+  "description": "Ultra-low-latency voice AI platform built on state space models. Sonic-3 model delivers real-time voice generation for conversational AI applications.",
+  "founders": [
+    {
+      "name": "Karan Goel",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford AI Lab", "role": "Researcher", "years": "2019-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["State space model research", "Mamba architecture contributor"],
+      "founder_score": 85
+    },
+    {
+      "name": "Albert Gu",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford AI Lab", "role": "Researcher", "years": "2017-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Created S4 and Mamba architectures", "Pioneer of state space models"],
+      "founder_score": 95
+    }
+  ],
+  "funding": {
+    "total_raised": 191,
+    "latest_valuation": 0.8,
+    "rounds": [
+      {"type": "Series A Extension", "amount": 100, "date": "2025-10", "lead": "Kleiner Perkins, Index Ventures, Lightspeed, NVIDIA"},
+      {"type": "Series A", "amount": 64, "date": "2025-03", "lead": "Kleiner Perkins"},
+      {"type": "Seed", "amount": 22, "date": "2024-12", "lead": "Various"}
+    ],
+    "notes": "NVIDIA invested in October 2025 extension"
+  },
+  "financials": {
+    "arr": {"value": 15, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 50, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Sonic-3 Voice Model", "Cartesia Voice API", "Real-time Voice Generation"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-06",
+    "benchmarks": [
+      {"name": "Voice Latency", "rank": 1, "notes": "Ultra-low latency for real-time", "date": "2025-10"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "State space models for efficient voice generation"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "investor", "date": "2025-10"}
+    ],
+    "revenue_growth_yoy": 500
+  },
+  "investors": {
+    "lead_investors": ["Kleiner Perkins", "Index Ventures", "Lightspeed"],
+    "strategic_investors": ["NVIDIA"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 20000,
+    "github_stars": 3000,
+    "discord_members": 5000
+  },
+  "market_position": {
+    "category_rank": 3,
+    "category": "voice-ai",
+    "competitors": ["ElevenLabs", "Deepgram", "OpenAI TTS", "PlayHT"],
+    "tam_estimate": "$45B",
+    "moats": ["State space model architecture", "Ultra-low latency", "Mamba creator on team"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Cartesia raises $100M, launches Sonic-3 voice model", "url": "https://startupstag.com/investments/cartesia-raises-100m-launches-sonic-3-ai-voice-model/", "date": "2025-10-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 45,
+    "funding_score": 60,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 50,
+    "community_score": 50,
+    "market_position_score": 65,
+    "composite_score": 64
+  },
+  "score_notes": {
+    "founder": "Stanford PhDs, Mamba architecture creators",
+    "financial": "Early revenue, well-funded",
+    "funding": "$191M raised, tier-1 VCs + NVIDIA",
+    "momentum": "Rapid funding, Sonic-3 launch",
+    "product": "Ultra-low latency voice AI",
+    "traction": "Growing adoption",
+    "community": "Developer-focused",
+    "market": "Competing with ElevenLabs in voice AI"
+  },
+  "risks": [
+    {"type": "competition", "description": "ElevenLabs dominant with $330M ARR; OpenAI and Google entering voice AI"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Articul8",
+  "slug": "articul8",
+  "stage": "series-a",
+  "category": "ai-infrastructure",
+  "founded": 2024,
+  "hq": "San Francisco, CA",
+  "website": "https://articul8.ai",
+  "description": "Enterprise AI platform spun out of Intel. Provides full-stack generative AI solutions for enterprises with focus on security, privacy, and on-premises deployment.",
+  "founders": [
+    {
+      "name": "Arun Subramaniyan",
+      "role": "CEO",
+      "education": [
+        {"institution": "Georgia Tech", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Intel", "role": "VP & GM AI Software", "years": "2018-2024", "tier": "tier-1"}
+      ],
+      "achievements": ["Led Intel's AI software division", "Built enterprise AI products at Intel"],
+      "founder_score": 80
+    }
+  ],
+  "funding": {
+    "total_raised": 100,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series A", "amount": 70, "date": "2025-06", "lead": "Fin Capital"}
+    ],
+    "notes": "Intel spinout with strategic backing"
+  },
+  "financials": {
+    "arr": {"value": 10, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 100, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Articul8 Enterprise AI Platform", "On-Premises GenAI", "AI Orchestration"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-06",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Full-stack enterprise GenAI platform"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [
+      {"partner": "Intel", "type": "strategic", "date": "2024-01", "details": "Intel spinout and investor"}
+    ],
+    "revenue_growth_yoy": 200
+  },
+  "investors": {
+    "lead_investors": ["Fin Capital"],
+    "strategic_investors": ["Intel Capital"],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "twitter_followers": 3000
+  },
+  "market_position": {
+    "category_rank": null,
+    "category": "enterprise-ai-platform",
+    "competitors": ["Databricks", "Snowflake", "Palantir", "C3.ai"],
+    "tam_estimate": "$50B",
+    "moats": ["Intel heritage", "On-premises focus", "Enterprise security"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Intel spinout Articul8 raises $70M for enterprise AI platform", "url": "https://techcrunch.com/2025/06/15/articul8-series-a/", "date": "2025-06-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 45,
+    "funding_score": 50,
+    "momentum_score": 55,
+    "product_score": 65,
+    "traction_score": 45,
+    "community_score": 25,
+    "market_position_score": 55,
+    "composite_score": 54
+  },
+  "score_notes": {
+    "founder": "Intel VP, strong enterprise AI background",
+    "financial": "Early revenue, Intel backing",
+    "funding": "Modest valuation, tier-2 investors",
+    "momentum": "Intel spinout attention",
+    "product": "Launched enterprise platform",
+    "traction": "Building enterprise pipeline",
+    "community": "Enterprise-focused",
+    "market": "Competing with Databricks, Palantir"
+  },
+  "risks": [
+    {"type": "competition", "description": "Databricks, Snowflake, and cloud giants dominate enterprise AI platform market"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

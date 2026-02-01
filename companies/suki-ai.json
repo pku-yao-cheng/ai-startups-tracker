@@ -1,0 +1,100 @@
+{
+  "name": "Suki AI",
+  "slug": "suki-ai",
+  "stage": "series-d",
+  "category": "vertical-ai",
+  "founded": 2017,
+  "hq": "Redwood City, CA",
+  "website": "https://suki.ai",
+  "description": "Voice-based AI assistant for clinical documentation. 300+ health system partnerships. Competes with Abridge and Nuance.",
+  "founders": [
+    {
+      "name": "Punit Soni",
+      "role": "CEO",
+      "education": [
+        {"institution": "IIT Kharagpur", "degree": "BTech", "field": "Computer Science", "tier": "tier-2"},
+        {"institution": "Wharton", "degree": "MBA", "field": "Business", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Google", "role": "Product Manager", "years": "2010-2014", "tier": "faang"},
+        {"company": "Flipkart", "role": "Chief Product Officer", "years": "2014-2016", "tier": "tier-1"}
+      ],
+      "achievements": ["Google PM, Flipkart CPO"],
+      "founder_score": 82
+    }
+  ],
+  "funding": {
+    "total_raised": 165,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series D", "amount": 70, "date": "2025-01", "lead": "Hedosophia"}
+    ],
+    "notes": "Zoom Ventures participated"
+  },
+  "financials": {
+    "arr": {"value": 40, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 150, "as_of": "2025-12"},
+    "runway_months": 36
+  },
+  "products": ["Suki Assistant", "Voice AI for Clinical Documentation"],
+  "product": {
+    "launched": true,
+    "launch_date": "2019-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Voice AI with EHR integrations"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 300, "type": "health system partnerships", "as_of": "2025-01"},
+    "partnerships": [],
+    "revenue_growth_yoy": 100,
+    "notes": "Deep EHR integrations"
+  },
+  "investors": {
+    "lead_investors": ["Hedosophia", "Venrock"],
+    "strategic_investors": ["Zoom Ventures", "Flare Capital", "Breyer Capital"],
+    "investor_tier": "tier-2"
+  },
+  "community": {
+    "twitter_followers": 10000
+  },
+  "market_position": {
+    "category_rank": 3,
+    "category": "ai-clinical-documentation",
+    "competitors": ["Abridge", "Ambience Healthcare", "Nuance/Microsoft"],
+    "tam_estimate": "$20B",
+    "moats": ["EHR integrations", "Voice-first approach"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Suki raises $70M Series D for healthcare AI", "url": "https://www.healthcaredive.com/news/suki-70-million-Series-D-funding/729573/", "date": "2025-01-30", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 82,
+    "financial_health_score": 50,
+    "funding_score": 50,
+    "momentum_score": 60,
+    "product_score": 70,
+    "traction_score": 60,
+    "community_score": 35,
+    "market_position_score": 55,
+    "composite_score": 58
+  },
+  "score_notes": {
+    "founder": "Google PM, Flipkart CPO background",
+    "financial": "Growing revenue",
+    "funding": "$500M valuation, $165M raised",
+    "momentum": "Steady growth",
+    "product": "Mature voice AI product",
+    "traction": "300+ health system partnerships",
+    "community": "Enterprise-focused",
+    "market": "#3 behind Abridge and Ambience"
+  },
+  "risks": [
+    {"type": "competition", "description": "Abridge at $5.3B valuation and Ambience have more momentum; Nuance/Microsoft is major incumbent"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

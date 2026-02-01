@@ -1,0 +1,52 @@
+{
+  "name": "Pinterest",
+  "slug": "pinterest",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "PINS",
+  "founded": 2010,
+  "hq": "San Francisco, CA",
+  "website": "https://pinterest.com",
+  "description": "Visual discovery platform powered by AI. 85%+ of revenue driven by AI-powered recommendations and visual search.",
+  "financials": {
+    "market_cap": 30,
+    "annual_revenue": 3500,
+    "ai_revenue": {
+      "value": 3000,
+      "notes": "~85% of revenue is AI-driven through personalized recommendations, visual search, and ad targeting"
+    },
+    "ai_revenue_growth_yoy": 20,
+    "employees": {
+      "value": 4000,
+      "ai_employees": 500,
+      "notes": "Significant ML/AI engineering team for recommendations and visual understanding"
+    }
+  },
+  "ai_products": [
+    {"name": "Pinterest Lens", "description": "Visual search - point camera at anything to find similar items", "status": "launched"},
+    {"name": "Home Feed AI", "description": "Personalized content recommendation engine", "status": "launched"},
+    {"name": "Shopping AI", "description": "AI-powered product recommendations and try-on", "status": "launched"},
+    {"name": "Ads ML Platform", "description": "AI-optimized ad targeting and bidding", "status": "launched"},
+    {"name": "Collages", "description": "AI-powered mood board creation", "status": "launched"},
+    {"name": "Body Type AI", "description": "Inclusive body type representation in search", "status": "launched"}
+  ],
+  "ai_investments": [],
+  "ai_research": {
+    "papers_2024": 20,
+    "notable_contributions": ["Visual search at scale", "Unified embedding model", "PinSage graph neural network"],
+    "labs": ["Pinterest Labs"]
+  },
+  "market_position": {
+    "ai_ranking": "N/A",
+    "moats": ["500M+ monthly users", "Visual discovery intent data", "Shopping intent signals", "Image understanding at scale"],
+    "competitors": ["Instagram", "TikTok", "Google Images"],
+    "ai_strategy": "AI-first product - every feature powered by ML for discovery and commerce"
+  },
+  "recent_news": [
+    {"title": "Pinterest Lens visual search surpasses 1B monthly queries", "url": "https://newsroom.pinterest.com/", "date": "2024-10", "sentiment": "positive"},
+    {"title": "Pinterest adds AI-powered collage feature for Gen Z users", "url": "https://techcrunch.com/pinterest-collages-ai/", "date": "2024-09", "sentiment": "positive"},
+    {"title": "Pinterest ad revenue growth accelerates with AI improvements", "url": "https://investor.pinterestinc.com/", "date": "2025-01", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

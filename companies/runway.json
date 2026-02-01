@@ -52,9 +52,39 @@
     "notes": "In talks for $500M at $5B valuation (August 2025). Current $3B valuation doubled from $1.5B."
   },
   "financials": {
-    "arr": {"value": 90, "confidence": "estimated", "as_of": "2025-06"},
-    "employees": {"value": 200, "as_of": "2026-01"},
-    "notes": "Targeting $300M ARR. Heavy cloud compute costs - $155M EBITDA loss in 2024 on $44M revenue."
+    "arr": {"value": 150, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2022-12", "value": 5, "notes": "Early product"},
+      {"date": "2023-12", "value": 49, "notes": "Gen-2 launch impact"},
+      {"date": "2024-12", "value": 122, "notes": "Year-end per Contrary Research"},
+      {"date": "2025-06", "value": 90, "notes": "Sacra June 2025 estimate"},
+      {"date": "2025-12", "value": 150, "notes": "Gen-4.5 driving growth, targeting $265-300M"}
+    ],
+    "arr_by_product": {
+      "consumer_subscriptions": {"value": 80, "as_of": "2025-12"},
+      "enterprise_api": {"value": 50, "as_of": "2025-12"},
+      "runway_studios": {"value": 20, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 215,
+    "burn_rate_monthly": 15,
+    "runway_months": 36,
+    "gross_margin": 30,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2028"},
+    "employees": {"value": 250, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 120,
+      "research_annual": 30,
+      "personnel_annual": 40,
+      "other_annual": 20,
+      "total_annual": 210,
+      "notes": "Heavy GPU costs for video generation, $155M EBITDA loss in 2024"
+    },
+    "projections": {
+      "arr_2026": 300,
+      "arr_2027": 600,
+      "notes": "Targeting $300M ARR by end of 2025, expanding into robotics"
+    }
   },
   "products": ["Gen-4.5", "Gen-4", "Gen-3 Alpha", "Runway Studios", "AI Magic Tools", "Video API"],
   "product": {
@@ -118,5 +148,8 @@
     "community": "Large Discord, strong creative community",
     "market": "Co-leader in AI video with Pika"
   },
+  "risks": [
+    {"type": "competition", "description": "OpenAI Sora is a major threat; Pika, Kling also competing aggressively"}
+  ],
   "last_updated": "2026-01-31"
 }

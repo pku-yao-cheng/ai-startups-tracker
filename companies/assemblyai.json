@@ -1,0 +1,98 @@
+{
+  "name": "AssemblyAI",
+  "slug": "assemblyai",
+  "stage": "series-c",
+  "category": "ai-infrastructure",
+  "founded": 2017,
+  "hq": "San Francisco, CA",
+  "website": "https://assemblyai.com",
+  "description": "Speech-to-text AI platform with 25M+ API calls daily. 4,000+ paying customers. Competes with Deepgram and OpenAI Whisper.",
+  "founders": [
+    {
+      "name": "Dylan Fox",
+      "role": "CEO",
+      "education": [
+        {"institution": "Unknown", "degree": "Unknown", "field": "Machine Learning", "tier": "tier-3"}
+      ],
+      "experience": [],
+      "achievements": ["Built AssemblyAI to 4,000+ customers"],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 115,
+    "latest_valuation": 0.5,
+    "rounds": [
+      {"type": "Series C", "amount": 50, "date": "2023-12", "lead": "Accel"}
+    ],
+    "notes": "90% of funding raised in 22 months"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 109, "as_of": "2025-12"},
+    "runway_months": 36
+  },
+  "products": ["Speech-to-Text API", "Audio Intelligence", "LeMUR (LLM for audio)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2018-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Speech AI models and APIs"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 4000, "type": "paying customers", "as_of": "2023-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 100,
+    "notes": "25M API calls per day"
+  },
+  "investors": {
+    "lead_investors": ["Accel", "Insight Partners"],
+    "strategic_investors": ["Y Combinator"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 30000,
+    "github_stars": 2000,
+    "discord_members": 5000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "speech-to-text",
+    "competitors": ["Deepgram", "OpenAI Whisper", "Google Speech-to-Text", "Rev.ai"],
+    "tam_estimate": "$10B",
+    "moats": ["Developer-focused", "Audio Intelligence features"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "AssemblyAI raises $50M Series C for superhuman speech AI", "url": "https://techcrunch.com/2023/12/04/assemblyai-nabs-50m-to-build-and-serve-ai-speech-models/", "date": "2023-12-04", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 70,
+    "financial_health_score": 55,
+    "funding_score": 50,
+    "momentum_score": 60,
+    "product_score": 75,
+    "traction_score": 60,
+    "community_score": 45,
+    "market_position_score": 60,
+    "composite_score": 60
+  },
+  "score_notes": {
+    "founder": "ML engineer background",
+    "financial": "Growing revenue",
+    "funding": "$115M raised, Accel led",
+    "momentum": "Steady growth",
+    "product": "Mature API platform",
+    "traction": "4,000+ customers",
+    "community": "Developer community",
+    "market": "#2 behind Deepgram"
+  },
+  "risks": [
+    {"type": "competition", "description": "OpenAI Whisper is free and open-source; Deepgram has more funding"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -58,8 +58,40 @@
     "notes": "Europe's largest AI funding round. ASML is now largest shareholder."
   },
   "financials": {
-    "arr": {"value": 100, "confidence": "estimated", "as_of": "2025-12"},
-    "employees": {"value": 150, "as_of": "2025-12"}
+    "arr": {"value": 150, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2023-12", "value": 10, "notes": "Early commercialization"},
+      {"date": "2024-06", "value": 30, "notes": "Le Chat and API launch"},
+      {"date": "2024-12", "value": 60, "notes": "Enterprise growth"},
+      {"date": "2025-03", "value": 70, "notes": "100% YoY growth"},
+      {"date": "2025-06", "value": 100, "notes": "May 2025 milestone"},
+      {"date": "2025-10", "value": 150, "notes": "Sacra estimate Oct 2025"}
+    ],
+    "arr_by_product": {
+      "enterprise_api": {"value": 100, "as_of": "2025-12", "notes": "85% from private deployments"},
+      "le_chat_consumer": {"value": 30, "as_of": "2025-12"},
+      "other": {"value": 20, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 150,
+    "burn_rate_monthly": 80,
+    "runway_months": 36,
+    "gross_margin": 40,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 450, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 600,
+      "research_annual": 150,
+      "personnel_annual": 150,
+      "other_annual": 100,
+      "total_annual": 1000,
+      "notes": "Hardware spending expected to match 2026 revenue (~€1B). Mistral Compute launching."
+    },
+    "projections": {
+      "arr_2026": 1000,
+      "arr_2027": 2500,
+      "notes": "CEO targets €1B+ revenue in 2026, would require 6-7x growth"
+    }
   },
   "products": ["Mistral Large 2", "Mistral Small", "Mixtral", "Le Chat", "La Plateforme", "Mistral Compute (2026)"],
   "recent_news": [
@@ -67,12 +99,72 @@
     {"title": "ASML takes 11% stake in Mistral", "url": "https://cloudsummit.eu/blog/mistral-ai-14-billion-valuation-europe-turning-point", "date": "2025-09", "sentiment": "positive"},
     {"title": "Mistral Compute launching in 2026 with 18,000 NVIDIA Grace Blackwell chips", "url": "https://brief.bismarckanalysis.com/p/ai-2026-mistral-will-rise-as-compute", "date": "2026-01", "sentiment": "positive"}
   ],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-09",
+    "benchmarks": [
+      {"name": "MMLU", "rank": 4, "score": 84.0, "date": "2025-12"},
+      {"name": "HumanEval", "rank": 5, "score": 78.0, "date": "2025-12"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "AWS, Azure, GCP partnerships; Mistral Compute (2026)"
+  },
+  "traction": {
+    "enterprise_customers": ["BNP Paribas", "LVMH", "Thales", "Orange", "Société Générale"],
+    "user_count": {"value": 5000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Microsoft Azure", "type": "strategic", "date": "2024-02", "details": "Azure AI partnership"},
+      {"partner": "ASML", "type": "strategic", "date": "2025-09", "details": "€1.3B for 11% stake"}
+    ],
+    "revenue_growth_yoy": 150
+  },
+  "investors": {
+    "lead_investors": ["ASML", "General Catalyst", "DST Global", "A16z"],
+    "strategic_investors": ["Microsoft", "NVIDIA", "Salesforce"],
+    "other_investors": ["Lightspeed", "369 Growth Partners", "Belfius"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 35000,
+    "discord_members": 80000,
+    "twitter_followers": 200000,
+    "hn_mentions": 300,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 4,
+    "competitors": ["OpenAI", "Anthropic", "Meta AI", "Google"],
+    "tam_estimate": "$500B",
+    "moats": ["Open-weight models", "European market leader", "Efficiency focus", "Regulatory positioning"],
+    "compute_partnership": {"partner": "Multi-cloud", "details": "AWS, Azure, GCP; own Mistral Compute coming"},
+    "first_mover": false,
+    "regulatory_advantage": true
+  },
   "scores": {
     "founder_score": 88,
-    "revenue_score": 14,
-    "funding_score": 70,
-    "momentum_score": 90,
-    "composite_score": 66
+    "financial_health_score": 65,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 80,
+    "traction_score": 70,
+    "community_score": 75,
+    "market_position_score": 75,
+    "composite_score": 77
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "DeepMind + Meta AI alumni. Led Chinchilla and LLaMA research.",
+    "financial": "$150M ARR, 150% YoY growth. Aggressive €1B 2026 target. ~$80M/mo burn.",
+    "funding": "$14B valuation, $3B+ raised, ASML strategic investment",
+    "momentum": "Europe's largest AI round, Mistral Compute announcement, consistent product releases",
+    "product": "Mistral Large 2 competitive, open-weight strategy, multi-cloud deployment",
+    "traction": "Strong European enterprise adoption, 5M+ users on Le Chat",
+    "community": "Strong open-source community, 35k GitHub stars",
+    "market": "#4 in foundation models, European AI leader, regulatory advantage"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "93x ARR multiple ($14B on $150M ARR); aggressive €1B 2026 target requires 6-7x growth"},
+    {"type": "competition", "description": "Competing against OpenAI, Anthropic, Google with much larger resources"}
+  ],
+  "last_updated": "2026-01-31"
 }

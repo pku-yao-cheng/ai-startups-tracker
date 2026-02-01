@@ -1,0 +1,105 @@
+{
+  "name": "LMArena",
+  "slug": "lmarena",
+  "stage": "series-a",
+  "category": "ai-infrastructure",
+  "founded": 2025,
+  "hq": "Berkeley, CA",
+  "website": "https://lmarena.ai",
+  "description": "AI model benchmarking and evaluation platform, home of the Chatbot Arena. Provides crowdsourced human preference data for comparing AI models.",
+  "founders": [
+    {
+      "name": "Wei-Lin Chiang",
+      "role": "CEO",
+      "education": [
+        {"institution": "UC Berkeley", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "UC Berkeley", "role": "PhD Researcher", "years": "2019-2025", "tier": "tier-1"}
+      ],
+      "achievements": ["Created Chatbot Arena", "Vicuna model co-creator"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 100,
+    "latest_valuation": 1.7,
+    "rounds": [
+      {"type": "Series A", "amount": 100, "date": "2026-01", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "Reached $1.7B valuation in under 4 months since founding"
+  },
+  "financials": {
+    "arr": {"value": 5, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 20, "as_of": "2026-01"},
+    "runway_months": 60
+  },
+  "products": ["Chatbot Arena", "LLM Leaderboard", "Human Preference API", "Model Evaluation Platform"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-05",
+    "benchmarks": [
+      {"name": "Chatbot Arena", "rank": 1, "notes": "De facto standard for LLM comparison", "date": "2026-01"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Crowdsourced human preference evaluation"
+  },
+  "traction": {
+    "enterprise_customers": ["OpenAI", "Anthropic", "Google", "Meta"],
+    "user_count": {"value": 2000000, "type": "evaluators", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "OpenAI", "type": "customer", "date": "2024-01"},
+      {"partner": "Anthropic", "type": "customer", "date": "2024-01"}
+    ],
+    "notes": "All major AI labs use Chatbot Arena"
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 150000,
+    "github_stars": 40000,
+    "discord_members": 30000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-benchmarking",
+    "competitors": ["Scale AI", "Surge AI", "OpenAI Evals"],
+    "tam_estimate": "$5B",
+    "moats": ["De facto LLM benchmark standard", "2M+ evaluators", "Academic credibility"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "LMArena reaches $1.7B valuation in under 4 months", "url": "https://techcrunch.com/2026/01/08/lmarena-series-a/", "date": "2026-01-08", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "financial_health_score": 35,
+    "funding_score": 70,
+    "momentum_score": 95,
+    "product_score": 90,
+    "traction_score": 75,
+    "community_score": 85,
+    "market_position_score": 90,
+    "composite_score": 78
+  },
+  "score_notes": {
+    "founder": "UC Berkeley PhD, created Chatbot Arena and Vicuna",
+    "financial": "Early revenue, well-funded",
+    "funding": "$1.7B in under 4 months, a16z led",
+    "momentum": "Fastest unicorn in AI benchmarking",
+    "product": "Chatbot Arena is industry standard",
+    "traction": "All major AI labs are customers",
+    "community": "Massive open-source and evaluator community",
+    "market": "Dominant position in AI benchmarking"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "340x ARR multiple ($1.7B on ~$5M ARR) - extremely high but strategic positioning"},
+    {"type": "competition", "description": "Scale AI and AI labs could build competing evaluation infrastructure"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

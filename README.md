@@ -6,10 +6,10 @@ Track and rank the most promising AI startups by founders, revenue, funding, and
 
 | Metric | Value |
 |--------|-------|
-| Companies Tracked | 46 |
-| Last Sync | 2026-01-29 |
-| Last Discovery | 2026-01-29 (Run 2) |
-| Total Funding (Jan 2026) | $50B+ |
+| Companies Tracked | 59 |
+| Last Sync | 2026-01-31 |
+| Last Discovery | 2026-01-31 (Run 3) |
+| Total Funding (Jan 2026) | $60B+ |
 | Flagged Companies | 1 |
 | Blocklisted | 4 |
 
@@ -50,6 +50,24 @@ Track and rank the most promising AI startups by founders, revenue, funding, and
 | **Imbue** | 45 | $1B | Kanjun Qiu (Dropbox Chief of Staff), woman-led unicorn |
 | **Hologen** | 44 | $850M | Eric Schmidt (ex-Google CEO), AI biotech |
 
+## Discovery Run 3 (Jan 31)
+
+| Company | Score | Valuation | Key Signal |
+|---------|-------|-----------|------------|
+| **LMArena** | 78 | $1.7B | Chatbot Arena creators, fastest unicorn |
+| **Synthesia** | 73 | $4B | AI video leader, 50K+ enterprise customers |
+| **Luma AI** | 71 | $4B | Dream Machine video AI, $900M Series C |
+| **Moonshot AI** | 68 | $3B | Kimi K2.5 - best open coding model |
+| **Gamma** | 67 | $2.1B | AI presentations, a16z backed |
+| **OpenEvidence** | 67 | $12B | "ChatGPT for doctors", Kensho founder |
+| **Lovable** | 67 | $6.6B | Vibe coding platform, viral growth |
+| **Deepgram** | 61 | $1.3B | Voice AI, enterprise customers |
+| **Rogo** | 58 | $500M | AI finance, Sequoia-led |
+| **Main Func** | 56 | $1.25B | AI workflow automation |
+| **Serval** | 55 | $1B | IT AI agents, Khosla-backed |
+| **Articul8** | 54 | $500M | Intel spinout, enterprise AI |
+| **Chai Discovery** | 51 | $1.3B | AI drug discovery, Meta AI founder |
+
 ## Discovery Run 2 (Jan 29)
 
 | Company | Score | Valuation | Key Signal |
@@ -78,10 +96,10 @@ Track and rank the most promising AI startups by founders, revenue, funding, and
 | Category | Count | Top Company |
 |----------|-------|-------------|
 | Foundation Models | 17 | OpenAI ($500B) |
-| AI Agents | 7 | Anysphere ($29.3B) |
-| Vertical AI | 7 | Mercor ($10B) |
-| AI Infrastructure | 6 | Databricks ($134B) |
-| AI Applications | 6 | Perplexity ($20B) |
+| AI Agents | 10 | Anysphere ($29.3B) |
+| Vertical AI | 11 | OpenEvidence ($12B) |
+| AI Infrastructure | 11 | Databricks ($134B) |
+| AI Applications | 8 | Perplexity ($20B) |
 | AI Robotics | 3 | Skild AI ($14B) |
 
 ## Red Flags / Flagged Companies
@@ -121,10 +139,11 @@ Track and rank the most promising AI startups by founders, revenue, funding, and
 
 ```
 LearnLLM/ai-startups/
-├── .tracker_state.json    # Sync state (46 companies tracked)
+├── .tracker_state.json    # Sync state (59 companies tracked)
 ├── README.md              # This file
 ├── LEADERBOARD.md         # Current rankings
-├── companies/             # 46 company profiles
+├── dashboard.html         # Interactive dashboard
+├── companies/             # 59 company profiles
 ├── news/                  # Monthly news
 ├── leaderboards/          # Historical snapshots
 └── discovery/             # New candidates

@@ -11,13 +11,20 @@
     {
       "name": "Georges Harik",
       "role": "Co-founder",
-      "education": [],
       "experience": [
-        {"company": "Google", "role": "Employee #7", "years": "1999-2010", "tier": "faang"},
-        {"company": "Android", "role": "Led acquisition", "years": "2005", "tier": "faang"}
+        {"company": "Google", "role": "Employee #7", "years": "1999-2010", "tier": "faang"}
       ],
-      "achievements": ["Google Employee #7", "Worked on Gmail", "Kick-started Google Docs", "Led Android acquisition"],
+      "achievements": ["Google Employee #7", "Worked on Gmail, Google Docs", "Led Android acquisition"],
       "founder_score": 98
+    },
+    {
+      "name": "Andi Peng",
+      "role": "Co-founder",
+      "experience": [
+        {"company": "Anthropic", "role": "Researcher", "years": "2022-2025", "tier": "faang"}
+      ],
+      "achievements": ["Worked on RLHF and post-training for Claude 3.5-4.5"],
+      "founder_score": 85
     },
     {
       "name": "Eric Zelikman",
@@ -28,7 +35,28 @@
       "experience": [
         {"company": "xAI", "role": "Researcher", "years": "2023-2025", "tier": "faang"}
       ],
-      "achievements": ["Contributed to Grok-2 training data", "Research in reasoning-based reinforcement learning"],
+      "achievements": ["Helped develop Grok chatbot"],
+      "founder_score": 85
+    },
+    {
+      "name": "Yuchen He",
+      "role": "Co-founder",
+      "experience": [
+        {"company": "xAI", "role": "Researcher", "years": "2023-2025", "tier": "faang"}
+      ],
+      "achievements": ["Helped develop Grok chatbot"],
+      "founder_score": 80
+    },
+    {
+      "name": "Noah Goodman",
+      "role": "Co-founder",
+      "education": [
+        {"institution": "MIT", "degree": "PhD", "field": "Cognitive Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Stanford", "role": "Professor of Psychology & CS", "years": "2010-present", "tier": "tier-1"}
+      ],
+      "achievements": ["Stanford professor, cognitive science expert"],
       "founder_score": 85
     }
   ],
@@ -45,16 +73,38 @@
     "employees": {"value": 30, "as_of": "2026-01"}
   },
   "products": [],
+  "investors": {
+    "lead_investors": ["SV Angel", "GV"],
+    "strategic_investors": ["Nvidia", "Jeff Bezos", "Emerson Collective"],
+    "investor_tier": "tier-1"
+  },
   "recent_news": [
     {"title": "Humans& raises $480M seed at $4.48B valuation", "url": "https://techcrunch.com/2026/01/20/humans-a-human-centric-ai-startup-founded-by-anthropic-xai-google-alums-raised-480m-seed-round/", "date": "2026-01-20", "sentiment": "positive"}
   ],
   "scores": {
-    "founder_score": 98,
-    "revenue_score": 0,
-    "funding_score": 45,
+    "founder_score": 92,
+    "financial_health_score": 25,
+    "funding_score": 85,
     "momentum_score": 80,
-    "composite_score": 56
+    "product_score": 0,
+    "traction_score": 0,
+    "community_score": 40,
+    "market_position_score": 65,
+    "composite_score": 52
   },
-  "last_updated": "2026-01-29",
-  "discovery_source": "auto-discovered"
+  "score_notes": {
+    "founder": "Strong team: Google #7, Anthropic, xAI, Stanford researchers",
+    "financial": "Pre-revenue, just launched",
+    "funding": "$4.48B valuation, tier-1 investors including Nvidia, Bezos",
+    "momentum": "Huge seed round buzz, but unproven",
+    "product": "No product yet",
+    "traction": "Zero commercial traction",
+    "community": "Early stage",
+    "market": "Human-centric AI differentiation, but unclear moat"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "Infinite multiple ($4.48B on $0 ARR) - pure bet on founder reputation"},
+    {"type": "product", "description": "No product yet; competing against OpenAI, Anthropic with established products"}
+  ],
+  "last_updated": "2026-01-31"
 }

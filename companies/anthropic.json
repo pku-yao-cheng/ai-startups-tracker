@@ -47,15 +47,89 @@
     "notes": "Microsoft committed $10B, Nvidia $5B. Coatue, GIC, Iconiq participating with $1B+ checks."
   },
   "financials": {
-    "arr": {"value": 9000, "confidence": "confirmed", "as_of": "2025-12", "notes": "Run rate doubled from $4B in July 2025"},
-    "claude_code_arr": {"value": 1000, "confidence": "estimated", "as_of": "2026-01", "notes": "Up from $400M in July"},
+    "arr": {"value": 9000, "confidence": "confirmed", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2023-12", "value": 200, "notes": "Early commercialization"},
+      {"date": "2024-06", "value": 800, "notes": "Claude 3 launch impact"},
+      {"date": "2024-12", "value": 1500, "notes": "Enterprise growth"},
+      {"date": "2025-03", "value": 2000, "notes": "Claude 3.5 Sonnet popularity"},
+      {"date": "2025-06", "value": 3500, "notes": "Cursor/Claude Code growth"},
+      {"date": "2025-07", "value": 4000, "notes": "Run rate milestone"},
+      {"date": "2025-09", "value": 5500, "notes": "Rapid enterprise adoption"},
+      {"date": "2025-12", "value": 9000, "notes": "Doubled from July"}
+    ],
+    "arr_by_product": {
+      "claude_api": {"value": 5000, "as_of": "2025-12"},
+      "claude_enterprise": {"value": 3000, "as_of": "2025-12"},
+      "claude_code": {"value": 1000, "as_of": "2025-12", "notes": "Up from $400M in July"}
+    },
+    "revenue_growth_yoy": 500,
+    "burn_rate_monthly": 200,
+    "runway_months": 120,
+    "gross_margin": 50,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2028"},
     "employees": {"value": 1200, "as_of": "2025-12"},
-    "projected_arr_2026": 18000,
-    "projected_arr_2027": 55000,
-    "gross_margin_2026": 50,
-    "cash_flow_positive": "2028"
+    "cost_structure": {
+      "compute_annual": 2000,
+      "research_annual": 300,
+      "personnel_annual": 400,
+      "other_annual": 100,
+      "total_annual": 2800,
+      "notes": "Heavy compute spend for training, ~$200M/month burn"
+    },
+    "projections": {
+      "arr_2026": 18000,
+      "arr_2027": 55000,
+      "arr_2028": 70000,
+      "gross_margin_2026": 50,
+      "notes": "Management projects $70B revenue by 2028"
+    }
   },
-  "products": ["Claude 4", "Claude API", "Claude Code", "Claude for Enterprise"],
+  "products": ["Claude 4", "Claude API", "Claude Code", "Claude for Enterprise", "Claude Pro"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-03",
+    "benchmarks": [
+      {"name": "MMLU", "rank": 2, "score": 89.9, "date": "2025-12"},
+      {"name": "HumanEval", "rank": 1, "score": 92.0, "date": "2025-12"},
+      {"name": "GPQA", "rank": 1, "score": 65.0, "date": "2025-12"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 24,
+    "infrastructure": "Custom training infrastructure, AWS partnership"
+  },
+  "traction": {
+    "enterprise_customers": ["Amazon", "Notion", "DuckDuckGo", "Quora", "Slack", "Zoom", "GitLab"],
+    "user_count": {"value": 10000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Amazon", "type": "strategic", "date": "2023-09", "details": "$4B investment, AWS partnership"},
+      {"partner": "Google", "type": "strategic", "date": "2023-02", "details": "$2B investment, GCP partnership"}
+    ],
+    "revenue_growth_yoy": 500
+  },
+  "investors": {
+    "lead_investors": ["GIC", "Lightspeed", "Amazon", "Google"],
+    "strategic_investors": ["Amazon", "Google", "Salesforce", "Zoom"],
+    "other_investors": ["Spark Capital", "Sound Ventures", "Menlo Ventures", "NVIDIA", "Microsoft", "Coatue", "ICONIQ"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 50000,
+    "github_stars": 15000,
+    "twitter_followers": 300000,
+    "hn_mentions": 500,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 2,
+    "competitors": ["OpenAI", "Google DeepMind", "Meta AI", "Mistral"],
+    "tam_estimate": "$500B",
+    "moats": ["AI safety research", "Constitutional AI", "Enterprise trust", "Talent density"],
+    "compute_partnership": {"partner": "AWS", "details": "Major cloud partnership, custom chips"},
+    "first_mover": false,
+    "regulatory_advantage": true
+  },
   "recent_news": [
     {"title": "Anthropic upped its latest raise to $20B", "url": "https://techcrunch.com/2026/01/27/anthropic-reportedly-upped-its-latest-raise-to-20b/", "date": "2026-01-27", "sentiment": "positive"},
     {"title": "Anthropic's revenue run rate tops $9 billion", "url": "https://www.bloomberg.com/news/articles/2026-01-21/anthropic-s-revenue-run-rate-tops-9-billion-as-vcs-pile-in", "date": "2026-01-21", "sentiment": "positive"},
@@ -64,10 +138,24 @@
   ],
   "scores": {
     "founder_score": 98,
-    "revenue_score": 100,
+    "financial_health_score": 85,
     "funding_score": 100,
     "momentum_score": 100,
+    "product_score": 95,
+    "traction_score": 90,
+    "community_score": 75,
+    "market_position_score": 90,
     "composite_score": 99
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Dario Amodei: Princeton PhD, OpenAI VP of Research. Daniela: OpenAI + Stripe exec.",
+    "financial": "$9B ARR, 500% YoY growth, $27B raised, 120mo runway. Heavy burn ($200M/mo) but massive growth.",
+    "funding": "$350B valuation, tier-1 investor syndicate (Amazon, Google, GIC, Lightspeed)",
+    "momentum": "ARR doubled in 6 months, constant positive press, major funding rounds",
+    "product": "Claude 4 top benchmarks, Claude Code explosive growth, strong API",
+    "traction": "10M+ users, major enterprise customers, 500% revenue growth",
+    "community": "Strong developer community, positive sentiment, active Discord",
+    "market": "#2 in foundation models, strong safety positioning, regulatory advantage"
+  },
+  "last_updated": "2026-01-31"
 }

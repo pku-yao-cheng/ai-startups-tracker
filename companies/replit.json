@@ -1,0 +1,104 @@
+{
+  "name": "Replit",
+  "slug": "replit",
+  "stage": "series-e",
+  "category": "ai-agent",
+  "founded": 2016,
+  "hq": "San Francisco, CA",
+  "website": "https://replit.com",
+  "description": "Browser-based IDE with AI coding capabilities. 'Vibe coding' pioneer. 150K+ paying customers. Targeting $1B revenue in 2026.",
+  "founders": [
+    {
+      "name": "Amjad Masad",
+      "role": "CEO",
+      "education": [
+        {"institution": "University of Jordan", "degree": "BS", "field": "Computer Science", "tier": "tier-3"}
+      ],
+      "experience": [
+        {"company": "Facebook", "role": "Software Engineer", "years": "2012-2016", "tier": "faang"}
+      ],
+      "achievements": ["Built Replit to 30M+ users", "Pioneered browser-based coding"],
+      "founder_score": 82
+    }
+  ],
+  "funding": {
+    "total_raised": 522,
+    "latest_valuation": 9,
+    "rounds": [
+      {"type": "Series F", "amount": 400, "date": "2026-01", "lead": "Georgian", "notes": "In progress, $9B valuation"},
+      {"type": "Series E", "amount": 250, "date": "2025-09", "lead": "Prysm Capital"}
+    ],
+    "notes": "Valuation tripled from $3B to $9B in 4 months"
+  },
+  "financials": {
+    "arr": {"value": 253, "confidence": "estimated", "as_of": "2025-10"},
+    "employees": {"value": 200, "as_of": "2025-12"},
+    "runway_months": 36,
+    "revenue_growth_yoy": 1580,
+    "notes": "Targeting $1B revenue in 2026"
+  },
+  "products": ["Replit IDE", "Replit Agent", "Ghostwriter AI", "Deployments"],
+  "product": {
+    "launched": true,
+    "launch_date": "2016-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Browser-based IDE with AI"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 150000, "type": "paying customers", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Google", "type": "investor", "date": "2025-09"}
+    ],
+    "revenue_growth_yoy": 1580
+  },
+  "investors": {
+    "lead_investors": ["Georgian", "Prysm Capital", "Andreessen Horowitz"],
+    "strategic_investors": ["Google AI Futures Fund", "Amex Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 300000,
+    "discord_members": 100000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 3,
+    "category": "ai-coding",
+    "competitors": ["Cursor", "Lovable", "GitHub Copilot", "v0.dev"],
+    "tam_estimate": "$50B",
+    "moats": ["30M+ users", "Browser-based", "Education market"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Replit nears $400M funding at $9B valuation", "url": "https://www.bloomberg.com/news/articles/2026-01-15/ai-coding-startup-replit-nears-funding-at-9-billion-valuation", "date": "2026-01-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 82,
+    "financial_health_score": 70,
+    "funding_score": 80,
+    "momentum_score": 90,
+    "product_score": 85,
+    "traction_score": 80,
+    "community_score": 80,
+    "market_position_score": 75,
+    "composite_score": 80
+  },
+  "score_notes": {
+    "founder": "Facebook engineer, built large developer platform",
+    "financial": "$253M ARR, 16x growth",
+    "funding": "$9B valuation, Google invested",
+    "momentum": "Massive growth, valuation tripled",
+    "product": "Mature platform with AI features",
+    "traction": "150K paying customers",
+    "community": "Huge developer community",
+    "market": "#3 behind Cursor in AI coding"
+  },
+  "risks": [
+    {"type": "competition", "description": "Cursor at $29B valuation with $1B ARR; GitHub Copilot from Microsoft"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

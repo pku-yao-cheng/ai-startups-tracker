@@ -2,263 +2,284 @@
 
 *Last updated: 2026-01-31*
 
-## Scoring Methodology (8-Component Model)
+**77 companies tracked** | Sorted by composite score
 
-| Component | Weight | Description |
-|-----------|--------|-------------|
-| Founder Score | 15% | Education (tier-1 PhDs), FAANG experience, prior exits, research output |
-| Financial Health | 12% | ARR, revenue growth, burn rate, runway, margins, unit economics |
-| Funding Score | 12% | Valuation + total raised + investor quality |
-| Momentum Score | 8% | News frequency, sentiment, growth signals |
-| Product Score | 15% | Shipped product, benchmarks, open source, API, time to ship |
-| Traction Score | 13% | Enterprise customers, user growth, strategic partnerships |
-| Community Score | 10% | GitHub stars, Discord size, developer adoption, HN/Reddit sentiment |
-| Market Position | 15% | Category leadership, competitive moats, TAM, market dynamics |
+## 🏆 Top 20
 
-**Composite Score** = Weighted sum of all components (max 100)
+| Rank | Company | Category | Valuation | ARR | Composite | F | Fi | Fu | M | P | T | C | Mp | Risk |
+|------|---------|----------|-----------|-----|-----------|---|----|----|---|---|---|---|----|------|
+| 1 | **Anthropic** | Foundation Models | $350B | $9.0B | **99** | 98 | 85 | 100 | 100 | 95 | 90 | 75 | 90 |  |
+| 2 | **OpenAI** | Foundation Models | $500B | $20.0B | **99** | 95 | 75 | 100 | 100 | 100 | 100 | 85 | 100 | ⚡ |
+| 3 | **Databricks** | AI Infrastructure | $134B | $4.8B | **96** | 98 | 100 | 100 | 95 | 95 | 95 | 85 | 95 |  |
+| 4 | **Anysphere (Cursor)** | AI Agents | $29B | $1.0B | **91** | 77 | 90 | 95 | 100 | 90 | 95 | 95 | 90 | 🏁 |
+| 5 | **xAI** | Foundation Models | $230B | $3.2B | **84** | 100 | 40 | 100 | 95 | 85 | 90 | 55 | 90 |  |
+| 6 | **Hugging Face** | AI Infrastructure | $4.5B | $130M | **84** | 82 | 65 | 65 | 80 | 95 | 90 | 100 | 95 |  |
+| 7 | **Groq** | AI Infrastructure | $20B | $500M | **82** | 90 | 70 | 90 | 95 | 85 | 75 | 65 | 85 | ⚡ |
+| 8 | **ElevenLabs** | AI Applications | $6.6B | $330M | **82** | 78 | 85 | 75 | 95 | 85 | 85 | 70 | 85 |  |
+| 9 | **Suno** | AI Applications | $2.5B | $200M | **81** | 80 | 70 | 70 | 85 | 85 | 90 | 85 | 80 |  |
+| 10 | **AlphaSense** | Vertical AI | $4.0B | $500M | **81** | 85 | 85 | 80 | 80 | 85 | 95 | 40 | 90 | 🏁 |
+| 11 | **Cerebras Systems** | AI Infrastructure | $8.1B | $1.0B | **81** | 88 | 75 | 85 | 90 | 90 | 85 | 45 | 85 | ⚡ |
+| 12 | **Replit** | AI Agents | $9.0B | $253M | **80** | 82 | 70 | 80 | 90 | 85 | 80 | 80 | 75 | 🏁 |
+| 13 | **Perplexity AI** | AI Applications | $20B | $200M | **79** | 88 | 70 | 75 | 85 | 80 | 80 | 75 | 75 | ⚠️ 🏁 |
+| 14 | **LMArena** | AI Infrastructure | $1.7B | $5M | **78** | 85 | 35 | 70 | 95 | 90 | 75 | 85 | 90 | ⚠️ 🏁 |
+| 15 | **Sierra** | AI Agents | $10B | $100M | **78** | 100 | 80 | 80 | 90 | 75 | 80 | 35 | 85 | ⚠️ |
+| 16 | **Glean** | Vertical AI | $7.2B | $200M | **77** | 95 | 70 | 80 | 85 | 80 | 75 | 35 | 85 | 🏁 |
+| 17 | **Abridge** | Vertical AI | $5.3B | $100M | **77** | 80 | 65 | 80 | 90 | 85 | 80 | 40 | 85 | ⚠️ 🏁 |
+| 18 | **Mistral AI** | Foundation Models | $14B | $150M | **77** | 88 | 65 | 80 | 85 | 80 | 70 | 75 | 75 | ⚠️ 🏁 |
+| 19 | **Harvey** | Vertical AI | $8.0B | $150M | **76** | 84 | 65 | 80 | 95 | 75 | 80 | 40 | 85 | 🏁 |
+| 20 | **Cognition AI** | AI Agents | $10B | $150M | **75** | 85 | 80 | 75 | 80 | 70 | 75 | 60 | 75 | ⚠️ 🏁 |
 
----
+*Legend: F=Founder, Fi=Financial, Fu=Funding, M=Momentum, P=Product, T=Traction, C=Community, Mp=Market Position*
+*Risk: ⚠️=Overvalued, 🏁=Competition, ⚡=Execution, 💰=Funding*
 
-## Top 20 Overall
+## 📊 Full Rankings
 
-| Rank | Company | Category | Valuation | ARR | Composite | Founder Signal |
-|------|---------|----------|-----------|-----|:---------:|----------------|
-| 1 | **OpenAI** | Foundation Model | $500B | $20B | **99** | Sam Altman |
-| 2 | **Anthropic** | Foundation Model | $350B | $9B | **99** | Dario Amodei (ex-OpenAI) |
-| 3 | **Databricks** | AI Infrastructure | $134B | $4.8B | **98** | Ali Ghodsi |
-| 4 | **Anysphere (Cursor)** | AI Agent | $29.3B | $1B | **91** | MIT founders |
-| 5 | **xAI** | Foundation Model | $230B | $500M | **84** | Elon Musk |
-| 6 | **ElevenLabs** | AI Application | $6.6B | $330M | **82** | Piotr Dabkowski (ex-Google) |
-| 7 | **Sierra** | AI Agent | $10B | $100M | **78** | Bret Taylor (OpenAI Chair) |
-| 8 | **Glean** | Vertical AI | $7.2B | $100M | **77** | Arvind Jain (ex-Google, Rubrik) |
-| 9 | **Harvey** | Vertical AI | $8B | $100M | **76** | Gabriel Pereyra (DeepMind) |
-| 10 | Perplexity | AI Application | $20B | $200M | **73** | Aravind Srinivas (ex-Google) |
-| 11 | DeepMind | Foundation Model | (Google) | — | **73** | Demis Hassabis (Nobel Prize) |
-| 12 | **Cohere** | Foundation Model | $7B | $150M | **72** | Aidan Gomez (Transformer author) |
-| 13 | **Fireworks AI** | AI Infrastructure | $4B | $50M | **72** | Lin Qiao (PyTorch Director) |
-| 14 | **Wayve** | AI Robotics | $2.3B | $20M | **70** | Alex Kendall (Cambridge PhD, OBE) |
-| 15 | **Decagon** | AI Agent | $4.5B | $100M | **70** | Jesse Zhang |
-| 16 | Microsoft AI | Foundation Model | (Microsoft) | — | **70** | — |
-| 17 | **Runway** | AI Application | $3B | $90M | **68** | Cristóbal Valenzuela |
-| 18 | **Moonshot AI** | Foundation Model | $3B | $50M | **68** | Yang Zhilin (ex-Google) |
-| 19 | **World Labs** | Foundation Model | $5B | $0 | **67** | Fei-Fei Li (ImageNet creator) |
-| 20 | **Pika Labs** | AI Application | $470M | $30M | **67** | Demi Guo (Stanford, IOI Silver) |
+| Rank | Company | Category | Valuation | ARR | Score | Risk |
+|------|---------|----------|-----------|-----|-------|------|
+| 1 | Anthropic | Foundation Models | $350B | $9.0B | 99 |  |
+| 2 | OpenAI | Foundation Models | $500B | $20.0B | 99 | ⚡ |
+| 3 | Databricks | AI Infrastructure | $134B | $4.8B | 96 |  |
+| 4 | Anysphere (Cursor) | AI Agents | $29B | $1.0B | 91 | 🏁 |
+| 5 | xAI | Foundation Models | $230B | $3.2B | 84 |  |
+| 6 | Hugging Face | AI Infrastructure | $4.5B | $130M | 84 |  |
+| 7 | Groq | AI Infrastructure | $20B | $500M | 82 | ⚡ |
+| 8 | ElevenLabs | AI Applications | $6.6B | $330M | 82 |  |
+| 9 | Suno | AI Applications | $2.5B | $200M | 81 |  |
+| 10 | AlphaSense | Vertical AI | $4.0B | $500M | 81 | 🏁 |
+| 11 | Cerebras Systems | AI Infrastructure | $8.1B | $1.0B | 81 | ⚡ |
+| 12 | Replit | AI Agents | $9.0B | $253M | 80 | 🏁 |
+| 13 | Perplexity AI | AI Applications | $20B | $200M | 79 | ⚠️ 🏁 |
+| 14 | LMArena | AI Infrastructure | $1.7B | $5M | 78 | ⚠️ 🏁 |
+| 15 | Sierra | AI Agents | $10B | $100M | 78 | ⚠️ |
+| 16 | Glean | Vertical AI | $7.2B | $200M | 77 | 🏁 |
+| 17 | Abridge | Vertical AI | $5.3B | $100M | 77 | ⚠️ 🏁 |
+| 18 | Mistral AI | Foundation Models | $14B | $150M | 77 | ⚠️ 🏁 |
+| 19 | Harvey | Vertical AI | $8.0B | $150M | 76 | 🏁 |
+| 20 | Cognition AI | AI Agents | $10B | $150M | 75 | ⚠️ 🏁 |
+| 21 | Together AI | AI Infrastructure | $3.3B | $300M | 75 | 🏁 |
+| 22 | Synthesia | AI Applications | $4.0B | $150M | 73 | 🏁 |
+| 23 | DeepMind | Foundation Models | — | — | 73 |  |
+| 24 | Hippocratic AI | Vertical AI | $3.5B | $50M | 73 | ⚠️ |
+| 25 | Fireworks AI | AI Infrastructure | $4.0B | $280M | 72 | 🏁 |
+| 26 | Cohere | Foundation Models | $7.0B | $200M | 72 | 🏁 |
+| 27 | HeyGen | AI Applications | $500M | $95M | 72 | 🏁 |
+| 28 | Luma AI | AI Applications | $4.0B | $50M | 71 | ⚠️ 🏁 |
+| 29 | Microsoft AI | Foundation Models | — | — | 70 |  |
+| 30 | Hebbia | Vertical AI | $700M | $30M | 70 | 🏁 |
+| 31 | Wayve | AI Robotics | $2.3B | $20M | 70 | 🏁 ⚡ |
+| 32 | Decagon | AI Agents | $4.5B | $100M | 70 | ⚠️ 🏁 |
+| 33 | Meshy | AI Applications | $150M | $15M | 69 |  |
+| 34 | Runway | AI Applications | $4.0B | $100M | 69 | 🏁 |
+| 35 | OpenEvidence | Vertical AI | $1.0B | $15M | 68 | ⚠️ 🏁 |
+| 36 | Lovable | AI Applications | $1.2B | $20M | 68 | ⚠️ 🏁 |
+| 37 | AssemblyAI | AI Applications | $500M | $50M | 68 | 🏁 |
+| 38 | Mercor | Vertical AI | $2.0B | $100M | 67 |  |
+| 39 | Hologen | Vertical AI | $500M | $10M | 67 | ⚠️ |
+| 40 | Dev Agents | AI Agents | $500M | $15M | 67 | 🏁 |
+| 41 | Periodic Labs | Foundation Models | $1.5B | $25M | 67 | ⚠️ ⚡ |
+| 42 | Pika Labs | AI Applications | $400M | $20M | 67 | 🏁 |
+| 43 | Ambience Healthcare | Vertical AI | $1.3B | $50M | 66 | 🏁 |
+| 44 | Physical Intelligence | AI Robotics | $5.6B | $10M | 66 | ⚠️ ⚡ |
+| 45 | Skild AI | AI Robotics | $14B | $10M | 65 | ⚠️ ⚡ |
+| 46 | Cartesia | AI Applications | $800M | $20M | 64 | 🏁 |
+| 47 | Tennr | Vertical AI | $605M | $50M | 64 | 🏁 |
+| 48 | Udio | AI Applications | $150M | $10M | 63 | 🏁 ⚖️ |
+| 49 | Deepgram | AI Infrastructure | $200M | $50M | 61 | 🏁 |
+| 50 | Stability AI | Foundation Models | $1.0B | $20M | 60 | 💰 ⚡ |
+| 51 | World Labs | Foundation Models | $5.0B | — | 60 | ⚠️ ⚡ |
+| 52 | Gamma | AI Applications | $1.5B | $40M | 60 | 🏁 |
+| 53 | Inworld AI | AI Applications | $500M | $15M | 59 | 💰 |
+| 54 | Suki AI | Vertical AI | $500M | $40M | 58 | 🏁 |
+| 55 | Ricursive Intelligence | AI Hardware | $4.0B | — | 58 | ⚠️ ⚡ |
+| 56 | Rogo | Vertical AI | $350M | $20M | 58 | 🏁 |
+| 57 | Unconventional AI | AI Hardware | $4.5B | — | 57 | ⚠️ ⚡ |
+| 58 | Main Func | AI Agents | $1.3B | $20M | 56 | ⚠️ 🏁 |
+| 59 | Safe Superintelligence Inc | Foundation Models | $32B | — | 55 | ⚠️ ⚡ |
+| 60 | Serval | Vertical AI | $1.0B | $15M | 55 | ⚠️ 🏁 |
+| 61 | Brightwave | Vertical AI | $100M | $5M | 55 | 🏁 |
+| 62 | Articul8 | AI Infrastructure | $750M | $30M | 54 | 🏁 |
+| 63 | Humans& | Foundation Models | $4.5B | — | 52 | ⚠️ ⚡ |
+| 64 | Chai Discovery | Vertical AI | $1.3B | — | 51 | ⚠️ ⚡ |
+| 65 | Lila Sciences | Vertical AI | $350M | $5M | 50 | ⚡ |
+| 66 | Etched | AI Hardware | $3.5B | — | 50 | 🏁 ⚡ |
+| 67 | Liquid AI | Foundation Models | $500M | $5M | 49 | ⚠️ ⚡ |
+| 68 | Ami Labs | Foundation Models | $5.0B | — | 49 | ⚠️ ⚡ |
+| 69 | Thinking Machines Lab | Foundation Models | $12B | — | 48 | ⚡ 💰 |
+| 70 | Sakana AI | Foundation Models | $1.5B | $2M | 48 | ⚠️ |
+| 71 | Poolside | Foundation Models | $3.0B | $5M | 47 | ⚠️ ⚡ |
+| 72 | Harmattan AI | Vertical AI | $7.5B | $150M | 47 | ⚠️ |
+| 73 | Imbue | Foundation Models | $1.0B | — | 45 | ⚡ |
+| 74 | Magic AI | AI Agents | $1.5B | $2M | 43 | ⚠️ ⚡ |
+| 75 | Moonshot AI | Foundation Models | $3.0B | $20M | 40 |  |
+| 76 | Arcee AI | AI Infrastructure | $50M | $3M | 35 |  |
+| 77 | Reflection AI | Foundation Models | — | — | 30 | ⚡ |
 
-*Bold = Full 8-component scoring available*
+## 📁 By Category
 
----
+### Foundation Models (20)
 
-## Full Rankings (46 Companies)
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | Anthropic | $350B | $9.0B | 99 |
+| 2 | OpenAI | $500B | $20.0B | 99 |
+| 3 | xAI | $230B | $3.2B | 84 |
+| 4 | Mistral AI | $14B | $150M | 77 |
+| 5 | DeepMind | — | — | 73 |
+| 6 | Cohere | $7.0B | $200M | 72 |
+| 7 | Microsoft AI | — | — | 70 |
+| 8 | Periodic Labs | $1.5B | $25M | 67 |
+| 9 | Stability AI | $1.0B | $20M | 60 |
+| 10 | World Labs | $5.0B | — | 60 |
+| 11 | Safe Superintelligence Inc | $32B | — | 55 |
+| 12 | Humans& | $4.5B | — | 52 |
+| 13 | Liquid AI | $500M | $5M | 49 |
+| 14 | Ami Labs | $5.0B | — | 49 |
+| 15 | Thinking Machines Lab | $12B | — | 48 |
+| 16 | Sakana AI | $1.5B | $2M | 48 |
+| 17 | Poolside | $3.0B | $5M | 47 |
+| 18 | Imbue | $1.0B | — | 45 |
+| 19 | Moonshot AI | $3.0B | $20M | 40 |
+| 20 | Reflection AI | — | — | 30 |
 
-| Rank | Company | Category | Stage | Composite | ARR ($M) | Valuation ($B) |
-|------|---------|----------|-------|:---------:|---------:|---------------:|
-| 1 | OpenAI | Foundation Model | Pre-IPO | **99** | 20,000 | 500 |
-| 2 | Anthropic | Foundation Model | Series F | **99** | 9,000 | 350 |
-| 3 | Databricks | AI Infrastructure | Series L | **98** | 4,800 | 134 |
-| 4 | Anysphere (Cursor) | AI Agent | Series D | **91** | 1,000 | 29.3 |
-| 5 | xAI | Foundation Model | Series E | **84** | 500 | 230 |
-| 6 | **ElevenLabs** | AI Application | Series C | **82** | 330 | 6.6 |
-| 7 | **Sierra** | AI Agent | Series C | **78** | 100 | 10 |
-| 8 | **Glean** | Vertical AI | Series F | **77** | 100 | 7.2 |
-| 9 | **Harvey** | Vertical AI | Series F | **76** | 100 | 8 |
-| 10 | Perplexity | AI Application | Series C | **73** | 200 | 20 |
-| 11 | DeepMind | Foundation Model | Acquired | **73** | — | (Google) |
-| 12 | **Cohere** | Foundation Model | Series D | **72** | 150 | 7 |
-| 13 | **Fireworks AI** | AI Infrastructure | Series C | **72** | 50 | 4 |
-| 14 | Wayve | AI Robotics | Series C | **70** | 20 | 2.3 |
-| 15 | Decagon | AI Agent | Series D | **70** | 100 | 4.5 |
-| 16 | Microsoft AI | Foundation Model | Division | **70** | — | (Microsoft) |
-| 17 | **Runway** | AI Application | Series D | **68** | 90 | 3 |
-| 18 | Moonshot AI (Kimi) | Foundation Model | Series B | **68** | 50 | 3 |
-| 19 | World Labs | Foundation Model | Series A | **67** | 0 | 5 |
-| 20 | Pika Labs | AI Application | Series B | **67** | 30 | 0.47 |
-| 21 | Mercor | Vertical AI | Series C | **67** | 50 | 10 |
-| 22 | Cognition | AI Agent | Series C | **66** | 73 | 10.2 |
-| 23 | Mistral | Foundation Model | Series C | **66** | 100 | 14 |
-| 24 | **Physical Intelligence** | AI Robotics | Series B | **66** | 10 | 5.6 |
-| 25 | Skild AI | AI Robotics | Series C | **65** | 30 | 14 |
-| 26 | Liquid AI | Foundation Model | Series A | **63** | 13 | 2.4 |
-| 27 | Lila Sciences | Vertical AI | Series A | **63** | 10 | 1.3 |
-| 28 | Harmattan AI | Vertical AI | Series B | **59** | 30 | 1.4 |
-| 29 | Inworld AI | AI Application | Series A | **59** | 15 | 0.5 |
-| 30 | SSI | Foundation Model | Series A | **58** | 0 | 5 |
-| 31 | ⚠️ Thinking Machines Lab | Foundation Model | Seed | **58** | 0 | 12 |
-| 32 | Ricursive Intelligence | AI Infrastructure | Series A | **58** | 0 | 4 |
-| 33 | Periodic Labs | Vertical AI | Seed | **58** | 0 | 1.5 |
-| 34 | Unconventional AI | AI Infrastructure | Seed | **57** | 0 | 4.5 |
-| 35 | AMI Labs | Foundation Model | Seed | **57** | 0 | 3 |
-| 36 | Humans& | Foundation Model | Seed | **56** | 0 | 4.48 |
-| 37 | Hugging Face | AI Infrastructure | Series D | **55** | 130 | 4.5 |
-| 38 | Baseten | AI Infrastructure | Series C | **52** | 30 | 5 |
-| 39 | /dev/agents | AI Agent | Seed | **51** | 0 | 0.5 |
-| 40 | Etched | AI Infrastructure | Series B | **50** | 0 | 3 |
-| 41 | Sakana | Foundation Model | Series A | **48** | 2 | 1.5 |
-| 42 | Poolside | Foundation Model | Series B | **47** | 5 | 3 |
-| 43 | Imbue | AI Agent | Series B | **45** | 0 | 1 |
-| 44 | Hologen | Vertical AI | Series A | **44** | 0 | 0.85 |
-| 45 | Magic AI | AI Agent | Series B | **43** | 2 | 1.5 |
-| 46 | ⚠️ Reflection AI | Foundation Model | Series A | **30** | 0 | 0.5 |
+### AI Agents (8)
 
-*⚠️ = Flagged for review*
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | Anysphere (Cursor) | $29B | $1.0B | 91 |
+| 2 | Replit | $9.0B | $253M | 80 |
+| 3 | Sierra | $10B | $100M | 78 |
+| 4 | Cognition AI | $10B | $150M | 75 |
+| 5 | Decagon | $4.5B | $100M | 70 |
+| 6 | Dev Agents | $500M | $15M | 67 |
+| 7 | Main Func | $1.3B | $20M | 56 |
+| 8 | Magic AI | $1.5B | $2M | 43 |
 
----
+### Vertical AI (18)
 
-## By Category
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | AlphaSense | $4.0B | $500M | 81 |
+| 2 | Glean | $7.2B | $200M | 77 |
+| 3 | Abridge | $5.3B | $100M | 77 |
+| 4 | Harvey | $8.0B | $150M | 76 |
+| 5 | Hippocratic AI | $3.5B | $50M | 73 |
+| 6 | Hebbia | $700M | $30M | 70 |
+| 7 | OpenEvidence | $1.0B | $15M | 68 |
+| 8 | Mercor | $2.0B | $100M | 67 |
+| 9 | Hologen | $500M | $10M | 67 |
+| 10 | Ambience Healthcare | $1.3B | $50M | 66 |
+| 11 | Tennr | $605M | $50M | 64 |
+| 12 | Suki AI | $500M | $40M | 58 |
+| 13 | Rogo | $350M | $20M | 58 |
+| 14 | Serval | $1.0B | $15M | 55 |
+| 15 | Brightwave | $100M | $5M | 55 |
+| 16 | Chai Discovery | $1.3B | — | 51 |
+| 17 | Lila Sciences | $350M | $5M | 50 |
+| 18 | Harmattan AI | $7.5B | $150M | 47 |
 
-### Foundation Models (17 companies)
+### AI Infrastructure (11)
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|----------------|
-| 1 | OpenAI | **99** | 20,000 | 500 | Sam Altman |
-| 2 | Anthropic | **99** | 9,000 | 350 | Dario Amodei (ex-OpenAI VP) |
-| 3 | xAI | **84** | 500 | 230 | Elon Musk |
-| 4 | DeepMind | **73** | — | (Google) | Demis Hassabis (Nobel Prize) |
-| 5 | **Cohere** | **72** | 150 | 7 | Aidan Gomez (Transformer co-author) |
-| 6 | Microsoft AI | **70** | — | (Microsoft) | — |
-| 7 | Moonshot AI | **68** | 50 | 3 | Yang Zhilin (ex-Google Brain) |
-| 8 | World Labs | **67** | 0 | 5 | **Fei-Fei Li (ImageNet creator)** |
-| 9 | Mistral | **66** | 100 | 14 | Arthur Mensch (ex-DeepMind) |
-| 10 | Liquid AI | **63** | 13 | 2.4 | **Daniela Rus (MIT CSAIL Director)** |
-| 11 | SSI | **58** | 0 | 5 | **Ilya Sutskever (ex-OpenAI Chief Scientist)** |
-| 12 | ⚠️ Thinking Machines Lab | **58** | 0 | 12 | Mira Murati (ex-OpenAI CTO) |
-| 13 | AMI Labs | **57** | 0 | 3 | **Yann LeCun (Turing Award)** |
-| 14 | Humans& | **56** | 0 | 4.48 | Ex-Anthropic/xAI/DeepMind |
-| 15 | Sakana | **48** | 2 | 1.5 | David Ha (ex-Google Brain) |
-| 16 | Poolside | **47** | 5 | 3 | Jason Wei (ex-Google Brain) |
-| 17 | ⚠️ Reflection AI | **30** | 0 | 0.5 | — |
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | Databricks | $134B | $4.8B | 96 |
+| 2 | Hugging Face | $4.5B | $130M | 84 |
+| 3 | Groq | $20B | $500M | 82 |
+| 4 | Cerebras Systems | $8.1B | $1.0B | 81 |
+| 5 | LMArena | $1.7B | $5M | 78 |
+| 6 | Together AI | $3.3B | $300M | 75 |
+| 7 | Fireworks AI | $4.0B | $280M | 72 |
+| 8 | Deepgram | $200M | $50M | 61 |
+| 9 | Articul8 | $750M | $30M | 54 |
+| 10 | Arcee AI | $50M | $3M | 35 |
 
-### AI Agents (7 companies)
+### AI Applications (15)
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|----------------|
-| 1 | **Anysphere (Cursor)** | **91** | 1,000 | 29.3 | MIT founders |
-| 2 | **Sierra** | **78** | 100 | 10 | **Bret Taylor (OpenAI Chair, ex-Salesforce)** |
-| 3 | **Decagon** | **70** | 100 | 4.5 | Jesse Zhang |
-| 4 | Cognition | **66** | 73 | 10.2 | Scott Wu (IOI gold) |
-| 5 | /dev/agents | **51** | 0 | 0.5 | **David Singleton (Stripe CTO, Google Android VP)** |
-| 6 | Imbue | **45** | 0 | 1 | **Kanjun Qiu (Dropbox Chief of Staff)** |
-| 7 | Magic AI | **43** | 2 | 1.5 | Eric Steinberger |
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | ElevenLabs | $6.6B | $330M | 82 |
+| 2 | Suno | $2.5B | $200M | 81 |
+| 3 | Perplexity AI | $20B | $200M | 79 |
+| 4 | Synthesia | $4.0B | $150M | 73 |
+| 5 | HeyGen | $500M | $95M | 72 |
+| 6 | Luma AI | $4.0B | $50M | 71 |
+| 7 | Meshy | $150M | $15M | 69 |
+| 8 | Runway | $4.0B | $100M | 69 |
+| 9 | Lovable | $1.2B | $20M | 68 |
+| 10 | AssemblyAI | $500M | $50M | 68 |
+| 11 | Pika Labs | $400M | $20M | 67 |
+| 12 | Cartesia | $800M | $20M | 64 |
+| 13 | Udio | $150M | $10M | 63 |
+| 14 | Gamma | $1.5B | $40M | 60 |
+| 15 | Inworld AI | $500M | $15M | 59 |
 
-### Vertical AI (7 companies)
+### AI Hardware (3)
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Focus | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|-------|----------------|
-| 1 | **Glean** | **77** | 100 | 7.2 | Enterprise Search | **Arvind Jain (Google 16yr + Rubrik exit)** |
-| 2 | **Harvey** | **76** | 100 | 8 | Legal AI | Gabriel Pereyra (DeepMind/Meta) |
-| 3 | **Mercor** | **67** | 50 | 10 | AI Hiring | Brendan Foody |
-| 4 | **Lila Sciences** | **63** | 10 | 1.3 | Autonomous Labs | Flagship Pioneering |
-| 5 | **Harmattan AI** | **59** | 30 | 1.4 | Defense AI | European Anduril |
-| 6 | **Periodic Labs** | **58** | 0 | 1.5 | AI Scientists | **Liam Fedus (created ChatGPT)** |
-| 7 | **Hologen** | **44** | 0 | 0.85 | AI Biotech | **Eric Schmidt (ex-Google CEO)** |
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | Ricursive Intelligence | $4.0B | — | 58 |
+| 2 | Unconventional AI | $4.5B | — | 57 |
+| 3 | Etched | $3.5B | — | 50 |
 
-### AI Infrastructure (7 companies)
+### AI Robotics (3)
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|----------------|
-| 1 | Databricks | **98** | 4,800 | 134 | Ali Ghodsi (Berkeley) |
-| 2 | **Fireworks AI** | **72** | 50 | 4 | **Lin Qiao (PyTorch Director at Meta)** |
-| 3 | Ricursive Intelligence | **58** | 0 | 4 | **Anna Goldie, Azalia Mirhoseini (AlphaChip)** |
-| 4 | Unconventional AI | **57** | 0 | 4.5 | **Naveen Rao (MosaicML, Nervana founder)** |
-| 5 | Hugging Face | **55** | 130 | 4.5 | Clement Delangue |
-| 6 | Baseten | **52** | 30 | 5 | — |
-| 7 | Etched | **50** | 0 | 3 | — |
+| Rank | Company | Valuation | ARR | Score |
+|------|---------|-----------|-----|-------|
+| 1 | Wayve | $2.3B | $20M | 70 |
+| 2 | Physical Intelligence | $5.6B | $10M | 66 |
+| 3 | Skild AI | $14B | $10M | 65 |
 
-### AI Applications (5 companies)
+## 🎯 Score Tiers
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|----------------|
-| 1 | **ElevenLabs** | **82** | 330 | 6.6 | Piotr Dabkowski (ex-Google) |
-| 2 | Perplexity | **73** | 200 | 20 | Aravind Srinivas (ex-Google/OpenAI) |
-| 3 | **Runway** | **68** | 90 | 3 | Cristóbal Valenzuela |
-| 4 | Pika Labs | **67** | 30 | 0.47 | **Demi Guo (Stanford PhD, IOI Silver)** |
-| 5 | Inworld AI | **59** | 15 | 0.5 | **Ilya Gelfenbeyn (API.AI → Google)** |
+### Elite (90+)
+Anthropic, OpenAI, Databricks, Anysphere (Cursor)
 
-### Robotics/Embodied AI (3 companies)
+### Excellent (80-89)
+xAI, Hugging Face, Groq, ElevenLabs, Suno, AlphaSense, Cerebras Systems, Replit
 
-| Rank | Company | Composite | ARR ($M) | Valuation ($B) | Founder Signal |
-|------|---------|:---------:|---------:|---------------:|----------------|
-| 1 | **Wayve** | **70** | 20 | 2.3 | **Alex Kendall (Cambridge PhD, OBE)** |
-| 2 | **Physical Intelligence** | **66** | 10 | 5.6 | **Sergey Levine (Stanford, Berkeley)** |
-| 3 | Skild AI | **65** | 30 | 14 | Deepak Pathak (CMU Professor) |
+### Strong (70-79)
+Perplexity AI, LMArena, Sierra, Glean, Abridge, Mistral AI, Harvey, Cognition AI, Together AI, Synthesia, DeepMind, Hippocratic AI, Fireworks AI, Cohere, HeyGen, Luma AI, Microsoft AI, Hebbia, Wayve, Decagon
 
----
+### Moderate (60-69)
+Meshy, Runway, OpenEvidence, Lovable, AssemblyAI, Mercor, Hologen, Dev Agents, Periodic Labs, Pika Labs, Ambience Healthcare, Physical Intelligence, Skild AI, Cartesia, Tennr, Udio, Deepgram, Stability AI, World Labs, Gamma
 
-## Score Tiers
+### Developing (<60)
+Inworld AI, Suki AI, Ricursive Intelligence, Rogo, Unconventional AI, Main Func, Safe Superintelligence Inc, Serval, Brightwave, Articul8, Humans&, Chai Discovery, Lila Sciences, Etched, Liquid AI, Ami Labs, Thinking Machines Lab, Sakana AI, Poolside, Harmattan AI, Imbue, Magic AI, Moonshot AI, Arcee AI, Reflection AI
 
-| Tier | Score | Count | Companies |
-|------|-------|------:|-----------|
-| **S** | 90+ | 4 | OpenAI, Anthropic, Databricks, Anysphere |
-| **A** | 70-89 | 12 | xAI, ElevenLabs, **Sierra**, Glean, Harvey, Perplexity, DeepMind, **Cohere**, **Fireworks**, Wayve, Decagon, Microsoft AI |
-| **B** | 60-69 | 10 | **Runway**, Moonshot, World Labs, Pika, Mercor, Cognition, Mistral, Physical Intelligence, Skild, Liquid AI, Lila |
-| **C** | 50-59 | 10 | Harmattan, Inworld, SSI, TML, Ricursive, Periodic, Unconventional, AMI, Humans&, HF, Baseten, /dev/agents |
-| **D** | 40-49 | 8 | Etched, Sakana, Poolside, Imbue, Hologen, Magic AI |
-| **F** | <40 | 2 | Reflection AI |
+## 💰 Valuation Clubs
 
----
+### $100B+ Club
+- **OpenAI** ($500B)
+- **Anthropic** ($350B)
+- **xAI** ($230B)
+- **Databricks** ($134B)
 
-## Valuation Club
+### $10B+ Club
+- **Safe Superintelligence Inc** ($32B)
+- **Anysphere (Cursor)** ($29B)
+- **Groq** ($20B)
+- **Perplexity AI** ($20B)
+- **Skild AI** ($14B)
+- **Mistral AI** ($14B)
+- **Thinking Machines Lab** ($12B)
+- **Cognition AI** ($10B)
+- **Sierra** ($10B)
 
-| Tier | Companies |
-|------|-----------|
-| **$200B+** | OpenAI ($500B), Anthropic ($350B), xAI ($230B) |
-| **$100B+** | Databricks ($134B) |
-| **$10-50B** | Anysphere ($29.3B), Perplexity ($20B), Skild AI ($14B), Mistral ($14B), Thinking Machines Lab ($12B), Cognition ($10.2B), **Sierra ($10B)**, Mercor ($10B) |
-| **$5-10B** | **Harvey ($8B)**, **Glean ($7.2B)**, **Cohere ($7B)**, **ElevenLabs ($6.6B)**, **Physical Intelligence ($5.6B)**, SSI ($5B), World Labs ($5B), Baseten ($5B) |
-| **$3-5B** | Hugging Face ($4.5B), Decagon ($4.5B), Unconventional AI ($4.5B), Humans& ($4.48B), **Fireworks AI ($4B)**, Ricursive Intelligence ($4B), Poolside ($3B), Etched ($3B), Moonshot AI ($3B), **Runway ($3B)**, AMI Labs ($3B) |
-| **$1-3B** | Liquid AI ($2.4B), Wayve ($2.3B), Periodic Labs ($1.5B), Sakana ($1.5B), Magic AI ($1.5B), Harmattan AI ($1.4B), Lila Sciences ($1.3B), Imbue ($1B) |
-| **<$1B** | Hologen ($0.85B), Reflection AI ($0.5B), Inworld AI ($0.5B), /dev/agents ($0.5B), Pika Labs ($0.47B) |
+### $1B+ Unicorns
+Replit ($9B), Cerebras ($8.1B), Harvey ($8B), Harmattan AI ($7.5B), Glean ($7.2B), Cohere ($7B), ElevenLabs ($6.6B), Physical Intelligence ($5.6B), Abridge ($5.3B), World Labs ($5B), Ami Labs ($5B), Decagon ($4.5B), Humans& ($4.5B), Unconventional AI ($4.5B), Hugging Face ($4.5B), Luma AI ($4B), Runway ($4B), Synthesia ($4B), Fireworks AI ($4B), Ricursive Intelligence ($4B), AlphaSense ($4B), Hippocratic AI ($3.5B), Etched ($3.5B), Together AI ($3.3B), Poolside ($3B), Moonshot AI ($3B), Suno ($2.5B), Wayve ($2.3B), Mercor ($2B), LMArena ($1.7B), Sakana AI ($1.5B), Magic AI ($1.5B), Periodic Labs ($1.5B), Gamma ($1.5B), Chai Discovery ($1.3B), Main Func ($1.3B), Ambience Healthcare ($1.3B), Lovable ($1.2B), Stability AI ($1B), OpenEvidence ($1B), Imbue ($1B), Serval ($1B)
 
----
+## 🚫 Blocklist
 
-## ⚠️ Flagged Companies
+Companies removed from tracking:
 
-| Company | Red Flag Score | Reasons | Action |
-|---------|:--------------:|---------|--------|
-| Thinking Machines Lab | 40 | Internal turmoil, employees considering return to OpenAI | Monitor |
-| Reflection AI | 60 | Benchmark controversy, credibility concerns | Monitor |
-
----
-
-## 🚫 Blocklist (Removed)
-
-| Company | Removed Date | Reason | Final Score |
-|---------|--------------|--------|:-----------:|
-| Scale AI | 2026-01-29 | Founder joined Meta | 74 |
-| Inflection | 2026-01-29 | Acqui-hired by Microsoft | 47 |
-| Adept | 2026-01-29 | Acqui-hired by Amazon | 47 |
-| Character AI | 2026-01-29 | Acqui-hired by Google | 50 |
-
----
-
-## Stats Summary
-
-| Metric | Value |
-|--------|------:|
-| Total Companies Tracked | 46 |
-| Total ARR (tracked) | ~$37.5B |
-| Average Composite Score | 64 |
-| S-Tier (≥90) | 4 |
-| A-Tier (70-89) | 12 |
-| B-Tier (60-69) | 10 |
-| C-Tier (50-59) | 10 |
-| D-Tier (40-49) | 8 |
-| F-Tier (<40) | 2 |
-| Flagged for Review | 2 |
-| Blocklisted | 4 |
-
-### Category Distribution
-
-| Category | Count |
-|----------|------:|
-| Foundation Models | 17 |
-| AI Agents | 7 |
-| Vertical AI | 7 |
-| AI Infrastructure | 7 |
-| AI Applications | 5 |
-| Robotics/Embodied AI | 3 |
+| Company | Removed | Reason | Final Score |
+|---------|---------|--------|-------------|
+| Scale AI | 2026-01-29 | Founder joined Meta, company no longer promising | 74 |
+| Inflection | 2026-01-29 | Acqui-hired by Microsoft - CEO Mustafa Suleyman and team now at Microsoft AI | 47 |
+| Adept | 2026-01-29 | Team partially acqui-hired by Amazon - key talent including Transformer authors moved | 47 |
+| Character AI | 2026-01-29 | Core team acqui-hired by Google - Noam Shazeer (Transformer co-author) returned | 50 |
+| Covariant | 2026-01-31 | Acqui-hired by Amazon - Pieter Abbeel and founders joined Amazon AGI Lab | 55 |
+| Moveworks | 2026-01-31 | Acquired by ServiceNow for $2.85B in March 2025 | 75 |
 
 ---
 
 *Generated by AI Startups Tracker*
-*Run `/ai-startups-tracker` to update with latest data*
-*Run `/ai-startups-tracker discover` to find new companies*

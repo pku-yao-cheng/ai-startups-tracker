@@ -1,6 +1,6 @@
 {
   "last_sync": "2026-01-29T14:30:00Z",
-  "last_discovery": "2026-01-29T21:00:00Z",
+  "last_discovery": "2026-01-31T12:00:00Z",
   "last_skill_update": "2026-01-29T21:00:00Z",
   "proposed_signals": [
     {"signal": "government_contracts", "seen_count": 2, "companies": ["harmattan-ai", "anduril"]},
@@ -41,6 +41,16 @@
       "removed_date": "2026-01-29",
       "reason": "Core team acqui-hired by Google - Noam Shazeer (Transformer co-author) returned to Google",
       "final_composite_score": 50
+    },
+    "covariant": {
+      "removed_date": "2026-01-31",
+      "reason": "Acqui-hired by Amazon - Pieter Abbeel and founders joined Amazon AGI Lab, FTC investigating",
+      "final_composite_score": 55
+    },
+    "moveworks": {
+      "removed_date": "2026-01-31",
+      "reason": "Acquired by ServiceNow for $2.85B in March 2025",
+      "final_composite_score": 75
     }
   },
   "flagged_companies": {
@@ -146,6 +156,36 @@
     "wayve",
     "imbue",
     "pika-labs",
-    "hologen"
+    "hologen",
+    "deepgram",
+    "rogo",
+    "synthesia",
+    "openevidence",
+    "luma-ai",
+    "lovable",
+    "serval",
+    "articul8",
+    "gamma",
+    "chai-discovery",
+    "main-func",
+    "lmarena",
+    "abridge",
+    "hippocratic-ai",
+    "together-ai",
+    "cartesia",
+    "ambience-healthcare",
+    "groq",
+    "cerebras",
+    "suno",
+    "udio",
+    "hebbia",
+    "tennr",
+    "brightwave",
+    "replit",
+    "assemblyai",
+    "heygen",
+    "alphasense",
+    "stability-ai",
+    "suki-ai"
   ]
 }

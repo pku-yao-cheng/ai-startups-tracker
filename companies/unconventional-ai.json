@@ -102,5 +102,9 @@
     "community": "Building awareness",
     "market": "Novel approach to energy-efficient AI computing"
   },
+  "risks": [
+    {"type": "overvalued", "description": "Infinite multiple ($4.5B on $0 ARR) - pure bet on founder track record"},
+    {"type": "execution", "description": "Neuromorphic computing has long development timeline; commercial viability unproven"}
+  ],
   "last_updated": "2026-01-29"
 }

@@ -85,6 +85,10 @@
     "market_position_score": 65,
     "composite_score": 70
   },
+  "risks": [
+    {"type": "competition", "description": "Sierra (Bret Taylor) is well-funded competitor; Zendesk/Intercom incumbents have existing relationships"},
+    {"type": "overvalued", "description": "45x ARR multiple ($4.5B on ~$100M ARR) - high for competitive market"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered"
 }

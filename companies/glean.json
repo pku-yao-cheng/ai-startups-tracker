@@ -35,10 +35,39 @@
     "notes": "Valuation increased $2.6B in less than a year. Didn't need to raise but wanted flexibility."
   },
   "financials": {
-    "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-12"},
-    "employees": {"value": 1000, "as_of": "2026-01"},
-    "runway_months": 60,
-    "notes": "Surpassed $100M ARR in less than 3 years after launch"
+    "arr": {"value": 200, "confidence": "confirmed", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-06", "value": 50, "notes": "Rapid enterprise adoption"},
+      {"date": "2024-12", "value": 110, "notes": "Sacra year-end estimate"},
+      {"date": "2025-02", "value": 100, "notes": "Q4 FY25 milestone announced"},
+      {"date": "2025-06", "value": 140, "notes": "3x YoY ARR growth"},
+      {"date": "2025-11", "value": 200, "notes": "Doubled from $100M in 9 months"}
+    ],
+    "arr_by_product": {
+      "glean_search": {"value": 120, "as_of": "2025-12", "notes": "Core enterprise search"},
+      "glean_assistant": {"value": 50, "as_of": "2025-12", "notes": "AI assistant"},
+      "glean_agents": {"value": 30, "as_of": "2025-12", "notes": "100M+ agent actions annually"}
+    },
+    "revenue_growth_yoy": 120,
+    "burn_rate_monthly": 10,
+    "runway_months": 72,
+    "gross_margin": 75,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 1000, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 60,
+      "research_annual": 30,
+      "personnel_annual": 80,
+      "other_annual": 30,
+      "total_annual": 200,
+      "notes": "Consuming 20T+ tokens annually, among highest-scale enterprise AI consumers"
+    },
+    "projections": {
+      "arr_2026": 400,
+      "arr_2027": 700,
+      "notes": "Strong enterprise demand, doubling revenue trajectory"
+    }
   },
   "products": ["Glean Search", "Glean Assistant", "Glean Agents", "Glean for Slack/Teams"],
   "product": {
@@ -99,5 +128,8 @@
     "community": "B2B focused, limited public presence",
     "market": "Category leader in enterprise AI search"
   },
+  "risks": [
+    {"type": "competition", "description": "Microsoft Copilot has enterprise distribution advantage through M365"}
+  ],
   "last_updated": "2026-01-30"
 }

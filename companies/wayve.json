@@ -110,5 +110,9 @@
     "community": "Growing awareness in AV space",
     "market": "Differentiated approach (no HD maps), Europe leader"
   },
+  "risks": [
+    {"type": "execution", "description": "Autonomous driving commercialization historically slow; 7+ years to robotaxi trials"},
+    {"type": "competition", "description": "Waymo, Tesla FSD, Mobileye have more road miles and established safety records"}
+  ],
   "last_updated": "2026-01-30"
 }

@@ -1,0 +1,100 @@
+{
+  "name": "Luma AI",
+  "slug": "luma-ai",
+  "stage": "series-c",
+  "category": "ai-application",
+  "founded": 2021,
+  "hq": "Palo Alto, CA",
+  "website": "https://lumalabs.ai",
+  "description": "AI video and 3D generation company. Known for Dream Machine video generation model and photorealistic 3D capture technology.",
+  "founders": [
+    {
+      "name": "Amit Jain",
+      "role": "CEO",
+      "education": [
+        {"institution": "IIT Delhi", "degree": "BTech", "field": "Computer Science", "tier": "tier-2"}
+      ],
+      "experience": [
+        {"company": "Apple", "role": "Software Engineer", "years": "2018-2021", "tier": "faang"}
+      ],
+      "achievements": ["Built Luma to leading AI video company"],
+      "founder_score": 75
+    }
+  ],
+  "funding": {
+    "total_raised": 1050,
+    "latest_valuation": 4,
+    "rounds": [
+      {"type": "Series C", "amount": 900, "date": "2026-01", "lead": "Thrive Capital, Andreessen Horowitz"}
+    ],
+    "notes": "Massive $900M Series C at $4B valuation; a16z and Thrive co-led"
+  },
+  "financials": {
+    "arr": {"value": 50, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 80, "as_of": "2026-01"},
+    "runway_months": 60
+  },
+  "products": ["Dream Machine", "Luma 3D Capture", "Genie (3D generation)"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-06",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 36,
+    "infrastructure": "Proprietary video and 3D diffusion models"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 5000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 500
+  },
+  "investors": {
+    "lead_investors": ["Thrive Capital", "Andreessen Horowitz"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 200000,
+    "discord_members": 100000,
+    "github_stars": 0
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-video-generation",
+    "competitors": ["Runway", "Pika Labs", "OpenAI Sora", "Google Veo"],
+    "tam_estimate": "$20B",
+    "moats": ["Early mover in consumer video AI", "Strong community", "3D + video combination"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Luma AI raises $900M Series C at $4B valuation", "url": "https://techcrunch.com/2026/01/15/luma-ai-series-c/", "date": "2026-01-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 75,
+    "financial_health_score": 45,
+    "funding_score": 85,
+    "momentum_score": 90,
+    "product_score": 75,
+    "traction_score": 65,
+    "community_score": 75,
+    "market_position_score": 65,
+    "composite_score": 71
+  },
+  "score_notes": {
+    "founder": "Apple background, strong execution",
+    "financial": "Early revenue stage but massive runway",
+    "funding": "$4B valuation, a16z + Thrive",
+    "momentum": "Massive funding round, high visibility",
+    "product": "Dream Machine is popular consumer product",
+    "traction": "5M+ MAU, strong growth",
+    "community": "Large Discord and Twitter following",
+    "market": "Competing with Runway, Sora in video AI"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "80x ARR multiple ($4B on ~$50M ARR) - high valuation for pre-profit video AI"},
+    {"type": "competition", "description": "OpenAI Sora and Google Veo from well-resourced competitors"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

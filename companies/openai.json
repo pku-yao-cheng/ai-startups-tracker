@@ -46,12 +46,85 @@
   },
   "financials": {
     "arr": {"value": 20000, "confidence": "confirmed", "as_of": "2025-12"},
-    "api_arr": {"value": 1000, "confidence": "confirmed", "as_of": "2026-01", "notes": "API business alone hit $1B ARR in January 2026"},
+    "arr_history": [
+      {"date": "2023-06", "value": 1000, "notes": "ChatGPT momentum"},
+      {"date": "2023-12", "value": 2000, "notes": "GPT-4 driving growth"},
+      {"date": "2024-06", "value": 4000, "notes": "Enterprise expansion"},
+      {"date": "2024-12", "value": 8000, "notes": "GPT-4o launch impact"},
+      {"date": "2025-06", "value": 12000, "notes": "o1 release"},
+      {"date": "2025-12", "value": 20000, "notes": "o3 and Sora driving growth"}
+    ],
+    "arr_by_product": {
+      "chatgpt_plus": {"value": 8000, "as_of": "2025-12"},
+      "chatgpt_enterprise": {"value": 6000, "as_of": "2025-12"},
+      "api": {"value": 5000, "as_of": "2025-12", "notes": "API hit $1B monthly ARR in Jan 2026"},
+      "other": {"value": 1000, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 150,
+    "burn_rate_monthly": 1400,
+    "runway_months": 48,
+    "gross_margin": 30,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2029"},
     "employees": {"value": 3000, "as_of": "2025-12"},
-    "projected_revenue_2026": 45000,
-    "burn_rate_2026": 17000
+    "cost_structure": {
+      "compute_annual": 12000,
+      "research_annual": 2000,
+      "personnel_annual": 2000,
+      "other_annual": 1000,
+      "total_annual": 17000,
+      "notes": "Heavy compute spend, ~$1.4B/month burn. Expects $17B costs in 2026."
+    },
+    "projections": {
+      "arr_2026": 45000,
+      "arr_2027": 80000,
+      "gross_margin_2026": 35,
+      "notes": "Targeting $45B revenue in 2026, potential IPO at $1T valuation"
+    }
   },
   "products": ["ChatGPT", "GPT-4o", "GPT-o1", "GPT-o3", "DALL-E 3", "Sora", "OpenAI API"],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-11",
+    "benchmarks": [
+      {"name": "MMLU", "rank": 1, "score": 92.0, "date": "2025-12"},
+      {"name": "HumanEval", "rank": 2, "score": 91.0, "date": "2025-12"},
+      {"name": "GPQA", "rank": 2, "score": 62.0, "date": "2025-12"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 84,
+    "infrastructure": "Custom training clusters, Microsoft Azure partnership"
+  },
+  "traction": {
+    "enterprise_customers": ["Microsoft", "Morgan Stanley", "Salesforce", "Stripe", "Shopify"],
+    "user_count": {"value": 300000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Microsoft", "type": "strategic", "date": "2019-07", "details": "$13B total investment, Azure exclusive"}
+    ],
+    "revenue_growth_yoy": 150
+  },
+  "investors": {
+    "lead_investors": ["Microsoft", "SoftBank", "Thrive Capital"],
+    "strategic_investors": ["Microsoft", "NVIDIA", "Apple"],
+    "other_investors": ["Tiger Global", "Sequoia", "Andreessen Horowitz", "Khosla Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "discord_members": 0,
+    "github_stars": 50000,
+    "twitter_followers": 3000000,
+    "hn_mentions": 2000,
+    "reddit_sentiment": "mixed"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Anthropic", "Google DeepMind", "Meta AI", "xAI"],
+    "tam_estimate": "$1T",
+    "moats": ["ChatGPT brand", "Microsoft distribution", "Talent", "Data flywheel"],
+    "compute_partnership": {"partner": "Microsoft Azure", "details": "Exclusive cloud partnership"},
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
   "recent_news": [
     {"title": "OpenAI's ARR reached over $20 billion in 2025", "url": "https://sherwood.news/business/openais-arr-reached-over-usd20-billion-in-2025-cfo-says/", "date": "2026-01-22", "sentiment": "positive"},
     {"title": "OpenAI's API hits $1B monthly ARR milestone", "url": "https://www.webpronews.com/openais-api-surge-1-billion-monthly-revenue-milestone-reshapes-ai-economics/", "date": "2026-01-22", "sentiment": "positive"},
@@ -60,10 +133,27 @@
   ],
   "scores": {
     "founder_score": 95,
-    "revenue_score": 100,
+    "financial_health_score": 75,
     "funding_score": 100,
     "momentum_score": 100,
+    "product_score": 100,
+    "traction_score": 100,
+    "community_score": 85,
+    "market_position_score": 100,
     "composite_score": 99
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "Sam Altman: YC President, Loopt exit. Greg Brockman: Stripe CTO.",
+    "financial": "$20B ARR, 150% YoY growth. Heavy burn ($1.4B/mo) but massive runway.",
+    "funding": "$500B valuation (targeting $1T), $57.9B raised, Microsoft backing",
+    "momentum": "Constant product launches, massive press, ChatGPT dominance",
+    "product": "GPT-o3 leading benchmarks, Sora launch, comprehensive product suite",
+    "traction": "300M MAU, major enterprise customers, Microsoft distribution",
+    "community": "Largest AI Twitter following, strong HN presence",
+    "market": "#1 in foundation models, first-mover advantage, Microsoft moat"
+  },
+  "risks": [
+    {"type": "execution", "description": "Massive burn rate ($1.4B/month); historical governance issues (CEO fired/reinstated 2023)"}
+  ],
+  "last_updated": "2026-01-31"
 }

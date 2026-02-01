@@ -54,5 +54,8 @@
     "momentum_score": 70,
     "composite_score": 48
   },
+  "risks": [
+    {"type": "overvalued", "description": "750x ARR multiple ($1.5B on ~$2M ARR) - very high for limited commercial traction"}
+  ],
   "last_updated": "2026-01-29"
 }

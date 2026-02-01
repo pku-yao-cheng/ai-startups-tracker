@@ -48,8 +48,35 @@
   },
   "financials": {
     "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-11"},
-    "employees": {"value": 150, "as_of": "2026-01"},
-    "notes": "Reached $100M ARR in under 21 months. Outcomes-based pricing model."
+    "arr_history": [
+      {"date": "2024-06", "value": 10, "notes": "Early enterprise deals"},
+      {"date": "2024-12", "value": 30, "notes": "Rapid enterprise adoption"},
+      {"date": "2025-06", "value": 60, "notes": "Mid-year momentum"},
+      {"date": "2025-11", "value": 100, "notes": "Hit $100M ARR in 7 quarters"}
+    ],
+    "arr_by_product": {
+      "enterprise_agents": {"value": 100, "as_of": "2025-11", "notes": "Outcomes-based pricing per resolved conversation"}
+    },
+    "revenue_growth_yoy": 400,
+    "burn_rate_monthly": 8,
+    "runway_months": 80,
+    "gross_margin": 65,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 200, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 30,
+      "research_annual": 20,
+      "personnel_annual": 35,
+      "other_annual": 15,
+      "total_annual": 100,
+      "notes": "Lean operation, outcomes-based model = high margins"
+    },
+    "projections": {
+      "arr_2026": 250,
+      "arr_2027": 500,
+      "notes": "Fastest enterprise SaaS company to $100M ARR trajectory"
+    }
   },
   "products": ["Sierra Agent Platform", "Sierra Agent OS 2.0", "Conversational AI for Customer Experience"],
   "product": {
@@ -111,5 +138,8 @@
     "community": "B2B focused, limited public presence",
     "market": "Category leader in conversational AI agents"
   },
+  "risks": [
+    {"type": "overvalued", "description": "100x ARR multiple ($10B on $100M ARR) - very aggressive valuation"}
+  ],
   "last_updated": "2026-01-31"
 }

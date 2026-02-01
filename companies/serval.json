@@ -1,0 +1,94 @@
+{
+  "name": "Serval",
+  "slug": "serval",
+  "stage": "series-b",
+  "category": "vertical-ai",
+  "founded": 2023,
+  "hq": "San Francisco, CA",
+  "website": "https://serval.ai",
+  "description": "AI-powered IT support agents that automate enterprise IT helpdesk operations. Handles ticket resolution, password resets, and common IT issues autonomously.",
+  "founders": [
+    {
+      "name": "Unknown",
+      "role": "CEO",
+      "education": [],
+      "experience": [],
+      "achievements": [],
+      "founder_score": 60
+    }
+  ],
+  "funding": {
+    "total_raised": 100,
+    "latest_valuation": 1,
+    "rounds": [
+      {"type": "Series B", "amount": 74.8, "date": "2026-01", "lead": "Khosla Ventures"}
+    ],
+    "notes": "Reached unicorn status with $74.8M Series B"
+  },
+  "financials": {
+    "arr": {"value": 15, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 60, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Serval IT Agent", "Automated Ticket Resolution", "IT Workflow Automation"],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-01",
+    "benchmarks": [],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "LLM-powered IT automation platform"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [],
+    "revenue_growth_yoy": 300,
+    "notes": "Growing enterprise customer base"
+  },
+  "investors": {
+    "lead_investors": ["Khosla Ventures"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 5000
+  },
+  "market_position": {
+    "category_rank": null,
+    "category": "ai-it-automation",
+    "competitors": ["ServiceNow", "Freshworks", "Zendesk", "Moveworks"],
+    "tam_estimate": "$15B",
+    "moats": ["AI-native approach", "Full automation focus"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Serval raises $74.8M Series B, reaches $1B valuation for IT AI agents", "url": "https://techcrunch.com/2026/01/18/serval-series-b/", "date": "2026-01-18", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 60,
+    "financial_health_score": 45,
+    "funding_score": 60,
+    "momentum_score": 70,
+    "product_score": 65,
+    "traction_score": 50,
+    "community_score": 30,
+    "market_position_score": 55,
+    "composite_score": 55
+  },
+  "score_notes": {
+    "founder": "Limited public information on founders",
+    "financial": "Early revenue, well-funded",
+    "funding": "$1B valuation, Khosla-led",
+    "momentum": "Recent unicorn status",
+    "product": "Launched IT automation product",
+    "traction": "Growing enterprise adoption",
+    "community": "Enterprise-focused, limited public community",
+    "market": "Competing with ServiceNow and Moveworks"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "67x ARR multiple ($1B on ~$15M ARR) - high for IT automation"},
+    {"type": "competition", "description": "ServiceNow, Moveworks have established enterprise positions"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

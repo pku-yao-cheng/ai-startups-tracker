@@ -32,17 +32,17 @@
     }
   ],
   "funding": {
-    "total_raised": 620,
-    "latest_valuation": 3,
+    "total_raised": 1000,
+    "latest_valuation": 5,
     "rounds": [
-      {"type": "Series B", "amount": 500, "date": "2026-01", "lead": "Various"},
+      {"type": "Series B", "amount": 500, "date": "2026-01", "lead": "Stripes", "notes": "Peter Thiel, Positive Sum, Ribbit Capital participated"},
       {"type": "Series A", "amount": 120, "date": "2024-06", "lead": "Primary Venture Partners"}
     ],
-    "notes": "Claims 10x+ inference performance vs Nvidia for transformers"
+    "notes": "Total raised ~$1B. Claims Sohu replaces 160 H100 GPUs. Partnered with TSMC 4nm. Early customers reserved tens of millions."
   },
   "financials": {
-    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2025-12", "notes": "Pre-revenue, product in development"},
-    "employees": {"value": 50, "as_of": "2025-12"}
+    "arr": {"value": 0, "confidence": "confirmed", "as_of": "2026-01", "notes": "Pre-revenue, but customer reservations worth tens of millions"},
+    "employees": {"value": 80, "as_of": "2026-01"}
   },
   "products": ["Sohu ASIC"],
   "recent_news": [
@@ -55,6 +55,10 @@
     "momentum_score": 85,
     "composite_score": 50
   },
+  "risks": [
+    {"type": "competition", "description": "Taking on NVIDIA - historically very difficult; NVIDIA has ecosystem lock-in"},
+    {"type": "execution", "description": "Custom chip development has high execution risk; pre-revenue with unproven product"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered"
 }

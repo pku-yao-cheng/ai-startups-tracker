@@ -133,5 +133,8 @@
     "community": "Growing Discord, B2B focused, limited consumer visibility",
     "market": "Category leader in AI NPCs, first-mover, but narrow TAM compared to foundation models"
   },
+  "risks": [
+    {"type": "funding", "description": "No new funding since Aug 2023; may face challenges raising at higher valuation"}
+  ],
   "last_updated": "2026-01-29"
 }

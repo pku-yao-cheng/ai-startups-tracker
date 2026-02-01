@@ -93,6 +93,9 @@
     "market_position_score": 70,
     "composite_score": 68
   },
+  "risks": [
+    {"type": "legal", "description": "China-based company faces geopolitical and regulatory risks (export controls, sanctions)"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered",
   "notes": "Major player in China AI. Kimi K2.5 (1T params, 32B active) is the best open-source coding model, featuring novel Agent Swarm with 100 parallel sub-agents. Strong community momentum."

@@ -43,9 +43,39 @@
   },
   "financials": {
     "arr": {"value": 330, "confidence": "confirmed", "as_of": "2025-12"},
-    "employees": {"value": 200, "as_of": "2026-01"},
-    "runway_months": 60,
-    "notes": "Grew from $25M to $330M ARR in 2024-2025. ~50/50 self-serve and enterprise."
+    "arr_history": [
+      {"date": "2023-12", "value": 5, "notes": "Early product-market fit"},
+      {"date": "2024-06", "value": 25, "notes": "Rapid self-serve growth"},
+      {"date": "2024-10", "value": 90, "notes": "Enterprise acceleration"},
+      {"date": "2024-12", "value": 120, "notes": "Year-end milestone"},
+      {"date": "2025-04", "value": 100, "notes": "Hit $100M ARR in 20 months"},
+      {"date": "2025-08", "value": 200, "notes": "Doubled to $200M"},
+      {"date": "2025-12", "value": 330, "notes": "CEO confirmed $330M ARR"}
+    ],
+    "arr_by_product": {
+      "self_serve": {"value": 165, "as_of": "2025-12", "notes": "~50% of revenue, consumer and SMB"},
+      "enterprise": {"value": 165, "as_of": "2025-12", "notes": "~50% of revenue, 200%+ YoY growth"}
+    },
+    "revenue_growth_yoy": 1100,
+    "burn_rate_monthly": 0,
+    "runway_months": 120,
+    "gross_margin": 70,
+    "cash_flow_positive": true,
+    "path_to_profitability": {"stated": true, "target_date": "2025", "achieved": true},
+    "employees": {"value": 400, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 80,
+      "research_annual": 40,
+      "personnel_annual": 60,
+      "other_annual": 20,
+      "total_annual": 200,
+      "notes": "Profitable while growing 1100% YoY. Adding $10M+ new ARR monthly."
+    },
+    "projections": {
+      "arr_2026": 600,
+      "arr_2027": 1000,
+      "notes": "At current trajectory, could reach $500M+ ARR in 2026"
+    }
   },
   "products": ["ElevenLabs API", "Voice Library", "Speech Synthesis", "Voice Cloning", "Dubbing", "Audio AI"],
   "product": {

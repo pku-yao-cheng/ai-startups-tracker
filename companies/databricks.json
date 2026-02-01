@@ -58,9 +58,41 @@
     "notes": "IPO expected early 2026. CEO targeting $1T valuation."
   },
   "financials": {
-    "arr": {"value": 4800, "confidence": "confirmed", "as_of": "2025-Q3", "notes": "55% YoY growth, accelerating"},
+    "arr": {"value": 4800, "confidence": "confirmed", "as_of": "2025-09"},
+    "arr_history": [
+      {"date": "2023-06", "value": 1500, "notes": "Mid-2023"},
+      {"date": "2023-12", "value": 2000, "notes": "Year-end 2023"},
+      {"date": "2024-06", "value": 2500, "notes": "Growing 50%+ YoY"},
+      {"date": "2024-12", "value": 3000, "notes": "Year-end 2024"},
+      {"date": "2025-06", "value": 4000, "notes": "55% YoY growth"},
+      {"date": "2025-09", "value": 4800, "notes": "Q3 2025 milestone"}
+    ],
+    "arr_by_product": {
+      "lakehouse_platform": {"value": 2500, "as_of": "2025-09", "notes": "Core platform"},
+      "data_warehousing": {"value": 1000, "as_of": "2025-09", "notes": "$1B run rate milestone"},
+      "ai_products": {"value": 1000, "as_of": "2025-09", "notes": "$1B run rate milestone"},
+      "other": {"value": 300, "as_of": "2025-09"}
+    },
+    "revenue_growth_yoy": 55,
+    "burn_rate_monthly": 0,
+    "runway_months": 999,
+    "gross_margin": 80,
+    "cash_flow_positive": true,
+    "path_to_profitability": {"stated": true, "target_date": "2024", "achieved": true},
     "employees": {"value": 8000, "as_of": "2025-12"},
-    "growth_rate": 55
+    "cost_structure": {
+      "compute_annual": 1500,
+      "research_annual": 800,
+      "personnel_annual": 1500,
+      "other_annual": 500,
+      "total_annual": 4300,
+      "notes": "Positive free cash flow over last 12 months, 140% net retention"
+    },
+    "projections": {
+      "arr_2026": 7000,
+      "arr_2027": 10000,
+      "notes": "On track to pass Snowflake in absolute revenue in 2026"
+    }
   },
   "products": ["Databricks Lakehouse", "Unity Catalog", "Mosaic ML", "Delta Lake", "MLflow", "AI Agents"],
   "recent_news": [
@@ -68,13 +100,69 @@
     {"title": "Databricks raises $1.8B debt financing", "url": "https://siliconangle.com/2026/01/23/databricks-reportedly-raises-1-8b-debt-financing/", "date": "2026-01-23", "sentiment": "positive"},
     {"title": "Databricks CEO says company will be worth $1 trillion", "url": "https://fortune.com/2025/12/09/databticks-ceo-1-trillion-valuation-agents-brainstorm-ai/", "date": "2025-12-09", "sentiment": "positive"}
   ],
+  "product": {
+    "launched": true,
+    "launch_date": "2013-06",
+    "benchmarks": [
+      {"name": "Data platform completeness", "rank": 1, "date": "2025-12"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "Lakehouse architecture, Unity Catalog, MLflow, Delta Lake"
+  },
+  "traction": {
+    "enterprise_customers": ["Shell", "Walgreens", "Regeneron", "USPS", "Comcast"],
+    "user_count": {"value": 10000, "type": "enterprise customers", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Microsoft", "type": "strategic", "date": "2019", "details": "Azure Databricks"},
+      {"partner": "AWS", "type": "strategic", "date": "2017", "details": "AWS partnership"},
+      {"partner": "NVIDIA", "type": "strategic", "date": "2024", "details": "GPU optimization"}
+    ],
+    "revenue_growth_yoy": 55
+  },
+  "investors": {
+    "lead_investors": ["Insight Partners", "Fidelity", "T. Rowe Price", "Thrive Capital"],
+    "strategic_investors": ["Microsoft", "NVIDIA", "Amazon"],
+    "other_investors": ["Morgan Stanley", "Baillie Gifford", "BlackRock", "J.P. Morgan"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 40000,
+    "discord_members": 50000,
+    "twitter_followers": 200000,
+    "hn_mentions": 500,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Snowflake", "Google BigQuery", "AWS Redshift", "Microsoft Fabric"],
+    "tam_estimate": "$200B",
+    "moats": ["Apache Spark creators", "Lakehouse architecture", "MLflow ecosystem", "Enterprise relationships"],
+    "compute_partnership": {"partner": "Multi-cloud", "details": "AWS, Azure, GCP"},
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
   "scores": {
     "founder_score": 98,
-    "revenue_score": 100,
+    "financial_health_score": 100,
     "funding_score": 100,
     "momentum_score": 95,
-    "composite_score": 98
+    "product_score": 95,
+    "traction_score": 95,
+    "community_score": 85,
+    "market_position_score": 95,
+    "composite_score": 96
   },
-  "last_updated": "2026-01-29",
+  "score_notes": {
+    "founder": "Matei Zaharia invented Spark, Ion Stoica ACM Fellow. World-class technical founders.",
+    "financial": "$4.8B ARR, 55% YoY growth, 80% gross margins, positive cash flow",
+    "funding": "$134B valuation, $8.1B raised, IPO ready",
+    "momentum": "IPO imminent, CEO targeting $1T valuation",
+    "product": "Category-defining Lakehouse, Mosaic ML acquisition, MLflow standard",
+    "traction": "10k+ enterprise customers, 140% net retention, $1B AI revenue",
+    "community": "Spark ecosystem, 40k GitHub stars, massive developer adoption",
+    "market": "#1 data platform, passing Snowflake in revenue"
+  },
+  "last_updated": "2026-01-31",
   "notes": "Acquired Mosaic ML in 2023 for $1.3B. IPO expected early 2026."
 }

@@ -109,5 +109,8 @@
     "community": "500k Discord, 200k Twitter - strong community",
     "market": "#2 in AI video behind Runway, competing with Sora"
   },
+  "risks": [
+    {"type": "competition", "description": "OpenAI Sora, Runway Gen-4.5, Kling competing in crowded video AI market"}
+  ],
   "last_updated": "2026-01-30"
 }

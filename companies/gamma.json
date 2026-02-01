@@ -1,0 +1,111 @@
+{
+  "name": "Gamma",
+  "slug": "gamma",
+  "stage": "series-b",
+  "category": "ai-application",
+  "founded": 2020,
+  "hq": "San Francisco, CA",
+  "website": "https://gamma.app",
+  "description": "AI-powered presentation and visual content generation platform. Creates beautiful decks, documents, and websites from simple prompts.",
+  "founders": [
+    {
+      "name": "Grant Lee",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "BS", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Uber", "role": "Engineering Manager", "years": "2015-2020", "tier": "tier-1"}
+      ],
+      "achievements": ["Built Gamma to $2.1B valuation"],
+      "founder_score": 75
+    },
+    {
+      "name": "Jon Noronha",
+      "role": "CTO",
+      "education": [
+        {"institution": "Harvard", "degree": "BA", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Uber", "role": "Engineer", "years": "2014-2020", "tier": "tier-1"}
+      ],
+      "achievements": [],
+      "founder_score": 70
+    }
+  ],
+  "funding": {
+    "total_raised": 100,
+    "latest_valuation": 2.1,
+    "rounds": [
+      {"type": "Series B", "amount": 68, "date": "2025-09", "lead": "Andreessen Horowitz"}
+    ],
+    "notes": "a16z-led Series B at $2.1B valuation"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 60, "as_of": "2026-01"},
+    "runway_months": 48
+  },
+  "products": ["Gamma App", "AI Presentations", "AI Documents", "AI Websites"],
+  "product": {
+    "launched": true,
+    "launch_date": "2021-01",
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": 12,
+    "infrastructure": "LLM-powered visual content generation"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 5000000, "type": "users", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 200
+  },
+  "investors": {
+    "lead_investors": ["Andreessen Horowitz", "Accel"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 100000,
+    "discord_members": 20000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "ai-presentations",
+    "competitors": ["Microsoft PowerPoint Copilot", "Google Slides AI", "Canva", "Beautiful.ai"],
+    "tam_estimate": "$15B",
+    "moats": ["First-mover in AI presentations", "Strong user base", "Design quality"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "Gamma raises $68M Series B at $2.1B valuation from a16z", "url": "https://techcrunch.com/2025/09/15/gamma-series-b/", "date": "2025-09-15", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 75,
+    "financial_health_score": 50,
+    "funding_score": 70,
+    "momentum_score": 75,
+    "product_score": 75,
+    "traction_score": 65,
+    "community_score": 55,
+    "market_position_score": 70,
+    "composite_score": 67
+  },
+  "score_notes": {
+    "founder": "Uber engineering background, tier-1 education",
+    "financial": "Growing revenue, good runway",
+    "funding": "$2.1B valuation, a16z led",
+    "momentum": "Strong growth trajectory",
+    "product": "Popular consumer product",
+    "traction": "5M+ users, strong adoption",
+    "community": "Active user community",
+    "market": "Category leader in AI presentations"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "70x ARR multiple ($2.1B on ~$30M ARR) - high for productivity tool"},
+    {"type": "competition", "description": "Microsoft PowerPoint Copilot and Google Slides AI from tech giants"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

@@ -37,6 +37,9 @@
     "momentum_score": 55,
     "composite_score": 30
   },
+  "risks": [
+    {"type": "product", "description": "Benchmark controversy - claims questioned by community"}
+  ],
   "last_updated": "2026-01-29",
   "notes": "Known for releasing Reflection 70B model. Faced controversy over benchmark claims."
 }

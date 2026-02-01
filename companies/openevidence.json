@@ -1,0 +1,99 @@
+{
+  "name": "OpenEvidence",
+  "slug": "openevidence",
+  "stage": "series-b",
+  "category": "vertical-ai",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://openevidence.com",
+  "description": "AI-powered medical assistant described as 'ChatGPT for doctors'. Provides evidence-based clinical decision support using advanced language models trained on medical literature.",
+  "founders": [
+    {
+      "name": "Daniel Nadler",
+      "role": "CEO",
+      "education": [
+        {"institution": "Harvard", "degree": "PhD", "field": "Economics", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Kensho", "role": "Founder & CEO", "years": "2013-2023", "tier": "tier-1"}
+      ],
+      "achievements": ["Founded Kensho (acquired by S&P Global for $550M)", "Forbes 30 Under 30"],
+      "founder_score": 90
+    }
+  ],
+  "funding": {
+    "total_raised": 300,
+    "latest_valuation": 12,
+    "rounds": [
+      {"type": "Series B", "amount": 250, "date": "2025-11", "lead": "General Catalyst"}
+    ],
+    "notes": "Massive $12B valuation for medical AI; led by General Catalyst"
+  },
+  "financials": {
+    "arr": {"value": 30, "confidence": "estimated", "as_of": "2026-01"},
+    "employees": {"value": 100, "as_of": "2026-01"},
+    "runway_months": 60
+  },
+  "products": ["OpenEvidence Clinical Assistant", "Medical Literature Search", "Clinical Decision Support"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-06",
+    "benchmarks": [],
+    "api_available": false,
+    "time_to_ship_months": 12,
+    "infrastructure": "Medical LLM with curated evidence base"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "user_count": {"value": 100000, "type": "healthcare professionals", "as_of": "2025-12"},
+    "partnerships": [],
+    "revenue_growth_yoy": 300,
+    "notes": "Used by physicians across major health systems"
+  },
+  "investors": {
+    "lead_investors": ["General Catalyst"],
+    "strategic_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 10000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "category": "medical-ai-assistant",
+    "competitors": ["UpToDate", "Doximity", "Google Health", "Microsoft Nuance"],
+    "tam_estimate": "$25B",
+    "moats": ["Serial founder with exit", "Medical accuracy focus", "Physician trust"],
+    "first_mover": true
+  },
+  "recent_news": [
+    {"title": "OpenEvidence raises $250M at $12B valuation for 'ChatGPT for doctors'", "url": "https://techcrunch.com/2025/11/20/openevidence-series-b/", "date": "2025-11-20", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 90,
+    "financial_health_score": 40,
+    "funding_score": 80,
+    "momentum_score": 85,
+    "product_score": 70,
+    "traction_score": 55,
+    "community_score": 35,
+    "market_position_score": 75,
+    "composite_score": 67
+  },
+  "score_notes": {
+    "founder": "Serial founder with $550M exit (Kensho), Harvard PhD",
+    "financial": "Early revenue, massive runway",
+    "funding": "$12B valuation, tier-1 VC",
+    "momentum": "High-profile medical AI play",
+    "product": "Launched, gaining physician adoption",
+    "traction": "100K+ healthcare professionals using it",
+    "community": "Medical professional focus",
+    "market": "First-mover in physician AI assistant"
+  },
+  "risks": [
+    {"type": "overvalued", "description": "400x ARR multiple ($12B on ~$30M ARR) - extremely high for healthcare AI"},
+    {"type": "legal", "description": "Medical AI faces significant regulatory and liability risks"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

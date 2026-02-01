@@ -1,0 +1,65 @@
+{
+  "name": "NVIDIA",
+  "slug": "nvidia",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "NVDA",
+  "founded": 1993,
+  "hq": "Santa Clara, CA",
+  "website": "https://nvidia.com",
+  "description": "AI infrastructure monopoly. 80%+ market share in AI training chips. GPUs, CUDA, and NeMo power the AI revolution.",
+  "financials": {
+    "market_cap": 3400,
+    "annual_revenue": 130000,
+    "ai_revenue": {
+      "value": 120000,
+      "breakdown": {
+        "data_center": 110000,
+        "gaming_ai": 8000,
+        "auto_ai": 2000
+      },
+      "notes": "Data Center segment ($110B+) is almost entirely AI/ML driven. FY2025 figures."
+    },
+    "ai_revenue_growth_yoy": 120,
+    "employees": {
+      "value": 30000,
+      "ai_employees": 20000,
+      "notes": "Majority of company focused on AI/ML products"
+    }
+  },
+  "ai_products": [
+    {"name": "H100/H200 GPUs", "description": "Industry-leading AI training GPUs (Hopper architecture)", "status": "launched"},
+    {"name": "B100/B200 GPUs", "description": "Next-gen Blackwell architecture GPUs", "status": "launched"},
+    {"name": "CUDA", "description": "GPU computing platform (de facto standard)", "status": "launched"},
+    {"name": "NeMo", "description": "Framework for building LLMs and multimodal AI", "status": "launched"},
+    {"name": "NVIDIA AI Enterprise", "description": "Enterprise AI software platform", "status": "launched"},
+    {"name": "DGX Systems", "description": "Complete AI supercomputing systems", "status": "launched"},
+    {"name": "Omniverse", "description": "Platform for 3D design and simulation with AI", "status": "launched"},
+    {"name": "NVIDIA Inference Microservices (NIMs)", "description": "Pre-built AI deployment containers", "status": "launched"}
+  ],
+  "ai_investments": [
+    {"company": "CoreWeave", "amount": 100, "date": "2023", "notes": "GPU cloud provider partnership"},
+    {"company": "Cohere", "amount": 50, "date": "2023", "notes": "Strategic investment"},
+    {"company": "Hugging Face", "amount": 50, "date": "2023", "notes": "Strategic investment"},
+    {"company": "Runway", "amount": 25, "date": "2023", "notes": "Video AI investment"},
+    {"company": "Inflection AI", "amount": 50, "date": "2022", "notes": "Early investment"}
+  ],
+  "ai_research": {
+    "papers_2024": 300,
+    "notable_contributions": ["CUDA architecture", "Tensor Cores", "NVLink", "Transformer Engine", "Megatron-LM"],
+    "labs": ["NVIDIA Research", "NVIDIA AI"]
+  },
+  "market_position": {
+    "ai_ranking": 1,
+    "moats": ["80%+ AI training chip market share", "CUDA software ecosystem lock-in", "10+ year head start", "Talent density", "Full-stack offering"],
+    "competitors": ["AMD", "Intel", "Google TPUs", "Amazon Trainium", "Custom chips (Cerebras, Groq)"],
+    "ai_strategy": "Full-stack AI computing: chips, systems, software, cloud services"
+  },
+  "recent_news": [
+    {"title": "NVIDIA Blackwell GPUs shipping to major cloud providers", "url": "https://nvidianews.nvidia.com/blackwell/", "date": "2024-11", "sentiment": "positive"},
+    {"title": "NVIDIA becomes world's most valuable company", "url": "https://www.reuters.com/nvidia-most-valuable/", "date": "2024-06", "sentiment": "positive"},
+    {"title": "NVIDIA reports record $35B quarterly revenue", "url": "https://investor.nvidia.com/", "date": "2025-01", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

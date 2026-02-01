@@ -1,0 +1,114 @@
+{
+  "name": "Meshy",
+  "slug": "meshy",
+  "stage": "seed",
+  "category": "ai-application",
+  "founded": 2021,
+  "hq": "San Jose, CA",
+  "website": "https://meshy.ai",
+  "description": "Leading 3D generative AI platform. Transforms text and images into 3D models in minutes. #1 in global 3D GenAI market with 6M+ users.",
+  "founders": [
+    {
+      "name": "Ethan (Yuanming) Hu",
+      "role": "CEO & Co-Founder",
+      "education": [
+        {"institution": "MIT", "degree": "PhD", "field": "Computer Graphics & AI", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "MIT", "role": "Research", "years": "2017-2021", "tier": "tier-1"}
+      ],
+      "achievements": [
+        "SIGGRAPH 2022 Outstanding Doctoral Dissertation Honorable Mention",
+        "Original author of Taichi programming language",
+        "Contributed to MLS-MPM for VFX simulations"
+      ],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 15,
+    "latest_valuation": 0.15,
+    "rounds": [
+      {"type": "Seed", "amount": 15, "date": "2023", "lead": "Sequoia, GGV", "notes": "Backed by premiere VC firms"}
+    ],
+    "notes": "Backed by Sequoia and GGV. Team includes alumni from MIT, Stanford, Berkeley, and veterans from Nvidia and Microsoft."
+  },
+  "financials": {
+    "arr": {"value": 15, "confidence": "confirmed", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-06", "value": 3, "notes": "Early traction"},
+      {"date": "2024-12", "value": 8, "notes": "Strong growth"},
+      {"date": "2025-12", "value": 15, "notes": "30% MoM growth rate"}
+    ],
+    "revenue_growth_yoy": 400,
+    "gross_margin": 85,
+    "employees": {"value": 30, "as_of": "2025-12", "notes": "Small distributed team of 3D artists, designers, and developers"}
+  },
+  "products": ["Meshy 6", "Text-to-3D", "Image-to-3D", "AI Texturing", "3D Model API"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-01",
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "GPU-based 3D generation pipeline"
+  },
+  "traction": {
+    "user_count": {"value": 6000000, "type": "registered", "as_of": "2025-12"},
+    "metrics": {
+      "models_generated": "20M+ in 2024",
+      "monthly_visits": "3M+",
+      "market_rank": "#1 in 3D GenAI traffic (SimilarWeb)"
+    },
+    "enterprise_customers": ["Game developers", "3D printing enthusiasts", "Digital artists"],
+    "revenue_growth_yoy": 400
+  },
+  "investors": {
+    "lead_investors": ["Sequoia", "GGV Capital"],
+    "other_investors": [],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "discord_members": 100000,
+    "monthly_visits": 3000000
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Luma AI", "Spline AI", "Kaedim", "3DFY.ai", "Alpha3D"],
+    "tam_estimate": "$10B",
+    "moats": ["#1 market share in 3D GenAI", "MIT-level research team", "6M user base", "A16Z recognition"],
+    "first_mover": true,
+    "recognition": [
+      "Only 3D AI tool in A16Z Games 2024 Annual Report",
+      "Most popular 3D AI tool globally",
+      "#1 in SimilarWeb 3D GenAI traffic"
+    ]
+  },
+  "recent_news": [
+    {"title": "Meshy Hits $15M ARR with 30% Month-over-Month Growth", "url": "https://www.prnewswire.com/apac/news-releases/meshy-hits-15m-arr-with-30-month-over-month-growth-unveils-meshy-6-preview-for-next-gen-3d-creation-302613937.html", "date": "2025-12", "sentiment": "positive"},
+    {"title": "Meshy Unveils Meshy 6 Preview for Next-Gen 3D Creation", "url": "https://finance.yahoo.com/news/meshy-hits-15m-arr-30-032900666.html", "date": "2025-10", "sentiment": "positive"},
+    {"title": "Featured in A16Z Games 2024 Annual Report", "url": "https://a16z.com/games/", "date": "2024-12", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 80,
+    "financial_health_score": 65,
+    "funding_score": 45,
+    "momentum_score": 80,
+    "product_score": 75,
+    "traction_score": 65,
+    "community_score": 70,
+    "market_position_score": 70,
+    "composite_score": 69
+  },
+  "score_notes": {
+    "founder": "MIT PhD in CG/AI, SIGGRAPH award, Taichi creator - strong but first-time founder",
+    "financial": "$15M ARR is early-stage, but 85% gross margin and 30% MoM growth impressive for size",
+    "funding": "$150M valuation, seed-stage. Sequoia/GGV backing is strong but small raise",
+    "momentum": "Great growth rate but on small base - 30% MoM on $15M vs billions for leaders",
+    "product": "Meshy 6 is solid, good API - but early-stage product maturity",
+    "traction": "6M users mostly free tier, $15M ARR shows low monetization. Niche market.",
+    "community": "Strong Discord, 3M monthly visits - good for category",
+    "market": "#1 in small $10B 3D GenAI TAM. Niche leadership vs LLM $500B+ TAM"
+  },
+  "last_updated": "2026-01-31"
+}

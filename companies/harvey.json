@@ -49,10 +49,39 @@
     "notes": "Raised $760M in 2025 alone across 3 rounds. OpenAI Startup Fund's first investment."
   },
   "financials": {
-    "arr": {"value": 100, "confidence": "confirmed", "as_of": "2025-12"},
-    "employees": {"value": 250, "as_of": "2026-01"},
-    "runway_months": 48,
-    "notes": "Surpassed $100M ARR in August 2025"
+    "arr": {"value": 150, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-06", "value": 25, "notes": "Early traction"},
+      {"date": "2024-12", "value": 50, "notes": "End of 2024"},
+      {"date": "2025-02", "value": 50, "notes": "Surpassed $50M"},
+      {"date": "2025-06", "value": 75, "notes": "June run rate"},
+      {"date": "2025-08", "value": 100, "notes": "Hit $100M ARR milestone"},
+      {"date": "2025-11", "value": 150, "notes": "Sacra estimate Nov 2025"}
+    ],
+    "arr_by_product": {
+      "law_firm_subscriptions": {"value": 120, "as_of": "2025-12", "notes": "50+ AmLaw 100 firms"},
+      "corporate_legal": {"value": 30, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 200,
+    "burn_rate_monthly": 15,
+    "runway_months": 54,
+    "gross_margin": 60,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 300, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 80,
+      "research_annual": 30,
+      "personnel_annual": 50,
+      "other_annual": 20,
+      "total_annual": 180,
+      "notes": "Heavy investment in model customization for legal domain"
+    },
+    "projections": {
+      "arr_2026": 300,
+      "arr_2027": 500,
+      "notes": "Targeting rapid expansion beyond AmLaw 100"
+    }
   },
   "products": ["Harvey Legal AI", "Harvey for Litigation", "Harvey for M&A", "Harvey for Due Diligence"],
   "product": {
@@ -115,5 +144,8 @@
     "community": "B2B focused, limited consumer presence",
     "market": "Category leader in legal AI, clear first-mover advantage"
   },
+  "risks": [
+    {"type": "competition", "description": "Thomson Reuters, LexisNexis incumbents have deep legal market relationships"}
+  ],
   "last_updated": "2026-01-30"
 }

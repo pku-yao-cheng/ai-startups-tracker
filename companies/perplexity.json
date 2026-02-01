@@ -73,22 +73,114 @@
     "notes": "Trading at ~100x revenue. Valuation grew from $520M to $20B in 2024-2025."
   },
   "financials": {
-    "arr": {"value": 200, "confidence": "estimated", "as_of": "2025-12"},
-    "projected_arr_2026": 656,
-    "mau": 22000000,
-    "employees": {"value": 150, "as_of": "2025-12"}
+    "arr": {"value": 200, "confidence": "confirmed", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-06", "value": 35, "notes": "Mid-2024 baseline"},
+      {"date": "2024-12", "value": 80, "notes": "End of 2024 run rate"},
+      {"date": "2025-03", "value": 100, "notes": "March 2025 milestone"},
+      {"date": "2025-06", "value": 148, "notes": "Sacra June 2025 estimate"},
+      {"date": "2025-07", "value": 150, "notes": "Per company statement"},
+      {"date": "2025-09", "value": 200, "notes": "Approaching $200M per TechCrunch"}
+    ],
+    "arr_by_product": {
+      "perplexity_pro": {"value": 120, "as_of": "2025-12", "notes": "$20/mo subscription"},
+      "enterprise": {"value": 50, "as_of": "2025-12"},
+      "advertising": {"value": 20, "as_of": "2025-12", "notes": "New monetization channel"},
+      "api": {"value": 10, "as_of": "2025-12"}
+    },
+    "revenue_growth_yoy": 470,
+    "burn_rate_monthly": 15,
+    "runway_months": 100,
+    "gross_margin": 45,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 200, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 100,
+      "research_annual": 30,
+      "personnel_annual": 40,
+      "other_annual": 10,
+      "total_annual": 180,
+      "notes": "Relatively lean operation, ~$15M/mo burn"
+    },
+    "projections": {
+      "arr_2026": 656,
+      "arr_2027": 1500,
+      "notes": "Management targets $656M 2026 revenue (230% growth)"
+    }
   },
   "products": ["Perplexity Search", "Perplexity Pro", "Perplexity API", "Perplexity Enterprise"],
   "recent_news": [
+    {"title": "Amazon sues Perplexity over agent shopping feature", "url": "https://www.bloomberg.com/news/articles/2026-01-29/perplexity-inks-microsoft-ai-cloud-deal-amid-dispute-with-amazon", "date": "2026-01", "sentiment": "negative"},
+    {"title": "Perplexity partners with Snapchat", "url": "https://www.demandsage.com/perplexity-ai-statistics/", "date": "2026-01", "sentiment": "positive", "notes": "Powers AI search in Snapchat chat (1B MAU)"},
     {"title": "Perplexity raised $200M at $20B valuation", "url": "https://techcrunch.com/2025/09/10/perplexity-reportedly-raised-200m-at-20b-valuation/", "date": "2025-09-10", "sentiment": "positive"},
-    {"title": "Perplexity partners with Snapchat", "url": "https://www.demandsage.com/perplexity-ai-statistics/", "date": "2026-01", "sentiment": "positive", "notes": "Powers AI search in Snapchat chat (1B MAU)"}
+    {"title": "NYT, Forbes, Wired accuse Perplexity of content scraping", "url": "https://medium.com/utopian/the-death-of-perplexity-is-coming-be5faf78a772", "date": "2025", "sentiment": "negative"}
   ],
+  "product": {
+    "launched": true,
+    "launch_date": "2022-12",
+    "benchmarks": [
+      {"name": "Search Quality", "rank": 2, "notes": "Behind Google, ahead of Bing"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "Multi-model (GPT-4, Claude, own models)"
+  },
+  "traction": {
+    "enterprise_customers": ["Databricks", "Stripe", "Zoom", "Shopify"],
+    "user_count": {"value": 22000000, "type": "MAU", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Snapchat", "type": "strategic", "date": "2026-01", "details": "Powers AI search in Snapchat (1B MAU)"},
+      {"partner": "SoftBank", "type": "strategic", "date": "2024-04", "details": "Vision Fund investment"}
+    ],
+    "revenue_growth_yoy": 470
+  },
+  "investors": {
+    "lead_investors": ["IVP", "Accel", "NEA"],
+    "strategic_investors": ["NVIDIA", "Jeff Bezos", "SoftBank"],
+    "other_investors": ["Databricks", "Elad Gil", "Naval Ravikant"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 5000,
+    "discord_members": 100000,
+    "twitter_followers": 500000,
+    "hn_mentions": 400,
+    "reddit_sentiment": "positive"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Google", "Bing", "You.com", "Brave Search"],
+    "tam_estimate": "$200B",
+    "moats": ["AI-native search UX", "Multi-model approach", "Brand recognition", "Snapchat distribution"],
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
   "scores": {
     "founder_score": 88,
-    "revenue_score": 28,
+    "financial_health_score": 70,
     "funding_score": 75,
-    "momentum_score": 100,
-    "composite_score": 73
+    "momentum_score": 85,
+    "product_score": 80,
+    "traction_score": 80,
+    "community_score": 75,
+    "market_position_score": 75,
+    "composite_score": 79
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "OpenAI/DeepMind alumni. Databricks co-founder Andy Konwinski.",
+    "financial": "$200M ARR at 100x multiple - very high. 470% growth partially justifies but risky.",
+    "funding": "$20B at 100x revenue is aggressive. Bezos + NVIDIA backing strong but legal risks.",
+    "momentum": "Snapchat partnership good, but legal battles (NYT, Amazon lawsuits) create headwinds",
+    "product": "Good AI search but AI hallucinations concern. Google competing aggressively.",
+    "traction": "22M MAU decent but Google has 3B - user stickiness unproven at scale",
+    "community": "Positive but concerns about content scraping reputation",
+    "market": "#1 AI search but Google AI Overviews is major threat. Legal risks to business model."
+  },
+  "risks": [
+    {"type": "legal", "description": "NYT, Forbes, Wired accuse of content scraping; Amazon lawsuit over agent shopping feature"},
+    {"type": "overvalued", "description": "100x ARR multiple ($20B val on $200M ARR) - very aggressive even for AI"},
+    {"type": "competition", "description": "Google AI Overviews direct threat; Google has 3B MAU vs Perplexity's 22M"}
+  ],
+  "last_updated": "2026-01-31"
 }

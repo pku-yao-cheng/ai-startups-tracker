@@ -86,6 +86,10 @@
     "market_position_score": 75,
     "composite_score": 67
   },
+  "risks": [
+    {"type": "overvalued", "description": "200x ARR multiple ($10B on ~$50M ARR) - extremely high for hiring platform"},
+    {"type": "competition", "description": "LinkedIn, Indeed have massive incumbent advantages"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered"
 }

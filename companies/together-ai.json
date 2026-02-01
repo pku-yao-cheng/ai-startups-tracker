@@ -1,0 +1,118 @@
+{
+  "name": "Together AI",
+  "slug": "together-ai",
+  "stage": "series-b",
+  "category": "ai-infrastructure",
+  "founded": 2022,
+  "hq": "San Francisco, CA",
+  "website": "https://together.ai",
+  "description": "AI cloud platform for open-source model inference and training. 2-3x faster inference than hyperscalers. Deploying 36,000 NVIDIA GB200 GPUs.",
+  "founders": [
+    {
+      "name": "Vipul Prakash",
+      "role": "CEO",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "Salesforce", "role": "VP Engineering", "years": "2016-2022", "tier": "tier-1"}
+      ],
+      "achievements": ["Built Together to fastest open-source inference platform"],
+      "founder_score": 82
+    },
+    {
+      "name": "Ce Zhang",
+      "role": "Chief Scientist",
+      "education": [
+        {"institution": "Stanford", "degree": "PhD", "field": "Computer Science", "tier": "tier-1"}
+      ],
+      "experience": [
+        {"company": "ETH Zurich", "role": "Professor", "years": "2015-2022", "tier": "tier-1"}
+      ],
+      "achievements": ["Leading ML systems researcher"],
+      "founder_score": 85
+    }
+  ],
+  "funding": {
+    "total_raised": 533,
+    "latest_valuation": 3.3,
+    "rounds": [
+      {"type": "Series B", "amount": 305, "date": "2025-02", "lead": "General Catalyst, Prosperity7"}
+    ],
+    "notes": "Valuation grew 164% in less than a year"
+  },
+  "financials": {
+    "arr": {"value": 300, "confidence": "estimated", "as_of": "2025-09"},
+    "employees": {"value": 200, "as_of": "2026-01"},
+    "runway_months": 36,
+    "revenue_growth_yoy": 130
+  },
+  "products": ["Together Inference API", "Together Fine-Tuning", "Together Dedicated Clusters"],
+  "product": {
+    "launched": true,
+    "launch_date": "2023-01",
+    "benchmarks": [
+      {"name": "Inference Speed", "rank": 1, "notes": "2-3x faster than hyperscalers", "date": "2025-02"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 12,
+    "infrastructure": "36,000 NVIDIA GB200 GPUs, 200MW power capacity"
+  },
+  "traction": {
+    "enterprise_customers": [],
+    "partnerships": [
+      {"partner": "NVIDIA", "type": "investor", "date": "2025-02"},
+      {"partner": "Salesforce Ventures", "type": "investor", "date": "2025-02"},
+      {"partner": "Hypertec", "type": "infrastructure", "date": "2025-02"}
+    ],
+    "revenue_growth_yoy": 130,
+    "notes": "Fastest DeepSeek-R1 and Llama inference"
+  },
+  "investors": {
+    "lead_investors": ["General Catalyst", "Prosperity7"],
+    "strategic_investors": ["NVIDIA", "Salesforce Ventures", "Kleiner Perkins"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "twitter_followers": 50000,
+    "github_stars": 5000,
+    "discord_members": 20000
+  },
+  "market_position": {
+    "category_rank": 2,
+    "category": "ai-inference",
+    "competitors": ["Fireworks AI", "Replicate", "Modal", "Baseten"],
+    "tam_estimate": "$30B",
+    "moats": ["Fastest inference", "36K GPU deployment", "Open-source focus"],
+    "first_mover": false
+  },
+  "recent_news": [
+    {"title": "Together AI raises $305M Series B at $3.3B valuation", "url": "https://www.together.ai/blog/together-ai-announcing-305m-series-b", "date": "2025-02-01", "sentiment": "positive"}
+  ],
+  "scores": {
+    "founder_score": 85,
+    "financial_health_score": 70,
+    "funding_score": 75,
+    "momentum_score": 80,
+    "product_score": 85,
+    "traction_score": 70,
+    "community_score": 60,
+    "market_position_score": 75,
+    "composite_score": 75
+  },
+  "score_notes": {
+    "founder": "Stanford PhDs, strong ML systems background",
+    "financial": "$300M ARR, 130% growth",
+    "funding": "$3.3B valuation, tier-1 VCs + NVIDIA",
+    "momentum": "Strong growth, major infrastructure expansion",
+    "product": "Fastest inference platform",
+    "traction": "Growing customer base",
+    "community": "Active open-source community",
+    "market": "Top 2 in AI inference"
+  },
+  "risks": [
+    {"type": "competition", "description": "Fireworks AI, hyperscalers, and open-source alternatives competing on price and speed"}
+  ],
+  "last_updated": "2026-01-31",
+  "discovery_source": "auto-discovered"
+}

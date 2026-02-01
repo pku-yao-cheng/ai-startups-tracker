@@ -57,25 +57,112 @@
     "notes": "Joined the $10B valuation club alongside OpenAI and Anthropic"
   },
   "financials": {
-    "arr": {"value": 73, "confidence": "confirmed", "as_of": "2025-06", "notes": "Grew from $1M in Sept 2024 to $73M in June 2025"},
-    "combined_arr_post_windsurf": {"value": 100, "confidence": "estimated", "as_of": "2025-09", "notes": "30%+ growth post Windsurf acquisition"},
-    "employees": {"value": 100, "as_of": "2025-12"},
-    "net_burn_total": 20
+    "arr": {"value": 150, "confidence": "estimated", "as_of": "2025-12"},
+    "arr_history": [
+      {"date": "2024-09", "value": 1, "notes": "Early Devin launch"},
+      {"date": "2025-03", "value": 20, "notes": "Enterprise adoption"},
+      {"date": "2025-06", "value": 73, "notes": "73x growth from Sept 2024"},
+      {"date": "2025-09", "value": 100, "notes": "Post-Windsurf acquisition"},
+      {"date": "2025-12", "value": 150, "notes": "ARR doubled post Windsurf, 30%+ growth in 7 weeks"}
+    ],
+    "arr_by_product": {
+      "devin": {"value": 80, "as_of": "2025-12", "notes": "AI software engineer"},
+      "windsurf": {"value": 70, "as_of": "2025-12", "notes": "IDE and coding tools"}
+    },
+    "revenue_growth_yoy": 7300,
+    "burn_rate_monthly": 3,
+    "runway_months": 300,
+    "gross_margin": 70,
+    "cash_flow_positive": false,
+    "path_to_profitability": {"stated": true, "target_date": "2027"},
+    "employees": {"value": 150, "as_of": "2025-12"},
+    "cost_structure": {
+      "compute_annual": 25,
+      "research_annual": 10,
+      "personnel_annual": 20,
+      "other_annual": 5,
+      "total_annual": 60,
+      "notes": "Net burn <$20M since founding. Extremely capital efficient."
+    },
+    "projections": {
+      "arr_2026": 400,
+      "arr_2027": 800,
+      "notes": "Hockey stick growth trajectory"
+    }
   },
   "products": ["Devin", "Windsurf", "SWE-1.5 (frontier coding model)"],
   "customers": ["Goldman Sachs", "Citi", "Dell", "Cisco", "Ramp", "Palantir", "Nubank", "Mercado Libre"],
   "recent_news": [
+    {"title": "Infosys partners with Cognition for global Devin deployment", "url": "https://www.infosys.com/newsroom/press-releases/2026/collaboration-accelerate-ai-value-journey.html", "date": "2026-01", "sentiment": "positive"},
+    {"title": "Devin 2025 Performance Review: 67% PR merge rate (up from 34%)", "url": "https://cognition.ai/blog/devin-annual-performance-review-2025", "date": "2025-12", "sentiment": "mixed"},
     {"title": "Cognition valued at $10.2B two months after Windsurf purchase", "url": "https://www.cnbc.com/2025/09/08/cognition-valued-at-10point2-billion-two-months-after-windsurf-.html", "date": "2025-09-08", "sentiment": "positive"},
-    {"title": "Cognition raises $400M Series C", "url": "https://techfundingnews.com/cognition-ai-scores-400m-at-10-2b-valuation-as-demand-spikes-for-coding-agents/", "date": "2025-09", "sentiment": "positive"},
-    {"title": "Cognition acquired Windsurf", "url": "https://cognition.ai/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents", "date": "2025-07", "sentiment": "positive"},
-    {"title": "SWE-1.5 launch with Cerebras at 950 tok/s", "url": "https://www.swyx.io/cognition", "date": "2025-10", "sentiment": "positive"}
+    {"title": "Independent testing: Devin failed 14/20 tasks", "url": "https://trickle.so/blog/devin-ai-review", "date": "2025", "sentiment": "negative"},
+    {"title": "Cognition acquired Windsurf", "url": "https://cognition.ai/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents", "date": "2025-07", "sentiment": "positive"}
   ],
+  "product": {
+    "launched": true,
+    "launch_date": "2024-03",
+    "benchmarks": [
+      {"name": "SWE-bench", "rank": 1, "score": 53.8, "date": "2025-10"}
+    ],
+    "api_available": true,
+    "time_to_ship_months": 6,
+    "infrastructure": "SWE-1.5 frontier coding model, Cerebras partnership for 950 tok/s"
+  },
+  "traction": {
+    "enterprise_customers": ["Goldman Sachs", "Citi", "Dell", "Cisco", "Ramp", "Palantir", "Nubank", "Mercado Libre"],
+    "user_count": {"value": 500000, "type": "developers", "as_of": "2025-12"},
+    "partnerships": [
+      {"partner": "Cerebras", "type": "strategic", "date": "2025-10", "details": "950 tok/s inference partnership"}
+    ],
+    "revenue_growth_yoy": 7300
+  },
+  "investors": {
+    "lead_investors": ["Founders Fund", "Peter Thiel"],
+    "strategic_investors": ["Patrick Collison", "John Collison"],
+    "other_investors": ["Lux Capital", "8VC", "Bain Capital Ventures"],
+    "investor_tier": "tier-1"
+  },
+  "community": {
+    "github_stars": 10000,
+    "discord_members": 50000,
+    "twitter_followers": 100000,
+    "hn_mentions": 300,
+    "reddit_sentiment": "mixed"
+  },
+  "market_position": {
+    "category_rank": 1,
+    "competitors": ["Cursor", "GitHub Copilot", "Codeium", "Augment"],
+    "tam_estimate": "$100B",
+    "moats": ["Devin brand", "Windsurf acquisition", "SWE-bench leadership", "Enterprise logos"],
+    "first_mover": true,
+    "regulatory_advantage": false
+  },
   "scores": {
     "founder_score": 85,
-    "revenue_score": 10,
+    "financial_health_score": 80,
     "funding_score": 75,
-    "momentum_score": 95,
-    "composite_score": 66
+    "momentum_score": 80,
+    "product_score": 70,
+    "traction_score": 75,
+    "community_score": 60,
+    "market_position_score": 75,
+    "composite_score": 75
   },
-  "last_updated": "2026-01-29"
+  "score_notes": {
+    "founder": "3x IOI Gold Medalists, Jane Street + Harvard pedigree. Elite competitive programmers.",
+    "financial": "Good growth but 68x multiple seems high vs Cursor's 29x. $150M ARR vs Cursor's $1B.",
+    "funding": "$10.2B valuation at 68x ARR multiple - expensive vs peers. Founders Fund led.",
+    "momentum": "Windsurf acquisition good, but mixed product reviews dampening hype",
+    "product": "Mixed reviews: 14/20 tasks failed in testing, 67% PR merge rate (improved from 34%). SWE-bench #1 but real-world inconsistent.",
+    "traction": "Strong enterprise logos but Cursor has 6.7x more ARR with better reviews",
+    "community": "Mixed sentiment - skepticism about Devin's real-world performance",
+    "market": "Competing with Cursor which has much better market reception"
+  },
+  "risks": [
+    {"type": "product", "description": "Independent testing: Devin failed 14/20 tasks; 67% PR merge rate still means 1/3 rejected"},
+    {"type": "overvalued", "description": "68x ARR multiple ($10.2B on $150M) vs Cursor's 29x - expensive for unproven product"},
+    {"type": "competition", "description": "Cursor has 6.7x more ARR with better reviews; GitHub Copilot has distribution advantage"}
+  ],
+  "last_updated": "2026-01-31"
 }

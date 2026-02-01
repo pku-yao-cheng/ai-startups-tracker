@@ -1,0 +1,56 @@
+{
+  "name": "Snap",
+  "slug": "snap",
+  "company_type": "public-reference",
+  "stage": "public",
+  "category": "tech-incumbent",
+  "ticker": "SNAP",
+  "founded": 2011,
+  "hq": "Santa Monica, CA",
+  "website": "https://snap.com",
+  "description": "Camera company with AI and AR at its core. My AI chatbot has 500M+ users. ML powers lenses, content recommendations, and ads.",
+  "financials": {
+    "market_cap": 20,
+    "annual_revenue": 5000,
+    "ai_revenue": {
+      "value": 4000,
+      "notes": "~80% revenue from AI-powered ad targeting, AR lenses, and content recommendations"
+    },
+    "ai_revenue_growth_yoy": 15,
+    "employees": {
+      "value": 5000,
+      "ai_employees": 800,
+      "notes": "Significant ML/AI team for AR, recommendations, and My AI"
+    }
+  },
+  "ai_products": [
+    {"name": "My AI", "description": "ChatGPT-powered AI chatbot with 500M+ users", "status": "launched"},
+    {"name": "AR Lenses", "description": "ML-powered augmented reality filters and effects", "status": "launched"},
+    {"name": "ML Camera", "description": "Real-time ML processing for camera features", "status": "launched"},
+    {"name": "Dreams", "description": "AI-generated selfie transformations", "status": "launched"},
+    {"name": "Spotlight AI", "description": "TikTok-style feed with ML recommendations", "status": "launched"},
+    {"name": "Snap Map AI", "description": "Location-aware AI features and recommendations", "status": "launched"}
+  ],
+  "ai_investments": [],
+  "ai_partnerships": [
+    {"partner": "OpenAI", "type": "strategic", "date": "2023", "details": "ChatGPT integration for My AI feature"},
+    {"partner": "Microsoft", "type": "strategic", "date": "2023", "details": "Azure infrastructure and Bing integration"}
+  ],
+  "ai_research": {
+    "papers_2024": 15,
+    "notable_contributions": ["Real-time AR ML", "On-device ML optimization", "3D face reconstruction"],
+    "labs": ["Snap Research"]
+  },
+  "market_position": {
+    "ai_ranking": "N/A",
+    "moats": ["400M+ daily users", "Camera-first UX", "AR leadership", "Gen Z engagement", "Visual communication data"],
+    "competitors": ["Instagram/Meta", "TikTok", "BeReal"],
+    "ai_strategy": "AI-powered camera platform - AR, chatbots, and personalization"
+  },
+  "recent_news": [
+    {"title": "My AI reaches 500M+ users, becomes most-used AI chatbot", "url": "https://newsroom.snap.com/", "date": "2024-08", "sentiment": "positive"},
+    {"title": "Snap introduces AI-powered Dreams feature for selfies", "url": "https://techcrunch.com/snap-dreams-ai/", "date": "2024-09", "sentiment": "positive"},
+    {"title": "Spectacles with AR display showcase next-gen ML features", "url": "https://www.spectacles.com/", "date": "2024-09", "sentiment": "positive"}
+  ],
+  "last_updated": "2026-01-31"
+}

@@ -60,6 +60,10 @@
     "momentum_score": 95,
     "composite_score": 65
   },
+  "risks": [
+    {"type": "overvalued", "description": "1400x ARR multiple ($14B on ~$10M ARR) - extremely high for early robotics"},
+    {"type": "product", "description": "Robotics commercialization historically slow; unproven at scale"}
+  ],
   "last_updated": "2026-01-29",
   "discovery_source": "auto-discovered"
 }
