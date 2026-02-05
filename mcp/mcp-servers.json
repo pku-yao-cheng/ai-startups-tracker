@@ -1,0 +1,52 @@
+{
+  "description": "MCP servers used by the AI Startups Tracker skill. Add these to your ~/.claude.json under 'mcpServers'.",
+  "mcpServers": {
+    "deep-research": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["path/to/Claude-Deep-Research/deep_research.py"],
+      "env": {},
+      "description": "Deep research agent for comprehensive company profiles and competitive analysis",
+      "source": "https://github.com/anthropics/claude-code-deep-research",
+      "required": false
+    },
+    "trends-hub": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-trends-hub"],
+      "env": {},
+      "description": "Aggregates trending news from NYTimes, BBC, The Verge, 36kr, Zhihu, and more",
+      "source": "https://www.npmjs.com/package/mcp-trends-hub",
+      "required": true
+    },
+    "hacker-news": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-hacker-news"],
+      "env": {},
+      "description": "Access Hacker News top/best/new/show stories and comments",
+      "source": "https://www.npmjs.com/package/mcp-hacker-news",
+      "required": true
+    },
+    "reddit": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-server-reddit"],
+      "env": {},
+      "description": "Browse Reddit subreddits (r/LocalLLaMA, r/MachineLearning, r/singularity)",
+      "source": "https://pypi.org/project/mcp-server-reddit/",
+      "required": true
+    },
+    "notion": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@notionhq/notion-mcp-server"],
+      "env": {
+        "NOTION_TOKEN": "<your-notion-integration-token>"
+      },
+      "description": "Notion API for syncing research notes and company profiles",
+      "source": "https://www.npmjs.com/package/@notionhq/notion-mcp-server",
+      "required": false
+    }
+  }
+}
